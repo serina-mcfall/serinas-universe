@@ -1,215 +1,719 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The World Bible — A Universe Awaits</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The World Bible — A Universe Awaits</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
-  html, body {
-    height: 100%;
-    overflow: hidden;
-  }
+      html,
+      body {
+        height: 100%;
+        overflow: hidden;
+      }
 
-  body {
-    background: linear-gradient(170deg, #f5efe6 0%, #ebe3d7 40%, #f0e8dc 100%);
-    font-family: 'Quicksand', 'Segoe UI', sans-serif;
-    color: #5a4a3a;
-    display: flex;
-    flex-direction: column;
-  }
+      body {
+        background: linear-gradient(
+          170deg,
+          #f5efe6 0%,
+          #ebe3d7 40%,
+          #f0e8dc 100%
+        );
+        font-family: 'Quicksand', 'Segoe UI', sans-serif;
+        color: #5a4a3a;
+        display: flex;
+        flex-direction: column;
+      }
 
-  @keyframes float { 0%,100%{transform:translateY(0) rotate(0);opacity:.3} 50%{transform:translateY(-20px) rotate(5deg);opacity:.5} }
-  @keyframes fadeIn { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
-  @keyframes pulseGlow { 0%,100%{box-shadow:0 0 8px rgba(160,120,140,.06)} 50%{box-shadow:0 0 16px rgba(160,120,140,.12)} }
-  @keyframes savePulse { 0%{opacity:1} 100%{opacity:0} }
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0) rotate(0);
+          opacity: 0.3;
+        }
+        50% {
+          transform: translateY(-20px) rotate(5deg);
+          opacity: 0.5;
+        }
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(12px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      @keyframes pulseGlow {
+        0%,
+        100% {
+          box-shadow: 0 0 8px rgba(160, 120, 140, 0.06);
+        }
+        50% {
+          box-shadow: 0 0 16px rgba(160, 120, 140, 0.12);
+        }
+      }
+      @keyframes savePulse {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
 
-  textarea:focus { outline:none; border-color:rgba(150,120,130,.4)!important; box-shadow:0 0 0 2px rgba(150,120,130,.1),inset 0 1px 3px rgba(0,0,0,.03)!important; }
-  textarea::placeholder { color:rgba(120,100,85,.38); font-style:italic; }
-  textarea::-webkit-scrollbar { width:6px; }
-  textarea::-webkit-scrollbar-track { background:transparent; }
-  textarea::-webkit-scrollbar-thumb { background:rgba(150,130,120,.2); border-radius:3px; }
+      textarea:focus {
+        outline: none;
+        border-color: rgba(150, 120, 130, 0.4) !important;
+        box-shadow:
+          0 0 0 2px rgba(150, 120, 130, 0.1),
+          inset 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+      }
+      textarea::placeholder {
+        color: rgba(120, 100, 85, 0.38);
+        font-style: italic;
+      }
+      textarea::-webkit-scrollbar {
+        width: 6px;
+      }
+      textarea::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      textarea::-webkit-scrollbar-thumb {
+        background: rgba(150, 130, 120, 0.2);
+        border-radius: 3px;
+      }
 
-  .nav-btn:hover { background:rgba(150,120,130,.08)!important; transform:translateX(3px); }
-  .nav-btn.active { background:rgba(150,120,130,.1)!important; border-left-color:rgba(170,120,140,.5)!important; }
-  .prompt-card { animation:fadeIn .4s ease forwards; }
-  .action-btn:hover { background:rgba(150,120,130,.1)!important; transform:translateY(-1px); }
+      .nav-btn:hover {
+        background: rgba(150, 120, 130, 0.08) !important;
+        transform: translateX(3px);
+      }
+      .nav-btn.active {
+        background: rgba(150, 120, 130, 0.1) !important;
+        border-left-color: rgba(170, 120, 140, 0.5) !important;
+      }
+      .prompt-card {
+        animation: fadeIn 0.4s ease forwards;
+      }
+      .action-btn:hover {
+        background: rgba(150, 120, 130, 0.1) !important;
+        transform: translateY(-1px);
+      }
 
-  .app-container { display:flex; flex-direction:column; height:100%; position:relative; overflow:hidden; }
-  .floating-orb { position:fixed; border-radius:50% 0 50% 0; pointer-events:none; z-index:0; }
+      .app-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+      #layout {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        overflow: hidden;
+      }
+      .floating-orb {
+        position: fixed;
+        border-radius: 50% 0 50% 0;
+        pointer-events: none;
+        z-index: 0;
+      }
 
-  header { padding:24px 28px 20px; border-bottom:1px solid rgba(160,130,140,.12); position:relative; z-index:10; display:flex; align-items:center; gap:16px; flex-shrink:0; background:linear-gradient(170deg, #f5efe6 0%, #ebe3d7 40%, #f0e8dc 100%); }
-  header h1 { font-family:'Cormorant Garamond',Georgia,serif; font-size:clamp(1.5rem,4vw,2.2rem); font-weight:500; color:#4a3a2e; letter-spacing:.05em; }
-  header .subtitle { font-family:'Cormorant Garamond',Georgia,serif; font-size:.95rem; font-style:italic; color:rgba(100,80,65,.45); margin-top:4px; }
+      header {
+        padding: 24px 28px 20px;
+        border-bottom: 1px solid rgba(160, 130, 140, 0.12);
+        position: relative;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        flex-shrink: 0;
+        background: linear-gradient(
+          170deg,
+          #f5efe6 0%,
+          #ebe3d7 40%,
+          #f0e8dc 100%
+        );
+      }
+      header h1 {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-size: clamp(1.5rem, 4vw, 2.2rem);
+        font-weight: 500;
+        color: #4a3a2e;
+        letter-spacing: 0.05em;
+      }
+      header .subtitle {
+        font-family: 'Cormorant Garamond', Georgia, serif;
+        font-size: 0.95rem;
+        font-style: italic;
+        color: rgba(100, 80, 65, 0.45);
+        margin-top: 4px;
+      }
 
-  .content-wrapper { display:flex; flex:1; overflow:hidden; position:relative; z-index:5; height:0; }
+      .content-wrapper {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+        z-index: 5;
+        min-height: 0;
+      }
 
-  nav.sidebar { width:240px; min-width:240px; border-right:1px solid rgba(160,130,140,.08); padding:16px 12px; display:flex; flex-direction:column; gap:4px; overflow-y:auto; background:linear-gradient(170deg, #f5efe6 0%, #ebe3d7 40%, #f0e8dc 100%); }
+      nav.sidebar {
+        width: 240px;
+        min-width: 240px;
+        border-right: 1px solid rgba(160, 130, 140, 0.08);
+        padding: 16px 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        overflow-y: auto;
+        background: linear-gradient(
+          170deg,
+          #f5efe6 0%,
+          #ebe3d7 40%,
+          #f0e8dc 100%
+        );
+      }
 
-  main { flex:1; overflow-y:auto; padding:clamp(20px,4vw,40px); }
+      main {
+        flex: 1;
+        overflow-y: auto;
+        padding: clamp(20px, 4vw, 40px);
+      }
 
-  .save-indicator { position:absolute; top:-18px; right:0; font-size:.65rem; color:rgba(90,140,100,.8); animation:savePulse .8s ease forwards; }
+      .save-indicator {
+        position: absolute;
+        top: -18px;
+        right: 0;
+        font-size: 0.65rem;
+        color: rgba(90, 140, 100, 0.8);
+        animation: savePulse 0.8s ease forwards;
+      }
 
-  .menu-btn { display:none; background:none; border:1px solid rgba(150,130,120,.25); color:#5a4a3a; font-size:1.3rem; padding:6px 10px; border-radius:8px; cursor:pointer; }
+      .menu-btn {
+        display: none;
+        background: none;
+        border: 1px solid rgba(150, 130, 120, 0.25);
+        color: #5a4a3a;
+        font-size: 1.3rem;
+        padding: 6px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
 
-  .sidebar-overlay { display:none; }
+      .sidebar-overlay {
+        display: none;
+      }
 
-  @media(max-width:768px) {
-    .menu-btn { display:block; }
-    nav.sidebar {
-      position:fixed; top:0; left:-260px; bottom:0; z-index:95;
-      transition:left .3s ease; padding-top:80px;
-    }
-    nav.sidebar.open { left:0; }
-    .sidebar-overlay.active { display:block; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.15); z-index:90; }
-  }
-</style>
-</head>
-<body>
-<div class="app-container" id="app">
-  <!-- Floating orbs (decorative) -->
-  <div class="floating-orb" style="width:12px;height:12px;background:radial-gradient(circle,rgba(200,150,160,.25),rgba(200,150,160,.05));top:10%;left:5%;animation:float 4s ease-in-out infinite;animation-delay:0s"></div>
-  <div class="floating-orb" style="width:16px;height:16px;background:radial-gradient(circle,rgba(150,180,170,.2),rgba(150,180,170,.04));top:24%;left:21%;animation:float 5.5s ease-in-out infinite;animation-delay:.8s"></div>
-  <div class="floating-orb" style="width:20px;height:20px;background:radial-gradient(circle,rgba(200,150,160,.25),rgba(200,150,160,.05));top:38%;left:37%;animation:float 7s ease-in-out infinite;animation-delay:1.6s"></div>
-  <div class="floating-orb" style="width:24px;height:24px;background:radial-gradient(circle,rgba(150,180,170,.2),rgba(150,180,170,.04));top:52%;left:53%;animation:float 8.5s ease-in-out infinite;animation-delay:2.4s"></div>
-  <div class="floating-orb" style="width:28px;height:28px;background:radial-gradient(circle,rgba(200,150,160,.25),rgba(200,150,160,.05));top:66%;left:69%;animation:float 10s ease-in-out infinite;animation-delay:3.2s"></div>
-  <div class="floating-orb" style="width:32px;height:32px;background:radial-gradient(circle,rgba(150,180,170,.2),rgba(150,180,170,.04));top:80%;left:85%;animation:float 11.5s ease-in-out infinite;animation-delay:4s"></div>
+      @media (max-width: 768px) {
+        .menu-btn {
+          display: block;
+        }
+        nav.sidebar {
+          position: fixed;
+          top: 0;
+          left: -260px;
+          bottom: 0;
+          z-index: 95;
+          transition: left 0.3s ease;
+          padding-top: 80px;
+        }
+        nav.sidebar.open {
+          left: 0;
+        }
+        .sidebar-overlay.active {
+          display: block;
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: rgba(0, 0, 0, 0.15);
+          z-index: 90;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app-container" id="app">
+      <!-- Floating orbs (decorative) -->
+      <div
+        class="floating-orb"
+        style="
+          width: 12px;
+          height: 12px;
+          background: radial-gradient(
+            circle,
+            rgba(200, 150, 160, 0.25),
+            rgba(200, 150, 160, 0.05)
+          );
+          top: 10%;
+          left: 5%;
+          animation: float 4s ease-in-out infinite;
+          animation-delay: 0s;
+        "
+      ></div>
+      <div
+        class="floating-orb"
+        style="
+          width: 16px;
+          height: 16px;
+          background: radial-gradient(
+            circle,
+            rgba(150, 180, 170, 0.2),
+            rgba(150, 180, 170, 0.04)
+          );
+          top: 24%;
+          left: 21%;
+          animation: float 5.5s ease-in-out infinite;
+          animation-delay: 0.8s;
+        "
+      ></div>
+      <div
+        class="floating-orb"
+        style="
+          width: 20px;
+          height: 20px;
+          background: radial-gradient(
+            circle,
+            rgba(200, 150, 160, 0.25),
+            rgba(200, 150, 160, 0.05)
+          );
+          top: 38%;
+          left: 37%;
+          animation: float 7s ease-in-out infinite;
+          animation-delay: 1.6s;
+        "
+      ></div>
+      <div
+        class="floating-orb"
+        style="
+          width: 24px;
+          height: 24px;
+          background: radial-gradient(
+            circle,
+            rgba(150, 180, 170, 0.2),
+            rgba(150, 180, 170, 0.04)
+          );
+          top: 52%;
+          left: 53%;
+          animation: float 8.5s ease-in-out infinite;
+          animation-delay: 2.4s;
+        "
+      ></div>
+      <div
+        class="floating-orb"
+        style="
+          width: 28px;
+          height: 28px;
+          background: radial-gradient(
+            circle,
+            rgba(200, 150, 160, 0.25),
+            rgba(200, 150, 160, 0.05)
+          );
+          top: 66%;
+          left: 69%;
+          animation: float 10s ease-in-out infinite;
+          animation-delay: 3.2s;
+        "
+      ></div>
+      <div
+        class="floating-orb"
+        style="
+          width: 32px;
+          height: 32px;
+          background: radial-gradient(
+            circle,
+            rgba(150, 180, 170, 0.2),
+            rgba(150, 180, 170, 0.04)
+          );
+          top: 80%;
+          left: 85%;
+          animation: float 11.5s ease-in-out infinite;
+          animation-delay: 4s;
+        "
+      ></div>
 
-  <!-- Loading screen -->
-  <div id="loading" style="min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',Georgia,serif;color:#6b5a4a">
-    <p style="font-size:1.3rem;font-style:italic;opacity:.7">Unrolling the scroll...</p>
-  </div>
-</div>
+      <!-- Loading screen -->
+      <div
+        id="loading"
+        style="
+          min-height: 100vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: 'Cormorant Garamond', Georgia, serif;
+          color: #6b5a4a;
+        "
+      >
+        <p style="font-size: 1.3rem; font-style: italic; opacity: 0.7">
+          Unrolling the scroll...
+        </p>
+      </div>
+    </div>
 
-<script>
-// ═══════════════════════════════════════
-// DATA
-// ═══════════════════════════════════════
+    <script>
+      // ═══════════════════════════════════════
+      // DATA
+      // ═══════════════════════════════════════
 
-const SECTIONS = [
-  {
-    id: "land",
-    title: "The Land",
-    icon: "\u26F0\uFE0F",
-    subtitle: "Where the ground remembers",
-    description: "Maps, regions, climates, cities, villages, ruins, sacred places. What does the ground feel like under your feet?",
-    prompts: [
-      { id: "regions", label: "Regions & Realms", placeholder: "Name your lands \u2014 the kingdoms, the wilds, the forgotten places. What makes each one distinct?" },
-      { id: "climate", label: "Climate & Seasons", placeholder: "Is there eternal winter in the north? Do the seasons follow the moon? Does the weather have a mind of its own?" },
-      { id: "cities", label: "Cities & Settlements", placeholder: "Where do people gather? Describe the great cities, the hidden villages, the ruins no one dares enter..." },
-      { id: "sacred", label: "Sacred & Cursed Places", placeholder: "Where do people go to pray? Where do they refuse to go? What places hold power \u2014 or memory?" },
-      { id: "natural", label: "Rivers, Mountains & Wilds", placeholder: "The bones of the world \u2014 the rivers that divide nations, the mountains that touch the heavens, the forests that whisper..." },
-      { id: "senses", label: "The Senses of This Land", placeholder: "Close your eyes. What does this world smell like? What\u2019s the first sound you hear? What does the air taste like?" },
-    ],
-  },
-  {
-    id: "history",
-    title: "The History",
-    icon: "\uD83D\uDCDC",
-    subtitle: "What the elders whisper",
-    description: "The big events that shaped everything. Wars, discoveries, fallen kingdoms, ancient promises. The stuff people whisper about in taverns.",
-    prompts: [
-      { id: "ages", label: "Ages & Eras", placeholder: "How do the people of this world divide their history? What do they call the great ages?" },
-      { id: "wars", label: "Wars & Conflicts", placeholder: "What battles changed the shape of the world? Who won? Who lost? What was the cost?" },
-      { id: "turning", label: "Turning Points", placeholder: "The moments where everything shifted \u2014 a discovery, a betrayal, a birth, a death, a door that opened..." },
-      { id: "fallen", label: "Fallen Kingdoms & Lost Things", placeholder: "What once existed that is now gone? What do people mourn? What do they search for?" },
-      { id: "secrets", label: "Hidden History", placeholder: "What really happened? What does the official story leave out? Who knows the truth?" },
-      { id: "legends", label: "Legends & Tavern Tales", placeholder: "What stories do ordinary people tell each other? What do children hear at bedtime? What do drunks argue about?" },
-    ],
-  },
-  {
-    id: "magic",
-    title: "The Magic",
-    icon: "\u2728",
-    subtitle: "What flows beneath the surface",
-    description: "How it works, what it costs, who can use it, what the limits are. Every great magic system has a price.",
-    prompts: [
-      { id: "source", label: "Source & Nature", placeholder: "Where does magic come from? Is it in the blood? The land? The stars? Is it alive?" },
-      { id: "rules", label: "Rules & Limits", placeholder: "What can magic do? What can\u2019t it do? What happens when someone pushes too far?" },
-      { id: "cost", label: "The Price", placeholder: "Every great magic system has a cost. What does using magic take from you? Energy? Memory? Years of your life?" },
-      { id: "users", label: "Who Wields It", placeholder: "Who can use magic? Is it rare or common? Inherited or learned? Are there ranks or levels?" },
-      { id: "forbidden", label: "Forbidden Arts", placeholder: "What magic is banned? What happens to those who use it? Why is it forbidden \u2014 and is the reason true?" },
-      { id: "artifacts", label: "Magical Objects & Places", placeholder: "What objects hold power? Are there enchanted weapons, ancient relics, cursed jewellery? Where are they now?" },
-    ],
-  },
-  {
-    id: "power",
-    title: "The Power",
-    icon: "\uD83D\uDC51",
-    subtitle: "Who holds the throne \u2014 and who wants it",
-    description: "Governments, factions, alliances, rivalries. Who holds power and who\u2019s trying to take it?",
-    prompts: [
-      { id: "rulers", label: "Rulers & Governments", placeholder: "Who rules? How did they get power? Is it a monarchy, a council, an empire, something stranger?" },
-      { id: "factions", label: "Factions & Alliances", placeholder: "What groups compete for influence? Secret societies, noble houses, merchant guilds, rebel movements?" },
-      { id: "laws", label: "Laws & Justice", placeholder: "How is justice served? Is it fair? Who makes the laws and who enforces them?" },
-      { id: "conflict", label: "Current Tensions", placeholder: "What\u2019s about to break? Where are the cracks in the system? Who is angry, and why?" },
-      { id: "economy", label: "Trade & Economy", placeholder: "What do people trade? What\u2019s valuable? Is there currency? Who controls the wealth?" },
-      { id: "shadows", label: "The Shadow Powers", placeholder: "Who really pulls the strings? What happens behind closed doors? Who has power that no one talks about?" },
-    ],
-  },
-  {
-    id: "people",
-    title: "The People",
-    icon: "\uD83C\uDFEE",
-    subtitle: "The heartbeat of the world",
-    description: "Cultures, traditions, languages, food, clothing, beliefs. What do people celebrate? What do they fear?",
-    prompts: [
-      { id: "cultures", label: "Cultures & Peoples", placeholder: "Who lives in this world? What makes each culture unique \u2014 their values, their way of seeing the world?" },
-      { id: "traditions", label: "Traditions & Celebrations", placeholder: "What festivals light up the calendar? What rituals mark birth, death, marriage, coming of age?" },
-      { id: "food", label: "Food & Daily Life", placeholder: "What do people eat? What does a market smell like? What does an ordinary day look like?" },
-      { id: "clothing", label: "Clothing & Adornment", placeholder: "What do people wear? Does clothing show status, region, profession, belief? What fabrics, what colours?" },
-      { id: "language", label: "Language & Communication", placeholder: "How do people speak? Are there multiple languages? Slang? Forbidden words? How do they write?" },
-      { id: "fears", label: "Taboos & Fears", placeholder: "What do people in this world fear most? What subjects are never spoken of? What superstitions guide their choices?" },
-    ],
-  },
-  {
-    id: "gods",
-    title: "The Gods & Myths",
-    icon: "\uD83C\uDF19",
-    subtitle: "What the world believes",
-    description: "What do people in this world believe? What stories do THEY tell each other?",
-    prompts: [
-      { id: "deities", label: "Gods & Spirits", placeholder: "Who or what do people worship? Are the gods real? Distant? Sleeping? Walking among mortals?" },
-      { id: "creation", label: "Creation Myths", placeholder: "How do people believe the world began? Is there more than one version of the story?" },
-      { id: "afterlife", label: "Death & the Afterlife", placeholder: "What happens when you die? Is there a heaven, a cycle of rebirth, a river to cross, nothing at all?" },
-      { id: "prophecy", label: "Prophecies & Omens", placeholder: "Are there prophecies? Who speaks them? Do people believe them? What signs do people watch for?" },
-      { id: "temples", label: "Temples & Holy Orders", placeholder: "Where do people go to worship? Who serves the gods? Are there monks, priestesses, wandering sages?" },
-      { id: "heresy", label: "Forbidden Beliefs", placeholder: "What beliefs are dangerous to hold? Who were the heretics? What truths did they know?" },
-    ],
-  },
-  {
-    id: "connections",
-    title: "The Connections",
-    icon: "\uD83D\uDD78\uFE0F",
-    subtitle: "Where stories cross paths",
-    description: "The thread board. Where you track how stories, characters, and events link across your universe.",
-    prompts: [
-      { id: "characters", label: "Characters Who Cross Over", placeholder: "Which characters might appear in more than one story? A merchant who shows up everywhere? A wandering sage?" },
-      { id: "events", label: "Shared Events", placeholder: "What events ripple across multiple stories? A war that everyone experiences differently? A festival?" },
-      { id: "places", label: "Shared Places", placeholder: "What locations appear in multiple stories? The same tavern, the same crossroads, the same haunted ruin?" },
-      { id: "objects", label: "Objects That Travel", placeholder: "Is there a sword, a letter, a jewel, a curse that passes from one story to another?" },
-      { id: "rumours", label: "Rumours & Echoes", placeholder: "What do characters in one story hear about events in another? Rumours, legends, half-truths?" },
-      { id: "timeline", label: "The Timeline", placeholder: "How do your stories sit in time? Which happens first? Do any overlap? What\u2019s the grand order?" },
-    ],
-  },
-];
+      const SECTIONS = [
+        {
+          id: 'land',
+          title: 'The Land',
+          icon: '\u26F0\uFE0F',
+          subtitle: 'Where the ground remembers',
+          description:
+            'Maps, regions, climates, cities, villages, ruins, sacred places. What does the ground feel like under your feet?',
+          prompts: [
+            {
+              id: 'regions',
+              label: 'Regions & Realms',
+              placeholder:
+                'Name your lands \u2014 the kingdoms, the wilds, the forgotten places. What makes each one distinct?',
+            },
+            {
+              id: 'climate',
+              label: 'Climate & Seasons',
+              placeholder:
+                'Is there eternal winter in the north? Do the seasons follow the moon? Does the weather have a mind of its own?',
+            },
+            {
+              id: 'cities',
+              label: 'Cities & Settlements',
+              placeholder:
+                'Where do people gather? Describe the great cities, the hidden villages, the ruins no one dares enter...',
+            },
+            {
+              id: 'sacred',
+              label: 'Sacred & Cursed Places',
+              placeholder:
+                'Where do people go to pray? Where do they refuse to go? What places hold power \u2014 or memory?',
+            },
+            {
+              id: 'natural',
+              label: 'Rivers, Mountains & Wilds',
+              placeholder:
+                'The bones of the world \u2014 the rivers that divide nations, the mountains that touch the heavens, the forests that whisper...',
+            },
+            {
+              id: 'senses',
+              label: 'The Senses of This Land',
+              placeholder:
+                'Close your eyes. What does this world smell like? What\u2019s the first sound you hear? What does the air taste like?',
+            },
+          ],
+        },
+        {
+          id: 'history',
+          title: 'The History',
+          icon: '\uD83D\uDCDC',
+          subtitle: 'What the elders whisper',
+          description:
+            'The big events that shaped everything. Wars, discoveries, fallen kingdoms, ancient promises. The stuff people whisper about in taverns.',
+          prompts: [
+            {
+              id: 'ages',
+              label: 'Ages & Eras',
+              placeholder:
+                'How do the people of this world divide their history? What do they call the great ages?',
+            },
+            {
+              id: 'wars',
+              label: 'Wars & Conflicts',
+              placeholder:
+                'What battles changed the shape of the world? Who won? Who lost? What was the cost?',
+            },
+            {
+              id: 'turning',
+              label: 'Turning Points',
+              placeholder:
+                'The moments where everything shifted \u2014 a discovery, a betrayal, a birth, a death, a door that opened...',
+            },
+            {
+              id: 'fallen',
+              label: 'Fallen Kingdoms & Lost Things',
+              placeholder:
+                'What once existed that is now gone? What do people mourn? What do they search for?',
+            },
+            {
+              id: 'secrets',
+              label: 'Hidden History',
+              placeholder:
+                'What really happened? What does the official story leave out? Who knows the truth?',
+            },
+            {
+              id: 'legends',
+              label: 'Legends & Tavern Tales',
+              placeholder:
+                'What stories do ordinary people tell each other? What do children hear at bedtime? What do drunks argue about?',
+            },
+          ],
+        },
+        {
+          id: 'magic',
+          title: 'The Magic',
+          icon: '\u2728',
+          subtitle: 'What flows beneath the surface',
+          description:
+            'How it works, what it costs, who can use it, what the limits are. Every great magic system has a price.',
+          prompts: [
+            {
+              id: 'source',
+              label: 'Source & Nature',
+              placeholder:
+                'Where does magic come from? Is it in the blood? The land? The stars? Is it alive?',
+            },
+            {
+              id: 'rules',
+              label: 'Rules & Limits',
+              placeholder:
+                'What can magic do? What can\u2019t it do? What happens when someone pushes too far?',
+            },
+            {
+              id: 'cost',
+              label: 'The Price',
+              placeholder:
+                'Every great magic system has a cost. What does using magic take from you? Energy? Memory? Years of your life?',
+            },
+            {
+              id: 'users',
+              label: 'Who Wields It',
+              placeholder:
+                'Who can use magic? Is it rare or common? Inherited or learned? Are there ranks or levels?',
+            },
+            {
+              id: 'forbidden',
+              label: 'Forbidden Arts',
+              placeholder:
+                'What magic is banned? What happens to those who use it? Why is it forbidden \u2014 and is the reason true?',
+            },
+            {
+              id: 'artifacts',
+              label: 'Magical Objects & Places',
+              placeholder:
+                'What objects hold power? Are there enchanted weapons, ancient relics, cursed jewellery? Where are they now?',
+            },
+          ],
+        },
+        {
+          id: 'power',
+          title: 'The Power',
+          icon: '\uD83D\uDC51',
+          subtitle: 'Who holds the throne \u2014 and who wants it',
+          description:
+            'Governments, factions, alliances, rivalries. Who holds power and who\u2019s trying to take it?',
+          prompts: [
+            {
+              id: 'rulers',
+              label: 'Rulers & Governments',
+              placeholder:
+                'Who rules? How did they get power? Is it a monarchy, a council, an empire, something stranger?',
+            },
+            {
+              id: 'factions',
+              label: 'Factions & Alliances',
+              placeholder:
+                'What groups compete for influence? Secret societies, noble houses, merchant guilds, rebel movements?',
+            },
+            {
+              id: 'laws',
+              label: 'Laws & Justice',
+              placeholder:
+                'How is justice served? Is it fair? Who makes the laws and who enforces them?',
+            },
+            {
+              id: 'conflict',
+              label: 'Current Tensions',
+              placeholder:
+                'What\u2019s about to break? Where are the cracks in the system? Who is angry, and why?',
+            },
+            {
+              id: 'economy',
+              label: 'Trade & Economy',
+              placeholder:
+                'What do people trade? What\u2019s valuable? Is there currency? Who controls the wealth?',
+            },
+            {
+              id: 'shadows',
+              label: 'The Shadow Powers',
+              placeholder:
+                'Who really pulls the strings? What happens behind closed doors? Who has power that no one talks about?',
+            },
+          ],
+        },
+        {
+          id: 'people',
+          title: 'The People',
+          icon: '\uD83C\uDFEE',
+          subtitle: 'The heartbeat of the world',
+          description:
+            'Cultures, traditions, languages, food, clothing, beliefs. What do people celebrate? What do they fear?',
+          prompts: [
+            {
+              id: 'cultures',
+              label: 'Cultures & Peoples',
+              placeholder:
+                'Who lives in this world? What makes each culture unique \u2014 their values, their way of seeing the world?',
+            },
+            {
+              id: 'traditions',
+              label: 'Traditions & Celebrations',
+              placeholder:
+                'What festivals light up the calendar? What rituals mark birth, death, marriage, coming of age?',
+            },
+            {
+              id: 'food',
+              label: 'Food & Daily Life',
+              placeholder:
+                'What do people eat? What does a market smell like? What does an ordinary day look like?',
+            },
+            {
+              id: 'clothing',
+              label: 'Clothing & Adornment',
+              placeholder:
+                'What do people wear? Does clothing show status, region, profession, belief? What fabrics, what colours?',
+            },
+            {
+              id: 'language',
+              label: 'Language & Communication',
+              placeholder:
+                'How do people speak? Are there multiple languages? Slang? Forbidden words? How do they write?',
+            },
+            {
+              id: 'fears',
+              label: 'Taboos & Fears',
+              placeholder:
+                'What do people in this world fear most? What subjects are never spoken of? What superstitions guide their choices?',
+            },
+          ],
+        },
+        {
+          id: 'gods',
+          title: 'The Gods & Myths',
+          icon: '\uD83C\uDF19',
+          subtitle: 'What the world believes',
+          description:
+            'What do people in this world believe? What stories do THEY tell each other?',
+          prompts: [
+            {
+              id: 'deities',
+              label: 'Gods & Spirits',
+              placeholder:
+                'Who or what do people worship? Are the gods real? Distant? Sleeping? Walking among mortals?',
+            },
+            {
+              id: 'creation',
+              label: 'Creation Myths',
+              placeholder:
+                'How do people believe the world began? Is there more than one version of the story?',
+            },
+            {
+              id: 'afterlife',
+              label: 'Death & the Afterlife',
+              placeholder:
+                'What happens when you die? Is there a heaven, a cycle of rebirth, a river to cross, nothing at all?',
+            },
+            {
+              id: 'prophecy',
+              label: 'Prophecies & Omens',
+              placeholder:
+                'Are there prophecies? Who speaks them? Do people believe them? What signs do people watch for?',
+            },
+            {
+              id: 'temples',
+              label: 'Temples & Holy Orders',
+              placeholder:
+                'Where do people go to worship? Who serves the gods? Are there monks, priestesses, wandering sages?',
+            },
+            {
+              id: 'heresy',
+              label: 'Forbidden Beliefs',
+              placeholder:
+                'What beliefs are dangerous to hold? Who were the heretics? What truths did they know?',
+            },
+          ],
+        },
+        {
+          id: 'connections',
+          title: 'The Connections',
+          icon: '\uD83D\uDD78\uFE0F',
+          subtitle: 'Where stories cross paths',
+          description:
+            'The thread board. Where you track how stories, characters, and events link across your universe.',
+          prompts: [
+            {
+              id: 'characters',
+              label: 'Characters Who Cross Over',
+              placeholder:
+                'Which characters might appear in more than one story? A merchant who shows up everywhere? A wandering sage?',
+            },
+            {
+              id: 'events',
+              label: 'Shared Events',
+              placeholder:
+                'What events ripple across multiple stories? A war that everyone experiences differently? A festival?',
+            },
+            {
+              id: 'places',
+              label: 'Shared Places',
+              placeholder:
+                'What locations appear in multiple stories? The same tavern, the same crossroads, the same haunted ruin?',
+            },
+            {
+              id: 'objects',
+              label: 'Objects That Travel',
+              placeholder:
+                'Is there a sword, a letter, a jewel, a curse that passes from one story to another?',
+            },
+            {
+              id: 'rumours',
+              label: 'Rumours & Echoes',
+              placeholder:
+                'What do characters in one story hear about events in another? Rumours, legends, half-truths?',
+            },
+            {
+              id: 'timeline',
+              label: 'The Timeline',
+              placeholder:
+                'How do your stories sit in time? Which happens first? Do any overlap? What\u2019s the grand order?',
+            },
+          ],
+        },
+      ]
 
-const MOOD_CATEGORIES = [
-  { id: "characters", label: "Characters", icon: "\uD83D\uDC64" },
-  { id: "locations", label: "Locations & Worlds", icon: "\uD83C\uDFD4\uFE0F" },
-  { id: "artifacts", label: "Artifacts & Objects", icon: "\u2694\uFE0F" },
-  { id: "creatures", label: "Creatures & Gods", icon: "\uD83D\uDC09" },
-  { id: "aesthetic", label: "Aesthetic & Mood", icon: "\uD83C\uDFA8" },
-  { id: "fashion", label: "Fashion & Clothing", icon: "\uD83D\uDC58" },
-];
+      const MOOD_CATEGORIES = [
+        { id: 'characters', label: 'Characters', icon: '\uD83D\uDC64' },
+        {
+          id: 'locations',
+          label: 'Locations & Worlds',
+          icon: '\uD83C\uDFD4\uFE0F',
+        },
+        { id: 'artifacts', label: 'Artifacts & Objects', icon: '\u2694\uFE0F' },
+        { id: 'creatures', label: 'Creatures & Gods', icon: '\uD83D\uDC09' },
+        { id: 'aesthetic', label: 'Aesthetic & Mood', icon: '\uD83C\uDFA8' },
+        { id: 'fashion', label: 'Fashion & Clothing', icon: '\uD83D\uDC58' },
+      ]
 
-// Pre-populated entries from world-building sessions
-const INITIAL_ENTRIES = {
-
-  // === THE LAND ===
-  "land-regions": `THE FOUR REALMS
+      // Pre-populated entries from world-building sessions
+      const INITIAL_ENTRIES = {
+        // === THE LAND ===
+        'land-regions': `THE FOUR REALMS
 
 1. AOLI (奥里) — The Breathing Land
 The oldest civilisation. Xianxia / Cultivation lands rooted in Asian history. The land is ALIVE — the air, rivers, mountains, trees, wind all carry memory and magic. The people are deeply in tune with the land and feel something ancient is coming. The trees remember the before, the mountains stand strong to shield those that dwell here. The name Aoli means a breath — the inhale before something vast. Sacred but alive, holding great power and great evil.
@@ -246,7 +750,7 @@ MÍNHUÌ hides here, telling stories nobody remembers, feeling every death in th
 
 THE PROPHECY CHILD is born here — a direct descendant of the earth twin's bloodline (which was carried here by a lost child found by fleeing merchants). The child carries the blood of BOTH Yánlóng and Yúnshēng. The earth magic in their blood makes them resistant to the forgetting fog. They remember Mínhuì's stories when everyone else forgets.`,
 
-  "land-sacred": `THE MOUNTAIN PASSES — GUARDIANS OF STONE
+        'land-sacred': `THE MOUNTAIN PASSES — GUARDIANS OF STONE
 Great mountain passes guarded by giant stone statues, similar in grandeur to the Argonath of Middle-earth. These guardians were carved by Yánlóng (the rock dragon god) himself before he went to sleep. They are not mere decoration — they are alive but dormant. As Yánlóng stirs, his stone guardians begin to wake with him. They were placed to protect what lies within the passes — to keep something hidden and add a layer of protection.
 
 THE CAVE OF THE WIND SERPENT
@@ -255,7 +759,7 @@ Hidden cave where Yúnshēng (water dragon goddess) sleeps. Guarded by a wind se
 THE CAVE OF THE KOI
 Hidden deep in the mountains where Yánlóng sleeps. Guarded by a koi fish — Yúnshēng's gift to her husband. A water creature surrounded by stone, keeping a light alive for his goddess in a place where water has no business being.`,
 
-  "land-natural": `The rivers sing with Yúnshēng — they carry her memory, her presence. The streams whisper her tale.
+        'land-natural': `The rivers sing with Yúnshēng — they carry her memory, her presence. The streams whisper her tale.
 
 The trees tell Yánlóng's tale — they remember his path. The ancient forests are his domain.
 
@@ -263,8 +767,8 @@ The mountains watch. They are the bones of the world, and the stone guardians ca
 
 When the prophecy child is born: the trees will dance, the rivers will sing, the mountains will watch, the world will know. And deep below, the sealed Mother will stir, knowing its time has come.`,
 
-  // === THE HISTORY ===
-  "history-ages": `THE TWO PRIMORDIALS
+        // === THE HISTORY ===
+        'history-ages': `THE TWO PRIMORDIALS
 Before all else, two forces came into existence simultaneously — Mùjīn (暮金 — sunset gold, the Father, Fate) and Yuèlì (月丽 — moon beauty, the Mother, Chaos). Yin and yang. Sun and moon. Golden dragon and black nine-tailed fox. Born in the same moment at the beginning of time. When the universe decided there would be a future that could be seen and foretold, it simultaneously created the force that would try to unravel that future. You cannot have one without the other. They are married. He is the setting sun, she is the rising moon. The moment of dusk is where they meet.
 
 THE BIRTH OF THE YOUNG GODS
@@ -285,7 +789,7 @@ The young gods were exiled. Wénjī wandered. Fèngzhé eventually buried himsel
 THE FLIGHT UPWARD
 The people who drove the gods out were consumed by guilt and terror. They fled UPWARD, building cities in the sky — as far from the ground as possible. They outlawed magic because it reminded them of what they'd done. Over centuries, shame became pride and guilt became superiority. They became Aurumshì — and secretly powered their cities with blood magic, the darkest art.`,
 
-  "history-turning": `THE CORRUPTION OF YUÈLÌ
+        'history-turning': `THE CORRUPTION OF YUÈLÌ
 The moment humanity's darkness tipped the balance and Yuèlì — the Mother of all gods, the beautiful black fox — began to turn. This was not a single event but a slow poison across centuries.
 
 THE GREAT BREAKING
@@ -297,7 +801,7 @@ The great empire of Caerndrath, ruled by the House of Bannric (who have Aoli blo
 THE HIDING OF MÍNHUÌ
 When Mùjīn whispered the prophecy, the spirit fox Mínhuì was the one who received it. She made a plan — let everyone think she was exiled, then walked into Aurumshì, the one place no god would ever go. She dimmed her divinity and waited centuries for the prophecy child to be born. She tells stories on street corners — young storyteller one decade, old woman the next — but the blood magic fog makes everyone forget. She feels every death in the city as agony through her spirit senses.`,
 
-  "history-fallen": `THE HOUSE OF BANNRIC
+        'history-fallen': `THE HOUSE OF BANNRIC
 Once the ruling dynasty of all Caerndrath. Originally from Aoli — they have Old World blood. Their civil war shattered the empire into five provinces (Braedun, Isenholt, Ardmere, Tyramare, Maramir). The throne sits empty in Tyramare — the original seat of power. The true heir, Zhúhuǒ, is hiding in Aoli's Fènghuī Sect. He carries the phoenix god Fèngzhé buried inside him.
 
 THE LOST NAME OF YUÈLÌ
@@ -312,7 +816,7 @@ The name survives in only one place: the cave of the wind serpent. Speaking the 
 THE SEVERED CONNECTION
 When the gods of Wind, Fire, and Spirit were exiled, their sects (Fēngyǔ, Fènghuī, Húnzhī) lost the deep divine connection. Unlike Shānshí and Shuǐjìng (whose gods remain sleeping in Aoli), these sects only have books and scrolls. The Shímò Sect never had a god — they follow Yuèlì's corruption without knowing it. The ancient knowing was severed when the gods left.`,
 
-  "history-secrets": `THE SLEEPING GODS
+        'history-secrets': `THE SLEEPING GODS
 The people drove the gods out, but two were hidden away — secreted to sleep until the world needed them again. Yúnshēng sleeps in a hidden cave guarded by a wind serpent. Yánlóng sleeps deep in the mountains guarded by a koi fish. They are married but separated by duty and sacrifice.
 
 THE TRUE NATURE OF EVIL
@@ -329,15 +833,15 @@ The spirit fox god did not flee into exile. She received the prophecy from her f
 FÈNGZHÉ INSIDE ZHÚHUǑ
 The phoenix god is buried inside the Bannric heir. When Zhúhuǒ died and was reborn through the fire stone, Fèngzhé hitched a ride. The heir doesn't know — he just feels more anger, more power, more of a knowing he can't reach. The god wants out. His power leaks and damages Zhúhuǒ's health.`,
 
-  "history-legends": `THE PROPHECY (whispered by Mùjīn — the Father, the golden dragon)
+        'history-legends': `THE PROPHECY (whispered by Mùjīn — the Father, the golden dragon)
 A child would be born in a place where no magic dwelled. They would be born with strong magic roots but the world would fear them. The gods would waken and stir when the child is born. The trees would dance, the rivers would sing, the mountains watch, the world would know. And deep below it will stir, knowing its time has come.
 
 The prophecy child is born in Aurumshì — where magic is outlawed, where ignorance reigns. Born into the blind spot of the world. Born carrying the blood of both Yánlóng and Yúnshēng through the immortal twins' bloodline. Mínhuì is already there, waiting.
 
 The prophecy is not about defeating evil. It is about HEALING evil. About saving Yuèlì. About bringing the Mother home.`,
 
-  // === THE MAGIC ===
-  "magic-source": `In Aoli, magic flows through cultivation and is tied to the elements. The land itself is alive with it — the air, rivers, mountains, trees, and wind all carry memory and magic.
+        // === THE MAGIC ===
+        'magic-source': `In Aoli, magic flows through cultivation and is tied to the elements. The land itself is alive with it — the air, rivers, mountains, trees, and wind all carry memory and magic.
 
 THE FIVE TRUE SECTS OF AOLI (Avatar-style elemental affinities):
 Each sect has an affinity for an element, and this is where their cultivation stems from. The element shapes not just their power but their philosophy, their way of moving through the world, their way of thinking.
@@ -365,7 +869,7 @@ In Caerndrath, magic is hoarded by the nobility. Common folk born with magic are
 
 In Aurumshì, magic is outlawed. Citizens who show magic disappear — harvested for blood magic fuel. The blood magic also creates a fog keeping citizens docile and forgetful.`,
 
-  "magic-cost": `THE UNIVERSAL PRICE
+        'magic-cost': `THE UNIVERSAL PRICE
 Every great act of magic has a cost. This is woven into the fabric of the universe:
 • The wind serpent gave up the sky to guard her goddess in a cave
 • Yúnshēng and Yánlóng gave up each other — married gods sleeping in separate caves
@@ -381,7 +885,7 @@ Fèngzhé (the phoenix god) is buried inside him and wants out. His power leaks 
 • SURRENDER — let the phoenix rise fully. Give up everything — body, identity, chance at love, at ruling, at living. Hand it all to the god. Leave gracefully. Cease to exist as himself.
 Neither choice is wrong. Both are sacrifice. Both are courage.`,
 
-  "magic-forbidden": `THE CHAOS SECT
+        'magic-forbidden': `THE CHAOS SECT
 In Aoli, the Shímò Sect looks to the evil stirring below and takes it as its own. They cultivate a force that makes the other five sects nervous. But they are not evil people — not all of them. They're cultivators who chose an element that was always going to be the most dangerous to carry. Some fight the hunger every day. On the day of the waking, the fight gets so much harder. The other sects get a sign that feels like hope. The Shímò Sect gets a sign that feels like addiction.
 
 They don't know they're following the corrupted Yuèlì. They think chaos is an element like any other. They mistook the enemy for a teacher.
@@ -396,7 +900,7 @@ The ancient sealed evil (the corrupted Mother/Chaos) doesn't look the same every
 
 It infiltrates all and sees all. This is the thread that runs through every story — evil isn't a monster in a cave. It's the thing that finds the crack in every civilisation and pours itself in. It's Yuèlì — a corrupted MOTHER whose darkness is fed by the very humanity her children loved.`,
 
-  "magic-artifacts": `THE STONE GUARDIANS
+        'magic-artifacts': `THE STONE GUARDIANS
 Giant stone statues carved by Yánlóng himself, guarding the mountain passes of Aoli. They are not merely stone — they are dormant, alive, and waking as their creator stirs. They are his fingerprints on the world — proof that the gods were real.
 
 For centuries they were just old statues. Children dared each other to climb them. Tourists visited. And then one day... one of them moves.
@@ -410,8 +914,8 @@ There exist artifacts that can either seal a god within a host or boost the host
 WÉNJĪ'S GUQIN
 The sacred instrument of the wind fox god. This is how Wénjī sang to her sect before the exile — every string a different tale, every note a memory the wind would carry across Aoli. The guqin is sacred to the Fēngyǔ Sect. Even now, centuries after losing their god, they still play. Not knowing that every note drifts out on the breeze and Wénjī hears it.`,
 
-  // === THE GODS & MYTHS ===
-  "gods-deities": `THE TWO PRIMORDIALS — THE PARENTS
+        // === THE GODS & MYTHS ===
+        'gods-deities': `THE TWO PRIMORDIALS — THE PARENTS
 
 MÙJĪN (暮金 — sunset gold) — THE FATHER — FATE
 King of the gods. Ruler of space and time. The sun rises for him and the moon sets. He sees all and knows all and blazes with this knowledge. His true form is a golden dragon that shimmers in the night sky. But his power is subtle — like the sun just before it sets, lighting up the sky in gold before slowly descending. He whispers across the sky, quiet but powerful, and if provoked, he BLAZES. He is patience incarnate. Every sunset is him handing the sky to his wife. Every dusk is a love letter Yuèlì can no longer read. He works through foresight and long plans spanning centuries. He whispered the prophecy to Mínhuì — not to destroy Chaos but to SAVE her. Everything he has set in motion is one desperate father trying to rescue the woman he was born alongside and bring the mother of his children home.
@@ -457,7 +961,7 @@ The sleeping gods had twins before they went to rest. Born of water and stone. H
 • THE EARTH TWIN (male, name TBD) — hides in Braedun as the original druid. Has been teaching the old ways for centuries.
 • THE WATER TWIN (female, name TBD) — hides in Solisòpia in a small house down an alleyway. Raises her own descendants, keeps water and song alive.`,
 
-  "gods-creation": `THE TRUE CREATION
+        'gods-creation': `THE TRUE CREATION
 Before anything existed, two forces came into being simultaneously — Mùjīn and Yuèlì. The Father and the Mother. Fate and Chaos. Sun and Moon. Golden dragon and black fox. Yin and yang. Prophecy and disorder. You cannot have one without the other. They are the moment where dusk meets moonrise — the sky between day and night is where they exist together.
 
 Their interaction — their dance, their push and pull — CREATED the young gods. The gods are their children, carrying both parents inside them. THREE of the young gods are foxes (Wénjī, Mínhuì, and through them the Fēngyǔ Sect's shapeshifting) — they take after their Mother Yuèlì's favoured form.
@@ -472,7 +976,7 @@ This is not a story about heroes fighting a monster. This is a FAMILY TRAGEDY. C
 THE DEEPEST TRUTH
 The sealed evil is Yuèlì — a mother who needs to be saved, not a monster who needs to be killed. This is where all the stories lead.`,
 
-  "gods-prophecy": `THE PROPHECY (spoken by Mùjīn — the Father, Fate, the golden dragon)
+        'gods-prophecy': `THE PROPHECY (spoken by Mùjīn — the Father, Fate, the golden dragon)
 
 A child would be born in a place where no magic dwelled. They would be born with strong magic roots but the world would fear them. The gods would waken and stir when the child is born. The trees would dance, the rivers would sing, the mountains watch, the world would know. And deep below it will stir knowing its time has come.
 
@@ -491,7 +995,7 @@ THE SIGNS OF WAKING (each sect feels it differently):
 • The wind serpent and the koi fish feel the stirring and take human form
 • The guardians leave their caves and go to their master's sects to prepare`,
 
-  "gods-heresy": `THE CHAOS SECT'S UNKNOWING WORSHIP
+        'gods-heresy': `THE CHAOS SECT'S UNKNOWING WORSHIP
 The Shímò Sect believes they cultivate an element. They don't know they're drawing power from the sealed Yuèlì — the corrupted Mother, source of all creation. Their hunger during the waking is her hunger, leaking through.
 
 THE TRUTH ABOUT THE SEALED EVIL
@@ -500,8 +1004,8 @@ The greatest heresy in this world would be the truth: that the sealed evil is YU
 THE OUTCASTS
 In the Fēngyǔ, Fènghuī, and Húnzhī sects, individuals who feel the waking are treated as heretics — prosecuted and ignored for speaking truths their sects have lost the ability to hear. These outcasts will eventually find their way to the Shānshí and Shuǐjìng sects and begin quests to find their exiled gods.`,
 
-  // === THE POWER ===
-  "power-rulers": `AOLI — Governed by the sect system. Shānshí (Earth), Shuǐjìng (Water), Fēngyǔ (Wind), Fènghuī (Fire), Húnzhī (Spirit), and Shímò (Chaos) each control their own territories and people. Shānshí and Shuǐjìng hold the deepest authority due to their gods still sleeping in the land.
+        // === THE POWER ===
+        'power-rulers': `AOLI — Governed by the sect system. Shānshí (Earth), Shuǐjìng (Water), Fēngyǔ (Wind), Fènghuī (Fire), Húnzhī (Spirit), and Shímò (Chaos) each control their own territories and people. Shānshí and Shuǐjìng hold the deepest authority due to their gods still sleeping in the land.
 
 CAERNDRATH — Fractured. Five provinces each governed by a descendant house of the Bannric dynasty. No central ruler. The empty throne sits in Tyramare. The true heir Zhúhuǒ is in hiding in Aoli's Fènghuī Sect.
 • Braedun — ruled by local chieftains, the earth twin (immortal son of Yánlóng and Yúnshēng) moves among them as druid elder
@@ -514,7 +1018,7 @@ AURUMSHÌ — Ruled by a secretive ruling class who maintain the lie that steam 
 
 SOLISÒPIA — Governance TBD. Likely ruled by wealthy families and pleasure lords. A place where money and excess determine status.`,
 
-  "power-conflict": `THE WAKING AS POLITICAL CRISIS
+        'power-conflict': `THE WAKING AS POLITICAL CRISIS
 When the signs begin:
 • Shānshí and Shuǐjìng band together — they KNOW what's coming
 • Fēngyǔ, Fènghuī, and Húnzhī sects reject the signs — prosecuting their own members who feel the truth
@@ -528,8 +1032,8 @@ When the signs begin:
 ZHÚHUǑ'S IMPOSSIBLE POSITION
 The Bannric heir hiding in the Fènghuī Sect. When his blood stirs at the waking, he's pulled toward the fire stone. After rebirth, he carries a god inside him and must choose: seal Fèngzhé (keep his life, claim the throne in Tyramare) or surrender to the phoenix (lose himself, restore a god). Meanwhile Caerndrath needs a king, the Fènghuī Sect wants their god, and the people who love him want HIM.`,
 
-  // === THE PEOPLE ===
-  "people-cultures": `THE PEOPLE OF AOLI
+        // === THE PEOPLE ===
+        'people-cultures': `THE PEOPLE OF AOLI
 Cultivation-based society organised into six sects. Deeply in tune with the land. Draw from Asian history and culture. Each sect shapes not just magic but philosophy — you could guess someone's sect from their personality.
 • Shānshí — grounded, patient, immovable, listeners
 • Shuǐjìng — still, perceptive, deceptively powerful
@@ -595,8 +1099,8 @@ Victorian steampunk with Asian fusion. They believe they evolved past magic. The
 THE PEOPLE OF SOLISÒPIA
 Roman/Byzantine inspired. A culture drowned in excess and indulgence. Pleasure and drink are the lifeblood. Money and idols are worshipped. Beautiful to behold but a pit waiting to drag you down. In a back alley, the water twin keeps sacred traditions alive while the city rots around her.`,
 
-  // === THE CONNECTIONS ===
-  "connections-characters": `THE DIVINE GUARDIANS (appear across stories)
+        // === THE CONNECTIONS ===
+        'connections-characters': `THE DIVINE GUARDIANS (appear across stories)
 
 THE WIND SERPENT (Yánlóng's gift to Yúnshēng) — Female
 Guardian of Yúnshēng's cave and keeper of the Mother's lost name.
@@ -774,7 +1278,7 @@ Does he carry a weapon? Or is the land itself his weapon? Where he walks the ear
 LÌYǏN'S WEAPONS — CONCEALED BLADE:
 A thin elegant dagger, hidden in his jewelled belt. Not a warrior's weapon — an information broker's last resort. (Details TBD)`,
 
-  "connections-events": `THE GREAT WAKING
+        'connections-events': `THE GREAT WAKING
 When the prophecy child is born in Aurumshì, the effects ripple across ALL four cultures simultaneously:
 • Aoli feels it first — Shānshí Sect feels the heartbeat, Shuǐjìng Sect hears the rivers sing
 • The stone guardians begin to stir in the mountain passes near Isenholt
@@ -797,7 +1301,7 @@ Cultivators from Wind, Fire, and Spirit sects who feel the waking but are reject
 • A spirit cultivator following a song only they can hear toward Mínhuì in Aurumshì
 • A chaos cultivator who feels the hunger but CHOOSES to search for truth instead of giving in — the hardest journey. A redemption arc or a tragedy. Every step toward answers, Yuèlì's corruption whispers "come to me instead."`,
 
-  "connections-objects": `THE LOST NAME — YUÈLÌ (月丽 — moon beauty)
+        'connections-objects': `THE LOST NAME — YUÈLÌ (月丽 — moon beauty)
 The true name of the Mother — lost to time, deliberately forgotten by every culture in its own way. Survives only in the cave of the wind serpent. The most dangerous word in the world — or the most healing. Speaking it may not unleash the Mother but REMIND her who she was: Yuèlì. Moon beauty. The beautiful black fox who danced the world into existence. Kept safe in the one place no one would think to look, guarded by a being so beautiful that anyone who found the cave wouldn't be able to think straight enough to ask the right questions. Her beauty is her shield.
 
 THE FIRE STONE
@@ -808,310 +1312,389 @@ The wind fox god's sacred instrument. Every string a tale, every note a memory. 
 
 SEALING AND TRANSCENDENCE ARTIFACTS
 Objects that can either seal a god within a host or boost cultivation to allow transcendence. The two paths of Zhúhuǒ's dilemma made physical.`,
-};
+      }
 
-// ═══════════════════════════════════════
-// STATE
-// ═══════════════════════════════════════
+      // ═══════════════════════════════════════
+      // STATE
+      // ═══════════════════════════════════════
 
-let state = {
-  activeSection: "land",
-  entries: {},
-  saving: false,
-  loaded: false,
-  sidebarOpen: false,
-  expandedPrompt: null,
-  wordCounts: {},
-  moodBoard: {},
-  activeMoodCat: "characters",
-};
+      let state = {
+        activeSection: 'land',
+        entries: {},
+        saving: false,
+        loaded: false,
+        sidebarOpen: false,
+        expandedPrompt: null,
+        wordCounts: {},
+        moodBoard: {},
+        activeMoodCat: 'characters',
+      }
 
-// ═══════════════════════════════════════
-// STORAGE (localStorage)
-// ═══════════════════════════════════════
+      // ═══════════════════════════════════════
+      // STORAGE (localStorage)
+      // ═══════════════════════════════════════
 
-function loadData() {
-  try {
-    const saved = localStorage.getItem("world-bible-entries");
-    if (saved) {
-      const parsed = JSON.parse(saved);
-      // INITIAL_ENTRIES always take priority for pre-populated lore
-      // But preserve user entries for keys NOT in INITIAL_ENTRIES
-      const merged = { ...INITIAL_ENTRIES };
-      Object.keys(parsed).forEach(key => {
-        if (!INITIAL_ENTRIES[key]) {
-          merged[key] = parsed[key];
+      function loadData() {
+        try {
+          const saved = localStorage.getItem('world-bible-entries')
+          if (saved) {
+            const parsed = JSON.parse(saved)
+            // INITIAL_ENTRIES always take priority for pre-populated lore
+            // But preserve user entries for keys NOT in INITIAL_ENTRIES
+            const merged = { ...INITIAL_ENTRIES }
+            Object.keys(parsed).forEach((key) => {
+              if (!INITIAL_ENTRIES[key]) {
+                merged[key] = parsed[key]
+              }
+            })
+            state.entries = merged
+          } else {
+            state.entries = { ...INITIAL_ENTRIES }
+          }
+        } catch (e) {
+          state.entries = { ...INITIAL_ENTRIES }
         }
-      });
-      state.entries = merged;
-    } else {
-      state.entries = { ...INITIAL_ENTRIES };
-    }
-  } catch (e) {
-    state.entries = { ...INITIAL_ENTRIES };
-  }
 
-  try {
-    const mb = localStorage.getItem("world-bible-moodboard");
-    if (mb) state.moodBoard = JSON.parse(mb);
-  } catch (e) {}
+        try {
+          const mb = localStorage.getItem('world-bible-moodboard')
+          if (mb) state.moodBoard = JSON.parse(mb)
+        } catch (e) {}
 
-  state.loaded = true;
-  updateWordCounts();
-  render();
-}
+        state.loaded = true
+        updateWordCounts()
+        render()
+      }
 
-let saveTimer = null;
-function scheduleSave() {
-  clearTimeout(saveTimer);
-  saveTimer = setTimeout(() => {
-    try {
-      localStorage.setItem("world-bible-entries", JSON.stringify(state.entries));
-      state.saving = true;
-      render();
-      setTimeout(() => { state.saving = false; render(); }, 800);
-    } catch (e) {}
-  }, 1000);
-}
+      let saveTimer = null
+      function scheduleSave() {
+        clearTimeout(saveTimer)
+        saveTimer = setTimeout(() => {
+          try {
+            localStorage.setItem(
+              'world-bible-entries',
+              JSON.stringify(state.entries),
+            )
+            state.saving = true
+            render()
+            setTimeout(() => {
+              state.saving = false
+              render()
+            }, 800)
+          } catch (e) {}
+        }, 1000)
+      }
 
-let mbSaveTimer = null;
-function scheduleMoodBoardSave() {
-  clearTimeout(mbSaveTimer);
-  mbSaveTimer = setTimeout(() => {
-    try {
-      localStorage.setItem("world-bible-moodboard", JSON.stringify(state.moodBoard));
-    } catch (e) {}
-  }, 1000);
-}
+      let mbSaveTimer = null
+      function scheduleMoodBoardSave() {
+        clearTimeout(mbSaveTimer)
+        mbSaveTimer = setTimeout(() => {
+          try {
+            localStorage.setItem(
+              'world-bible-moodboard',
+              JSON.stringify(state.moodBoard),
+            )
+          } catch (e) {}
+        }, 1000)
+      }
 
-function updateWordCounts() {
-  const counts = {};
-  SECTIONS.forEach(s => {
-    let total = 0;
-    s.prompts.forEach(p => {
-      const t = state.entries[`${s.id}-${p.id}`] || "";
-      total += t.trim() ? t.trim().split(/\s+/).length : 0;
-    });
-    counts[s.id] = total;
-  });
-  state.wordCounts = counts;
-}
+      function updateWordCounts() {
+        const counts = {}
+        SECTIONS.forEach((s) => {
+          let total = 0
+          s.prompts.forEach((p) => {
+            const t = state.entries[`${s.id}-${p.id}`] || ''
+            total += t.trim() ? t.trim().split(/\s+/).length : 0
+          })
+          counts[s.id] = total
+        })
+        state.wordCounts = counts
+      }
 
-// ═══════════════════════════════════════
-// HELPERS
-// ═══════════════════════════════════════
+      // ═══════════════════════════════════════
+      // HELPERS
+      // ═══════════════════════════════════════
 
-function getFilledCount(sid) {
-  const s = SECTIONS.find(x => x.id === sid);
-  return s.prompts.filter(p => (state.entries[`${sid}-${p.id}`] || "").trim().length > 0).length;
-}
+      function getFilledCount(sid) {
+        const s = SECTIONS.find((x) => x.id === sid)
+        return s.prompts.filter(
+          (p) => (state.entries[`${sid}-${p.id}`] || '').trim().length > 0,
+        ).length
+      }
 
-function getTotalFilled() {
-  return SECTIONS.reduce((a, s) => a + getFilledCount(s.id), 0);
-}
+      function getTotalFilled() {
+        return SECTIONS.reduce((a, s) => a + getFilledCount(s.id), 0)
+      }
 
-function getTotalPrompts() {
-  return SECTIONS.reduce((a, s) => a + s.prompts.length, 0);
-}
+      function getTotalPrompts() {
+        return SECTIONS.reduce((a, s) => a + s.prompts.length, 0)
+      }
 
-function getTotalWords() {
-  return Object.values(state.wordCounts).reduce((a, b) => a + b, 0);
-}
+      function getTotalWords() {
+        return Object.values(state.wordCounts).reduce((a, b) => a + b, 0)
+      }
 
-function getTotalImages() {
-  return Object.values(state.moodBoard).reduce((a, arr) => a + (arr ? arr.length : 0), 0);
-}
+      function getTotalImages() {
+        return Object.values(state.moodBoard).reduce(
+          (a, arr) => a + (arr ? arr.length : 0),
+          0,
+        )
+      }
 
-function escapeHtml(str) {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
-}
+      function escapeHtml(str) {
+        const div = document.createElement('div')
+        div.textContent = str
+        return div.innerHTML
+      }
 
-function autoResize(el) {
-  if (el) { el.style.height = "auto"; el.style.height = el.scrollHeight + "px"; }
-}
+      function autoResize(el) {
+        if (el) {
+          el.style.height = 'auto'
+          el.style.height = el.scrollHeight + 'px'
+        }
+      }
 
-// ═══════════════════════════════════════
-// EVENT HANDLERS
-// ═══════════════════════════════════════
+      // ═══════════════════════════════════════
+      // EVENT HANDLERS
+      // ═══════════════════════════════════════
 
-function setActiveSection(id) {
-  state.activeSection = id;
-  state.sidebarOpen = false;
-  state.expandedPrompt = null;
-  render();
-  // Auto-resize textareas after render
-  setTimeout(() => {
-    document.querySelectorAll('.entry-textarea').forEach(autoResize);
-  }, 50);
-}
+      function setActiveSection(id) {
+        state.activeSection = id
+        state.sidebarOpen = false
+        state.expandedPrompt = null
+        render()
+        // Auto-resize textareas after render
+        setTimeout(() => {
+          document.querySelectorAll('.entry-textarea').forEach(autoResize)
+        }, 50)
+      }
 
-function togglePrompt(key) {
-  state.expandedPrompt = state.expandedPrompt === key ? null : key;
-  render();
-  setTimeout(() => {
-    const ta = document.getElementById('ta-' + key);
-    if (ta) autoResize(ta);
-  }, 50);
-}
+      function togglePrompt(key) {
+        state.expandedPrompt = state.expandedPrompt === key ? null : key
+        render()
+        setTimeout(() => {
+          const ta = document.getElementById('ta-' + key)
+          if (ta) autoResize(ta)
+        }, 50)
+      }
 
-function handleEntryChange(sectionId, promptId, value) {
-  state.entries[`${sectionId}-${promptId}`] = value;
-  updateWordCounts();
-  scheduleSave();
-  // Update just the word count displays without full re-render
-  const wcEl = document.getElementById(`wc-${sectionId}-${promptId}`);
-  if (wcEl) {
-    const words = value.trim() ? value.trim().split(/\s+/).length : 0;
-    wcEl.textContent = words + " words";
-    wcEl.style.display = words > 0 ? "block" : "none";
-  }
-  const sectionWcEl = document.getElementById(`section-wc-${sectionId}`);
-  if (sectionWcEl) {
-    sectionWcEl.textContent = state.wordCounts[sectionId].toLocaleString() + " words in this section";
-  }
-  // Update header totals
-  const totalWordsEl = document.getElementById('total-words');
-  const totalFilledEl = document.getElementById('total-filled');
-  if (totalWordsEl) totalWordsEl.textContent = getTotalWords().toLocaleString() + " words";
-  if (totalFilledEl) totalFilledEl.textContent = getTotalFilled() + "/" + getTotalPrompts() + " entries";
-}
+      function handleEntryChange(sectionId, promptId, value) {
+        state.entries[`${sectionId}-${promptId}`] = value
+        updateWordCounts()
+        scheduleSave()
+        // Update just the word count displays without full re-render
+        const wcEl = document.getElementById(`wc-${sectionId}-${promptId}`)
+        if (wcEl) {
+          const words = value.trim() ? value.trim().split(/\s+/).length : 0
+          wcEl.textContent = words + ' words'
+          wcEl.style.display = words > 0 ? 'block' : 'none'
+        }
+        const sectionWcEl = document.getElementById(`section-wc-${sectionId}`)
+        if (sectionWcEl) {
+          sectionWcEl.textContent =
+            state.wordCounts[sectionId].toLocaleString() +
+            ' words in this section'
+        }
+        // Update header totals
+        const totalWordsEl = document.getElementById('total-words')
+        const totalFilledEl = document.getElementById('total-filled')
+        if (totalWordsEl)
+          totalWordsEl.textContent = getTotalWords().toLocaleString() + ' words'
+        if (totalFilledEl)
+          totalFilledEl.textContent =
+            getTotalFilled() + '/' + getTotalPrompts() + ' entries'
+      }
 
-function handleImageUpload(e) {
-  const files = Array.from(e.target.files);
-  files.forEach(file => {
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      const img = {
-        id: Date.now() + Math.random(),
-        src: ev.target.result,
-        label: file.name.replace(/\.[^.]+$/, ""),
-        note: ""
-      };
-      if (!state.moodBoard[state.activeMoodCat]) state.moodBoard[state.activeMoodCat] = [];
-      state.moodBoard[state.activeMoodCat].push(img);
-      scheduleMoodBoardSave();
-      render();
-    };
-    reader.readAsDataURL(file);
-  });
-  e.target.value = "";
-}
+      function handleImageUpload(e) {
+        const files = Array.from(e.target.files)
+        files.forEach((file) => {
+          const reader = new FileReader()
+          reader.onload = (ev) => {
+            const img = {
+              id: Date.now() + Math.random(),
+              src: ev.target.result,
+              label: file.name.replace(/\.[^.]+$/, ''),
+              note: '',
+            }
+            if (!state.moodBoard[state.activeMoodCat])
+              state.moodBoard[state.activeMoodCat] = []
+            state.moodBoard[state.activeMoodCat].push(img)
+            scheduleMoodBoardSave()
+            render()
+          }
+          reader.readAsDataURL(file)
+        })
+        e.target.value = ''
+      }
 
-function removeImage(catId, imgId) {
-  state.moodBoard[catId] = (state.moodBoard[catId] || []).filter(i => i.id !== imgId);
-  scheduleMoodBoardSave();
-  render();
-}
+      function removeImage(catId, imgId) {
+        state.moodBoard[catId] = (state.moodBoard[catId] || []).filter(
+          (i) => i.id !== imgId,
+        )
+        scheduleMoodBoardSave()
+        render()
+      }
 
-function updateImageLabel(catId, imgId, label) {
-  state.moodBoard[catId] = (state.moodBoard[catId] || []).map(i => i.id === imgId ? { ...i, label } : i);
-  scheduleMoodBoardSave();
-}
+      function updateImageLabel(catId, imgId, label) {
+        state.moodBoard[catId] = (state.moodBoard[catId] || []).map((i) =>
+          i.id === imgId ? { ...i, label } : i,
+        )
+        scheduleMoodBoardSave()
+      }
 
-function updateImageNote(catId, imgId, note) {
-  state.moodBoard[catId] = (state.moodBoard[catId] || []).map(i => i.id === imgId ? { ...i, note } : i);
-  scheduleMoodBoardSave();
-}
+      function updateImageNote(catId, imgId, note) {
+        state.moodBoard[catId] = (state.moodBoard[catId] || []).map((i) =>
+          i.id === imgId ? { ...i, note } : i,
+        )
+        scheduleMoodBoardSave()
+      }
 
-function handleExport() {
-  let t = "\u2550".repeat(39) + "\n         THE WORLD BIBLE\n         A Universe Awaits\n" + "\u2550".repeat(39) + "\n\n";
-  SECTIONS.forEach(s => {
-    t += "\n" + "\u2500".repeat(40) + "\n" + s.icon + "  " + s.title.toUpperCase() + "\n" + s.subtitle + "\n" + "\u2500".repeat(40) + "\n\n";
-    s.prompts.forEach(p => {
-      const v = state.entries[`${s.id}-${p.id}`] || "";
-      t += "\u25B8 " + p.label + "\n" + (v.trim() ? v + "\n\n" : "[Not yet written]\n\n");
-    });
-  });
-  t += "\n" + "\u2550".repeat(40) + "\nTotal words: " + getTotalWords() + "\nSections filled: " + getTotalFilled() + "/" + getTotalPrompts() + "\n" + "\u2550".repeat(40) + "\n";
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([t], { type: "text/plain" }));
-  a.download = "world-bible.txt";
-  a.click();
-}
+      function handleExport() {
+        let t =
+          '\u2550'.repeat(39) +
+          '\n         THE WORLD BIBLE\n         A Universe Awaits\n' +
+          '\u2550'.repeat(39) +
+          '\n\n'
+        SECTIONS.forEach((s) => {
+          t +=
+            '\n' +
+            '\u2500'.repeat(40) +
+            '\n' +
+            s.icon +
+            '  ' +
+            s.title.toUpperCase() +
+            '\n' +
+            s.subtitle +
+            '\n' +
+            '\u2500'.repeat(40) +
+            '\n\n'
+          s.prompts.forEach((p) => {
+            const v = state.entries[`${s.id}-${p.id}`] || ''
+            t +=
+              '\u25B8 ' +
+              p.label +
+              '\n' +
+              (v.trim() ? v + '\n\n' : '[Not yet written]\n\n')
+          })
+        })
+        t +=
+          '\n' +
+          '\u2550'.repeat(40) +
+          '\nTotal words: ' +
+          getTotalWords() +
+          '\nSections filled: ' +
+          getTotalFilled() +
+          '/' +
+          getTotalPrompts() +
+          '\n' +
+          '\u2550'.repeat(40) +
+          '\n'
+        const a = document.createElement('a')
+        a.href = URL.createObjectURL(new Blob([t], { type: 'text/plain' }))
+        a.download = 'world-bible.txt'
+        a.click()
+      }
 
-function handleReset() {
-  if (window.confirm("Are you sure you want to clear ALL entries? This cannot be undone.\n\n(Pre-populated lore will remain, but anything you\u2019ve added will be lost.)")) {
-    state.entries = { ...INITIAL_ENTRIES };
-    try { localStorage.removeItem("world-bible-entries"); } catch (e) {}
-    updateWordCounts();
-    render();
-  }
-}
+      function handleReset() {
+        if (
+          window.confirm(
+            'Are you sure you want to clear ALL entries? This cannot be undone.\n\n(Pre-populated lore will remain, but anything you\u2019ve added will be lost.)',
+          )
+        ) {
+          state.entries = { ...INITIAL_ENTRIES }
+          try {
+            localStorage.removeItem('world-bible-entries')
+          } catch (e) {}
+          updateWordCounts()
+          render()
+        }
+      }
 
-function toggleSidebar() {
-  state.sidebarOpen = !state.sidebarOpen;
-  render();
-}
+      function toggleSidebar() {
+        state.sidebarOpen = !state.sidebarOpen
+        render()
+      }
 
-// ═══════════════════════════════════════
-// RENDER
-// ═══════════════════════════════════════
+      // ═══════════════════════════════════════
+      // RENDER
+      // ═══════════════════════════════════════
 
-function render() {
-  if (!state.loaded) return;
+      function render() {
+        if (!state.loaded) return
 
-  const totalFilled = getTotalFilled();
-  const totalPrompts = getTotalPrompts();
-  const totalWords = getTotalWords();
-  const totalImages = getTotalImages();
-  const currentSection = SECTIONS.find(s => s.id === state.activeSection);
+        const totalFilled = getTotalFilled()
+        const totalPrompts = getTotalPrompts()
+        const totalWords = getTotalWords()
+        const totalImages = getTotalImages()
+        const currentSection = SECTIONS.find(
+          (s) => s.id === state.activeSection,
+        )
 
-  // Find prev/next
-  const sIdx = SECTIONS.findIndex(s => s.id === state.activeSection);
-  const prev = sIdx > 0 ? SECTIONS[sIdx - 1] : null;
-  const next = sIdx < SECTIONS.length - 1 ? SECTIONS[sIdx + 1] : null;
+        // Find prev/next
+        const sIdx = SECTIONS.findIndex((s) => s.id === state.activeSection)
+        const prev = sIdx > 0 ? SECTIONS[sIdx - 1] : null
+        const next = sIdx < SECTIONS.length - 1 ? SECTIONS[sIdx + 1] : null
 
-  // Build nav items
-  let navHtml = SECTIONS.map(section => {
-    const filled = getFilledCount(section.id);
-    const total = section.prompts.length;
-    const isActive = state.activeSection === section.id;
-    const bgColor = filled === total ? "rgba(90,150,110,.12)" : filled > 0 ? "rgba(180,140,80,.1)" : "rgba(140,130,120,.06)";
-    const textColor = filled === total ? "rgba(60,120,80,.85)" : filled > 0 ? "rgba(150,110,50,.75)" : "rgba(130,115,100,.4)";
-    return `<button class="nav-btn ${isActive ? 'active' : ''}" onclick="setActiveSection('${section.id}')"
+        // Build nav items
+        let navHtml = SECTIONS.map((section) => {
+          const filled = getFilledCount(section.id)
+          const total = section.prompts.length
+          const isActive = state.activeSection === section.id
+          const bgColor =
+            filled === total
+              ? 'rgba(90,150,110,.12)'
+              : filled > 0
+                ? 'rgba(180,140,80,.1)'
+                : 'rgba(140,130,120,.06)'
+          const textColor =
+            filled === total
+              ? 'rgba(60,120,80,.85)'
+              : filled > 0
+                ? 'rgba(150,110,50,.75)'
+                : 'rgba(130,115,100,.4)'
+          return `<button class="nav-btn ${isActive ? 'active' : ''}" onclick="setActiveSection('${section.id}')"
       style="display:flex;align-items:center;gap:10px;padding:10px 14px;border:none;border-left:2px solid transparent;border-radius:0 8px 8px 0;background:transparent;color:${isActive ? '#4a3a2e' : 'rgba(100,85,70,.55)'};cursor:pointer;transition:all .25s ease;text-align:left;font-family:'Quicksand',sans-serif;font-size:.85rem;font-weight:${isActive ? 600 : 400};width:100%">
       <span style="font-size:1.1rem;width:24px;text-align:center">${section.icon}</span>
       <span style="flex:1">${section.title}</span>
       <span style="font-size:.65rem;padding:2px 6px;border-radius:10px;background:${bgColor};color:${textColor}">${filled}/${total}</span>
-    </button>`;
-  }).join('');
+    </button>`
+        }).join('')
 
-  // Mood board nav button
-  const mbActive = state.activeSection === "moodboard";
-  navHtml += `<div style="height:8px"></div>
+        // Mood board nav button
+        const mbActive = state.activeSection === 'moodboard'
+        navHtml += `<div style="height:8px"></div>
     <button class="nav-btn ${mbActive ? 'active' : ''}" onclick="setActiveSection('moodboard')"
       style="display:flex;align-items:center;gap:10px;padding:10px 14px;border:none;border-left:2px solid transparent;border-radius:0 8px 8px 0;background:transparent;color:${mbActive ? '#4a3a2e' : 'rgba(100,85,70,.55)'};cursor:pointer;transition:all .25s ease;text-align:left;font-family:'Quicksand',sans-serif;font-size:.85rem;font-weight:${mbActive ? 600 : 400};width:100%">
       <span style="font-size:1.1rem;width:24px;text-align:center">\uD83D\uDDBC\uFE0F</span>
       <span style="flex:1">Mood Board</span>
       <span style="font-size:.65rem;padding:2px 6px;border-radius:10px;background:${totalImages > 0 ? 'rgba(180,140,80,.1)' : 'rgba(140,130,120,.06)'};color:${totalImages > 0 ? 'rgba(150,110,50,.75)' : 'rgba(130,115,100,.4)'}">${totalImages}</span>
-    </button>`;
+    </button>`
 
-  // Bottom actions
-  navHtml += `<div style="flex:1"></div>
+        // Bottom actions
+        navHtml += `<div style="flex:1"></div>
     <div style="display:flex;flex-direction:column;gap:6px;padding:12px 4px 4px;border-top:1px solid rgba(160,130,140,.08);margin-top:8px">
       <button class="action-btn" onclick="handleExport()" style="padding:8px 14px;border:1px solid rgba(150,130,120,.2);border-radius:8px;background:rgba(150,130,120,.05);color:rgba(90,75,60,.65);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.78rem;transition:all .2s ease">\uD83D\uDCC4 Export as Text</button>
       <button class="action-btn" onclick="handleReset()" style="padding:8px 14px;border:1px solid rgba(180,110,110,.18);border-radius:8px;background:transparent;color:rgba(160,100,100,.5);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.72rem;transition:all .2s ease">Reset All</button>
-    </div>`;
+    </div>`
 
-  // Build main content
-  let mainHtml = '';
+        // Build main content
+        let mainHtml = ''
 
-  if (state.activeSection === "moodboard") {
-    // Mood board
-    let catButtons = MOOD_CATEGORIES.map(cat => {
-      const isActive = state.activeMoodCat === cat.id;
-      const count = (state.moodBoard[cat.id] || []).length;
-      return `<button onclick="state.activeMoodCat='${cat.id}';render()"
+        if (state.activeSection === 'moodboard') {
+          // Mood board
+          let catButtons = MOOD_CATEGORIES.map((cat) => {
+            const isActive = state.activeMoodCat === cat.id
+            const count = (state.moodBoard[cat.id] || []).length
+            return `<button onclick="state.activeMoodCat='${cat.id}';render()"
         style="padding:8px 16px;border:1px solid ${isActive ? 'rgba(150,120,130,.4)' : 'rgba(180,170,160,.25)'};border-radius:20px;background:${isActive ? 'rgba(150,120,130,.1)' : 'rgba(255,252,248,.7)'};color:${isActive ? '#4a3a2e' : 'rgba(100,85,70,.5)'};cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.8rem;font-weight:${isActive ? 600 : 400};transition:all .2s ease">
         ${cat.icon} ${cat.label} ${count > 0 ? '<span style="margin-left:4px;opacity:.5">(' + count + ')</span>' : ''}
-      </button>`;
-    }).join('');
+      </button>`
+          }).join('')
 
-    const images = state.moodBoard[state.activeMoodCat] || [];
-    let imagesHtml = images.map((img, idx) => `
-      <div class="prompt-card" style="animation-delay:${idx * .05}s;opacity:0;background:rgba(255,252,248,.7);border:1px solid rgba(160,130,140,.18);border-radius:12px;overflow:hidden">
+          const images = state.moodBoard[state.activeMoodCat] || []
+          let imagesHtml = images
+            .map(
+              (img, idx) => `
+      <div class="prompt-card" style="animation-delay:${idx * 0.05}s;opacity:0;background:rgba(255,252,248,.7);border:1px solid rgba(160,130,140,.18);border-radius:12px;overflow:hidden">
         <div style="position:relative;padding-top:100%;overflow:hidden">
           <img src="${img.src}" alt="${escapeHtml(img.label)}" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover" />
           <button onclick="removeImage('${state.activeMoodCat}',${img.id})"
@@ -1124,15 +1707,17 @@ function render() {
             style="width:100%;min-height:50px;border:none;background:transparent;color:rgba(90,75,60,.7);font-family:'Quicksand',sans-serif;font-size:.75rem;line-height:1.5;padding:6px 0;resize:none;outline:none;box-sizing:border-box">${escapeHtml(img.note || '')}</textarea>
         </div>
       </div>
-    `).join('');
+    `,
+            )
+            .join('')
 
-    if (images.length === 0) {
-      imagesHtml = `<div style="text-align:center;padding:60px 20px;color:rgba(120,100,85,.3);font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:1.1rem;grid-column:1/-1">
+          if (images.length === 0) {
+            imagesHtml = `<div style="text-align:center;padding:60px 20px;color:rgba(120,100,85,.3);font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:1.1rem;grid-column:1/-1">
         No visions yet... upload images to begin
-      </div>`;
-    }
+      </div>`
+          }
 
-    mainHtml = `
+          mainHtml = `
       <div style="animation:fadeIn .5s ease">
         <div style="margin-bottom:32px">
           <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:6px">
@@ -1147,40 +1732,40 @@ function render() {
           <input type="file" id="file-input" accept="image/*" multiple onchange="handleImageUpload(event)" style="display:none" />
           <button onclick="document.getElementById('file-input').click()" class="action-btn"
             style="padding:12px 24px;border:2px dashed rgba(150,130,120,.3);border-radius:12px;background:rgba(255,252,248,.5);color:rgba(100,85,70,.6);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.85rem;transition:all .2s ease;width:100%;max-width:720px">
-            + Add images to ${MOOD_CATEGORIES.find(c => c.id === state.activeMoodCat)?.label}
+            + Add images to ${MOOD_CATEGORIES.find((c) => c.id === state.activeMoodCat)?.label}
           </button>
         </div>
         <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;max-width:900px">${imagesHtml}</div>
-      </div>`;
+      </div>`
+        } else if (currentSection) {
+          // Regular section
+          const sectionWordCount = state.wordCounts[state.activeSection] || 0
 
-  } else if (currentSection) {
-    // Regular section
-    const sectionWordCount = state.wordCounts[state.activeSection] || 0;
+          let promptsHtml = currentSection.prompts
+            .map((prompt, index) => {
+              const key = `${currentSection.id}-${prompt.id}`
+              const value = state.entries[key] || ''
+              const hasContent = value.trim().length > 0
+              const isExpanded = state.expandedPrompt === key || hasContent
+              const words = value.trim() ? value.trim().split(/\s+/).length : 0
 
-    let promptsHtml = currentSection.prompts.map((prompt, index) => {
-      const key = `${currentSection.id}-${prompt.id}`;
-      const value = state.entries[key] || "";
-      const hasContent = value.trim().length > 0;
-      const isExpanded = state.expandedPrompt === key || hasContent;
-      const words = value.trim() ? value.trim().split(/\s+/).length : 0;
-
-      let expandedContent = '';
-      if (isExpanded) {
-        expandedContent = `
+              let expandedContent = ''
+              if (isExpanded) {
+                expandedContent = `
           <div style="padding:0 18px 16px">
             <textarea id="ta-${key}" class="entry-textarea"
               oninput="handleEntryChange('${currentSection.id}','${prompt.id}',this.value);autoResize(this)"
               placeholder="${escapeHtml(prompt.placeholder)}"
               style="width:100%;min-height:100px;padding:14px 16px;border:1px solid rgba(180,170,160,.3);border-radius:8px;background:rgba(255,255,252,.6);color:#4a3a2e;font-family:'Quicksand',sans-serif;font-size:.88rem;line-height:1.7;resize:none;overflow:hidden;transition:border-color .3s ease,box-shadow .3s ease;box-sizing:border-box">${escapeHtml(value)}</textarea>
             <div id="wc-${key}" style="margin-top:6px;font-size:.65rem;color:rgba(110,95,80,.4);text-align:right;${hasContent ? '' : 'display:none'}">${words} words</div>
-          </div>`;
-      }
+          </div>`
+              }
 
-      const cardStyle = hasContent
-        ? `animation:fadeIn .4s ease ${index * .07}s forwards, pulseGlow 4s ease-in-out infinite;opacity:0`
-        : `animation-delay:${index * .07}s;opacity:0`;
+              const cardStyle = hasContent
+                ? `animation:fadeIn .4s ease ${index * 0.07}s forwards, pulseGlow 4s ease-in-out infinite;opacity:0`
+                : `animation-delay:${index * 0.07}s;opacity:0`
 
-      return `
+              return `
         <div class="prompt-card" style="${cardStyle};background:rgba(255,252,248,.7);border:1px solid ${hasContent ? 'rgba(160,130,140,.18)' : 'rgba(185,175,165,.25)'};border-radius:12px;overflow:hidden;transition:border-color .3s ease">
           <button onclick="togglePrompt('${key}')" style="width:100%;display:flex;align-items:center;gap:10px;padding:14px 18px;border:none;background:transparent;cursor:pointer;color:${hasContent ? '#4a3a2e' : 'rgba(100,85,70,.5)'};font-family:'Cormorant Garamond',Georgia,serif;font-size:1.05rem;font-weight:500;text-align:left">
             <span style="width:8px;height:8px;border-radius:50%;background:${hasContent ? 'rgba(90,150,110,.6)' : 'rgba(180,170,160,.3)'};flex-shrink:0;transition:background .3s ease"></span>
@@ -1188,18 +1773,19 @@ function render() {
             <span style="font-size:.7rem;color:rgba(120,100,85,.3);transform:${isExpanded ? 'rotate(180deg)' : 'rotate(0)'};transition:transform .25s ease">\u25BC</span>
           </button>
           ${expandedContent}
-        </div>`;
-    }).join('');
+        </div>`
+            })
+            .join('')
 
-    // Prev/next buttons
-    let prevBtn = prev
-      ? `<button class="action-btn" onclick="setActiveSection('${prev.id}')" style="padding:8px 16px;border:1px solid rgba(150,130,120,.18);border-radius:8px;background:transparent;color:rgba(100,85,70,.5);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.8rem;transition:all .2s ease">\u2190 ${prev.icon} ${prev.title}</button>`
-      : '<div></div>';
-    let nextBtn = next
-      ? `<button class="action-btn" onclick="setActiveSection('${next.id}')" style="padding:8px 16px;border:1px solid rgba(150,130,120,.18);border-radius:8px;background:transparent;color:rgba(100,85,70,.5);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.8rem;transition:all .2s ease">${next.icon} ${next.title} \u2192</button>`
-      : '<div></div>';
+          // Prev/next buttons
+          let prevBtn = prev
+            ? `<button class="action-btn" onclick="setActiveSection('${prev.id}')" style="padding:8px 16px;border:1px solid rgba(150,130,120,.18);border-radius:8px;background:transparent;color:rgba(100,85,70,.5);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.8rem;transition:all .2s ease">\u2190 ${prev.icon} ${prev.title}</button>`
+            : '<div></div>'
+          let nextBtn = next
+            ? `<button class="action-btn" onclick="setActiveSection('${next.id}')" style="padding:8px 16px;border:1px solid rgba(150,130,120,.18);border-radius:8px;background:transparent;color:rgba(100,85,70,.5);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.8rem;transition:all .2s ease">${next.icon} ${next.title} \u2192</button>`
+            : '<div></div>'
 
-    mainHtml = `
+          mainHtml = `
       <div style="margin-bottom:32px;animation:fadeIn .5s ease">
         <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:6px">
           <span style="font-size:2rem">${currentSection.icon}</span>
@@ -1212,19 +1798,19 @@ function render() {
       <div style="display:flex;flex-direction:column;gap:16px;max-width:720px">${promptsHtml}</div>
       <div style="display:flex;justify-content:space-between;margin-top:40px;padding:20px 0;border-top:1px solid rgba(160,130,140,.06);max-width:720px">
         ${prevBtn}${nextBtn}
-      </div>`;
-  }
+      </div>`
+        }
 
-  // Assemble the full layout
-  const app = document.getElementById('app');
-  const loadingEl = document.getElementById('loading');
-  if (loadingEl) loadingEl.remove();
+        // Assemble the full layout
+        const app = document.getElementById('app')
+        const loadingEl = document.getElementById('loading')
+        if (loadingEl) loadingEl.remove()
 
-  // Only rebuild if we need to (check if layout exists)
-  let layoutEl = document.getElementById('layout');
-  if (!layoutEl) {
-    // First render — create layout structure
-    const layoutHtml = `
+        // Only rebuild if we need to (check if layout exists)
+        let layoutEl = document.getElementById('layout')
+        if (!layoutEl) {
+          // First render — create layout structure
+          const layoutHtml = `
       <header>
         <button class="menu-btn" onclick="toggleSidebar()">\u2630</button>
         <div style="flex:1">
@@ -1241,48 +1827,49 @@ function render() {
       <div class="content-wrapper">
         <nav class="sidebar ${state.sidebarOpen ? 'open' : ''}" id="sidebar-nav">${navHtml}</nav>
         <main id="main-content">${mainHtml}</main>
-      </div>`;
+      </div>`
 
-    // Remove floating orbs temporarily, insert layout, re-add orbs
-    app.insertAdjacentHTML('beforeend', `<div id="layout">${layoutHtml}</div>`);
-    layoutEl = document.getElementById('layout');
-    layoutEl.style.display = 'flex';
-    layoutEl.style.flexDirection = 'column';
-    layoutEl.style.flex = '1';
-    layoutEl.style.height = '100%';
-    layoutEl.style.overflow = 'hidden';
-    layoutEl.style.position = 'relative';
-    layoutEl.style.zIndex = '1';
-  } else {
-    // Update existing layout
-    document.getElementById('sidebar-nav').innerHTML = navHtml;
-    document.getElementById('main-content').innerHTML = mainHtml;
-    document.getElementById('total-words').textContent = totalWords.toLocaleString() + " words";
-    document.getElementById('total-filled').textContent = totalFilled + "/" + totalPrompts + " entries";
+          // Remove floating orbs temporarily, insert layout, re-add orbs
+          app.insertAdjacentHTML(
+            'beforeend',
+            `<div id="layout">${layoutHtml}</div>`,
+          )
+          layoutEl = document.getElementById('layout')
+        } else {
+          // Update existing layout
+          document.getElementById('sidebar-nav').innerHTML = navHtml
+          document.getElementById('main-content').innerHTML = mainHtml
+          document.getElementById('total-words').textContent =
+            totalWords.toLocaleString() + ' words'
+          document.getElementById('total-filled').textContent =
+            totalFilled + '/' + totalPrompts + ' entries'
 
-    // Update sidebar classes
-    const sidebar = document.getElementById('sidebar-nav');
-    sidebar.className = `sidebar ${state.sidebarOpen ? 'open' : ''}`;
-    const overlay = document.querySelector('.sidebar-overlay');
-    if (overlay) overlay.className = `sidebar-overlay ${state.sidebarOpen ? 'active' : ''}`;
-  }
+          // Update sidebar classes
+          const sidebar = document.getElementById('sidebar-nav')
+          sidebar.className = `sidebar ${state.sidebarOpen ? 'open' : ''}`
+          const overlay = document.querySelector('.sidebar-overlay')
+          if (overlay)
+            overlay.className = `sidebar-overlay ${state.sidebarOpen ? 'active' : ''}`
+        }
 
-  // Save indicator
-  const saveEl = document.getElementById('save-indicator');
-  if (saveEl) {
-    saveEl.innerHTML = state.saving ? '<span class="save-indicator" style="font-size:.65rem;color:rgba(90,140,100,.8);animation:savePulse .8s ease forwards">saved \u2713</span>' : '';
-  }
+        // Save indicator
+        const saveEl = document.getElementById('save-indicator')
+        if (saveEl) {
+          saveEl.innerHTML = state.saving
+            ? '<span class="save-indicator" style="font-size:.65rem;color:rgba(90,140,100,.8);animation:savePulse .8s ease forwards">saved \u2713</span>'
+            : ''
+        }
 
-  // Auto-resize textareas
-  setTimeout(() => {
-    document.querySelectorAll('.entry-textarea').forEach(autoResize);
-  }, 50);
-}
+        // Auto-resize textareas
+        setTimeout(() => {
+          document.querySelectorAll('.entry-textarea').forEach(autoResize)
+        }, 50)
+      }
 
-// ═══════════════════════════════════════
-// INIT
-// ═══════════════════════════════════════
-window.addEventListener('DOMContentLoaded', loadData);
-</script>
-</body>
+      // ═══════════════════════════════════════
+      // INIT
+      // ═══════════════════════════════════════
+      window.addEventListener('DOMContentLoaded', loadData)
+    </script>
+  </body>
 </html>
