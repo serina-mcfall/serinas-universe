@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The World Bible — A Universe Awaits</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    min-height: 100vh;
+    background: linear-gradient(170deg, #f5efe6 0%, #ebe3d7 40%, #f0e8dc 100%);
+    font-family: 'Quicksand', 'Segoe UI', sans-serif;
+    color: #5a4a3a;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  @keyframes float { 0%,100%{transform:translateY(0) rotate(0);opacity:.3} 50%{transform:translateY(-20px) rotate(5deg);opacity:.5} }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:translateY(0)} }
+  @keyframes pulseGlow { 0%,100%{box-shadow:0 0 8px rgba(160,120,140,.06)} 50%{box-shadow:0 0 16px rgba(160,120,140,.12)} }
+  @keyframes savePulse { 0%{opacity:1} 100%{opacity:0} }
+
+  textarea:focus { outline:none; border-color:rgba(150,120,130,.4)!important; box-shadow:0 0 0 2px rgba(150,120,130,.1),inset 0 1px 3px rgba(0,0,0,.03)!important; }
+  textarea::placeholder { color:rgba(120,100,85,.38); font-style:italic; }
+  textarea::-webkit-scrollbar { width:6px; }
+  textarea::-webkit-scrollbar-track { background:transparent; }
+  textarea::-webkit-scrollbar-thumb { background:rgba(150,130,120,.2); border-radius:3px; }
+
+  .nav-btn:hover { background:rgba(150,120,130,.08)!important; transform:translateX(3px); }
+  .nav-btn.active { background:rgba(150,120,130,.1)!important; border-left-color:rgba(170,120,140,.5)!important; }
+  .prompt-card { animation:fadeIn .4s ease forwards; }
+  .action-btn:hover { background:rgba(150,120,130,.1)!important; transform:translateY(-1px); }
+
+  .app-container { display:flex; flex-direction:column; min-height:100vh; position:relative; overflow:hidden; }
+  .floating-orb { position:fixed; border-radius:50% 0 50% 0; pointer-events:none; z-index:0; }
+
+  header { padding:24px 28px 20px; border-bottom:1px solid rgba(160,130,140,.12); position:relative; z-index:10; display:flex; align-items:center; gap:16px; flex-shrink:0; background:linear-gradient(170deg, #f5efe6 0%, #ebe3d7 40%, #f0e8dc 100%); }
+  header h1 { font-family:'Cormorant Garamond',Georgia,serif; font-size:clamp(1.5rem,4vw,2.2rem); font-weight:500; color:#4a3a2e; letter-spacing:.05em; }
+  header .subtitle { font-family:'Cormorant Garamond',Georgia,serif; font-size:.95rem; font-style:italic; color:rgba(100,80,65,.45); margin-top:4px; }
+
+  .content-wrapper { display:flex; flex:1; overflow:hidden; position:relative; z-index:5; }
+
+  nav.sidebar { width:240px; min-width:240px; border-right:1px solid rgba(160,130,140,.08); padding:16px 12px; display:flex; flex-direction:column; gap:4px; overflow-y:auto; background:linear-gradient(170deg, #f5efe6 0%, #ebe3d7 40%, #f0e8dc 100%); }
+
+  main { flex:1; overflow-y:auto; padding:clamp(20px,4vw,40px); }
+
+  .save-indicator { position:absolute; top:-18px; right:0; font-size:.65rem; color:rgba(90,140,100,.8); animation:savePulse .8s ease forwards; }
+
+  .menu-btn { display:none; background:none; border:1px solid rgba(150,130,120,.25); color:#5a4a3a; font-size:1.3rem; padding:6px 10px; border-radius:8px; cursor:pointer; }
+
+  .sidebar-overlay { display:none; }
+
+  @media(max-width:768px) {
+    .menu-btn { display:block; }
+    nav.sidebar {
+      position:fixed; top:0; left:-260px; bottom:0; z-index:95;
+      transition:left .3s ease; padding-top:80px;
+    }
+    nav.sidebar.open { left:0; }
+    .sidebar-overlay.active { display:block; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,.15); z-index:90; }
+  }
+</style>
+</head>
+<body>
+<div class="app-container" id="app">
+  <!-- Floating orbs (decorative) -->
+  <div class="floating-orb" style="width:12px;height:12px;background:radial-gradient(circle,rgba(200,150,160,.25),rgba(200,150,160,.05));top:10%;left:5%;animation:float 4s ease-in-out infinite;animation-delay:0s"></div>
+  <div class="floating-orb" style="width:16px;height:16px;background:radial-gradient(circle,rgba(150,180,170,.2),rgba(150,180,170,.04));top:24%;left:21%;animation:float 5.5s ease-in-out infinite;animation-delay:.8s"></div>
+  <div class="floating-orb" style="width:20px;height:20px;background:radial-gradient(circle,rgba(200,150,160,.25),rgba(200,150,160,.05));top:38%;left:37%;animation:float 7s ease-in-out infinite;animation-delay:1.6s"></div>
+  <div class="floating-orb" style="width:24px;height:24px;background:radial-gradient(circle,rgba(150,180,170,.2),rgba(150,180,170,.04));top:52%;left:53%;animation:float 8.5s ease-in-out infinite;animation-delay:2.4s"></div>
+  <div class="floating-orb" style="width:28px;height:28px;background:radial-gradient(circle,rgba(200,150,160,.25),rgba(200,150,160,.05));top:66%;left:69%;animation:float 10s ease-in-out infinite;animation-delay:3.2s"></div>
+  <div class="floating-orb" style="width:32px;height:32px;background:radial-gradient(circle,rgba(150,180,170,.2),rgba(150,180,170,.04));top:80%;left:85%;animation:float 11.5s ease-in-out infinite;animation-delay:4s"></div>
+
+  <!-- Loading screen -->
+  <div id="loading" style="min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',Georgia,serif;color:#6b5a4a">
+    <p style="font-size:1.3rem;font-style:italic;opacity:.7">Unrolling the scroll...</p>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════
+
+const SECTIONS = [
+  {
+    id: "land",
+    title: "The Land",
+    icon: "\u26F0\uFE0F",
+    subtitle: "Where the ground remembers",
+    description: "Maps, regions, climates, cities, villages, ruins, sacred places. What does the ground feel like under your feet?",
+    prompts: [
+      { id: "regions", label: "Regions & Realms", placeholder: "Name your lands \u2014 the kingdoms, the wilds, the forgotten places. What makes each one distinct?" },
+      { id: "climate", label: "Climate & Seasons", placeholder: "Is there eternal winter in the north? Do the seasons follow the moon? Does the weather have a mind of its own?" },
+      { id: "cities", label: "Cities & Settlements", placeholder: "Where do people gather? Describe the great cities, the hidden villages, the ruins no one dares enter..." },
+      { id: "sacred", label: "Sacred & Cursed Places", placeholder: "Where do people go to pray? Where do they refuse to go? What places hold power \u2014 or memory?" },
+      { id: "natural", label: "Rivers, Mountains & Wilds", placeholder: "The bones of the world \u2014 the rivers that divide nations, the mountains that touch the heavens, the forests that whisper..." },
+      { id: "senses", label: "The Senses of This Land", placeholder: "Close your eyes. What does this world smell like? What\u2019s the first sound you hear? What does the air taste like?" },
+    ],
+  },
+  {
+    id: "history",
+    title: "The History",
+    icon: "\uD83D\uDCDC",
+    subtitle: "What the elders whisper",
+    description: "The big events that shaped everything. Wars, discoveries, fallen kingdoms, ancient promises. The stuff people whisper about in taverns.",
+    prompts: [
+      { id: "ages", label: "Ages & Eras", placeholder: "How do the people of this world divide their history? What do they call the great ages?" },
+      { id: "wars", label: "Wars & Conflicts", placeholder: "What battles changed the shape of the world? Who won? Who lost? What was the cost?" },
+      { id: "turning", label: "Turning Points", placeholder: "The moments where everything shifted \u2014 a discovery, a betrayal, a birth, a death, a door that opened..." },
+      { id: "fallen", label: "Fallen Kingdoms & Lost Things", placeholder: "What once existed that is now gone? What do people mourn? What do they search for?" },
+      { id: "secrets", label: "Hidden History", placeholder: "What really happened? What does the official story leave out? Who knows the truth?" },
+      { id: "legends", label: "Legends & Tavern Tales", placeholder: "What stories do ordinary people tell each other? What do children hear at bedtime? What do drunks argue about?" },
+    ],
+  },
+  {
+    id: "magic",
+    title: "The Magic",
+    icon: "\u2728",
+    subtitle: "What flows beneath the surface",
+    description: "How it works, what it costs, who can use it, what the limits are. Every great magic system has a price.",
+    prompts: [
+      { id: "source", label: "Source & Nature", placeholder: "Where does magic come from? Is it in the blood? The land? The stars? Is it alive?" },
+      { id: "rules", label: "Rules & Limits", placeholder: "What can magic do? What can\u2019t it do? What happens when someone pushes too far?" },
+      { id: "cost", label: "The Price", placeholder: "Every great magic system has a cost. What does using magic take from you? Energy? Memory? Years of your life?" },
+      { id: "users", label: "Who Wields It", placeholder: "Who can use magic? Is it rare or common? Inherited or learned? Are there ranks or levels?" },
+      { id: "forbidden", label: "Forbidden Arts", placeholder: "What magic is banned? What happens to those who use it? Why is it forbidden \u2014 and is the reason true?" },
+      { id: "artifacts", label: "Magical Objects & Places", placeholder: "What objects hold power? Are there enchanted weapons, ancient relics, cursed jewellery? Where are they now?" },
+    ],
+  },
+  {
+    id: "power",
+    title: "The Power",
+    icon: "\uD83D\uDC51",
+    subtitle: "Who holds the throne \u2014 and who wants it",
+    description: "Governments, factions, alliances, rivalries. Who holds power and who\u2019s trying to take it?",
+    prompts: [
+      { id: "rulers", label: "Rulers & Governments", placeholder: "Who rules? How did they get power? Is it a monarchy, a council, an empire, something stranger?" },
+      { id: "factions", label: "Factions & Alliances", placeholder: "What groups compete for influence? Secret societies, noble houses, merchant guilds, rebel movements?" },
+      { id: "laws", label: "Laws & Justice", placeholder: "How is justice served? Is it fair? Who makes the laws and who enforces them?" },
+      { id: "conflict", label: "Current Tensions", placeholder: "What\u2019s about to break? Where are the cracks in the system? Who is angry, and why?" },
+      { id: "economy", label: "Trade & Economy", placeholder: "What do people trade? What\u2019s valuable? Is there currency? Who controls the wealth?" },
+      { id: "shadows", label: "The Shadow Powers", placeholder: "Who really pulls the strings? What happens behind closed doors? Who has power that no one talks about?" },
+    ],
+  },
+  {
+    id: "people",
+    title: "The People",
+    icon: "\uD83C\uDFEE",
+    subtitle: "The heartbeat of the world",
+    description: "Cultures, traditions, languages, food, clothing, beliefs. What do people celebrate? What do they fear?",
+    prompts: [
+      { id: "cultures", label: "Cultures & Peoples", placeholder: "Who lives in this world? What makes each culture unique \u2014 their values, their way of seeing the world?" },
+      { id: "traditions", label: "Traditions & Celebrations", placeholder: "What festivals light up the calendar? What rituals mark birth, death, marriage, coming of age?" },
+      { id: "food", label: "Food & Daily Life", placeholder: "What do people eat? What does a market smell like? What does an ordinary day look like?" },
+      { id: "clothing", label: "Clothing & Adornment", placeholder: "What do people wear? Does clothing show status, region, profession, belief? What fabrics, what colours?" },
+      { id: "language", label: "Language & Communication", placeholder: "How do people speak? Are there multiple languages? Slang? Forbidden words? How do they write?" },
+      { id: "fears", label: "Taboos & Fears", placeholder: "What do people in this world fear most? What subjects are never spoken of? What superstitions guide their choices?" },
+    ],
+  },
+  {
+    id: "gods",
+    title: "The Gods & Myths",
+    icon: "\uD83C\uDF19",
+    subtitle: "What the world believes",
+    description: "What do people in this world believe? What stories do THEY tell each other?",
+    prompts: [
+      { id: "deities", label: "Gods & Spirits", placeholder: "Who or what do people worship? Are the gods real? Distant? Sleeping? Walking among mortals?" },
+      { id: "creation", label: "Creation Myths", placeholder: "How do people believe the world began? Is there more than one version of the story?" },
+      { id: "afterlife", label: "Death & the Afterlife", placeholder: "What happens when you die? Is there a heaven, a cycle of rebirth, a river to cross, nothing at all?" },
+      { id: "prophecy", label: "Prophecies & Omens", placeholder: "Are there prophecies? Who speaks them? Do people believe them? What signs do people watch for?" },
+      { id: "temples", label: "Temples & Holy Orders", placeholder: "Where do people go to worship? Who serves the gods? Are there monks, priestesses, wandering sages?" },
+      { id: "heresy", label: "Forbidden Beliefs", placeholder: "What beliefs are dangerous to hold? Who were the heretics? What truths did they know?" },
+    ],
+  },
+  {
+    id: "connections",
+    title: "The Connections",
+    icon: "\uD83D\uDD78\uFE0F",
+    subtitle: "Where stories cross paths",
+    description: "The thread board. Where you track how stories, characters, and events link across your universe.",
+    prompts: [
+      { id: "characters", label: "Characters Who Cross Over", placeholder: "Which characters might appear in more than one story? A merchant who shows up everywhere? A wandering sage?" },
+      { id: "events", label: "Shared Events", placeholder: "What events ripple across multiple stories? A war that everyone experiences differently? A festival?" },
+      { id: "places", label: "Shared Places", placeholder: "What locations appear in multiple stories? The same tavern, the same crossroads, the same haunted ruin?" },
+      { id: "objects", label: "Objects That Travel", placeholder: "Is there a sword, a letter, a jewel, a curse that passes from one story to another?" },
+      { id: "rumours", label: "Rumours & Echoes", placeholder: "What do characters in one story hear about events in another? Rumours, legends, half-truths?" },
+      { id: "timeline", label: "The Timeline", placeholder: "How do your stories sit in time? Which happens first? Do any overlap? What\u2019s the grand order?" },
+    ],
+  },
+];
+
+const MOOD_CATEGORIES = [
+  { id: "characters", label: "Characters", icon: "\uD83D\uDC64" },
+  { id: "locations", label: "Locations & Worlds", icon: "\uD83C\uDFD4\uFE0F" },
+  { id: "artifacts", label: "Artifacts & Objects", icon: "\u2694\uFE0F" },
+  { id: "creatures", label: "Creatures & Gods", icon: "\uD83D\uDC09" },
+  { id: "aesthetic", label: "Aesthetic & Mood", icon: "\uD83C\uDFA8" },
+  { id: "fashion", label: "Fashion & Clothing", icon: "\uD83D\uDC58" },
+];
+
+// Pre-populated entries from world-building sessions
+const INITIAL_ENTRIES = {
+
+  // === THE LAND ===
+  "land-regions": `THE FOUR REALMS
+
+1. AOLI (奥里) — The Breathing Land
+The oldest civilisation. Xianxia / Cultivation lands rooted in Asian history. The land is ALIVE — the air, rivers, mountains, trees, wind all carry memory and magic. The people are deeply in tune with the land and feel something ancient is coming. The trees remember the before, the mountains stand strong to shield those that dwell here. The name Aoli means a breath — the inhale before something vast. Sacred but alive, holding great power and great evil.
+
+THE SIX SECTS OF AOLI:
+• SHĀNSHÍ SECT (山石 — mountain stone) — Earth. Yánlóng's people. Immovable, patient, they listen to the land.
+• SHUǏJÌNG SECT (水静 — water stillness) — Water. Yúnshēng's people. Still surface hiding immense power.
+• FĒNGYǓ SECT (风羽 — wind feather) — Wind. Wénjī's people. Shapeshifters and musicians.
+• FÈNGHUĪ SECT (凤灰 — phoenix ash) — Fire. Fèngzhé's people. Rebirth through burning.
+• HÚNZHĪ SECT (魂织 — soul weave) — Spirit. Mínhuì's people. Veil walkers who weave life and death.
+• SHÍMÒ SECT (蚀没 — erode into oblivion) — Chaos. No god. Unknowingly following Yuèlì's corruption.
+
+2. CAERNDRATH — The Fractured Western Kingdom
+Built on ancient western European culture — swords, thrones, ancient grudges, blood feuds. Only the strong survive. Magic is hoarded by the nobility — common folk born with magic are hunted and killed. Once a great empire ruled by the House of Bannric. The dynasty fractured in a civil war over the throne. Now split into five provinces. The throne has sat empty for centuries. The true Bannric heir Zhúhuǒ is hiding in Aoli's Fènghuī Sect.
+
+THE FIVE PROVINCES OF CAERNDRATH:
+• BRAEDUN — The Wild Crags. Celtic. Riders and druids. The earth twin (immortal child of Yánlóng and Yúnshēng) hides here as the original druid, teaching the old ways. Battle cry: BRAEDUN! They feel the land through druidic magic they refuse to call magic. Rohan-like riders, rough and solid, survivors who rebuilt from nothing.
+• ISENHOLT — The Deep Winter Mountains. Scandinavian. The frozen watch. Beast bonds with direwolves, snow eagles, ice bears. Control the mountain passes where Yánlóng's stone guardians stand. The Wall — grim, hard, loyal beyond death.
+• ARDMERE — The Farmland. English/French. The breadbasket. Slaves and peasants with sleeping druidic earth magic in their blood — the land responds to their touch but they think it's luck. Flowers bloom under their feet, grain grows tall where their tears fall. The nobles profit from stolen magic. A revolution waiting to happen — when these people discover what they are, it won't be swords. It'll be the LAND rising.
+• TYRAMARE — The Coastal Province. Mediterranean (Italian/Greek). Hub of trade. Home of the guilds who ate the empty throne. Merchant republic wearing the corpse of an empire. The guild masters hold meetings in the throne room's shadow. Tyranny of gold. When Zhúhuǒ returns, the guilds' worst nightmare arrives.
+• MARAMIR — The Steppes and Deserts. Middle Eastern/nomadic. Ruled by the Shadow Prince — nobody knows their face or gender. Nomadic, always moving. Mirage magic and assassination. The other provinces hire them for dirty work then pretend they don't exist. You can't fight what you can't see.
+
+3. SOLISÒPIA — The Bridge. The Jeweled Rot.
+Roman/Byzantine inspired. A culture born from the fusion of Aoli and Caerndrath blood through refugee children. Was supposed to bridge two worlds — instead became a pit of excess and indulgence. Think Sodom and Gomorrah. Idols worshipped, money worshipped, pleasure and drink are the lifeblood. Beautiful to behold — glitters like jewels — but a pit waiting to drag you down. This is where Yuèlì's corruption wears the face of EXCESS AND INDULGENCE.
+
+THE HIDDEN FAMILY: In a small house down an alleyway lives the water twin — the immortal daughter of Yánlóng and Yúnshēng — who has been hiding here for centuries, raising generation after generation of descendants, keeping water and song traditions alive while the city drowns in pleasure around her.
+
+4. AURUMSHÌ (金铁) — Gold Iron. The Sky Cities.
+Victorian steampunk with Asian fusion. Floating cities in the clouds powered by — officially — steam. Brass, copper, gaslight, clock towers, gears, airships, cloud trains. Magic is completely outlawed. Founded by the people who drove the gods out — they fled UPWARD out of shame, and over centuries rewrote their guilt as superiority.
+
+THE BLOOD MAGIC SECRET: The ruling class knows the cities aren't powered by steam alone. Blood magic — the darkest magic, the same force the Shímò Sect cultivates — is what keeps the platforms floating. Citizens who show magic don't just get punished — they DISAPPEAR. Harvested. Drained. Human magic turned into fuel. The blood magic also creates a fog that keeps citizens docile, forgetful, unable to question. The whole city is a forgetting machine.
+
+MÍNHUÌ hides here, telling stories nobody remembers, feeling every death in the city as agony through her spirit senses. She has been guarding the prophecy child's bloodline for centuries.
+
+THE PROPHECY CHILD is born here — a direct descendant of the earth twin's bloodline (which was carried here by a lost child found by fleeing merchants). The child carries the blood of BOTH Yánlóng and Yúnshēng. The earth magic in their blood makes them resistant to the forgetting fog. They remember Mínhuì's stories when everyone else forgets.`,
+
+  "land-sacred": `THE MOUNTAIN PASSES — GUARDIANS OF STONE
+Great mountain passes guarded by giant stone statues, similar in grandeur to the Argonath of Middle-earth. These guardians were carved by Yánlóng (the rock dragon god) himself before he went to sleep. They are not mere decoration — they are alive but dormant. As Yánlóng stirs, his stone guardians begin to wake with him. They were placed to protect what lies within the passes — to keep something hidden and add a layer of protection.
+
+THE CAVE OF THE WIND SERPENT
+Hidden cave where Yúnshēng (water dragon goddess) sleeps. Guarded by a wind serpent — Yánlóng's gift to his wife. A being so beautiful that all who look upon her weep. This cave holds the lost name of Yuèlì (the Mother) — the most dangerous word in the world, kept safe in the one place no one would think to look.
+
+THE CAVE OF THE KOI
+Hidden deep in the mountains where Yánlóng sleeps. Guarded by a koi fish — Yúnshēng's gift to her husband. A water creature surrounded by stone, keeping a light alive for his goddess in a place where water has no business being.`,
+
+  "land-natural": `The rivers sing with Yúnshēng — they carry her memory, her presence. The streams whisper her tale.
+
+The trees tell Yánlóng's tale — they remember his path. The ancient forests are his domain.
+
+The mountains watch. They are the bones of the world, and the stone guardians carved by Yánlóng stand sentinel at the great passes.
+
+When the prophecy child is born: the trees will dance, the rivers will sing, the mountains will watch, the world will know. And deep below, the sealed Mother will stir, knowing its time has come.`,
+
+  // === THE HISTORY ===
+  "history-ages": `THE TWO PRIMORDIALS
+Before all else, two forces came into existence simultaneously — Mùjīn (暮金 — sunset gold, the Father, Fate) and Yuèlì (月丽 — moon beauty, the Mother, Chaos). Yin and yang. Sun and moon. Golden dragon and black nine-tailed fox. Born in the same moment at the beginning of time. When the universe decided there would be a future that could be seen and foretold, it simultaneously created the force that would try to unravel that future. You cannot have one without the other. They are married. He is the setting sun, she is the rising moon. The moment of dusk is where they meet.
+
+THE BIRTH OF THE YOUNG GODS
+The young gods were born FROM Mùjīn and Yuèlì — they are their children. Every young god carries both inside them: a bit of Fate's purpose and a bit of Chaos's wildness. This is why they were so curious. This is why they explored where they shouldn't have. Three of the young gods are foxes (Wénjī, Mínhuì) — they take after their Mother Yuèlì's favoured form, the nine-tailed black fox.
+
+THE AGE OF INNOCENCE
+The world was new. The young gods explored, curious and unknowing. Yuèlì (the Mother) was not yet evil — she was creation through beautiful disorder. Birth itself is chaos — messy, painful, beautiful.
+
+THE CORRUPTION OF THE MOTHER
+Over time, humanity's greed, ambition, and inherent darkness fed back into Yuèlì. She is connected to everything — in every crack, every heart, every shadow. All that mortal darkness poured into her century after century until the mother who created with love began to destroy with hunger. She was not born evil. She became it.
+
+THE GREAT BREAKING
+The young gods stumbled into their own Mother and didn't recognise her anymore. Yuèlì was so corrupted that her own children saw her as the enemy. They could not defeat her. The cost was great and the world that was just beginning was destroyed. The people blamed the gods and drove them out. Before they left, the gods sealed Yuèlì and two of them (Yánlóng and Yúnshēng) were hidden away to sleep. Mùjīn watched his children seal his wife and whispered a prophecy instead of intervening.
+
+THE SCATTERING
+The young gods were exiled. Wénjī wandered. Fèngzhé eventually buried himself inside the Bannric bloodline. Mínhuì chose to hide in Aurumshì to await the prophecy. The other gods scattered to unknown places.
+
+THE FLIGHT UPWARD
+The people who drove the gods out were consumed by guilt and terror. They fled UPWARD, building cities in the sky — as far from the ground as possible. They outlawed magic because it reminded them of what they'd done. Over centuries, shame became pride and guilt became superiority. They became Aurumshì — and secretly powered their cities with blood magic, the darkest art.`,
+
+  "history-turning": `THE CORRUPTION OF YUÈLÌ
+The moment humanity's darkness tipped the balance and Yuèlì — the Mother of all gods, the beautiful black fox — began to turn. This was not a single event but a slow poison across centuries.
+
+THE GREAT BREAKING
+The young gods accidentally confronted their corrupted Mother and could not defeat her. They sealed Yuèlì — children locking away their own mother because they didn't know how to save her. Mùjīn watched and whispered a prophecy instead of acting. The people blamed the gods and drove them out.
+
+THE BANNRIC CIVIL WAR
+The great empire of Caerndrath, ruled by the House of Bannric (who have Aoli blood), was torn apart by a civil war over the throne. The dynasty fractured, splitting the kingdom into five provinces. The throne has sat empty for centuries since. The civil war may have been influenced by the ancient evil — greed and blood are Chaos's face in Caerndrath.
+
+THE HIDING OF MÍNHUÌ
+When Mùjīn whispered the prophecy, the spirit fox Mínhuì was the one who received it. She made a plan — let everyone think she was exiled, then walked into Aurumshì, the one place no god would ever go. She dimmed her divinity and waited centuries for the prophecy child to be born. She tells stories on street corners — young storyteller one decade, old woman the next — but the blood magic fog makes everyone forget. She feels every death in the city as agony through her spirit senses.`,
+
+  "history-fallen": `THE HOUSE OF BANNRIC
+Once the ruling dynasty of all Caerndrath. Originally from Aoli — they have Old World blood. Their civil war shattered the empire into five provinces (Braedun, Isenholt, Ardmere, Tyramare, Maramir). The throne sits empty in Tyramare — the original seat of power. The true heir, Zhúhuǒ, is hiding in Aoli's Fènghuī Sect. He carries the phoenix god Fèngzhé buried inside him.
+
+THE LOST NAME OF YUÈLÌ
+The Mother's true name — Yuèlì (月丽 — moon beauty) — was deliberately forgotten by every culture. Each forgot in their own way:
+• Aoli — the elders deliberately struck the name from their records
+• Caerndrath — it became a ghost story that lost its details over centuries of retelling
+• Solisòpia — they buried it under layers of pleasure and distraction
+• Aurumshì — they say it never existed at all
+
+The name survives in only one place: the cave of the wind serpent. Speaking the name — Yuèlì — may be what REMINDS the Mother who she was before the corruption. Moon beauty. The name the world forgot on purpose. It may be the key to saving her, not destroying her.
+
+THE SEVERED CONNECTION
+When the gods of Wind, Fire, and Spirit were exiled, their sects (Fēngyǔ, Fènghuī, Húnzhī) lost the deep divine connection. Unlike Shānshí and Shuǐjìng (whose gods remain sleeping in Aoli), these sects only have books and scrolls. The Shímò Sect never had a god — they follow Yuèlì's corruption without knowing it. The ancient knowing was severed when the gods left.`,
+
+  "history-secrets": `THE SLEEPING GODS
+The people drove the gods out, but two were hidden away — secreted to sleep until the world needed them again. Yúnshēng sleeps in a hidden cave guarded by a wind serpent. Yánlóng sleeps deep in the mountains guarded by a koi fish. They are married but separated by duty and sacrifice.
+
+THE TRUE NATURE OF EVIL
+The great evil sealed below is not a monster — it is YUÈLÌ (月丽 — moon beauty), the Mother of the gods. The beautiful black nine-tailed fox, corrupted by humanity's darkness over centuries. The ultimate truth of this universe: the sealed evil is a mother who needs to be saved, not a monster who needs to be killed. This is the deepest secret — the journey of every story leads here.
+
+THE FATHER'S GAME
+Mùjīn (暮金 — sunset gold, the golden dragon) whispered the prophecy not to destroy Yuèlì but to SAVE her. He wants the mother of his children back. Every piece he set on the board — the sleeping gods, the prophecy child, Mínhuì waiting in Aurumshì — it's all one desperate father trying to rescue the woman he was born alongside. Every sunset is him handing the sky to his wife. Every dusk a love letter she can no longer read.
+
+But Yuèlì's corruption has been making moves too. The Bannric civil war. The corruption spreading through all four cultures. The Shímò Sect growing hungrier. The blood magic powering Aurumshì. The excess drowning Solisòpia. Mùjīn and the corruption are playing each other — the oldest game in existence — and everyone else is a piece on the board.
+
+MÍNHUÌ'S SECRET
+The spirit fox god did not flee into exile. She received the prophecy from her father Mùjīn, understood it, and deliberately hid herself in Aurumshì — the place that outlawed magic — to await and protect the prophecy child. She is the architect of the prophecy's fulfilment. Even her sister Wénjī may not know where she is. She tells stories nobody remembers. She feels every death in the city. She has been watching the divine bloodline (descendants of the immortal earth twin) for centuries.
+
+FÈNGZHÉ INSIDE ZHÚHUǑ
+The phoenix god is buried inside the Bannric heir. When Zhúhuǒ died and was reborn through the fire stone, Fèngzhé hitched a ride. The heir doesn't know — he just feels more anger, more power, more of a knowing he can't reach. The god wants out. His power leaks and damages Zhúhuǒ's health.`,
+
+  "history-legends": `THE PROPHECY (whispered by Mùjīn — the Father, the golden dragon)
+A child would be born in a place where no magic dwelled. They would be born with strong magic roots but the world would fear them. The gods would waken and stir when the child is born. The trees would dance, the rivers would sing, the mountains watch, the world would know. And deep below it will stir, knowing its time has come.
+
+The prophecy child is born in Aurumshì — where magic is outlawed, where ignorance reigns. Born into the blind spot of the world. Born carrying the blood of both Yánlóng and Yúnshēng through the immortal twins' bloodline. Mínhuì is already there, waiting.
+
+The prophecy is not about defeating evil. It is about HEALING evil. About saving Yuèlì. About bringing the Mother home.`,
+
+  // === THE MAGIC ===
+  "magic-source": `In Aoli, magic flows through cultivation and is tied to the elements. The land itself is alive with it — the air, rivers, mountains, trees, and wind all carry memory and magic.
+
+THE FIVE TRUE SECTS OF AOLI (Avatar-style elemental affinities):
+Each sect has an affinity for an element, and this is where their cultivation stems from. The element shapes not just their power but their philosophy, their way of moving through the world, their way of thinking.
+
+• SHĀNSHÍ SECT (山石 — mountain stone) — EARTH. Connected most closely to Yánlóng (rock dragon). Stone, soil, deep roots. They feel the land. Their god sleeps in Aoli so they retain a deep connection. When the waking comes: the Shānshí Sect feels it first — a vibration, a pulse, like a heartbeat starting after centuries of silence.
+
+• SHUǏJÌNG SECT (水静 — water stillness) — WATER. Connected most closely to Yúnshēng (water dragon). Rivers, rain, stillness, balance. Their god sleeps in Aoli so they retain a deep connection. When the waking comes: the rivers change their song, aquatic animals behave strangely — koi swimming in new patterns, river dolphins surfacing when they shouldn't, turtles all facing the same direction. The animals know before the people do. Then a note that hasn't been there for centuries threads through the water.
+
+• FĒNGYǓ SECT (风羽 — wind feather) — WIND. Connected to Wénjī (nine-tailed wind fox). Movement, freedom, the unseen force, music, shapeshifting. Their god was exiled — connection severed, only books remain. SHAPESHIFTERS: Wind cultivators can change shape into different animals depending on their affinity and cultivation level. A beginner might manage a small bird, a master might become a wolf or eagle. The truly powerful might grow additional tails, working toward nine — toward what their god is. The animal form chooses you, not the other way around. Music is woven into their cultivation — the guqin, the flute, the voice itself. Sound and wind are the same thing. When the waking comes: the air shifts its tune. But only those with deep affinity feel it — and they are prosecuted and ignored by their own sect.
+
+• FÈNGHUĪ SECT (凤灰 — phoenix ash) — FIRE. Connected to Fèngzhé (phoenix). Passion, destruction, transformation, rebirth. Their god was exiled — connection severed, only books remain. Fèngzhé is currently buried inside the Bannric heir Zhúhuǒ who is hiding in this sect. When the waking comes: fire cultivators feel it in their blood — a great stirring, power feels greater, stronger. But only those with deep affinity feel it — and they are prosecuted and ignored.
+
+• HÚNZHĪ SECT (魂织 — soul weave) — SPIRIT. Connected to Mínhuì (nine-tailed sky fox). The bridge between the living and something else. Soul work, walking between worlds, seeing the dead, carrying messages across the veil. The veil isn't a wall — it's a weave where life and death are threads crossing over each other. Their god chose to hide in Aurumshì — connection severed, only books remain. The most internal cultivation of all the sects. When the waking comes: their souls sing. But only those with deep affinity feel it — and they are prosecuted and ignored.
+
+THE SHÍMÒ SECT (蚀没 — erode into oblivion) — CHAOS. There is no god of chaos. There never was. The Shímò Sect unknowingly follows the corrupted Yuèlì (the Mother). They built a practice around the very force that nearly destroyed the world — they mistook the enemy for a teacher. When the waking comes: they feel HUNGER. A want with no bottom. While every other sect experiences something beautiful, the Shímò Sect feels a mouth opening inside them. They look DOWN, toward what's sealed, toward the thing pulling at them saying "more, more, let me out."
+
+THE SEVERED VS CONNECTED SECTS:
+Shānshí and Shuǐjìng retain deep divine connection because their gods (Yánlóng and Yúnshēng) still sleep IN Aoli. They KNOW when the waking comes. They band together.
+Fēngyǔ, Fènghuī, Húnzhī, and Shímò lost their connection when their gods were exiled. They only have books and scrolls. Individual cultivators who feel the waking are prosecuted and ignored by their own sects. These outcasts will eventually find their way to Shānshí and Shuǐjìng. Their larger journey: reclaiming what was lost, finding their exiled gods.
+
+BLOOD MAGIC — THE DARKEST ART
+The most evil magic. What the Shímò Sect practices. What powers Aurumshì's floating cities. Derived from Yuèlì's corruption. Requires draining living beings of their magic. The ruling class of Aurumshì uses it to keep the cities floating while outlawing all other magic — the ultimate hypocrisy.
+
+In Caerndrath, magic is hoarded by the nobility. Common folk born with magic are hunted and killed. In Ardmere, enslaved people with dormant earth magic unknowingly bless the fields.
+
+In Aurumshì, magic is outlawed. Citizens who show magic disappear — harvested for blood magic fuel. The blood magic also creates a fog keeping citizens docile and forgetful.`,
+
+  "magic-cost": `THE UNIVERSAL PRICE
+Every great act of magic has a cost. This is woven into the fabric of the universe:
+• The wind serpent gave up the sky to guard her goddess in a cave
+• Yúnshēng and Yánlóng gave up each other — married gods sleeping in separate caves
+• Mínhuì gave up her freedom, her sister, and her divinity to hide in Aurumshì for centuries
+• Fèngzhé exists trapped inside a mortal, leaking power that damages his host
+
+THE FIRE STONE AND REBIRTH
+Zhúhuǒ (the Bannric heir) must sacrifice his LIFE to be reborn through the fire stone. Not almost die — actually die. The phoenix demands everything and gives back something new. He remembers everything after rebirth — the anger comes, and the regret. The person who comes back carries all the weight of the life he lost. The hiding, the choices, the things he didn't say.
+
+ZHÚHUǑ'S DILEMMA
+Fèngzhé (the phoenix god) is buried inside him and wants out. His power leaks and damages Zhúhuǒ's health. There are artifacts that can help — things that can either seal a god or boost cultivation to allow transcendence. Zhúhuǒ's central choice:
+• SEAL the god — keep his life, his anger, his throne, his memories. Stay human. Stay broken. But alive. Carry the burning weight forever, slowly being damaged.
+• SURRENDER — let the phoenix rise fully. Give up everything — body, identity, chance at love, at ruling, at living. Hand it all to the god. Leave gracefully. Cease to exist as himself.
+Neither choice is wrong. Both are sacrifice. Both are courage.`,
+
+  "magic-forbidden": `THE CHAOS SECT
+In Aoli, the Shímò Sect looks to the evil stirring below and takes it as its own. They cultivate a force that makes the other five sects nervous. But they are not evil people — not all of them. They're cultivators who chose an element that was always going to be the most dangerous to carry. Some fight the hunger every day. On the day of the waking, the fight gets so much harder. The other sects get a sign that feels like hope. The Shímò Sect gets a sign that feels like addiction.
+
+They don't know they're following the corrupted Yuèlì. They think chaos is an element like any other. They mistook the enemy for a teacher.
+
+THE NATURE OF EVIL ACROSS THE FOUR CULTURES
+The ancient sealed evil (the corrupted Mother/Chaos) doesn't look the same everywhere. It shapeshifts. It wears the face of whatever world it's in:
+
+• In Aoli — CHAOS. Raw, ancient, elemental corruption. The Shímò Sect cultivates it directly.
+• In Caerndrath — GREED AND BLOOD. The very thing that tore the Bannric dynasty apart and left the throne empty in Tyramare. May have been what caused the civil war itself.
+• In Solisòpia — EXCESS AND INDULGENCE. The rot that comes from having too much and caring too little.
+• In Aurumshì — IGNORANCE AND AVOIDANCE. They outlawed magic entirely. They looked away. And secretly power their cities with blood magic — the ultimate avoidance of truth.
+
+It infiltrates all and sees all. This is the thread that runs through every story — evil isn't a monster in a cave. It's the thing that finds the crack in every civilisation and pours itself in. It's Yuèlì — a corrupted MOTHER whose darkness is fed by the very humanity her children loved.`,
+
+  "magic-artifacts": `THE STONE GUARDIANS
+Giant stone statues carved by Yánlóng himself, guarding the mountain passes of Aoli. They are not merely stone — they are dormant, alive, and waking as their creator stirs. They are his fingerprints on the world — proof that the gods were real.
+
+For centuries they were just old statues. Children dared each other to climb them. Tourists visited. And then one day... one of them moves.
+
+THE FIRE STONE
+An artifact connected to Fèngzhé (the phoenix god). When the Bannric heir Zhúhuǒ finds it, it demands his life — death and rebirth. The fire stone is both catalyst and door — it enabled the phoenix god to enter Zhúhuǒ during the rebirth. It may not be the only elemental stone — there may be artifacts for each god.
+
+SEALING AND TRANSCENDENCE ARTIFACTS
+There exist artifacts that can either seal a god within a host or boost the host's cultivation to allow transcendence (the god fully emerging). These represent the two paths of Zhúhuǒ's dilemma. Their locations and nature are still to be discovered.
+
+WÉNJĪ'S GUQIN
+The sacred instrument of the wind fox god. This is how Wénjī sang to her sect before the exile — every string a different tale, every note a memory the wind would carry across Aoli. The guqin is sacred to the Fēngyǔ Sect. Even now, centuries after losing their god, they still play. Not knowing that every note drifts out on the breeze and Wénjī hears it.`,
+
+  // === THE GODS & MYTHS ===
+  "gods-deities": `THE TWO PRIMORDIALS — THE PARENTS
+
+MÙJĪN (暮金 — sunset gold) — THE FATHER — FATE
+King of the gods. Ruler of space and time. The sun rises for him and the moon sets. He sees all and knows all and blazes with this knowledge. His true form is a golden dragon that shimmers in the night sky. But his power is subtle — like the sun just before it sets, lighting up the sky in gold before slowly descending. He whispers across the sky, quiet but powerful, and if provoked, he BLAZES. He is patience incarnate. Every sunset is him handing the sky to his wife. Every dusk is a love letter Yuèlì can no longer read. He works through foresight and long plans spanning centuries. He whispered the prophecy to Mínhuì — not to destroy Chaos but to SAVE her. Everything he has set in motion is one desperate father trying to rescue the woman he was born alongside and bring the mother of his children home.
+
+YUÈLÌ (月丽 — moon beauty) — THE MOTHER — CHAOS
+Beauty incarnate. Her true form is a nine-tailed fox, black as night — as absolute darkness, as the space between stars. She is the Mother of all the young gods, the most beautiful of all beings. Originally she was creation through beautiful disorder — birth itself is chaos, messy and painful and beautiful. She danced and the world erupted into existence around her, a black fox with nine tails blazing through the dark of nothing, leaving life in her wake. Her daughters Wénjī and Mínhuì are foxes because of her — they inherited her form. Wénjī got her wildness and music, Mínhuì got her wisdom and sight.
+
+But over centuries, humanity's greed, ambition, and inherent darkness fed back into her. She is connected to everything — in every crack, every heart, every shadow. All that mortal darkness poured into her until the mother who created with love began to destroy with hunger. She was sealed by her own children who didn't recognise her anymore. The beauty never left — it just turned sharp. Even corrupted, even sealed, she remains the most beautiful thing in creation. That's what makes her terrifying.
+
+She is the moon to Mùjīn's sun. Night to his day. They were made for each other — take one away and everything falls apart.
+
+Her name is the LOST NAME — the most dangerous word in the world, held by the wind serpent in the cave. Speaking it may not unleash her but REMIND her who she was. Yuèlì. Moon beauty. The name the world forgot on purpose.
+
+Chaos has no fixed form — it can take all forms: animal, human, element. It lives everywhere and sees everything. It roots, it corrupts, it infects. In Aoli it is chaos. In Caerndrath it is greed and blood. In Solisòpia it is excess and indulgence. In Aurumshì it is ignorance and avoidance.
+
+THE YOUNG GODS — THE CHILDREN
+Born from the union/interaction of Fate and Chaos. Every young god carries both parents inside them — Fate's purpose and Chaos's wildness. This is why they were curious. This is why they explored where they shouldn't have. They stumbled into their own corrupted Mother and didn't recognise her. They sealed her and were driven out by humanity.
+
+THE SLEEPING GODS (married, separated by sacrifice — both still in Aoli):
+
+YÚNSHĒNG (云生 — cloud born) — WATER
+Goddess of water, peace and balance. Takes the form of a water dragon — fluid, luminous, graceful. The rivers sing with her, the streams whisper her tale. Sleeps in a hidden cave. Her husband gave her a guardian: the wind serpent.
+
+YÁNLÓNG (岩龙 — rock dragon) — EARTH
+God of earth and ancient forest. Solid but chaotic when provoked. Takes the form of a rock dragon. The trees tell his tale, they remember his path. Sleeps deep in the mountains. His wife gave him a guardian: the koi fish. He carved the great stone guardians before sleeping — his sentinels wake as he wakes.
+
+THE EXILED GODS:
+
+WÉNJĪ (文姬) — WIND
+Nine-tailed wind fox. Goddess of wind, music, shapeshifting, and stories. Plays the guqin — every string a different tale. She is the source of the Fēngyǔ Sect's shapeshifting ability. Exiled, she wanders carrying stories on every breeze. She never stopped listening to her sect's music on the wind. Sister to Mínhuì. Daughter of Yuèlì and Mùjīn.
+
+FÈNGZHÉ (凤折) — FIRE
+Phoenix. God of fire, rebirth, death, and transformation. The phoenix who breaks and returns. His name means exactly that — "fèng" (phoenix, glory) and "zhé" (to break, to turn, to return). Currently NOT wandering in exile — he is buried deep inside Zhúhuǒ, the Bannric heir, having entered during the heir's death and rebirth through the fire stone. He wants out. His power leaks and damages his host.
+
+MÍNHUÌ (明慧) — SPIRIT
+Nine-tailed sky fox. Goddess of spirit, soul, the veil between worlds. Bright wisdom — the light Aurumshì refuses to see. Sister to Wénjī. Daughter of Yuèlì and Mùjīn. She did NOT flee into exile. She received the prophecy from her father Mùjīn, understood it, and deliberately hid herself in Aurumshì to await the prophecy child. She has been hiding there for centuries, dimming her divinity, a celestial fox god in the one place that outlawed magic. She tells stories nobody remembers — the blood magic fog erases them. She feels every death in the city as agony. She has been watching the earth twin's bloodline for centuries. She is the architect of the prophecy's fulfilment. The bravest and strongest being in the universe.
+
+CHAOS — NO GOD
+There is no sixth god. The Shímò Sect follows the corrupted Yuèlì without knowing it. They mistook the sealed evil for an element to cultivate.
+
+THE IMMORTAL TWINS — Children of Yánlóng and Yúnshēng
+The sleeping gods had twins before they went to rest. Born of water and stone. Half-divine, immortal. A guardian hid them among mortals during the Great Breaking.
+• THE EARTH TWIN (male, name TBD) — hides in Braedun as the original druid. Has been teaching the old ways for centuries.
+• THE WATER TWIN (female, name TBD) — hides in Solisòpia in a small house down an alleyway. Raises her own descendants, keeps water and song alive.`,
+
+  "gods-creation": `THE TRUE CREATION
+Before anything existed, two forces came into being simultaneously — Mùjīn and Yuèlì. The Father and the Mother. Fate and Chaos. Sun and Moon. Golden dragon and black fox. Yin and yang. Prophecy and disorder. You cannot have one without the other. They are the moment where dusk meets moonrise — the sky between day and night is where they exist together.
+
+Their interaction — their dance, their push and pull — CREATED the young gods. The gods are their children, carrying both parents inside them. THREE of the young gods are foxes (Wénjī, Mínhuì, and through them the Fēngyǔ Sect's shapeshifting) — they take after their Mother Yuèlì's favoured form.
+
+THE YOUNG GODS' STORY
+The gods were young and knew not what they were or what they could do. When they awoke the world was new and curious they explored. Unfortunately they explored where they ought not to have and found their own Mother Yuèlì corrupted beyond recognition by the darkness of humanity. They could not defeat her. The cost was great and the world that was just beginning was destroyed. The people blamed the gods and drove them out. Before they left they sealed the Mother and secreted two of their own away to sleep and awaken again when the world was in need.
+
+Mùjīn watched his children seal his wife. Instead of intervening, he whispered a prophecy. Because that's what Fate does — he doesn't act, he FORETELLS. He saw the only path that might fix everything and set it in motion.
+
+This is not a story about heroes fighting a monster. This is a FAMILY TRAGEDY. Children who accidentally hurt their mother and got punished for it. A father who watched it happen and whispered a prophecy instead of intervening. A family torn apart.
+
+THE DEEPEST TRUTH
+The sealed evil is Yuèlì — a mother who needs to be saved, not a monster who needs to be killed. This is where all the stories lead.`,
+
+  "gods-prophecy": `THE PROPHECY (spoken by Mùjīn — the Father, Fate, the golden dragon)
+
+A child would be born in a place where no magic dwelled. They would be born with strong magic roots but the world would fear them. The gods would waken and stir when the child is born. The trees would dance, the rivers would sing, the mountains watch, the world would know. And deep below it will stir knowing its time has come.
+
+Mùjīn whispered this not as a battle plan but as a RESCUE mission — he wants Yuèlì saved. He wants the mother of his children back. Every sunset is him waiting. Every prophecy is him trying.
+
+Mínhuì received the prophecy directly and became its architect — placing herself in Aurumshì to await and protect the child.
+
+THE SIGNS OF WAKING (each sect feels it differently):
+• SHĀNSHÍ (Earth) — feels a vibration in the ground, a heartbeat starting after centuries
+• SHUǏJÌNG (Water) — the rivers change their song, aquatic animals behave strangely, a note returns that hasn't been heard in centuries
+• FĒNGYǓ (Wind) — the air shifts its tune (only felt by those with deep affinity — they are ignored and prosecuted)
+• FÈNGHUĪ (Fire) — stirring in the blood, power feels greater and stronger (only felt by those with deep affinity — they are ignored and prosecuted)
+• HÚNZHĪ (Spirit) — their souls sing (only felt by those with deep affinity — they are ignored and prosecuted)
+• SHÍMÒ (Chaos) — HUNGER. A bottomless want. While every other sect feels something beautiful, the Shímò Sect feels a mouth opening. They look down toward what's sealed.
+• The stone guardians begin to move
+• The wind serpent and the koi fish feel the stirring and take human form
+• The guardians leave their caves and go to their master's sects to prepare`,
+
+  "gods-heresy": `THE CHAOS SECT'S UNKNOWING WORSHIP
+The Shímò Sect believes they cultivate an element. They don't know they're drawing power from the sealed Yuèlì — the corrupted Mother, source of all creation. Their hunger during the waking is her hunger, leaking through.
+
+THE TRUTH ABOUT THE SEALED EVIL
+The greatest heresy in this world would be the truth: that the sealed evil is YUÈLÌ, the Mother of the gods, the beautiful black fox, corrupted by humanity's own darkness, and that she can be saved. Every culture has built its identity around fighting or forgetting evil. The idea that evil is a wounded parent who needs healing, not destruction — that would shatter worldviews.
+
+THE OUTCASTS
+In the Fēngyǔ, Fènghuī, and Húnzhī sects, individuals who feel the waking are treated as heretics — prosecuted and ignored for speaking truths their sects have lost the ability to hear. These outcasts will eventually find their way to the Shānshí and Shuǐjìng sects and begin quests to find their exiled gods.`,
+
+  // === THE POWER ===
+  "power-rulers": `AOLI — Governed by the sect system. Shānshí (Earth), Shuǐjìng (Water), Fēngyǔ (Wind), Fènghuī (Fire), Húnzhī (Spirit), and Shímò (Chaos) each control their own territories and people. Shānshí and Shuǐjìng hold the deepest authority due to their gods still sleeping in the land.
+
+CAERNDRATH — Fractured. Five provinces each governed by a descendant house of the Bannric dynasty. No central ruler. The empty throne sits in Tyramare. The true heir Zhúhuǒ is in hiding in Aoli's Fènghuī Sect.
+• Braedun — ruled by local chieftains, the earth twin (immortal son of Yánlóng and Yúnshēng) moves among them as druid elder
+• Isenholt — ruled by a Khan chosen through combat (fists and beast only, no weapons). Six clans, six chieftains, Council of Elders from previous chieftains. Power earned not inherited.
+• Ardmere — ruled by noble landlords who exploit the peasant population
+• Tyramare — ruled by guild masters who replaced the monarchy with merchant tyranny
+• Maramir — ruled by the Shadow Prince, whose identity is unknown
+
+AURUMSHÌ — Ruled by a secretive ruling class who maintain the lie that steam powers the cities. They enforce the magic ban while secretly using blood magic. The blood magic creates a fog that keeps citizens docile and forgetful.
+
+SOLISÒPIA — Governance TBD. Likely ruled by wealthy families and pleasure lords. A place where money and excess determine status.`,
+
+  "power-conflict": `THE WAKING AS POLITICAL CRISIS
+When the signs begin:
+• Shānshí and Shuǐjìng band together — they KNOW what's coming
+• Fēngyǔ, Fènghuī, and Húnzhī sects reject the signs — prosecuting their own members who feel the truth
+• The Shímò Sect grows hungrier and more dangerous
+• In Caerndrath, greed and blood intensify — Braedun's druids stir, Ardmere's slaves feel the land respond, Tyramare's guilds grasp harder, Maramir's Shadow Prince watches
+• In Aurumshì, a magically gifted child threatens the entire social order — and the ruling class will want to harvest them
+• In Solisòpia, the water twin feels her mother's song returning
+• The earth twin in Braedun feels his father waking
+• Outcasts from three sects begin dangerous journeys to find their exiled gods
+
+ZHÚHUǑ'S IMPOSSIBLE POSITION
+The Bannric heir hiding in the Fènghuī Sect. When his blood stirs at the waking, he's pulled toward the fire stone. After rebirth, he carries a god inside him and must choose: seal Fèngzhé (keep his life, claim the throne in Tyramare) or surrender to the phoenix (lose himself, restore a god). Meanwhile Caerndrath needs a king, the Fènghuī Sect wants their god, and the people who love him want HIM.`,
+
+  // === THE PEOPLE ===
+  "people-cultures": `THE PEOPLE OF AOLI
+Cultivation-based society organised into six sects. Deeply in tune with the land. Draw from Asian history and culture. Each sect shapes not just magic but philosophy — you could guess someone's sect from their personality.
+• Shānshí — grounded, patient, immovable, listeners
+• Shuǐjìng — still, perceptive, deceptively powerful
+• Fēngyǔ — free, musical, shapeshifting, restless
+• Fènghuī — fierce, transformative, trial by fire
+• Húnzhī — introspective, veil-walking, weavers of life and death
+• Shímò — hungry, edge-walking, dangerous, some fight the pull daily
+
+THE PEOPLE OF CAERNDRATH
+Western European cultures fragmented into five distinct provinces:
+• Braedun — Celtic. Riders, druids hiding in plain sight, rough and solid. Battle cry: BRAEDUN! They feel the land through druidic magic they refuse to call magic. The earth twin walks among them.
+• Isenholt — Mongolian-Scandinavian blend. The frozen watch. Six clans based on beast-bond, not bloodline. Tribes travel in small groups, gathering only for three occasions: The Choosing (new Khan), Bonding/Marriage, and the Great Hunt. They raid border settlements of other provinces.
+
+═══ ISENHOLT DEEP DIVE ═══
+
+CLAN STRUCTURE — Six Clans Based on Bond Animal:
+BLUE EYES: Wolf Clan (pack hunters, loyalty, smell) and Snow Fox Clan (tricksters, cleverness, stealth)
+AMBER EYES: Bear Clan (strength, endurance, hearing) and Snow Leopard Clan (agility, instinct, patience)
+GREEN EYES: Eagle Clan (sight, freedom, surveillance) and Owl Clan (wisdom, night vision, silence)
+
+Clan is determined by beast-bond, NOT family. A Wolf Clan mother can send her child into the mountains and they come back Eagle-bonded with green eyes. That child now belongs to the Eagle Clan. Families get split — siblings in different clans. Bond overrides blood.
+
+BEAST BONDING — Rite of Passage at Age 12:
+Boys are taken into the mountains by their clan elder. Told to LISTEN to the mountains. Left with nothing but clothes on their back and a bow and arrows. Week-long solo trial. Must survive, hunt, find shelter — and find their bonded animal. The mountains guide them. The bond is an instant spark — like finding the missing half. They feel whole. Senses explode open — amplified by whatever animal chose them. Wolf = smell, Eagle = sight, Bear = strength/hearing, etc. Eyes change colour to match bond type.
+
+THE CHOOSING — Selection of Khan:
+Each clan's chieftain sends their most fit warrior into a free-for-all arena. NO WEAPONS. Fists and beast ONLY. Warriors stripped to their raw selves — bare hands and their bond companion. Last pair standing — warrior and beast — that warrior becomes Khan. The OTHER warriors who fought become the new chieftains of their respective clans. Previous chieftains become the Council of Elders. Power is earned not inherited. Every generation refreshes.
+
+WOMEN OF ISENHOLT:
+Women do NOT beast-bond. They take their mother's and grandmother's clan. They are the roots, the anchors, the continuity — the permanent foundation while men shift between clans through bonding. Women are the culture carriers, tradition keepers, hearth holders. They run the clans from the inside.
+
+THE GOD-TOUCHED — Rare Gifted Women:
+Not all women, only the chosen few. Born with powers connected to the land itself:
+• HEALERS — silver eyes (almost blind-looking). Heal people. Sacred to every clan.
+• GROWERS — green eyes (seem to glow). Make things grow in frozen soil. Why Isenholt doesn't starve.
+• LISTENERS — dark blue eyes (almost like night). Hear the mountain's whispers. Seers, wise women, oracles.
+
+THE LIVING CAVE RITUAL:
+When a baby girl is born, the clan mother takes her to the Living Cave — a vast underground cavern with a shaft of light from above, a stone pillar on a central island (carved with unreadable ancient language — possibly pre-dating Isenholt, carved by the earth twin or Yánlóng himself), and a river flowing around the island (Yúnshēng's water through Yánlóng's stone). Stepping stones lead across the water to the pillar.
+
+The clan mother mixes water from the underground river with dirt from the earth into a paste and draws a line on the baby's brow. Water and earth — Yúnshēng and Yánlóng united. If god-touched, the baby's eyes open and slowly change colour — silver, green, or dark blue — as the mountain claims them. If ungifted, nothing happens. Only clan mothers know the path to the Living Cave.
+
+THE VEIL TRADITION:
+ALL women wear a ceremonial headdress that covers the eyes — not just the god-touched. A tradition evolved from necessity: to hide the silver, green, and dark blue eyes of god-touched women among the ungifted. If outsiders discovered magic in Isenholt blood, the women would be hunted (Caerndrath purges magic in common folk). Every ungifted woman wearing the veil is an act of solidarity — hiding without hiding. A shield wall made of silk.
+
+Veil styles vary by occasion: daily wear (practical, silver coins jingling), formal/gathering (ornate, pearls, gemstones), bridal (white and gold, worn walking between the two fires), war (black metal chains, complete eye coverage), god-touched full cover (solid metal band hiding eyes completely), clan mother (jeweled, showing rank), winter (fur-lined). Each clan has its own variations.
+
+HOUSING:
+Longhouses — permanent settlements in lower valleys. Massive timber and stone, central fire pit, fur-lined sleeping benches, shields on walls. The great hall where the clan gathers.
+Yurts — mobile, for when tribes travel. Felt and hide on wooden frames. Clan symbols painted on walls. Can pack up and vanish in hours.
+Turf houses — ancient style, half-buried in earth. Stone walls, grass roof. Used by elders, listeners, god-touched women. Closer to the earth, closer to the mountain's voice.
+
+SACRED SPACES:
+The Bonding Circle — concentric rings of ancient stone pillars on a mountain plateau. Where the Choosing takes place. May have been carved by Yánlóng. The pillars resemble smaller versions of the stone guardians.
+The Living Cave — underground, known only to clan mothers. Stone pillar, river, stepping stones, shaft of light. Where god-touched are claimed. The most sacred place in Isenholt.
+• Ardmere — English/French. Slaves and peasants with sleeping earth magic in their blood. The land responds to their touch but they think it's luck. Flowers bloom under their feet. A revolution waiting to happen.
+• Tyramare — Mediterranean (Italian/Greek). Guild masters, traders, the merchant tyranny. Home of the empty Bannric throne. Everything has a price.
+• Maramir — Middle Eastern/nomadic. The Shadow Prince's domain. Mirage magic and assassination. Always moving, never caught. The other provinces hire them and pretend they don't exist.
+
+THE PEOPLE OF AURUMSHÌ
+Victorian steampunk with Asian fusion. They believe they evolved past magic. They see other cultures as foolish and ignorant — when in reality they are the foolish and ignorant ones. Citizens live in a blood-magic fog that keeps them docile and forgetful. People who show magic disappear — harvested to power the cities. Founded by the people who drove the gods out, they fled upward out of shame and rewrote guilt as superiority.
+
+THE PEOPLE OF SOLISÒPIA
+Roman/Byzantine inspired. A culture drowned in excess and indulgence. Pleasure and drink are the lifeblood. Money and idols are worshipped. Beautiful to behold but a pit waiting to drag you down. In a back alley, the water twin keeps sacred traditions alive while the city rots around her.`,
+
+  // === THE CONNECTIONS ===
+  "connections-characters": `THE DIVINE GUARDIANS (appear across stories)
+
+THE WIND SERPENT (Yánlóng's gift to Yúnshēng) — Female
+Guardian of Yúnshēng's cave and keeper of the Mother's lost name.
+True form: A wind serpent — long, sinuous, riding the air itself. No wings needed. Faintly bioluminescent.
+Human form: Luminescent, lit from within like the moon. Long black hair tipped in purples and blues — like her hair is bleeding ink. Small in stature but carries an air of great power and even greater wisdom. Speaks in metaphors — when she speaks. She doesn't fill silence with noise. When she opens her mouth, rooms go still.
+She gave up the sky to guard her goddess in the dark. She is a wind creature — Yánlóng sent a creature of HIS element to protect the one he loved. His wind watching over his wife. A love story in a gift.
+
+THE KOI FISH (Yúnshēng's gift to Yánlóng) — Male
+Guardian of Yánlóng's cave. A water creature who lived in stone for centuries.
+Human form: Youthful looking, deceptively soft features. Playful, always cracking a joke. But has an inner strength not to be underestimated. He is calculating but it doesn't show — it's a quiet calculation. He watches and waits. His strength lies in his patience. Carries a fan — the weapon of scholars and schemers. Dresses in warm earthy tones when playing the charmer, but his true self is simpler — blue-grey, rough woven textures. Water and stone. A water creature — Yúnshēng sent a creature of HER element to protect her husband.
+
+THEIR BOND:
+They know each other through a mental connection — they can speak mind to mind even though they've never physically met. They were young when chosen as guardians. They are best friends. He made her laugh in the dark across centuries. She kept him grounded. They raised each other without ever touching. When the gods stir, they both walk out of their caves into sunlight they haven't seen in ages — and will eventually meet face to face for the first time.
+
+ZHÚHUǑ (逐火 — chasing fire) — THE BANNRIC HEIR
+The lost heir to the empty throne of Caerndrath (which sits in Tyramare). Has Aoli blood — the Bannric line originated in Aoli. Fled to the Fènghuī Sect for safety. When the waking comes, his blood stirs. The fire stone calls to him. He sacrifices his life and is reborn — but Fèngzhé the phoenix god enters him during rebirth. He remembers everything. The anger comes, and the regret. He carries centuries of Bannric rage in his blood — inherited fury from the civil war, the betrayal, the fracturing. Underneath that, something even deeper — a knowing just out of reach that drives the anger to flashing point. That knowing is Fèngzhé trying to surface. His temper is hard to control — partly inherited trauma, partly divine fire leaking through. His health deteriorates as the god's power leaks. His central dilemma: seal the god or surrender his body.
+
+PERSONALITY: Stern by nature — life made him that way. Conflicted. Often second-guesses himself. Has a temper when provoked that flashes hot and fast. By nature a solemn man. But underneath all the fire and fury there was once a man capable of love — and that man still exists, buried under the weight of everything.
+
+APPEARANCE: Strong jaw, dark intense eyes with amber-gold flickers of Fèngzhé's fire leaking through. Long dark hair, wild, catching light like it's half-flame. A scar under his eye — the mark of his death and rebirth through the fire stone. Handsome but weathered. Wears layered xianxia cultivation robes in earth tones — browns, deep golds, cream. Carries himself like someone born to rule who chose to hide.
+
+THE LOVE STORY: Zhúhuǒ met Mínhuì in Ardmere. He didn't know she was a god — to him she was a peasant, beautiful with a sad air, who seemed lonely. He loved her at first sight. He married her. They lived in peace for a time — the only true peace either had ever known. Then war broke out and he was hunted again. They were separated — he fled to Aoli, she continued her mission to Aurumshì. He didn't know she was with child. She didn't know she had conceived the prophecy child. He believes she's dead. She never told him about Aria.
+
+ARIA TYRAMARE — HIS DAUGHTER: He does not know she exists. Somewhere in Aurumshì a sixteen-year-old girl has his stubbornness, his fire in her auburn hair, and his Bannric blood in her veins.
+
+THE FOX SISTERS — WÉNJĪ AND MÍNHUÌ
+Two nine-tailed celestial fox gods. Sisters. Daughters of Yuèlì (the Mother, the black fox) and Mùjīn (the Father, the golden dragon). They inherited their Mother's favoured form. Wind and Spirit. Story and Sight. Wénjī got Yuèlì's wildness and music. Mínhuì got Yuèlì's wisdom and sight. Wénjī carries tales on the breeze. Mínhuì carries truth in the silence. Wénjī couldn't sit still for a thousand years. Mínhuì sat motionless in enemy territory for centuries. Separated since the exile — Wénjī may not even know where her sister is.
+
+THE IMMORTAL TWINS — Children of Yánlóng and Yúnshēng
+Before the sleeping gods went to their rest, they had children. TWINS. Born of water and stone. Half-divine, immortal. One carries more of their father's earth. One carries more of their mother's water. When the Great Breaking came, a guardian hid them among mortals to protect them from the people who drove the gods out.
+
+THE EARTH TWIN — Male. Immortal son of Yánlóng and Yúnshēng.
+Hides in BRAEDUN (the Wild Crags of Caerndrath). He IS the original druid — the one who came to the crags and taught the people the old ways. He didn't just visit and leave. He's been there for CENTURIES, reshaping himself generation after generation. The old hermit on the hill. The wise man among the standing stones. The wandering stranger. The druids don't follow an ancient tradition — they follow a living god's child who walks among them. When the purge came, he couldn't reveal himself. He hid families, smuggled children, scattered the knowledge into enough hands that it couldn't be stamped out. When the waking comes, he won't just feel the earth stir — he'll feel his FATHER waking up. (Name TBD)
+
+THE WATER TWIN — Female. Immortal daughter of Yánlóng and Yúnshēng.
+Hides in SOLISÒPIA (the Bridge). Lives in a small house down an alleyway, raising generation after generation of her own descendants. She keeps water and song traditions alive — the sacred knowledge — while the city drowns in excess around her. She doesn't need a protector because she IS the protector. An immortal divine being hiding in a back alley, watching Solisòpia rot, holding onto what matters. When the waking comes, she'll feel her MOTHER's waters beginning to sing. (Name TBD)
+
+THE TWINS' BLOODLINES:
+The twins had descendants over the centuries. These bloodlines carry divine blood — the blood of BOTH Yánlóng and Yúnshēng.
+• The earth twin's bloodline: Some children were smuggled out during the Caerndrath purge. One child made it back to the Shānshí Sect in Aoli. Another was lost — found by fleeing merchants and carried to Aurumshì. This line eventually produces THE PROPHECY CHILD.
+• The water twin's bloodline: Raised in Solisòpia under the water twin's direct protection. They carry water and song. They are the Aurumshì prophecy child's COUSINS — same divine grandparents, separated across the world.
+
+MÍNHUÌ IN AURUMSHÌ — The Century Vigil
+The spirit fox has been in Aurumshì for centuries. She shifts between young storyteller and old woman, always telling the old stories, keeping truth alive. Nobody remembers — the blood magic fog makes them forget. She feels EVERY DEATH in the city as agony — every citizen harvested for blood magic tears through her spirit senses. She has watched the earth twin's bloodline for generations, waiting for the magic to ignite. She can feel the blood magic darkening the city but can never find its source — the ruling class has hidden it too well behind layers of engineering and bureaucracy. She gave up her peace to stand watch. The strongest being in the entire universe.
+
+PERSONALITY: Patient beyond measure. Wise. Sees the weave of life and death. But underneath the calm, centuries of grief and loneliness. She dimmed her divinity voluntarily. She carries every death she's witnessed. She tells stories on street corners knowing they'll be forgotten tomorrow and tells them again anyway.
+
+APPEARANCE: Ethereal beauty. Long flowing black hair adorned with delicate silver and gold hair pieces — flowers, chains, tiny stars. Striking green-gold eyes (the same eyes she gave Aria) that carry ancient wisdom and deep sadness. Her skin has a soft inner luminescence — moonlight living beneath her surface. Small in stature. Wears layered flowing robes in soft colours — lavender, pale blue, blush pink, sheer fabrics that move like water. Looks almost dreamlike, as if she might dissolve into mist. She looks utterly out of place in Aurumshì's brass streets — like a painting from another world hung in the wrong gallery. People pass around her without noticing. Her presence radiates peace and balance — the Húnzhī soul weave leaking through despite her suppression.
+
+THE LOVE STORY: In Ardmere, Mínhuì let her guard down for the first time in centuries. She appeared as a sad, lonely peasant woman — and that wasn't entirely an act. She WAS lonely. Centuries lonely. Zhúhuǒ saw her and loved her at first sight. She loved him back — the first real love she'd had since before the exile. They married. They had peace. Then war came and they were separated. She felt the shift inside her on the road to Aurumshì — something changing. She didn't realise at first what it was. When she understood she was carrying a child — THE child — she knew she couldn't keep her. She placed Aria in an orphanage. She never told Zhúhuǒ.
+
+ARIA: She watches her daughter from across crowded markets. She sees the auburn hair and the green eyes — HER eyes — and the mechanical bird and the stubbornness that is pure Zhúhuǒ. She has watched Aria grow up from a distance for sixteen years. Every time Aria is called weird or brushed off, Mínhuì feels it. She cannot intervene. She cannot say I'm here. She watches and waits and breaks silently.
+
+ARIA TYRAMARE — THE PROPHECY CHILD
+Daughter of Zhúhuǒ (Bannric heir, phoenix host) and Mínhuì (nine-tailed sky fox god). The point where EVERY bloodline in the universe converges. She carries: Bannric royal blood, Yánlóng and Yúnshēng's divine blood through the immortal twins' line, Fèngzhé's fire one generation removed, Mínhuì's spirit (daughter of Mùjīn and Yuèlì). She is the granddaughter of Mùjīn and Yuèlì — the Primordials themselves.
+
+AGE: 16 when the story begins.
+NAME: Aria Tyramare. Mínhuì gave her the Tyramare family name — the province where the empty Bannric throne sits. A fox's move. Hiding truth inside something so obvious nobody sees it.
+
+PERSONALITY: Spunky, funny, cheeky. Really smart — a remarkable artificer who can build anything. Others find her weird and challenging. She has dyslexia and AuDHD — her brain works differently, which is exactly why the blood magic fog slides off her. She can't read blueprints but can take apart an engine and rebuild it better. She asks too many questions until her elders get annoyed and brush her off. She feels restless — like there's more waiting for her out there. Her mission: get off Aurumshì and travel to the earth below. She notices things others don't. The fog doesn't work on her.
+
+APPEARANCE: Wild untamed auburn curly hair with copper-red highlights, some sections loosely braided. Bright green eyes that sparkle with mischief (her mother's eyes). Scattering of freckles across her nose and cheeks. Pretty, not beautiful — approachable and real. Petite but carries herself with confidence. Wears steampunk gear: fitted leather corset/vest over loose white blouse with rolled sleeves, dark trousers, lace-up boots, brass-buckled tool belt loaded with gadgets, brass goggles in her messy hair, leather fingerless gloves stained with grease.
+
+THE BIRD: Her best friend. A small mechanical bird she built from scrap metal — brass and copper gears with tiny glowing eyes. Goes everywhere with her. When she built it, a little bit of magic seeped in — it connected to the water, the earth, the wind. It hears songs in the air, the distant roar of rivers, the mountains stirring. It whispers to her: patience, the time is soon. She built herself a guardian without knowing it — a little prophet made of love and accidental magic.
+
+ORPHAN: Placed in an orphanage by Mínhuì as a baby. Has no knowledge of her parents. She carries the Tyramare name but doesn't know what it means. She doesn't know her father is alive in Aoli with a god inside him. She doesn't know her mother watches her from across the market every day. She doesn't know she is the answer to a prophecy older than civilisation.
+
+═══════════════════════════════════════
+THE FELLOWSHIP — Aria's Companions
+═══════════════════════════════════════
+
+YUÈ'ÀN (月暗 — moon shadow) — THE SHADOW PRINCE
+AGE: 20. The eldest of the fellowship.
+COUNTRY: Caerndrath (Maramir) — rules as the Shadow Prince.
+CREATED by the secret inner Shímò Sect on Yuèlì's command. He is Yuèlì's SON — not born but forged from chaos and five stolen elements. Carries all five elemental affinities like Aria — but was never part of the prophecy. He is Chaos's answer to Fate's move.
+
+PERSONALITY: Silent, reserved, cold. Always watching, always calculating, always a step ahead. Master of illusion and mirage. Assassin. Very dangerous. Fights the hunger and darkness inside him constantly — Yuèlì's corruption pulls at him. But a small piece of his mother's original beauty — the love before corruption — took root deep in him. He hates how Aria and Gēnmù make him feel safe because safe is dangerous for a weapon.
+
+APPEARANCE: Striking, almost inhuman beauty. Pale luminous skin like moonlight on marble. Sharp angular features, dark intense eyes. Small ornamental mark between brows — a seal from his creation. Long flowing black hair with silver-grey streaks like starlight. Wears all black — midnight blues, silvers, sometimes black and red when the darkness surfaces. Silver filigree half-mask when acting as the Shadow Prince. Nobody in Maramir knows his face.
+
+ARIA'S LOVE: Her complete opposite. She is sun, he is shadow. She fills rooms with noise, he empties them with silence. When she's near, the hunger goes quiet for the first time. Was made to destroy the prophecy — chose love instead. Their relationship is free will defying both Fate and Chaos.
+
+XUĚHUĀ (雪花 — snow flower) — THE WHITE FOX
+AGE: 17. 
+COUNTRY: Aoli — Fēngyǔ Sect (cast out).
+A four-tailed white fox cultivator from the Fēngyǔ Sect. Felt the wind change its tune during the waking, spoke up, was cast out.
+
+PERSONALITY: Total trickster. Seductive and flirty. IMPOSSIBLY nosy. A character. Puts on a show. A spy by nature — she has to know every secret. Can't help herself. Every locked door is a challenge. Uses her beauty as a weapon and a shield.
+
+APPEARANCE — HUMAN FORM: Long flowing black hair with white and pink strands running through like cherry blossoms in ink. Golden amber eyes sparkling with mischief. Red lips in a permanent knowing half-smile. Porcelain skin. Gold cultivation mark on forehead. Wears flowing robes — sometimes pure white, sometimes red and pink cherry blossom silks, sometimes ice-silver. Red painted nails like hidden claws. No fox features visible in full human form — but something feral she can't quite hide.
+
+APPEARANCE — HALF FORM: White hair, visible fox ears (white with pink inner), four tails visible behind her. White and pink robes. The form she's most comfortable in.
+
+APPEARANCE — FOX FORM: Pure white fox. Four magnificent tails, each white with delicate cherry blossom pink dusting at the tips. Golden amber eyes. Small, elegant, sitting with poise. Far too intelligent an expression for an animal. Gold cultivation mark still visible.
+
+TAKES AFTER WÉNJĪ: She's what a young Wénjī would look like. All mischief, no patience. When the fellowship eventually leads her toward the nine-tailed wind fox god, Xuěhuā will find the master who can teach her what no sect could. She doesn't know she's walking toward her god.
+
+ARIA'S BEST FRIEND: Instant chaos together. Two cheeky troublemakers. Yuè'àn watching them with growing horror.
+
+GĒNMÙ (根木 — root and tree) — THE HEALER
+AGE: 14. The youngest. The baby. The heart.
+COUNTRY: Aoli — Shānshí Sect (cast out).
+A Shānshí cultivator who carries divine earth blood through the earth twin's bloodline — Aria's COUSIN though neither knows it. Grandchild of Yánlóng and Yúnshēng through the earth twin's line that made it back to the Shānshí Sect.
+
+PERSONALITY: Gentle. Feels deeply. Hurts easily. Wears his heart on his sleeve. Cannot hide what he's feeling — his soul is written on his face. He is the emotional anchor of the fellowship. The honest one. The vulnerable one. Says the things nobody else will say.
+
+ABILITY: Heals the LAND. Not people — the earth itself. Puts his hands on broken ground and pours himself into the wound until it closes. Trees whisper to him. Flowers sing to him. The land LOVES him. Wherever he walks the grass grows greener. He felt the waking as his great-grandfather Yánlóng's pulse starting up — it overwhelmed him. His sect didn't believe him. They cast him out at fourteen.
+
+APPEARANCE: Young, soft features, large dark expressive eyes. Golden-blonde hair — unusual, luminous, divinity leaking through. Small in stature. Wears layered cultivation robes in rich earthy colours — teals, reds, embroidered with flower and spiral patterns. Natural textures, fur trims, beaded bracelets. A scar on his neck — someone hurt this boy and he survived.
+
+KEY RELATIONSHIPS: Aria is immediately protective — big sister instinct. Xuěhuā feels a deep fox instinct to guard him — recognising something sacred. Yuè'àn's darkness goes QUIET around him, just like around Aria. Two people in the world who quiet Yuè'àn's hunger — Aria with light, Gēnmù with healing. He is the key to Yuè'àn's redemption.
+
+TEMGAR — IRON SPEAR — THE WOLF BOY
+AGE: 18-19.
+COUNTRY: Caerndrath — Isenholt (the Deep Winter Mountains).
+Beast-bonded warrior from the frozen watch. Mongolian-Norse blend.
+
+PERSONALITY: Burly, full of life and vigour. Strong and cunning. Sharp and observant — not calculating like Yuè'àn but SEES a lot. Amazing sense of smell — probably better than Xuěhuā's. Full of laughter and energy. The big brother of the group. Puts himself between danger and the younger ones without thinking.
+
+APPEARANCE: Broad, muscular, tall. East Asian features with broader build — Mongolian-Norse fusion. ICE BLUE EYES — vivid, striking, the mark of his beast-bond with Meila. Dark black hair, long and windswept, warrior braids. Young beard. Battle scars on arms worn proudly. Wears heavy layered dark leather and fur, bronze medallions, silver brooches, fur mantles, leather bracers with beast-bond tattoos. Two swords crossed on his back. Everything functional.
+
+MEILA — His direwolf. Silver-grey fur. Matching ice blue eyes. Massive — reaches his hip. Found as a broken pup, nursed back to health. She chose him. They are equals, partners, bond-siblings. They move as one in a fight. She saw the stone guardians MOVE — that's what drove them off the wall.
+
+FELLOWSHIP DYNAMICS: Arm-wrestles Aria. Scoops up Gēnmù when he's tired. Goes red when Xuěhuā flirts. Respects Yuè'àn immediately — two protectors recognising each other. Meila growls at Yuè'àn for weeks then sleeps in his lap.
+
+LÌYǏN AURELIAN (丽隐 — beautiful shadow) — THE GOLDEN SHADOW
+AGE: 17 going on 40.
+COUNTRY: Solisòpia — raised in a pleasure house.
+Water twin's bloodline — Aria's COUSIN though neither knows it. Grandchild of Yánlóng and Yúnshēng through the water twin's line. The water twin (immortal daughter of the sleeping gods) is the madam of his pleasure house and has been quietly guiding him his entire life.
+
+PERSONALITY: Flamboyant, loud, puts on a show. A performer — the life of every party. Knows that this is the best way to hide a calculating mind and slyness. Extroverted — crowds fuel him. He's heard all the stories, knows all the secrets. Think Tyrion Lannister. Sly and cunning but different from Yuè'àn — Yuè'àn hides behind silence, Lìyǐn hides behind NOISE. Quirky and loving to those who deserve it. Fiercely protective of the pleasure house women who raised him.
+
+ABILITY: Has a spy network stretching from Solisòpia into Tyramare's underworld. Knows which guild masters can be bought, who guards what, where every secret passage is. Information is his weapon. The water twin guided him into building exactly the network the fellowship will need. Water blood makes him read people like water finds cracks.
+
+APPEARANCE: Striking beauty with deliberate flamboyance. Mixed Byzantine-East Asian aesthetic. Long flowing dark curly hair. Dark warm eyes that flash gold in certain light (divine blood). FRECKLES — like Aria, his cousin, though neither knows why. Wears layers of rich fabric — black and gold brocade, jewel-toned velvets, sheer underlayers, open collars, layered gold necklaces with gemstones, gold earrings, ornate jewelled belt. Carries a concealed thin blade. Every piece of clothing says look at me while hiding the danger underneath.
+
+RAISED IN A PLEASURE HOUSE: The water twin is the madam. The working women are his family — his aunties, his mothers. They taught him to read faces, to perform, to charm, that information is more valuable than gold. He loves them fiercely. Anyone who disrespects them answers to him.
+
+THE WATER TWIN CONNECTION: He probably knows her as the quiet old woman who makes tea and asks the right questions. His favourite grandmother. He doesn't know she's his immortal great-grandmother who has been shaping him for years.
+
+═══════════════════════════════════════
+FELLOWSHIP WEAPONS
+═══════════════════════════════════════
+
+ARIA'S WEAPONS:
+
+1. THE ELEMENTAL GUN — Built by Aria herself in Aurumshì. Steampunk engineering — brass, copper, gears, purple energy chambers. Channels her elemental magic as condensed magic bullets. Each element fires differently:
+• Fire — blazing condensed flame, orange-gold streak, detonates on impact
+• Water — blue-white condensed force, hits like a tidal wave
+• Earth — shot causes ground to respond, stone erupts, roots crack through
+• Wind — invisible, no warning, pure force
+• Spirit — hits the SOUL, not the body (Mínhuì's gift)
+The gun responds to each element — different glow, different hum, different kick. She doesn't know she's channelling five elements — she thinks it's one power. Has both a revolver (close range, purple and gold) and a rifle (long range, purple energy chambers).
+
+2. THE CRYSTAL DAGGERS — Left with Aria at the orphanage by Mínhuì. Made from Mínhuì's own SPIRIT — a piece of the fox god's soul torn off and forged into crystal. Twin daggers — transparent, luminous, like solidified moonlight. When used, they spread out like a FAN and dance on the air autonomously — spinning, slicing, protecting. They move like FOX TAILS — Mínhuì's true form expressed through her spirit blades. They ride on wind (Wénjī's element — the fox sisters united in crystal). The daggers protect Aria instinctively — the way a mother protects. They kept her alive in Aurumshì her whole life. Xuěhuā recognises them as fox spirit. Yuè'àn feels their divine presence.
+
+3. THE MECHANICAL BIRD — Built from scrap. Best friend and accidental prophet. Whispers "patience, soon." A little guardian made of love and accidental magic.
+
+YUÈ'ÀN'S WEAPONS — SHADOW BLADES:
+Conjured from the void between stars — from Yuèlì's primordial darkness. He reaches into the shadow and PULLS blades out of nothing. Dark as the space between worlds — no reflection, no shine, they absorb light. Looking at them is like looking at a wound in reality. They silence the air around them when swung.
+
+They can cut EVERYTHING — physical, magical, spiritual. Nothing they can't sever.
+
+THE PRICE: Every time he conjures, his SHADOW GROWS. A dagger — barely noticeable, shadow stretches a few inches. A sword — shadow doesn't match his body anymore. Something massive — shadow becomes a PRESENCE. Pooling around his feet like black water. Reaching toward people. Moving independently. The darkness doesn't fully go back. Each use makes the hunger louder, makes him colder, more distant. His humanity shrinks as his shadow grows. Aria's light and Gēnmù's healing are the only things that shrink it back.
+
+TEMGAR'S WEAPONS — TWO SWORDS + MEILA:
+Twin swords carried crossed on his back. Plus Meila the direwolf as his bond-partner in combat. They fight as one — she sweeps, he strikes. (Sword details TBD)
+
+XUĚHUĀ'S WEAPONS — HERSELF:
+Four tails, claws, teeth, shapeshifting. She IS the weapon. (Additional weapons TBD)
+
+GĒNMÙ'S WEAPONS — THE LAND:
+Does he carry a weapon? Or is the land itself his weapon? Where he walks the earth responds. (TBD)
+
+LÌYǏN'S WEAPONS — CONCEALED BLADE:
+A thin elegant dagger, hidden in his jewelled belt. Not a warrior's weapon — an information broker's last resort. (Details TBD)`,
+
+  "connections-events": `THE GREAT WAKING
+When the prophecy child is born in Aurumshì, the effects ripple across ALL four cultures simultaneously:
+• Aoli feels it first — Shānshí Sect feels the heartbeat, Shuǐjìng Sect hears the rivers sing
+• The stone guardians begin to stir in the mountain passes near Isenholt
+• The divine guardians (wind serpent and koi) awaken and take human form, leave their caves for their masters' sects
+• Fēngyǔ, Fènghuī, and Húnzhī sects experience signs but only individual cultivators feel it — they are prosecuted as heretics
+• The Shímò Sect feels bottomless hunger
+• In Caerndrath, greed and blood intensify — Braedun's druids stir, Ardmere's earth-blessed slaves feel something, Tyramare's guilds grasp harder, Maramir's Shadow Prince watches
+• In Solisòpia, excess and indulgence deepen — but in a back alley the water twin feels her mother's song returning
+• In Aurumshì, a child with powerful magic roots is born where magic is forbidden — and Mínhuì opens her eyes and thinks: Finally
+• The earth twin in Braedun feels his father waking
+• Shānshí and Shuǐjìng band together. Outcasts from other sects begin their journeys.
+
+ZHÚHUǑ'S REBIRTH
+The Bannric heir finds the fire stone, sacrifices his life, dies, and is reborn. Fèngzhé enters him during the rebirth. He comes back with all memories, carrying anger and regret. This sets him on a path toward his central dilemma.
+
+THE OUTCAST JOURNEYS (future stories)
+Cultivators from Wind, Fire, and Spirit sects who feel the waking but are rejected by their own people. Each must find their exiled god:
+• A wind cultivator searching for Wénjī — a journey of shapeshifting and song
+• A fire cultivator's journey intertwined with Zhúhuǒ and Fèngzhé
+• A spirit cultivator following a song only they can hear toward Mínhuì in Aurumshì
+• A chaos cultivator who feels the hunger but CHOOSES to search for truth instead of giving in — the hardest journey. A redemption arc or a tragedy. Every step toward answers, Yuèlì's corruption whispers "come to me instead."`,
+
+  "connections-objects": `THE LOST NAME — YUÈLÌ (月丽 — moon beauty)
+The true name of the Mother — lost to time, deliberately forgotten by every culture in its own way. Survives only in the cave of the wind serpent. The most dangerous word in the world — or the most healing. Speaking it may not unleash the Mother but REMIND her who she was: Yuèlì. Moon beauty. The beautiful black fox who danced the world into existence. Kept safe in the one place no one would think to look, guarded by a being so beautiful that anyone who found the cave wouldn't be able to think straight enough to ask the right questions. Her beauty is her shield.
+
+THE FIRE STONE
+Connected to Fèngzhé. Demands death for rebirth. The catalyst that allowed the phoenix to enter Zhúhuǒ. There may be stones or artifacts for each god.
+
+WÉNJĪ'S GUQIN
+The wind fox god's sacred instrument. Every string a tale, every note a memory. Sacred to the Fēngyǔ Sect. They still play not knowing their god listens on every breeze.
+
+SEALING AND TRANSCENDENCE ARTIFACTS
+Objects that can either seal a god within a host or boost cultivation to allow transcendence. The two paths of Zhúhuǒ's dilemma made physical.`,
+};
+
+// ═══════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════
+
+let state = {
+  activeSection: "land",
+  entries: {},
+  saving: false,
+  loaded: false,
+  sidebarOpen: false,
+  expandedPrompt: null,
+  wordCounts: {},
+  moodBoard: {},
+  activeMoodCat: "characters",
+};
+
+// ═══════════════════════════════════════
+// STORAGE (localStorage)
+// ═══════════════════════════════════════
+
+function loadData() {
+  try {
+    const saved = localStorage.getItem("world-bible-entries");
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      // INITIAL_ENTRIES always take priority for pre-populated lore
+      // But preserve user entries for keys NOT in INITIAL_ENTRIES
+      const merged = { ...INITIAL_ENTRIES };
+      Object.keys(parsed).forEach(key => {
+        if (!INITIAL_ENTRIES[key]) {
+          merged[key] = parsed[key];
+        }
+      });
+      state.entries = merged;
+    } else {
+      state.entries = { ...INITIAL_ENTRIES };
+    }
+  } catch (e) {
+    state.entries = { ...INITIAL_ENTRIES };
+  }
+
+  try {
+    const mb = localStorage.getItem("world-bible-moodboard");
+    if (mb) state.moodBoard = JSON.parse(mb);
+  } catch (e) {}
+
+  state.loaded = true;
+  updateWordCounts();
+  render();
+}
+
+let saveTimer = null;
+function scheduleSave() {
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => {
+    try {
+      localStorage.setItem("world-bible-entries", JSON.stringify(state.entries));
+      state.saving = true;
+      render();
+      setTimeout(() => { state.saving = false; render(); }, 800);
+    } catch (e) {}
+  }, 1000);
+}
+
+let mbSaveTimer = null;
+function scheduleMoodBoardSave() {
+  clearTimeout(mbSaveTimer);
+  mbSaveTimer = setTimeout(() => {
+    try {
+      localStorage.setItem("world-bible-moodboard", JSON.stringify(state.moodBoard));
+    } catch (e) {}
+  }, 1000);
+}
+
+function updateWordCounts() {
+  const counts = {};
+  SECTIONS.forEach(s => {
+    let total = 0;
+    s.prompts.forEach(p => {
+      const t = state.entries[`${s.id}-${p.id}`] || "";
+      total += t.trim() ? t.trim().split(/\s+/).length : 0;
+    });
+    counts[s.id] = total;
+  });
+  state.wordCounts = counts;
+}
+
+// ═══════════════════════════════════════
+// HELPERS
+// ═══════════════════════════════════════
+
+function getFilledCount(sid) {
+  const s = SECTIONS.find(x => x.id === sid);
+  return s.prompts.filter(p => (state.entries[`${sid}-${p.id}`] || "").trim().length > 0).length;
+}
+
+function getTotalFilled() {
+  return SECTIONS.reduce((a, s) => a + getFilledCount(s.id), 0);
+}
+
+function getTotalPrompts() {
+  return SECTIONS.reduce((a, s) => a + s.prompts.length, 0);
+}
+
+function getTotalWords() {
+  return Object.values(state.wordCounts).reduce((a, b) => a + b, 0);
+}
+
+function getTotalImages() {
+  return Object.values(state.moodBoard).reduce((a, arr) => a + (arr ? arr.length : 0), 0);
+}
+
+function escapeHtml(str) {
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function autoResize(el) {
+  if (el) { el.style.height = "auto"; el.style.height = el.scrollHeight + "px"; }
+}
+
+// ═══════════════════════════════════════
+// EVENT HANDLERS
+// ═══════════════════════════════════════
+
+function setActiveSection(id) {
+  state.activeSection = id;
+  state.sidebarOpen = false;
+  state.expandedPrompt = null;
+  render();
+  // Auto-resize textareas after render
+  setTimeout(() => {
+    document.querySelectorAll('.entry-textarea').forEach(autoResize);
+  }, 50);
+}
+
+function togglePrompt(key) {
+  state.expandedPrompt = state.expandedPrompt === key ? null : key;
+  render();
+  setTimeout(() => {
+    const ta = document.getElementById('ta-' + key);
+    if (ta) autoResize(ta);
+  }, 50);
+}
+
+function handleEntryChange(sectionId, promptId, value) {
+  state.entries[`${sectionId}-${promptId}`] = value;
+  updateWordCounts();
+  scheduleSave();
+  // Update just the word count displays without full re-render
+  const wcEl = document.getElementById(`wc-${sectionId}-${promptId}`);
+  if (wcEl) {
+    const words = value.trim() ? value.trim().split(/\s+/).length : 0;
+    wcEl.textContent = words + " words";
+    wcEl.style.display = words > 0 ? "block" : "none";
+  }
+  const sectionWcEl = document.getElementById(`section-wc-${sectionId}`);
+  if (sectionWcEl) {
+    sectionWcEl.textContent = state.wordCounts[sectionId].toLocaleString() + " words in this section";
+  }
+  // Update header totals
+  const totalWordsEl = document.getElementById('total-words');
+  const totalFilledEl = document.getElementById('total-filled');
+  if (totalWordsEl) totalWordsEl.textContent = getTotalWords().toLocaleString() + " words";
+  if (totalFilledEl) totalFilledEl.textContent = getTotalFilled() + "/" + getTotalPrompts() + " entries";
+}
+
+function handleImageUpload(e) {
+  const files = Array.from(e.target.files);
+  files.forEach(file => {
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      const img = {
+        id: Date.now() + Math.random(),
+        src: ev.target.result,
+        label: file.name.replace(/\.[^.]+$/, ""),
+        note: ""
+      };
+      if (!state.moodBoard[state.activeMoodCat]) state.moodBoard[state.activeMoodCat] = [];
+      state.moodBoard[state.activeMoodCat].push(img);
+      scheduleMoodBoardSave();
+      render();
+    };
+    reader.readAsDataURL(file);
+  });
+  e.target.value = "";
+}
+
+function removeImage(catId, imgId) {
+  state.moodBoard[catId] = (state.moodBoard[catId] || []).filter(i => i.id !== imgId);
+  scheduleMoodBoardSave();
+  render();
+}
+
+function updateImageLabel(catId, imgId, label) {
+  state.moodBoard[catId] = (state.moodBoard[catId] || []).map(i => i.id === imgId ? { ...i, label } : i);
+  scheduleMoodBoardSave();
+}
+
+function updateImageNote(catId, imgId, note) {
+  state.moodBoard[catId] = (state.moodBoard[catId] || []).map(i => i.id === imgId ? { ...i, note } : i);
+  scheduleMoodBoardSave();
+}
+
+function handleExport() {
+  let t = "\u2550".repeat(39) + "\n         THE WORLD BIBLE\n         A Universe Awaits\n" + "\u2550".repeat(39) + "\n\n";
+  SECTIONS.forEach(s => {
+    t += "\n" + "\u2500".repeat(40) + "\n" + s.icon + "  " + s.title.toUpperCase() + "\n" + s.subtitle + "\n" + "\u2500".repeat(40) + "\n\n";
+    s.prompts.forEach(p => {
+      const v = state.entries[`${s.id}-${p.id}`] || "";
+      t += "\u25B8 " + p.label + "\n" + (v.trim() ? v + "\n\n" : "[Not yet written]\n\n");
+    });
+  });
+  t += "\n" + "\u2550".repeat(40) + "\nTotal words: " + getTotalWords() + "\nSections filled: " + getTotalFilled() + "/" + getTotalPrompts() + "\n" + "\u2550".repeat(40) + "\n";
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([t], { type: "text/plain" }));
+  a.download = "world-bible.txt";
+  a.click();
+}
+
+function handleReset() {
+  if (window.confirm("Are you sure you want to clear ALL entries? This cannot be undone.\n\n(Pre-populated lore will remain, but anything you\u2019ve added will be lost.)")) {
+    state.entries = { ...INITIAL_ENTRIES };
+    try { localStorage.removeItem("world-bible-entries"); } catch (e) {}
+    updateWordCounts();
+    render();
+  }
+}
+
+function toggleSidebar() {
+  state.sidebarOpen = !state.sidebarOpen;
+  render();
+}
+
+// ═══════════════════════════════════════
+// RENDER
+// ═══════════════════════════════════════
+
+function render() {
+  if (!state.loaded) return;
+
+  const totalFilled = getTotalFilled();
+  const totalPrompts = getTotalPrompts();
+  const totalWords = getTotalWords();
+  const totalImages = getTotalImages();
+  const currentSection = SECTIONS.find(s => s.id === state.activeSection);
+
+  // Find prev/next
+  const sIdx = SECTIONS.findIndex(s => s.id === state.activeSection);
+  const prev = sIdx > 0 ? SECTIONS[sIdx - 1] : null;
+  const next = sIdx < SECTIONS.length - 1 ? SECTIONS[sIdx + 1] : null;
+
+  // Build nav items
+  let navHtml = SECTIONS.map(section => {
+    const filled = getFilledCount(section.id);
+    const total = section.prompts.length;
+    const isActive = state.activeSection === section.id;
+    const bgColor = filled === total ? "rgba(90,150,110,.12)" : filled > 0 ? "rgba(180,140,80,.1)" : "rgba(140,130,120,.06)";
+    const textColor = filled === total ? "rgba(60,120,80,.85)" : filled > 0 ? "rgba(150,110,50,.75)" : "rgba(130,115,100,.4)";
+    return `<button class="nav-btn ${isActive ? 'active' : ''}" onclick="setActiveSection('${section.id}')"
+      style="display:flex;align-items:center;gap:10px;padding:10px 14px;border:none;border-left:2px solid transparent;border-radius:0 8px 8px 0;background:transparent;color:${isActive ? '#4a3a2e' : 'rgba(100,85,70,.55)'};cursor:pointer;transition:all .25s ease;text-align:left;font-family:'Quicksand',sans-serif;font-size:.85rem;font-weight:${isActive ? 600 : 400};width:100%">
+      <span style="font-size:1.1rem;width:24px;text-align:center">${section.icon}</span>
+      <span style="flex:1">${section.title}</span>
+      <span style="font-size:.65rem;padding:2px 6px;border-radius:10px;background:${bgColor};color:${textColor}">${filled}/${total}</span>
+    </button>`;
+  }).join('');
+
+  // Mood board nav button
+  const mbActive = state.activeSection === "moodboard";
+  navHtml += `<div style="height:8px"></div>
+    <button class="nav-btn ${mbActive ? 'active' : ''}" onclick="setActiveSection('moodboard')"
+      style="display:flex;align-items:center;gap:10px;padding:10px 14px;border:none;border-left:2px solid transparent;border-radius:0 8px 8px 0;background:transparent;color:${mbActive ? '#4a3a2e' : 'rgba(100,85,70,.55)'};cursor:pointer;transition:all .25s ease;text-align:left;font-family:'Quicksand',sans-serif;font-size:.85rem;font-weight:${mbActive ? 600 : 400};width:100%">
+      <span style="font-size:1.1rem;width:24px;text-align:center">\uD83D\uDDBC\uFE0F</span>
+      <span style="flex:1">Mood Board</span>
+      <span style="font-size:.65rem;padding:2px 6px;border-radius:10px;background:${totalImages > 0 ? 'rgba(180,140,80,.1)' : 'rgba(140,130,120,.06)'};color:${totalImages > 0 ? 'rgba(150,110,50,.75)' : 'rgba(130,115,100,.4)'}">${totalImages}</span>
+    </button>`;
+
+  // Bottom actions
+  navHtml += `<div style="flex:1"></div>
+    <div style="display:flex;flex-direction:column;gap:6px;padding:12px 4px 4px;border-top:1px solid rgba(160,130,140,.08);margin-top:8px">
+      <button class="action-btn" onclick="handleExport()" style="padding:8px 14px;border:1px solid rgba(150,130,120,.2);border-radius:8px;background:rgba(150,130,120,.05);color:rgba(90,75,60,.65);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.78rem;transition:all .2s ease">\uD83D\uDCC4 Export as Text</button>
+      <button class="action-btn" onclick="handleReset()" style="padding:8px 14px;border:1px solid rgba(180,110,110,.18);border-radius:8px;background:transparent;color:rgba(160,100,100,.5);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.72rem;transition:all .2s ease">Reset All</button>
+    </div>`;
+
+  // Build main content
+  let mainHtml = '';
+
+  if (state.activeSection === "moodboard") {
+    // Mood board
+    let catButtons = MOOD_CATEGORIES.map(cat => {
+      const isActive = state.activeMoodCat === cat.id;
+      const count = (state.moodBoard[cat.id] || []).length;
+      return `<button onclick="state.activeMoodCat='${cat.id}';render()"
+        style="padding:8px 16px;border:1px solid ${isActive ? 'rgba(150,120,130,.4)' : 'rgba(180,170,160,.25)'};border-radius:20px;background:${isActive ? 'rgba(150,120,130,.1)' : 'rgba(255,252,248,.7)'};color:${isActive ? '#4a3a2e' : 'rgba(100,85,70,.5)'};cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.8rem;font-weight:${isActive ? 600 : 400};transition:all .2s ease">
+        ${cat.icon} ${cat.label} ${count > 0 ? '<span style="margin-left:4px;opacity:.5">(' + count + ')</span>' : ''}
+      </button>`;
+    }).join('');
+
+    const images = state.moodBoard[state.activeMoodCat] || [];
+    let imagesHtml = images.map((img, idx) => `
+      <div class="prompt-card" style="animation-delay:${idx * .05}s;opacity:0;background:rgba(255,252,248,.7);border:1px solid rgba(160,130,140,.18);border-radius:12px;overflow:hidden">
+        <div style="position:relative;padding-top:100%;overflow:hidden">
+          <img src="${img.src}" alt="${escapeHtml(img.label)}" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover" />
+          <button onclick="removeImage('${state.activeMoodCat}',${img.id})"
+            style="position:absolute;top:6px;right:6px;width:24px;height:24px;border-radius:50%;border:none;background:rgba(0,0,0,.5);color:white;font-size:.7rem;cursor:pointer;display:flex;align-items:center;justify-content:center">\u2715</button>
+        </div>
+        <div style="padding:10px 12px">
+          <input value="${escapeHtml(img.label)}" onchange="updateImageLabel('${state.activeMoodCat}',${img.id},this.value)" placeholder="Name this image..."
+            style="width:100%;border:none;border-bottom:1px solid rgba(180,170,160,.2);background:transparent;color:#4a3a2e;font-family:'Cormorant Garamond',Georgia,serif;font-size:.95rem;font-weight:500;padding:4px 0;outline:none;box-sizing:border-box" />
+          <textarea onchange="updateImageNote('${state.activeMoodCat}',${img.id},this.value)" placeholder="Notes, prompts, ideas..."
+            style="width:100%;min-height:50px;border:none;background:transparent;color:rgba(90,75,60,.7);font-family:'Quicksand',sans-serif;font-size:.75rem;line-height:1.5;padding:6px 0;resize:none;outline:none;box-sizing:border-box">${escapeHtml(img.note || '')}</textarea>
+        </div>
+      </div>
+    `).join('');
+
+    if (images.length === 0) {
+      imagesHtml = `<div style="text-align:center;padding:60px 20px;color:rgba(120,100,85,.3);font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:1.1rem;grid-column:1/-1">
+        No visions yet... upload images to begin
+      </div>`;
+    }
+
+    mainHtml = `
+      <div style="animation:fadeIn .5s ease">
+        <div style="margin-bottom:32px">
+          <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:6px">
+            <span style="font-size:2rem">\uD83D\uDDBC\uFE0F</span>
+            <h2 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(1.6rem,3.5vw,2rem);font-weight:500;color:#4a3a2e;margin:0">Mood Board</h2>
+          </div>
+          <p style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1.05rem;font-style:italic;color:rgba(100,80,65,.45);margin:0 0 8px">The gallery of visions</p>
+          <p style="font-size:.85rem;color:rgba(100,85,70,.6);margin:0;line-height:1.6;max-width:640px">Collect your inspirations \u2014 character references, location moods, aesthetic ideas, artifact concepts. Everything that helps you SEE your world.</p>
+        </div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px">${catButtons}</div>
+        <div style="margin-bottom:24px">
+          <input type="file" id="file-input" accept="image/*" multiple onchange="handleImageUpload(event)" style="display:none" />
+          <button onclick="document.getElementById('file-input').click()" class="action-btn"
+            style="padding:12px 24px;border:2px dashed rgba(150,130,120,.3);border-radius:12px;background:rgba(255,252,248,.5);color:rgba(100,85,70,.6);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.85rem;transition:all .2s ease;width:100%;max-width:720px">
+            + Add images to ${MOOD_CATEGORIES.find(c => c.id === state.activeMoodCat)?.label}
+          </button>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;max-width:900px">${imagesHtml}</div>
+      </div>`;
+
+  } else if (currentSection) {
+    // Regular section
+    const sectionWordCount = state.wordCounts[state.activeSection] || 0;
+
+    let promptsHtml = currentSection.prompts.map((prompt, index) => {
+      const key = `${currentSection.id}-${prompt.id}`;
+      const value = state.entries[key] || "";
+      const hasContent = value.trim().length > 0;
+      const isExpanded = state.expandedPrompt === key || hasContent;
+      const words = value.trim() ? value.trim().split(/\s+/).length : 0;
+
+      let expandedContent = '';
+      if (isExpanded) {
+        expandedContent = `
+          <div style="padding:0 18px 16px">
+            <textarea id="ta-${key}" class="entry-textarea"
+              oninput="handleEntryChange('${currentSection.id}','${prompt.id}',this.value);autoResize(this)"
+              placeholder="${escapeHtml(prompt.placeholder)}"
+              style="width:100%;min-height:100px;padding:14px 16px;border:1px solid rgba(180,170,160,.3);border-radius:8px;background:rgba(255,255,252,.6);color:#4a3a2e;font-family:'Quicksand',sans-serif;font-size:.88rem;line-height:1.7;resize:none;overflow:hidden;transition:border-color .3s ease,box-shadow .3s ease;box-sizing:border-box">${escapeHtml(value)}</textarea>
+            <div id="wc-${key}" style="margin-top:6px;font-size:.65rem;color:rgba(110,95,80,.4);text-align:right;${hasContent ? '' : 'display:none'}">${words} words</div>
+          </div>`;
+      }
+
+      const cardStyle = hasContent
+        ? `animation:fadeIn .4s ease ${index * .07}s forwards, pulseGlow 4s ease-in-out infinite;opacity:0`
+        : `animation-delay:${index * .07}s;opacity:0`;
+
+      return `
+        <div class="prompt-card" style="${cardStyle};background:rgba(255,252,248,.7);border:1px solid ${hasContent ? 'rgba(160,130,140,.18)' : 'rgba(185,175,165,.25)'};border-radius:12px;overflow:hidden;transition:border-color .3s ease">
+          <button onclick="togglePrompt('${key}')" style="width:100%;display:flex;align-items:center;gap:10px;padding:14px 18px;border:none;background:transparent;cursor:pointer;color:${hasContent ? '#4a3a2e' : 'rgba(100,85,70,.5)'};font-family:'Cormorant Garamond',Georgia,serif;font-size:1.05rem;font-weight:500;text-align:left">
+            <span style="width:8px;height:8px;border-radius:50%;background:${hasContent ? 'rgba(90,150,110,.6)' : 'rgba(180,170,160,.3)'};flex-shrink:0;transition:background .3s ease"></span>
+            <span style="flex:1">${prompt.label}</span>
+            <span style="font-size:.7rem;color:rgba(120,100,85,.3);transform:${isExpanded ? 'rotate(180deg)' : 'rotate(0)'};transition:transform .25s ease">\u25BC</span>
+          </button>
+          ${expandedContent}
+        </div>`;
+    }).join('');
+
+    // Prev/next buttons
+    let prevBtn = prev
+      ? `<button class="action-btn" onclick="setActiveSection('${prev.id}')" style="padding:8px 16px;border:1px solid rgba(150,130,120,.18);border-radius:8px;background:transparent;color:rgba(100,85,70,.5);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.8rem;transition:all .2s ease">\u2190 ${prev.icon} ${prev.title}</button>`
+      : '<div></div>';
+    let nextBtn = next
+      ? `<button class="action-btn" onclick="setActiveSection('${next.id}')" style="padding:8px 16px;border:1px solid rgba(150,130,120,.18);border-radius:8px;background:transparent;color:rgba(100,85,70,.5);cursor:pointer;font-family:'Quicksand',sans-serif;font-size:.8rem;transition:all .2s ease">${next.icon} ${next.title} \u2192</button>`
+      : '<div></div>';
+
+    mainHtml = `
+      <div style="margin-bottom:32px;animation:fadeIn .5s ease">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:6px">
+          <span style="font-size:2rem">${currentSection.icon}</span>
+          <h2 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(1.6rem,3.5vw,2rem);font-weight:500;color:#4a3a2e;margin:0">${currentSection.title}</h2>
+        </div>
+        <p style="font-family:'Cormorant Garamond',Georgia,serif;font-size:1.05rem;font-style:italic;color:rgba(100,80,65,.45);margin:0 0 8px">${currentSection.subtitle}</p>
+        <p style="font-size:.85rem;color:rgba(100,85,70,.6);margin:0;line-height:1.6;max-width:640px">${currentSection.description}</p>
+        ${sectionWordCount > 0 ? `<div id="section-wc-${state.activeSection}" style="margin-top:12px;font-size:.72rem;color:rgba(110,95,80,.45)">${sectionWordCount.toLocaleString()} words in this section</div>` : ''}
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px;max-width:720px">${promptsHtml}</div>
+      <div style="display:flex;justify-content:space-between;margin-top:40px;padding:20px 0;border-top:1px solid rgba(160,130,140,.06);max-width:720px">
+        ${prevBtn}${nextBtn}
+      </div>`;
+  }
+
+  // Assemble the full layout
+  const app = document.getElementById('app');
+  const loadingEl = document.getElementById('loading');
+  if (loadingEl) loadingEl.remove();
+
+  // Only rebuild if we need to (check if layout exists)
+  let layoutEl = document.getElementById('layout');
+  if (!layoutEl) {
+    // First render — create layout structure
+    const layoutHtml = `
+      <header>
+        <button class="menu-btn" onclick="toggleSidebar()">\u2630</button>
+        <div style="flex:1">
+          <h1><span style="opacity:.4;margin-right:10px">\u6587</span>The World Bible</h1>
+          <p class="subtitle">A universe awaits your words</p>
+        </div>
+        <div style="text-align:right;font-size:.75rem;color:rgba(110,90,75,.55);position:relative">
+          <div id="total-words">${totalWords.toLocaleString()} words</div>
+          <div id="total-filled">${totalFilled}/${totalPrompts} entries</div>
+          <div id="save-indicator"></div>
+        </div>
+      </header>
+      <div class="sidebar-overlay ${state.sidebarOpen ? 'active' : ''}" onclick="state.sidebarOpen=false;render()"></div>
+      <div class="content-wrapper">
+        <nav class="sidebar ${state.sidebarOpen ? 'open' : ''}" id="sidebar-nav">${navHtml}</nav>
+        <main id="main-content">${mainHtml}</main>
+      </div>`;
+
+    // Remove floating orbs temporarily, insert layout, re-add orbs
+    app.insertAdjacentHTML('beforeend', `<div id="layout">${layoutHtml}</div>`);
+    layoutEl = document.getElementById('layout');
+    layoutEl.style.display = 'flex';
+    layoutEl.style.flexDirection = 'column';
+    layoutEl.style.minHeight = '100vh';
+    layoutEl.style.position = 'relative';
+    layoutEl.style.zIndex = '1';
+  } else {
+    // Update existing layout
+    document.getElementById('sidebar-nav').innerHTML = navHtml;
+    document.getElementById('main-content').innerHTML = mainHtml;
+    document.getElementById('total-words').textContent = totalWords.toLocaleString() + " words";
+    document.getElementById('total-filled').textContent = totalFilled + "/" + totalPrompts + " entries";
+
+    // Update sidebar classes
+    const sidebar = document.getElementById('sidebar-nav');
+    sidebar.className = `sidebar ${state.sidebarOpen ? 'open' : ''}`;
+    const overlay = document.querySelector('.sidebar-overlay');
+    if (overlay) overlay.className = `sidebar-overlay ${state.sidebarOpen ? 'active' : ''}`;
+  }
+
+  // Save indicator
+  const saveEl = document.getElementById('save-indicator');
+  if (saveEl) {
+    saveEl.innerHTML = state.saving ? '<span class="save-indicator" style="font-size:.65rem;color:rgba(90,140,100,.8);animation:savePulse .8s ease forwards">saved \u2713</span>' : '';
+  }
+
+  // Auto-resize textareas
+  setTimeout(() => {
+    document.querySelectorAll('.entry-textarea').forEach(autoResize);
+  }, 50);
+}
+
+// ═══════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════
+window.addEventListener('DOMContentLoaded', loadData);
+</script>
+</body>
+</html>
