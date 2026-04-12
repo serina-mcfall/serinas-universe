@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { SECTIONS, MOOD_CATEGORIES } from './data/sections'
 import { INITIAL_ENTRIES } from './data/initial-entries'
+import WorldMap from './WorldMap'
 
 function WorldBible() {
   const [activeSection, setActiveSection] = useState('cosmology')
@@ -288,6 +289,23 @@ function WorldBible() {
 
           <div style={{ height: '8px' }} />
 
+          {/* Atlas nav */}
+          <button
+            className={`nav-btn ${activeSection === 'atlas' ? 'active' : ''}`}
+            onClick={() => navigateSection('atlas')}
+            style={{
+              display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 14px',
+              border: 'none', borderLeft: '2px solid transparent', borderRadius: '0 8px 8px 0',
+              background: 'transparent', color: activeSection === 'atlas' ? '#4a3a2e' : 'rgba(100,85,70,.55)',
+              cursor: 'pointer', transition: 'all .25s ease', textAlign: 'left',
+              fontFamily: "'Quicksand', sans-serif", fontSize: '.85rem',
+              fontWeight: activeSection === 'atlas' ? 600 : 400, width: '100%',
+            }}
+          >
+            <span style={{ fontSize: '1.1rem', width: '24px', textAlign: 'center' }}>🗺️</span>
+            <span style={{ flex: 1 }}>The Atlas</span>
+          </button>
+
           {/* Mood Board nav */}
           <button
             className={`nav-btn ${activeSection === 'moodboard' ? 'active' : ''}`}
@@ -333,8 +351,10 @@ function WorldBible() {
         </nav>
 
         {/* Main content */}
-        <main>
-          {activeSection === 'moodboard' ? (
+        <main style={activeSection === 'atlas' ? { padding: 0, overflow: 'hidden' } : undefined}>
+          {activeSection === 'atlas' ? (
+            <WorldMap />
+          ) : activeSection === 'moodboard' ? (
             /* Mood Board */
             <div style={{ animation: 'fadeIn .5s ease' }}>
               <div className="section-header">
