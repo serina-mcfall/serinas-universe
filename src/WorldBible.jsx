@@ -11,7 +11,7 @@ function WorldBible() {
   const [expandedPrompt, setExpandedPrompt] = useState(null)
   const [wordCounts, setWordCounts] = useState({})
   const [moodBoard, setMoodBoard] = useState({})
-  const [activeMoodCat, setActiveMoodCat] = useState('characters')
+  const [activeMoodCat, setActiveMoodCat] = useState('aoli-yan')
   const textareaRefs = useRef({})
   const fileInputRef = useRef(null)
 

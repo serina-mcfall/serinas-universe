@@ -22,9 +22,14 @@ export const SECTIONS = [
     description: "Xianxia/cultivation. The land is alive. Six sects, divine connections severed and sleeping, and the Shi Sect's dark secret.",
     prompts: [
       { id: "overview", label: "The Realm", placeholder: "The breathing land — how Aoli lives, feels, and responds to those who walk it..." },
-      { id: "sects", label: "The Six Sects", placeholder: "Yan, Yun, Wen, Fen, Hun, Shi — the six sects, their natures and connections..." },
+      { id: "sects", label: "The Six Sects — Overview", placeholder: "Yan, Yun, Wen, Fen, Hun, Shi — the six sects at a glance..." },
+      { id: "yansect", label: "Yan Sect (山石 — Earth)", placeholder: "Mountain stone. Yánlóng's sect. Carved into the Dragon's Spine..." },
+      { id: "yunsect", label: "Yun Sect (水静 — Water)", placeholder: "Water stillness. Yúnshēng's sect. Perpetual spring, cherry blossoms..." },
+      { id: "wensect", label: "Wen Sect (风羽 — Wind)", placeholder: "Wind feather. Wénjī's sect. Five Winds, all-female leadership, music and shapeshifting..." },
+      { id: "fensect", label: "Fen Sect (凤灰 — Fire)", placeholder: "Phoenix ash. Fèngzhé's sect. Five brothers, the empty seat, orphan family..." },
+      { id: "hunsect", label: "Hun Sect (魂织 — Spirit)", placeholder: "Soul weave. Mínhuì's sect. Veil-walkers, healers, spirit cultivation..." },
+      { id: "shimosect", label: "Shi Sect (蚀没 — Chaos)", placeholder: "The inner sect, Yuèlì's avatar, the worldwide network of agents and fragments..." },
       { id: "cultivation", label: "Cultivation & Magic", placeholder: "How cultivation works in Aoli, the sect system, ranks and advancement..." },
-      { id: "shimosect", label: "The Shi Sect Secret", placeholder: "The inner sect, Yuèlì's avatar, the worldwide network of agents and fragments..." },
       { id: "dailylife", label: "Daily Life & Culture", placeholder: "Sect daily life, architecture, food, customs, festivals..." },
       { id: "landscape", label: "The Land Itself", placeholder: "Mountains, rivers, sacred places, where the gods sleep..." },
     ],
@@ -177,7 +182,29 @@ export const SECTIONS = [
 ];
 
 export const MOOD_CATEGORIES = [
-  { id: "characters", label: "Characters", icon: "👤" },
+  // === AOLI — By Sect ===
+  { id: "aoli-yan", label: "Yan Sect (Earth)", icon: "🏯" },
+  { id: "aoli-yun", label: "Yun Sect (Water)", icon: "🏯" },
+  { id: "aoli-wen", label: "Wen Sect (Wind)", icon: "🏯" },
+  { id: "aoli-fen", label: "Fen Sect (Fire)", icon: "🏯" },
+  { id: "aoli-hun", label: "Hun Sect (Spirit)", icon: "🏯" },
+  { id: "aoli-shi", label: "Shi Sect (Chaos)", icon: "🏯" },
+  // === ISENHOLT — By Clan ===
+  { id: "isen-greymane", label: "Greymane (Wolf)", icon: "⛰️" },
+  { id: "isen-mistborne", label: "Mistborne (Fox)", icon: "⛰️" },
+  { id: "isen-stonewall", label: "Stonewall (Bear)", icon: "⛰️" },
+  { id: "isen-shroudborn", label: "Shroudborn (Leopard)", icon: "⛰️" },
+  { id: "isen-skycrest", label: "Skycrest (Eagle)", icon: "⛰️" },
+  { id: "isen-coldhollow", label: "Coldhollow (Owl)", icon: "⛰️" },
+  // === TYRAMARE — By District ===
+  { id: "tyra-spiceharbour", label: "Spice Harbour", icon: "🏛️" },
+  { id: "tyra-marblequarter", label: "Marble Quarter", icon: "🏛️" },
+  { id: "tyra-ironquarter", label: "Iron Quarter", icon: "🏛️" },
+  { id: "tyra-theveil", label: "The Veil", icon: "🏛️" },
+  { id: "tyra-aurumvale", label: "Aurumvale", icon: "🏛️" },
+  { id: "tyra-stillhaven", label: "Stillhaven", icon: "🏛️" },
+  { id: "tyra-thesolace", label: "The Solace", icon: "🏛️" },
+  // === OTHER ===
   { id: "locations", label: "Locations & Worlds", icon: "🏔️" },
   { id: "artifacts", label: "Artifacts & Objects", icon: "⚔️" },
   { id: "creatures", label: "Creatures & Gods", icon: "🐉" },
