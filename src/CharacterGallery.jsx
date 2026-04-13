@@ -271,49 +271,44 @@ export default function CharacterGallery({ characters, entryText }) {
                 </p>
               )}
 
-              {/* Bio stats */}
-              {selected.stats && Object.values(selected.stats).some((v) => v) && (
-                <div
-                  style={{
-                    display: 'grid',
-                    gridTemplateColumns: 'auto 1fr',
-                    columnGap: '14px',
-                    rowGap: '6px',
-                    padding: '14px 16px',
-                    marginBottom: '18px',
-                    background: 'rgba(150, 120, 130, 0.06)',
-                    border: '1px solid rgba(160, 130, 140, 0.15)',
-                    borderRadius: '8px',
-                    fontFamily: "'Quicksand', sans-serif",
-                    fontSize: '0.78rem',
-                  }}
-                >
-                  {selected.stats.hair && (
-                    <>
-                      <span style={{ color: 'rgba(100, 85, 70, 0.55)', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.66rem', alignSelf: 'start', paddingTop: '2px' }}>Hair</span>
-                      <span style={{ color: 'rgba(70, 55, 40, 0.9)', lineHeight: 1.5 }}>{selected.stats.hair}</span>
-                    </>
-                  )}
-                  {selected.stats.eyes && (
-                    <>
-                      <span style={{ color: 'rgba(100, 85, 70, 0.55)', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.66rem', alignSelf: 'start', paddingTop: '2px' }}>Eyes</span>
-                      <span style={{ color: 'rgba(70, 55, 40, 0.9)', lineHeight: 1.5 }}>{selected.stats.eyes}</span>
-                    </>
-                  )}
-                  {selected.stats.height && (
-                    <>
-                      <span style={{ color: 'rgba(100, 85, 70, 0.55)', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.66rem', alignSelf: 'start', paddingTop: '2px' }}>Build</span>
-                      <span style={{ color: 'rgba(70, 55, 40, 0.9)', lineHeight: 1.5 }}>{selected.stats.height}</span>
-                    </>
-                  )}
-                  {selected.stats.attire && (
-                    <>
-                      <span style={{ color: 'rgba(100, 85, 70, 0.55)', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.66rem', alignSelf: 'start', paddingTop: '2px' }}>Attire</span>
-                      <span style={{ color: 'rgba(70, 55, 40, 0.9)', lineHeight: 1.5 }}>{selected.stats.attire}</span>
-                    </>
-                  )}
-                </div>
-              )}
+              {/* Bio stats — hair / eyes / height only, kept short */}
+              {selected.stats &&
+                (selected.stats.hair || selected.stats.eyes || selected.stats.height) && (
+                  <div
+                    style={{
+                      display: 'grid',
+                      gridTemplateColumns: 'auto 1fr',
+                      columnGap: '14px',
+                      rowGap: '6px',
+                      padding: '12px 16px',
+                      marginBottom: '18px',
+                      background: 'rgba(150, 120, 130, 0.06)',
+                      border: '1px solid rgba(160, 130, 140, 0.15)',
+                      borderRadius: '8px',
+                      fontFamily: "'Quicksand', sans-serif",
+                      fontSize: '0.8rem',
+                    }}
+                  >
+                    {selected.stats.hair && (
+                      <>
+                        <span style={{ color: 'rgba(100, 85, 70, 0.55)', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.66rem', alignSelf: 'center' }}>Hair</span>
+                        <span style={{ color: 'rgba(70, 55, 40, 0.9)' }}>{selected.stats.hair}</span>
+                      </>
+                    )}
+                    {selected.stats.eyes && (
+                      <>
+                        <span style={{ color: 'rgba(100, 85, 70, 0.55)', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.66rem', alignSelf: 'center' }}>Eyes</span>
+                        <span style={{ color: 'rgba(70, 55, 40, 0.9)' }}>{selected.stats.eyes}</span>
+                      </>
+                    )}
+                    {selected.stats.height && (
+                      <>
+                        <span style={{ color: 'rgba(100, 85, 70, 0.55)', textTransform: 'uppercase', letterSpacing: '0.1em', fontSize: '0.66rem', alignSelf: 'center' }}>Height</span>
+                        <span style={{ color: 'rgba(70, 55, 40, 0.9)' }}>{selected.stats.height}</span>
+                      </>
+                    )}
+                  </div>
+                )}
 
               {/* Quote */}
               {selected.quote && (

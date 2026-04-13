@@ -5,9 +5,9 @@
 //
 // Paths are absolute web paths (files live in public/images/...).
 //
-// Optional fields:
-//   stats: { hair, eyes, height, attire } — any may be empty string
-//   quote: a memorable line the character would say (empty if not yet decided)
+// Stats are base details only — short and factual (hair, eyes, height).
+// Anything richer belongs in the Bible entry itself, not the stat block.
+// Quote is a memorable line (empty if not yet decided).
 
 export const CHARACTERS = {
   "aoli-yansect": [
@@ -20,7 +20,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -30,10 +29,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yan-sect/Shan Ru.png",
       searchName: "SHĀN RÚ",
       stats: {
-        hair: "Long dark hair, pinned simply — ornaments chosen from whatever the mountain provides (a leaf, a flower, bone, stone)",
-        eyes: "Ageless — eyes that have seen centuries of wounds open and close beneath her hands",
+        hair: "Long, dark",
+        eyes: "Dark, ageless",
         height: "",
-        attire: "White robes, always",
       },
       quote: "",
     },
@@ -43,10 +41,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yan-sect/Tu Heng.png",
       searchName: "TǓ HÉNG",
       stats: {
-        hair: "Long dark hair in a high ponytail or topknot — nothing loose, nothing out of place",
-        eyes: "Cool, composed, measure you before you finish speaking",
+        hair: "Long dark, high topknot",
+        eyes: "Dark, cool",
         height: "",
-        attire: "Dark robes — deep grey, black, white depending on season",
       },
       quote: "",
     },
@@ -56,10 +53,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yan-sect/Yan Shou.png",
       searchName: "YÁN SHǑU",
       stats: {
-        hair: "Wild dark hair — loose, windswept, never fully tamed. Sometimes braided for practicality, never for beauty",
-        eyes: "Measure every movement in the pass before you know you have been seen",
-        height: "Built for the mountain’s edge",
-        attire: "Layered dark grey, black, deep blue. Fur-lined, leather-reinforced",
+        hair: "Wild, dark, often braided",
+        eyes: "Sharp, watchful",
+        height: "Tall, built for the mountain",
       },
       quote: "",
     },
@@ -69,10 +65,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yan-sect/Ke Zhen.png",
       searchName: "KÈ ZHĒN",
       stats: {
-        hair: "Dark hair pinned up with delicate ornaments — flowers, jade, pearl",
-        eyes: "Clear, honest, always watching",
+        hair: "Dark, pinned with delicate ornaments",
+        eyes: "Clear, honest",
         height: "",
-        attire: "White, blue, soft green. Ink-stained cuffs. Stone dust under her nails",
       },
       quote: "",
     },
@@ -82,10 +77,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yan-sect/Tian Mu young.png",
       searchName: "TIĀN MÙ",
       stats: {
-        hair: "Starlight white. Always. In both forms. Long, flowing or half-pinned",
-        eyes: "Focused on something nobody else can see",
+        hair: "Starlight white, long",
+        eyes: "Distant",
         height: "",
-        attire: "White, silver, pale robes — sometimes soft pink",
       },
       quote: "",
     },
@@ -95,10 +89,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yan-sect/Tian Mu Old.png",
       searchName: "TIĀN MÙ",
       stats: {
-        hair: "White, long, in a loose topknot. White beard",
-        eyes: "Deep-set — have watched ten thousand star cycles",
+        hair: "White, long beard",
+        eyes: "Deep-set, warm",
         height: "",
-        attire: "Slightly rumpled because dignity matters less than comfort when you are older than most mountains",
       },
       quote: "",
     },
@@ -111,10 +104,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yun-sect/Chao Lan.png",
       searchName: "CHÁO LÁN",
       stats: {
-        hair: "Dark hair, flowing and wild when her mood shifts",
-        eyes: "A young face carrying centuries of tidal force behind the eyes",
+        hair: "Dark, wild",
+        eyes: "",
         height: "",
-        attire: "Deep blue — midnight, water, oceans before a storm. Always blue",
       },
       quote: "",
     },
@@ -124,10 +116,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yun-sect/Lian Ying.png",
       searchName: "LIÁN YĪNG",
       stats: {
-        hair: "Dark hair in elaborate arrangements with pins and ribbons — red and teal",
+        hair: "Dark, ornate pins, red & teal ribbons",
         eyes: "",
         height: "",
-        attire: "Red and teal over white, trailing like fins when she moves",
       },
       quote: "",
     },
@@ -137,10 +128,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yun-sect/Bo Xi.png",
       searchName: "BŌ XĪ",
       stats: {
-        hair: "Dark hair in elaborate but slightly messy arrangements — buns and braids with red ribbons, never symmetrical",
-        eyes: "Round-cheeked, bright-eyed, looks like she could not hurt a fly",
-        height: "",
-        attire: "Deep blue and red, practical under flowing outer layers, shorter hems for combat",
+        hair: "Dark, messy buns & braids, red ribbons",
+        eyes: "Bright, round-cheeked",
+        height: "Small, lean",
       },
       quote: "",
     },
@@ -150,10 +140,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yun-sect/Hai Shen.png",
       searchName: "HǍI SHĚN",
       stats: {
-        hair: "Long, flowing, luminous WHITE — the flood bleached the colour out",
-        eyes: "Can go from devastating tenderness to terrifying power in a single breath",
+        hair: "White, long, flowing",
+        eyes: "",
         height: "",
-        attire: "White silk over black inner layers. Gold and turquoise accents",
       },
       quote: "",
     },
@@ -163,10 +152,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yun-sect/Ming Meng.png",
       searchName: "MÍNG MÈNG",
       stats: {
-        hair: "Long, flowing, almost silver white — washed out by visions",
-        eyes: "Clear luminous blue — shallow water over white sand",
+        hair: "Silver-white, long",
+        eyes: "Luminous blue",
         height: "",
-        attire: "White, palest blue, silver — translucent layers that move like water",
       },
       quote: "",
     },
@@ -176,10 +164,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/yun-sect/He Chang.png",
       searchName: "HÉ CHÁNG",
       stats: {
-        hair: "Green and blue with streaks of sandy brown — river-coloured. Contains twigs, seaweed, river grass, and occasionally a very small frog",
-        eyes: "Bright, present, perpetually on the edge of laughing",
+        hair: "Green, blue, sandy brown — often contains twigs, grass, frogs",
+        eyes: "Bright, warm",
         height: "",
-        attire: "White, cream, warm earth tones — rumpled, slightly damp, usually with a grass stain",
       },
       quote: "",
     },
@@ -195,7 +182,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -208,7 +194,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -221,7 +206,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -234,7 +218,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -247,7 +230,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -260,7 +242,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -276,7 +257,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -289,7 +269,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -302,7 +281,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -315,7 +293,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -328,7 +305,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -341,7 +317,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -354,7 +329,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -367,7 +341,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -380,7 +353,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -393,7 +365,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -406,7 +377,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -419,10 +389,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/hun-sect/Bai Shuang.png",
       searchName: "BÁI SHUĀNG",
       stats: {
-        hair: "Long, luminous white — moves with her like gauze curtains",
-        eyes: "WHITE — fully sightless. Spirit sight replaces physical sight",
-        height: "Old but not bent — graceful, poised",
-        attire: "White, silver, pale purple-grey gauze",
+        hair: "Long, luminous white",
+        eyes: "White (sightless)",
+        height: "",
       },
       quote: "",
     },
@@ -435,7 +404,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -445,10 +413,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/hun-sect/Zi Ye.png",
       searchName: "ZǏ YÈ",
       stats: {
-        hair: "Black streaked with white, long, worn up in elaborate hairpins",
-        eyes: "PURPLE so deep they look black in low light — glow faintly violet in the mist",
+        hair: "Black streaked with white, elaborate pins",
+        eyes: "Deep purple",
         height: "",
-        attire: "Purples so dark they are almost black, with light purple accents",
       },
       quote: "",
     },
@@ -461,7 +428,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -474,7 +440,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -485,9 +450,8 @@ export const CHARACTERS = {
       searchName: "JĪN YǍN",
       stats: {
         hair: "",
-        eyes: "GOLDEN — warm amber-gold from sixty years of reading souls",
+        eyes: "Golden",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -500,7 +464,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -510,10 +473,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/hun-sect/Bi Lan.png",
       searchName: "BÌ LÁN",
       stats: {
-        hair: "Vivid RED — worn loose, the colour of living flame against the grey mist",
-        eyes: "TURQUOISE — the colour a soul turns when it is dying. Her own soul is dying too. Deepening every month",
+        hair: "Vivid red, worn loose",
+        eyes: "Turquoise (deepening)",
         height: "",
-        attire: "Simple clothing. A flame in the fog",
       },
       quote: "",
     },
@@ -524,9 +486,8 @@ export const CHARACTERS = {
       searchName: "YŌU LÁN",
       stats: {
         hair: "",
-        eyes: "Hidden. Said to be the purest BLUE of dreams — the colour that exists only inside the sleeping mind",
+        eyes: "Dream blue (hidden)",
         height: "",
-        attire: "Veiled or hooded always. Nobody sees his face",
       },
       quote: "",
     },
@@ -542,7 +503,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -555,7 +515,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -568,7 +527,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -578,10 +536,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/shi-sect/Mu Xi_ True form and crone.png",
       searchName: "MÙ XĪ",
       stats: {
-        hair: "Loose and wild",
-        eyes: "Blind. Hidden behind silk blindfold (or golden lace in true form)",
+        hair: "Loose, wild",
+        eyes: "Blind (silk blindfold, gold lace in true form)",
         height: "",
-        attire: "True form — black feathered cloak, glittering robes like dying stars. Crone disguise — rags, basket, hunched",
       },
       quote: "",
     },
@@ -594,7 +551,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -607,7 +563,6 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
       },
       quote: "",
     },
@@ -617,10 +572,9 @@ export const CHARACTERS = {
       image: "/images/characters/aoli/shi-sect/Gui Xi.png",
       searchName: "GUǏ XĪ",
       stats: {
-        hair: "WHITE as snow with blood-red streaks that look alive, pulsing like blood flowing through her hair",
-        eyes: "RED as blood that burns to life",
-        height: "Walks in absolute silence — no footsteps, no rustle",
-        attire: "",
+        hair: "White with blood-red streaks (pulsing)",
+        eyes: "Red",
+        height: "",
       },
       quote: "",
     },
@@ -633,7 +587,21 @@ export const CHARACTERS = {
         hair: "",
         eyes: "",
         height: "",
-        attire: "",
+      },
+      quote: "",
+    },
+  ],
+
+  "fellowship-aria": [
+    {
+      name: "Aria Tyramare",
+      title: "The Prophecy Child",
+      image: "/images/characters/fellowship/Aria Tyramare.png",
+      searchName: "ARIA TYRAMARE",
+      stats: {
+        hair: "Auburn curly, copper highlights",
+        eyes: "Bright green",
+        height: "Petite",
       },
       quote: "",
     },
@@ -643,6 +611,9 @@ export const CHARACTERS = {
 
 // Extract a character's text section from the entry by finding the ═══ header
 // containing their searchName and capturing everything until the next ═══ header.
+//
+// Fallback: if no section header matches (e.g. the entry is about ONE character
+// with no leader markers), return the full entry text.
 export function extractCharacterText(entryText, searchName) {
   if (!entryText || !searchName) return ''
   const lines = entryText.split('\n')
@@ -654,7 +625,12 @@ export function extractCharacterText(entryText, searchName) {
       break
     }
   }
-  if (startIdx === -1) return ''
+  if (startIdx === -1) {
+    if (entryText.toUpperCase().includes(searchName.toUpperCase())) {
+      return entryText.trim()
+    }
+    return ''
+  }
   let endIdx = lines.length
   for (let j = startIdx + 1; j < lines.length; j++) {
     if (lines[j].includes('═══')) {
