@@ -1,7 +1,9 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { SECTIONS, MOOD_CATEGORIES } from './data/sections'
 import { INITIAL_ENTRIES } from './data/initial-entries'
+import { CHARACTERS } from './data/characters'
 import WorldMap from './WorldMap'
+import CharacterGallery from './CharacterGallery'
 
 function WorldBible() {
   const [activeSection, setActiveSection] = useState('cosmology')
@@ -481,6 +483,12 @@ function WorldBible() {
                       </button>
                       {isExpanded && (
                         <div style={{ padding: '0 18px 16px' }}>
+                          {CHARACTERS[key] && (
+                            <CharacterGallery
+                              characters={CHARACTERS[key]}
+                              entryText={value}
+                            />
+                          )}
                           <textarea
                             ref={(el) => {
                               textareaRefs.current[key] = el
