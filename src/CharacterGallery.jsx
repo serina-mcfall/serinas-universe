@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
-import { extractCharacterText } from './data/characters'
 
-export default function CharacterGallery({ characters, entryText }) {
+export default function CharacterGallery({ characters }) {
   const [selectedIdx, setSelectedIdx] = useState(null)
 
   // Close on Escape
@@ -21,7 +20,6 @@ export default function CharacterGallery({ characters, entryText }) {
   if (!characters || characters.length === 0) return null
 
   const selected = selectedIdx !== null ? characters[selectedIdx] : null
-  const selectedText = selected ? extractCharacterText(entryText, selected.searchName) : ''
 
   return (
     <div style={{ marginBottom: 18 }}>
@@ -310,11 +308,11 @@ export default function CharacterGallery({ characters, entryText }) {
                   </div>
                 )}
 
-              {/* Quote */}
-              {selected.quote && (
+              {/* Quote — styled whether empty or filled, so there's always a place for one */}
+              {selected.quote ? (
                 <blockquote
                   style={{
-                    margin: '0 0 20px',
+                    margin: '0',
                     padding: '14px 18px 14px 20px',
                     borderLeft: '3px solid rgba(170, 120, 140, 0.5)',
                     background: 'rgba(255, 252, 248, 0.6)',
@@ -328,23 +326,24 @@ export default function CharacterGallery({ characters, entryText }) {
                 >
                   "{selected.quote}"
                 </blockquote>
+              ) : (
+                <div
+                  style={{
+                    margin: '0',
+                    padding: '14px 18px 14px 20px',
+                    borderLeft: '3px solid rgba(170, 120, 140, 0.2)',
+                    background: 'rgba(255, 252, 248, 0.3)',
+                    fontFamily: "'Cormorant Garamond', Georgia, serif",
+                    fontSize: '0.92rem',
+                    fontStyle: 'italic',
+                    color: 'rgba(120, 100, 85, 0.35)',
+                    lineHeight: 1.55,
+                    borderRadius: '0 6px 6px 0',
+                  }}
+                >
+                  a quote, one day
+                </div>
               )}
-
-              <div
-                style={{
-                  fontFamily: "'Quicksand', sans-serif",
-                  fontSize: '0.87rem',
-                  color: 'rgba(70, 55, 40, 0.9)',
-                  lineHeight: 1.7,
-                  whiteSpace: 'pre-wrap',
-                }}
-              >
-                {selectedText || (
-                  <em style={{ color: 'rgba(120, 100, 85, 0.5)' }}>
-                    No text found for this character yet.
-                  </em>
-                )}
-              </div>
             </div>
           </div>
         </div>

@@ -484,10 +484,7 @@ function WorldBible() {
                       {isExpanded && (
                         <div style={{ padding: '0 18px 16px' }}>
                           {CHARACTERS[key] && (
-                            <CharacterGallery
-                              characters={CHARACTERS[key]}
-                              entryText={value}
-                            />
+                            <CharacterGallery characters={CHARACTERS[key]} />
                           )}
                           <textarea
                             ref={(el) => {

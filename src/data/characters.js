@@ -607,6 +607,21 @@ export const CHARACTERS = {
     },
   ],
 
+  "fellowship-yuean": [
+    {
+      name: "Yuè'àn",
+      title: "The Shadow Prince",
+      image: "/images/characters/fellowship/Yue an.png",
+      searchName: "YUÈ'ÀN",
+      stats: {
+        hair: "Long black, silver-streaked",
+        eyes: "Dark, old-soul",
+        height: "Tall, slim-strong",
+      },
+      quote: "",
+    },
+  ],
+
 }
 
 // Extract a character's text section from the entry by finding the ═══ header
