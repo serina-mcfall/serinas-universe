@@ -387,4 +387,255 @@ export const WEAPONS = [
     style:
       'The answer when the answer is pay anything. He does not speak Zhí to win a fight — he speaks it to buy time for someone else to win it. When he speaks it, the Fellowship has SECONDS to do whatever they came to do, and they had better move.',
   },
+
+  // ═══════════════════════════════════════
+  // FEN SECT — THE FIVE BROTHERS
+  // ═══════════════════════════════════════
+  // Five brothers, five disciplines, five weapons — each forged by
+  // the old master himself (Fèngzhé in disguise) in the volcanic
+  // forges of the Fen Sect before he vanished. Each weapon was a gift
+  // shaped to the boy who would carry it. Each brother has carried
+  // his weapon for nearly forty years. None of them will let the
+  // weapons be reforged, even when damaged, because the hands that
+  // made them are gone.
+
+  {
+    id: 'fen-ember-mo-dao-shield',
+    name: 'The Long Red Line',
+    subtitle: 'Jìng Huǒ — the Mò Dāo and the breathing shield',
+    image: '',
+    ownerId: 'aoli-fen-ember',
+    ownerName: 'Jìng Huǒ — Ember Discipline',
+    ownerType: 'aoli',
+    category: 'Mò Dāo & Living Shield — Ember Discipline',
+    labels: [
+      {
+        feature: 'The Mò Dāo',
+        description:
+          "A long straight double-edged blade of folded steel in the Tang Mò Dāo form — the weapon that historically held the line against cavalry in the hands of elite imperial infantry. Forged in volcanic heat, quenched in cooled lava. The blade is deep red-black with a faint ember-glow at the very edge, visible only in full darkness. It does not flash bright. It holds heat — the kind of fire that outlasts anything louder. It is not a duellist's sword. It is a siege weapon one man has decided to carry alone.",
+      },
+      {
+        feature: 'The living shield',
+        description:
+          "A round heavy shield of MOLTEN LAVA ROCK bound on an iron core — carved from a piece of volcanic stone that had not fully cooled when the old master shaped it, so the stone still carries heat at its core forty years later. It is pitted and scarred from a hundred fights. Jìng refuses to replace it. 'It knows me now,' is all he says. He is not speaking in metaphor.",
+      },
+      {
+        feature: 'The shield breathes',
+        description:
+          "The shield is aware. Not in words — it does not speak — but in weight and heat and readiness. When Jìng carries it on his left arm it is heavy, grounded, dense — built to take the impact of cavalry. When he slings it onto his back, the shield CHANGES — it becomes lighter, its weight redistributes to cover his spine, and it shifts itself as he moves so that whatever is behind him is always meeting stone. The same shield in two positions, with two weights, two heat-signatures, two postures. A second shield on his back, in the same body.",
+      },
+      {
+        feature: 'Front-and-back mode',
+        description:
+          "This is how Jìng fights. The shield is on his LEFT ARM during the patience phase — planted, holding, deflecting — and he wields the Mò Dāo ONE-HANDED during this period because his Ember body cultivation has given his right arm the strength to hold it that way for as long as he needs to. The fight can last ten minutes like this with Jìng never moving from his mark. Then the enemy makes the mistake. The enemy overextends, or exhausts themselves, or loses focus for a single heartbeat. Jìng SLINGS the shield onto his back in one fluid motion — the shield rearranges itself to guard his spine — and he takes the Mò Dāo in BOTH HANDS for the decisive strike. Everyone in the Fen Sect compound knows what it means when Jìng Huǒ's shield goes onto his back. It means the fight is about to end.",
+      },
+      {
+        feature: "The old master's care",
+        description:
+          "The Mò Dāo and the shield were both forged by the old master himself — by Fèngzhé in disguise — in the sect's central forge, the year Jìng turned sixteen. They were a gift marking the day the eldest brother officially became the Ember discipline's lead. The weapons are alive because the old master poured more than metalwork into them. He poured his CARE. He did not give them a voice — Jìng's weapons do not speak — but he gave them awareness, patience, and the same fierce loyalty he gave the boys themselves. Forty years later, the weapons still carry that care. They have been Jìng's partners in silence for longer than most men have been alive. When Zhúhuǒ eventually returns with Fèngzhé's soul inside him and walks into Fen Sect territory, the Mò Dāo and the shield will RECOGNISE their maker before Jìng does — and Jìng will notice the weapons' response a heartbeat before he understands what he is seeing.",
+      },
+      {
+        feature: 'The slow burn',
+        description:
+          "The Ember cultivator fights by ENDURANCE, not by strike. The fire that never goes out. Jìng will stand in one place for an entire battle and let the enemy tire themselves out against the shield. By the end of a long fight, the Mò Dāo is glowing red because it has been holding his cultivation back for so long that the metal itself remembers its forging temperature. The shield is humming hot against his arm. Both weapons know exactly how long until the moment opens. So does Jìng. They are patient together.",
+      },
+    ],
+    description:
+      "The eldest brother's weapons. The Mò Dāo and the living shield that have kept the Fen Sect compound's gate for four decades. Jìng Huǒ has used these two things to hold a line that the old master drew in front of a doorway when he was nineteen years old, and nobody has crossed it since. The Mò Dāo is scarred at the grip and has been resharpened many times, but never reforged — the metal is what the old master made, and Jìng will not let anyone change it. The shield has been humming quietly against his arm for so long that it has worn a permanent faint scorch-mark into his inner forearm where the heat bleeds through. He has never complained. It is the oldest touch in his life.\n\nWhen the Chaos Quintet asks him how he can stand so still for so long in a fight, Jìng says only: 'I am not standing alone.' They do not understand. They are not supposed to yet. The weapons on his arm and in his hand know what he means. They have been holding the line with him since before the youngest quintet members were born.",
+    cost: "The slowest price in the sect. Jìng does not burn hot or fast. He burns for decades. His fire is the one that never goes out, which means it never fully flares, which means he has been QUIETLY TIRED for forty years and nobody but his brothers — and his two weapons — has noticed.",
+    style:
+      'Defensive cultivator. He plants, he holds, he waits, with the shield on his arm and the Mò Dāo one-handed. The enemy fights itself out against the shield. When the moment opens, the shield goes onto his back and the Mò Dāo takes both hands, and the single decisive two-handed strike falls. A fight with Jìng Huǒ is a fight the enemy lost the moment they decided to start it, and it ends the moment his shield changes sides.',
+  },
+
+  {
+    id: 'fen-spark-twin-blades',
+    name: 'The Hidden Bite',
+    subtitle: 'Yǐn Huǒ — the blades that watch with him',
+    image: '',
+    ownerId: 'aoli-fen-spark',
+    ownerName: 'Yǐn Huǒ — Spark Discipline',
+    ownerType: 'aoli',
+    category: 'Twin Short Blades — Spark Discipline',
+    labels: [
+      {
+        feature: 'Twin short blades',
+        description:
+          "Two short curved blades, each the length of a forearm. Folded steel forged in volcanic heat and quenched in cooled lava. At rest the edges show a deep blood-red where the light catches them — a red that vanishes into shadow and is almost invisible against dark cloth. They are the exact length of the reach Yǐn has measured from his elbow, because the old master measured them against the boy's own arm when Yǐn was fifteen.",
+      },
+      {
+        feature: 'The hidden ignition',
+        description:
+          "When the blades ignite, the edge flashes to the BLUE-RED you only see in the hottest core of a flame — the colour at the base of a candle wick that most people never notice because the brighter yellow-orange above it steals the eye. The flash lasts less than half a heartbeat. It is just long enough for the strike to pass through any ordinary armour or guard as if it were paper. The colour is the hidden fire inside fire itself. It matches his name. The hottest part of any flame is the part nobody is looking at. So is Yǐn.",
+      },
+      {
+        feature: 'They watch with him',
+        description:
+          "The blades are aware. Not in words — they do not speak — but in pressure and weight and readiness. When Yǐn is reading a room, the blades are reading it too. They can tell which direction a threat is coming from through the faint change in pressure against his lower back where they ride in their rig. Yǐn never LOOKS at a suspicious sound. He feels the blades' weight shift toward it, and the shift is what turns his head. He has been reading rooms through his own spine for so long that he has forgotten what it was like to read one any other way.",
+      },
+      {
+        feature: 'Commitment, not command',
+        description:
+          "The ignition is not something Yǐn triggers. It is something the blades do for him the instant before a strike lands, because they read his commitment the way he reads a room. If he draws the blades to intimidate, the edges stay cool. If he draws them as a feint, the edges stay cool. They will ONLY burn for a real strike. They have never once been wrong about the difference. The blades are the patience Yǐn inherited from the old master, made metal.",
+      },
+      {
+        feature: 'The shoulder rig',
+        description:
+          'Carried in a single rig at the small of his back, completely hidden under his outer robe. Drawn over each shoulder in a single clean motion when he commits to a strike. The blades HELP with the draw — becoming slightly lighter at the moment his hands find the hilts, so that the motion is faster than it has any right to be. The draw is so quiet and so fast that most of his victims never register that he reached for a weapon at all.',
+      },
+      {
+        feature: "The old master's care",
+        description:
+          "Forged by the old master when Yǐn turned fifteen. Fèngzhé in disguise, working at the forge for a week, talking to the boy about watching versus looking, about reading a fight before it happens, about the strike that happens before the enemy has decided to move. The old master did not pour his voice into the steel. He poured his CARE — patience, attention, the willingness to wait until the right moment. Forty years later, the blades still carry that care. They have been waiting with Yǐn for four decades, and they will still be waiting when he is gone.",
+      },
+      {
+        feature: 'Heavier on the day he vanished',
+        description:
+          "The morning Yǐn woke up and found the old master's workshop empty, the blades were heavier than they had ever been before. They still are. They have been carrying some of Yǐn's grief for him for forty years. He has never mentioned this to anyone. He has never needed to. The blades know. He knows they know. That is enough.",
+      },
+      {
+        feature: "Gentle with his grandson",
+        description:
+          "When Yǐn's single grandson — the wary boy of seven or eight who reminds him of himself — is first allowed to hold one of the Hidden Bites, the blade does not ignite. It does not get heavy. It does not even WARM. It simply rests, completely inert and softened, in the child's hands. Yǐn understands in that moment that the blade is being GENTLE with the boy because it recognises the wariness it sees in him. It is being patient. The same way it is patient with Yǐn when Yǐn is wary himself. The blade is teaching the boy something Yǐn has not yet figured out how to put into words — that you do not have to strike the first thing that feels safe.",
+      },
+      {
+        feature: 'The second in silence',
+        description:
+          "Yǐn rarely speaks in a fight. He does not announce. He does not taunt. He watches, he reads, and he moves. His weapons do the same. The three of them — Yǐn and the two blades — are a single conversation that has been going on quietly for forty years and has never needed a word.",
+      },
+    ],
+    description:
+      "The second brother's weapons. The twin blades Yǐn Huǒ has carried for forty years without ever losing either of them. He does not practice drawing them because he never needs to — his hands have known where the hilts live since before he was old enough to shave, and the hilts have known where his hands live for just as long. The blades have been resharpened many times but never reforged. Whatever the old master put into the steel is still there, and Yǐn will not let anyone change it.\n\nThe Spark discipline is the assassin's discipline of the Fen Sect — fast, observant, lethal, gone before the enemy has understood what happened. But the secret of how Yǐn fights is not his speed. It is that he is never fighting alone. The two blades at the small of his back are watching the room with him, feeling the threats with him, reading the commitment with him, and waiting for the same moment he is waiting for. When the moment arrives, Yǐn does not DECIDE to strike. He and the blades simply strike, because all three of them have been waiting for the same thing, and all three of them recognise it at once.\n\nWhen the Chaos Quintet asks him how he learned to strike before the enemy moves, he says only: 'I watched the old master watch me. That was the first lesson. Every lesson after it was the same lesson.' He does not tell them that the blades were watching too. He does not need to. They know.",
+    cost: "The spark is fast and cheap in Qi — the Spark discipline's gift — but every ignition leaves a small residue of fatigue in the wielder's dantian. Yǐn fights short battles on purpose. And the blades, loving him, have learned to reserve their ignition for the one strike that will end the fight rather than the three strikes that would have been showy. They are saving him from himself.",
+    style:
+      'Observe, read, strike once. Yǐn will often go the entire length of a fight having moved only three steps — one to position, one to strike, one to withdraw. The fight is over before most people notice it began. Most people also do not notice the blue-red flash at the edge in the half-heartbeat before the strike lands. It is the last thing they fail to see.',
+  },
+
+  {
+    id: 'fen-blaze-greatsword',
+    name: 'Laughing Inferno',
+    subtitle: 'Lè Huǒ — the greatsword that charges in first',
+    image: '',
+    ownerId: 'aoli-fen-blaze',
+    ownerName: 'Lè Huǒ — Blaze Discipline',
+    ownerType: 'aoli',
+    category: 'Two-Handed Greatsword — Blaze Discipline',
+    labels: [
+      {
+        feature: 'The greatsword',
+        description:
+          "A massive two-handed greatsword (dadao in form, but larger, heavier, with a straight rather than curved blade). Forged of lava-quenched steel, its surface shows the rippling water-pattern of folded metal. The blade is long enough that most men would use both hands on the hilt; Lè uses one when he feels like showing off and two when the fight actually matters. The pommel is set with a single rough chunk of unpolished red agate — the Fen Sect's sacred stone — and the cord-wrapped grip is worn to the exact curve of Lè's palm.",
+      },
+      {
+        feature: 'The name',
+        description:
+          "Lè named the sword 'Laughing Inferno' when he was fifteen. He thought it was the best name any weapon had ever had. His brothers all laughed at him. He has refused to rename it for twenty-five years because the boy who named it deserves respect from the man who carries it now. Jìng teases him about the name at least once a month. Lè pretends to be offended. Nobody is fooled.",
+      },
+      {
+        feature: 'The fire trail',
+        description:
+          "When Lè swings the sword in full cultivation form, the blade trails an arc of fire behind it — the air itself catches briefly from the heat and then goes out. A full overhead swing leaves a curtain of flame hanging in the air for a second before it dissipates. It looks like Lè is painting fire onto the world with the sword's edge, and in a way he is.",
+      },
+      {
+        feature: "The old master's fire",
+        description:
+          "Forged by the old master when Lè turned fourteen. Lè remembers the day with warmth more than detail (he was the first brother young enough to grow up safe, and safety blurs into a single happy colour in his memory). What he does remember clearly is the old master handing him the sword and saying 'the sword is for the man you are going to be, not the boy you are now. Grow into it.' Lè has been trying to grow into it for twenty-five years. He would say he is still not quite there. His brothers would tell you he has been there for fifteen.",
+      },
+      {
+        feature: 'The Blaze charge',
+        description:
+          "The Blaze discipline is the front line. Lè Huǒ charges in first, and he charges in LAUGHING. The Blaze cultivator's role in a Fen Sect fight is to be the loudest, brightest, most dangerous thing on the battlefield — to draw the enemy's attention, absorb the first strikes, and open space for the other brothers to do their work. Lè is excellent at this because he is genuinely having fun. The laugh is not bravado. He really IS enjoying the fight. That is what makes him terrifying.",
+      },
+    ],
+    description:
+      "The third brother's sword. Lè Huǒ's laughing inferno. Forged when he was fourteen and named when he was fifteen by a teenage boy who had too much fire in his blood and too much joy in his heart. The sword has been swung in every fight Lè has been in for twenty-five years, and it has never missed a swing it meant to land. Lè will bring it to council meetings on days when the council bores him — leaned against his chair, hilt casually at hand — and his brothers roll their eyes but none of them ask him to leave it at the door. When his two adopted sons (the Chaos Quintet's older half, Lè Zhé and Lè Yǔ) train with their own Blaze-discipline greatswords, Lè watches them copy the forms he learned from the old master, and it breaks him quietly inside because he is watching his father's fire pass into his sons' hands through his own, and he does not yet know his father was a god.",
+    cost: "Big Qi per swing. Lè tires fast in long fights because every swing of the greatsword is a full expenditure of fire cultivation. He compensates by ending fights fast — hitting hard enough in the first thirty seconds that there is nothing left to hit after that.",
+    style:
+      'Charge in first, laugh the whole way, swing big, hit once, hit again if you have to. Lè is not subtle. He does not want to be. Subtlety is for his older brothers; the third brother is there to kick the door down.',
+  },
+
+  {
+    id: 'fen-pyre-chain-scythe',
+    name: 'The Threshold Chain',
+    subtitle: 'Jiè Huǒ — the scythe that walks between worlds',
+    image: '',
+    ownerId: 'aoli-fen-pyre',
+    ownerName: 'Jiè Huǒ — Pyre Discipline',
+    ownerType: 'aoli',
+    category: 'Chain Scythe — Pyre Discipline',
+    labels: [
+      {
+        feature: 'The scythe',
+        description:
+          "A short curved scythe-blade of dark iron, the edge so fine it looks translucent in certain light. The curve is deeper than an ordinary sickle — closer to a crescent moon than a reaper's blade. The metal is pitted along the back from decades of use at funeral rites, each pit a soul Jiè has helped release.",
+      },
+      {
+        feature: 'The chain',
+        description:
+          "The scythe is attached by a long fine chain — five arm-lengths when fully extended — to a counterweight of folded iron shaped like a closed lotus bud. Jiè can throw the scythe out, let the chain run through his fingers, and recall it with a flick of the wrist. In battle, the chain scythe is a reach weapon that can strike from ten feet away and return before the enemy has finished flinching. In ritual, the chain is the thread of the soul, and the scythe is the cut that frees it from the body.",
+      },
+      {
+        feature: 'Severs the cultivator-element bond',
+        description:
+          "The Pyre discipline's signature ability: on the battlefield, the chain scythe can sever a cultivator's connection to their cultivated element. A fire cultivator struck by Jiè Huǒ's blade might find that their fire has simply stopped answering for the next hour, or the next day, or forever. Against ordinary mortals the scythe is just a scythe. Against cultivators it is something else: it unmakes the foundation of their power. This is why Shi Sect cultivators particularly fear Jiè.",
+      },
+      {
+        feature: 'The funeral rite',
+        description:
+          "The same weapon that severs on a battlefield releases at a funeral. When a Fen Sect cultivator dies, Jiè stands over the body with the chain scythe and performs a rite in which the blade touches the chest and the soul is gently cut free from the flesh. The whole sect knows the sound of the chain running through his fingers at a death-bed. They call it 'the quiet cut.' War and peace in the same blade.",
+      },
+      {
+        feature: "The old master's last gift",
+        description:
+          "Forged by the old master when Jiè turned thirteen. Jiè remembers the old master telling him that the chain scythe was the most dangerous weapon in the sect — not because it killed fast, but because it chose WHAT to cut, and choice was the hardest thing a weapon could do. 'You will be my fourth son, and this sect's keeper of thresholds,' the old master said. 'You will learn when to cut a soul free and when to let it stay. That is a harder thing to learn than anything your brothers will be taught.' Jiè has been learning it ever since.",
+      },
+    ],
+    description:
+      "The fourth brother's weapon. The chain scythe Jiè Huǒ has carried for thirty-six years. The Pyre discipline is the most invisible of the five Fen branches — the work happens in rooms nobody else enters, at funerals nobody else attends, in private conversations between a dying brother and the man who will walk him through the threshold. Jiè's weapon is quieter than his brothers' weapons and more dangerous in specific ways none of them are. When the old master disappeared, Jiè went quieter for a while and channelled the grief into becoming the kind of man who would make sure nobody else ever felt invisible. He carries the scythe at his hip in battle, wrapped in a black silk when he is among civilians, and unwrapped when he sits beside the dying. His two young Pyre-discipline sons are being taught to carry their own chain scythes with the same patience the old master used on him. He says the hardest part of teaching them is not the form — it is the discernment. 'A scythe that does not choose is just a butcher,' he tells them. 'Choose well. Choose slowly. Choose even when you have no time.'",
+    cost: "Pyre cultivation is the most emotionally costly of the five disciplines. Every severance Jiè performs — battlefield or funeral — takes a small piece of him with it. He is the steadiest of the brothers and the saddest, and his brothers know both things without either of them being said.",
+    style:
+      'Reach weapon in combat, ritual tool in peace. Jiè strikes once at distance, pulls the chain back, considers, and strikes again or withdraws. His fights end with the enemy sitting on the ground wondering why their cultivation has stopped working, and Jiè already walking away.',
+  },
+
+  {
+    id: 'fen-forge-gauntlets',
+    name: 'Forge Gauntlets',
+    subtitle: 'Měng Huǒ — the hands that became the weapon',
+    image: '',
+    ownerId: 'aoli-fen-forge',
+    ownerName: 'Měng Huǒ — Forge Discipline',
+    ownerType: 'aoli',
+    category: 'Gauntlets & Body Cultivation — Forge Discipline',
+    labels: [
+      {
+        feature: 'The gauntlets',
+        description:
+          "Heavy iron-plated gauntlets that cover the backs of Měng's hands, the knuckles, and most of the forearm. The plates are dark from lava-quenching and scored along the striking edges from a lifetime of impacts. The knuckle-plates are spiked. The forearm guards are shaped to block and deflect weapons the size of swords. The gauntlets are not the weapon. The gauntlets are just what PROTECTS the weapon. The weapon is Měng's own body.",
+      },
+      {
+        feature: 'Body cultivation',
+        description:
+          "The Forge discipline hardens the cultivator's own flesh in fire. Literally. Měng has spent thirty years pressing his skin to flame, again and again, letting the cultivation absorb the heat and reshape his tissue. His skin is like worn leather. His bones are denser than iron. His fists are heavier than ordinary fists even when empty. He IS a Forge. He IS a weapon. The gauntlets are decoration compared to the body inside them.",
+      },
+      {
+        feature: "The old master's warning",
+        description:
+          "Forged by the old master when Měng turned twelve — the youngest of the brothers at the time of his first weapon. The old master took Jìng aside the day he handed Měng the gauntlets and said 'take care of the small one. He does not know what fear is. That is going to be a problem someday.' Jìng has been keeping that promise ever since. The gauntlets are the only part of Měng's kit that can be damaged, because the body inside them cannot. This is by design. The old master knew that Měng needed SOMETHING that could be broken, so that the fight would end before Měng did.",
+      },
+      {
+        feature: 'Fearless',
+        description:
+          "The Forge cultivator charges fire. Walks into it. Catches blades on the gauntlets and breaks them. Punches through stone walls. Throws grown men over his shoulder. Has never been afraid of anything in his life. This is partly cultivation and partly the fact that Měng grew up so loved by four older brothers that harm has always been theoretical to him. His fights are disasters the enemy walks into and Měng walks out of with a grin and a small new scar he will not remember the origin of by next year.",
+      },
+      {
+        feature: 'The scars he has forgotten',
+        description:
+          "Měng's hands, arms, chest, and back are covered in small burn scars from a lifetime of throwing himself at fires. He cannot remember where most of them came from. 'Oh, that one? I think... I was... no, I don't know. Yí, do you remember?' — to his youngest son, who also has no idea. The scars are a map Měng stopped keeping because he was having too much fun living to bother writing it down.",
+      },
+    ],
+    description:
+      "The youngest brother's weapon — the body Měng has forged over thirty years of pressing himself into fire and letting the cultivation reshape what came out. The gauntlets are the old master's work; the flesh inside them is Měng's. He fights with his hands, his feet, his shoulders, his forehead, his chest. He has been known to headbutt grown men in full plate because he forgot he had gauntlets on. He has three teenage adopted sons who fight in the same form and who are, in the compound's universally-held opinion, a perfect reproduction of Měng at their age — which everyone finds hilarious except Měng himself, who is now on the OTHER side of the 'GET DOWN FROM THERE' equation for the first time in his life and is genuinely losing his mind about it. When the old master's reincarnation eventually appears and Měng meets Zhúhuǒ, Měng will not recognise him from memory because Měng's memories of the old master are the thinnest of the five brothers. But his body will recognise the old master — the same way his body has always recognised fire. He will step close and stand quietly for the first time in his adult life, because some part of him will know he is being seen by the man who made his gauntlets.",
+    cost: "Forge cultivation has the highest PHYSICAL toll of any of the disciplines. Měng pays for his strength with pain every day — old burns, new burns, bones that have been broken and reforged by his own cultivation. He does not complain because the payment feels like practice to him. Practice feels like practice. He does not yet understand that pain is supposed to be avoided.",
+    style:
+      'Close, loud, unrelenting, and joyful. Měng does not outthink his opponents — he outlasts them and outpunches them. A fight with Měng Huǒ is a fight in which the only way to win is to hit him HARDER than he is willing to absorb, and nobody in living memory has managed it.',
+  },
 ]
