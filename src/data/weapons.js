@@ -75,8 +75,7 @@ export const WEAPONS = [
     id: 'aria-elemental-gun',
     name: 'The Elemental',
     subtitle: 'Five sacred stones, one gun, one hidden truth',
-    image:
-      '/images/weapons/fellowship/aria/2026-04-15 12_18_46-Greenshot - File Explorer.png',
+    image: '',
     ownerId: 'aria',
     ownerName: 'Aria Tyramare',
     ownerType: 'fellowship',
@@ -191,8 +190,7 @@ export const WEAPONS = [
     id: 'yuean-phoenix-eye-beads',
     name: 'Phoenix Eye Bodhi Beads',
     subtitle: 'Twenty-seven onyx beads that cage a god',
-    image:
-      '/images/weapons/fellowship/yuean/2026-04-15 12_06_35-Greenshot - File Explorer.png',
+    image: '',
     ownerId: 'yuean',
     ownerName: "Yuè'àn",
     ownerType: 'fellowship',
@@ -224,5 +222,169 @@ export const WEAPONS = [
     cost: 'A strand full of shadow is a night without sleep. A broken strand is a day of his humanity surrendered.',
     style:
       'Quiet accounting. He does not draw his weapons — he opens a bead and the darkness answers. Every fight is him reading his own wrist like a balance sheet, spending carefully, always within budget.',
+  },
+
+  // ─── Yuè'àn's Three One-Word Spells ─────────────
+  // Each spell is one syllable. Each must be spoken aloud.
+  // Each reveals what he is willing to do for the people he loves.
+  // Together they are the three economies of mercy.
+
+  {
+    id: 'yuean-spell-hui',
+    name: '回  —  Huí',
+    subtitle: 'Return — the word for Aria',
+    image: '',
+    ownerId: 'yuean',
+    ownerName: "Yuè'àn",
+    ownerType: 'fellowship',
+    category: 'One-Word Spell — The Word of Protection',
+    labels: [
+      {
+        feature: 'The casting',
+        description:
+          "A single finger-form. Yuè'àn's right hand makes a subtle scholar's sign — two fingers extended, the rest folded — and then the word leaves his mouth. The gesture is the key. The word is the turning of the key. No chant, no circle, no ritual; just a man making a small gesture and saying an ordinary syllable.",
+      },
+      {
+        feature: 'The stream — dark-red-almost-black',
+        description:
+          "The moment the word is spoken, a ribbon of darkness rushes from his right hand toward Aria — a DEEP DARK RED, almost black, like blood drained of its last warmth. The colour of a wedding robe in shadow. The colour of home at dusk. It reaches her body and reverses the distance between them, and she arrives beside him as if she had always been there.",
+      },
+      {
+        feature: 'The syllable',
+        description:
+          '回 — Huí — "return." Spoken once, out loud, in Wu Huo\'s measured everyday voice. Not shouted. Not whispered. At exactly the level he speaks most sentences, which is what makes it terrifying — the world obeys an ordinary statement.',
+      },
+      {
+        feature: 'What it does',
+        description:
+          "When Aria is in danger — when a blade is about to fall on her, when a guard has her, when she is about to step off a cliff she did not see — Yuè'àn speaks one word, and Aria is dragged across the space between them and arrives at his side. Not teleported. PULLED. Her body cuts through the air, through crowds, through walls of guards, and arrives slightly breathless, unhurt, delivered the way a letter is delivered to its envelope.",
+      },
+      {
+        feature: 'Why it cannot harm her',
+        description:
+          "The spell is RETURN, not rescue. His intent is the vehicle, and his intent cannot hurt her. The pull is gentle regardless of distance or obstacles — she arrives intact because the word treats her as if she is made of the same substance as his own will.",
+      },
+      {
+        feature: 'The confession he cannot take back',
+        description:
+          "He could have chosen many words for protecting her. Shield would have kept her where she was. Save would have been a general plea. He chose — subconsciously, before he knew he loved her — a word that means BELONGS TO. Every time he says Huí, he is declaring to the world, and to his own body, that Aria belongs at his side. The spell is a confession he has been making for as long as he has known her, and one day she will figure it out.",
+      },
+      {
+        feature: 'The only word for her',
+        description:
+          "He will never use Huí on anyone else. Not a stranger. Not Gēnmù. Not another member of the Fellowship, no matter how much danger they are in. The word is hers alone. The other members of the Fellowship will eventually notice this asymmetry and understand what it means before Aria does.",
+      },
+    ],
+    description:
+      "The Word for Aria. The word Yuè'àn reaches for when the thing he is about to lose is her. He has used it more times than he has admitted to anyone — each time afterward sitting very still for a long moment, as if the word costs him something beyond the beads, and maybe it does. He has never been able to unsay it. He has never wanted to unsay it. And every use of Huí tightens the thread that some quiet part of him has been weaving toward her since the day he first saw her.",
+    cost: '3–5 beads per use, depending on distance. Wu Huo register, measured voice. The real cost is not in the strand — it is in the confession he makes every time the word leaves his mouth, and in the hope that she will one day hear it for what it is.',
+    style:
+      "Emergency only. He will not use it to move her when she is safe, only to bring her back when she is not. A fight where Yuè'àn says Huí is a fight that has just pivoted — the enemy does not yet know it, but the geometry of the room has changed.",
+  },
+
+  {
+    id: 'yuean-spell-wang',
+    name: '忘  —  Wàng',
+    subtitle: 'Forget — the word for mercy',
+    image: '',
+    ownerId: 'yuean',
+    ownerName: "Yuè'àn",
+    ownerType: 'fellowship',
+    category: 'One-Word Spell — The Word of Erasure',
+    labels: [
+      {
+        feature: 'The casting',
+        description:
+          "A single finger-form. His right hand makes the scholar's sign — two fingers extended, the rest folded — and the word leaves his mouth in the same motion. No chant. No circle. Just a man making a small gesture and saying an ordinary syllable. The gesture is the key. The word is the turning of the key.",
+      },
+      {
+        feature: 'The stream — midnight-blue black',
+        description:
+          "When the word is spoken, a ribbon of darkness drifts from his right hand toward the target — a deep MIDNIGHT BLUE, almost black, the colour you see behind closed eyelids when you are about to fall asleep. The colour of dreamless rest. The colour of a night with no moon. It reaches the witness and settles into them, and the memory is simply gone. The witness does not know they are forgetting. They only know the moment is suddenly finished.",
+      },
+      {
+        feature: 'The syllable',
+        description:
+          '忘 — Wàng — "forget." Spoken in Wu Huo\'s voice pitched EVEN LOWER than his everyday tone. Almost a sigh. He does not want to say the word. The reluctance is part of the spell — cast with grief, it carries less cruelty than the same mechanism cast with satisfaction.',
+      },
+      {
+        feature: 'What it does',
+        description:
+          "Erases a specific memory from a witness. Not the whole mind — just the fragment his intent points at. The last ten minutes. The face he did not mean them to see. The witness blinks once, and the thing they were about to report is simply gone. They walk home and cannot remember why they came out.",
+      },
+      {
+        feature: 'Why he hates it',
+        description:
+          "Forget is the same tool the ruling class of Aurum uses. The same tool the blood-magic fog uses. The same tool that took Phineas Thatcher from the city and the flower girl from the market. Every time Yuè'àn speaks the word, a piece of him knows he is touching the same weapon his enemies use. He is doing a small quiet version of what Aurum does at city scale. He is unmaking memory.",
+      },
+      {
+        feature: 'Why he uses it anyway',
+        description:
+          'Because the alternative is killing the witness. And the scholar chooses the smaller violence. He would rather take one fragment of a life than take the whole thing. The meditation at the qin afterward is always longer on the nights he has used Wàng — he is cleansing himself of the echo as much as refilling the beads.',
+      },
+      {
+        feature: 'His rules',
+        description:
+          "Never on a child. Never on someone who has earned the truth. And never — NEVER — on Aria. The day he realises he could not use it on her even if he tried (her divine blood makes her unforgetable, the spell would bounce off her and leave her standing there with her hands on her hips) is the day he understands that Aria is outside his tools entirely. She will always know what he truly is. And she has chosen him anyway, knowing everything.",
+      },
+    ],
+    description:
+      "The Word for Mercy. When something has happened that cannot be allowed to be remembered — a guard who saw his face under the mask, a civilian who saw Aria do something magical, a noble who was about to give an order that would doom the wrong people — Yuè'àn speaks one word and the memory goes away. The witness keeps their life. The city keeps its order. The Fellowship keeps its cover. And Yuè'àn carries one more small weight on the pile of things he has done in the same register as his enemies, reluctantly, because the alternative was worse.",
+    cost: '2–4 beads per use. Cheaper in beads than Huí because erasure is a smaller-scale operation than transit. But emotionally it is the most expensive of the three — he hates the word in his own mouth, and every use of it asks him a question he does not want to answer: am I becoming the thing I am fighting?',
+    style:
+      'Last resort, not first. He will always try to avoid being seen in the first place, because not being seen is better than being seen and then erasing the sight. When Wàng leaves his mouth, it means something has gone wrong in his planning, and the scholar is unhappy about it for days afterward.',
+  },
+
+  {
+    id: 'yuean-spell-zhi',
+    name: '执  —  Zhí',
+    subtitle: 'Hold — the most powerful word',
+    image: '',
+    ownerId: 'yuean',
+    ownerName: "Yuè'àn",
+    ownerType: 'fellowship',
+    category: 'One-Word Spell — The Word Against Death',
+    labels: [
+      {
+        feature: 'The casting',
+        description:
+          "A single finger-form. His right hand makes the scholar's sign — two fingers extended, the rest folded — and he speaks the word. Same gesture as the other two spells. The same small, understated motion that looks at first like a scholar pointing to a line of text. But this time the room knows what is coming before the word arrives. This time the air itself bends toward his throat.",
+      },
+      {
+        feature: 'The stream — dark-purple almost black',
+        description:
+          "When the word is spoken, a ribbon of darkness flows from his right hand toward whatever he has chosen to hold — a DEEP DARK PURPLE, almost black, the colour of imperial authority, the colour of the Purple Forbidden City in shadow. The stream is heavier than the other two. It does not drift; it COMMANDS. It reaches its target and wraps around it, and reality stops trying to move the thing. The purple is the royalest darkness — the colour of the command reality obeys.",
+      },
+      {
+        feature: 'The syllable',
+        description:
+          "执 — Zhí — \"hold.\" This is the ONLY word he speaks in the full Zhao Yuan Zhou resonant spell-voice. Low, vibrant, reality-bending. The air distorts around his throat and the syllable IS law. The one time he does not ration his voice. Candles lean toward him. The shadow at his feet goes absolutely still. Even his own darkness pays attention.",
+      },
+      {
+        feature: 'What it does',
+        description:
+          "Whatever he is pointing his intent at HOLDS. Not forever — long enough. A wound holds shut until a healer arrives. A door holds against an army. A falling body holds in midair. A dying heart holds one more beat, and another, and another. A promise holds even when the person who made it wants to break it. A structure holds against physics itself. For as long as he can pay for it, the thing he is holding cannot slip.",
+      },
+      {
+        feature: 'The bead drain',
+        description:
+          'Hold is the spell that breaks the strand fastest. It is not a single act — it is a SUSTAINED command. Every heartbeat he holds, the cost keeps draining. A ten-second hold can cost half the strand. A thirty-second hold can empty it entirely. A minute-long hold is beyond what he can do without shattering his beads and taking the backlash into his body. The longer he holds, the closer he gets to losing himself to the flood.',
+      },
+      {
+        feature: 'When the answer is pay anything',
+        description:
+          "This is the spell he speaks when the only acceptable outcome is MORE TIME. Gēnmù bleeding, no healer close enough. Aria's heart failing. A door that must not open. A dying god that cannot yet die. He will spend every bead he has to buy the seconds that save a life. And when the beads are empty, he will keep speaking the word with his own raw shadow, and he will keep speaking it until his body is empty too, because that is who he chose to become.",
+      },
+      {
+        feature: 'The full-throat register',
+        description:
+          "Every other act of magic in Yuè'àn's life is him PULLING THE PUNCH — rationing his voice, keeping his shadow contained, spending carefully. Zhí is the one moment he lets his real voice out. It is the only time the Shadow Prince's true sound leaves its cage. Whoever hears it in full register never forgets it. Aria, the first time she hears it, will understand in that one syllable how much he has been holding back every other day of his life.",
+      },
+    ],
+    description:
+      "The Most Powerful Word. Reality pushes back against HOLD the way a tide pushes back against a wall, and Yuè'àn has to pay for every second the wall stands. It is the ultimate act of rationing his soul against the clock. It is the most beautiful version of his whole character in one spell — the weapon who refuses to let the person he loves slip out of the world, spending every bead he owns to buy the seconds someone else will need to save them. He will do this for Aria. He will do this for Gēnmù. He would do this, eventually, for any of them. And the day he does it, everyone who witnesses it will finally understand what the Shadow Prince has been for.",
+    cost: '10+ beads for short holds; can empty the whole strand for longer ones. Full Zhao Yuan Zhou spell-voice — the one time he does not ration. If the beads run out, the cost comes from his own body, and if the body runs out, the cost comes from whatever he has left to be.',
+    style:
+      'The answer when the answer is pay anything. He does not speak Zhí to win a fight — he speaks it to buy time for someone else to win it. When he speaks it, the Fellowship has SECONDS to do whatever they came to do, and they had better move.',
   },
 ]
