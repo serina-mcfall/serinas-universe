@@ -4,6 +4,7 @@ import { INITIAL_ENTRIES } from './data/initial-entries'
 import { CHARACTERS } from './data/characters'
 import WorldMap from './WorldMap'
 import CharacterGallery from './CharacterGallery'
+import Armoury from './Armoury'
 
 function WorldBible() {
   const [activeSection, setActiveSection] = useState('cosmology')
@@ -308,6 +309,23 @@ function WorldBible() {
             <span style={{ flex: 1 }}>The Atlas</span>
           </button>
 
+          {/* Armoury nav */}
+          <button
+            className={`nav-btn ${activeSection === 'armoury' ? 'active' : ''}`}
+            onClick={() => navigateSection('armoury')}
+            style={{
+              display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 14px',
+              border: 'none', borderLeft: '2px solid transparent', borderRadius: '0 8px 8px 0',
+              background: 'transparent', color: activeSection === 'armoury' ? '#4a3a2e' : 'rgba(100,85,70,.55)',
+              cursor: 'pointer', transition: 'all .25s ease', textAlign: 'left',
+              fontFamily: "'Quicksand', sans-serif", fontSize: '.85rem',
+              fontWeight: activeSection === 'armoury' ? 600 : 400, width: '100%',
+            }}
+          >
+            <span style={{ fontSize: '1.1rem', width: '24px', textAlign: 'center' }}>⚔️</span>
+            <span style={{ flex: 1 }}>The Armoury</span>
+          </button>
+
           {/* Mood Board nav */}
           <button
             className={`nav-btn ${activeSection === 'moodboard' ? 'active' : ''}`}
@@ -356,6 +374,8 @@ function WorldBible() {
         <main style={activeSection === 'atlas' ? { padding: 0, overflow: 'hidden' } : undefined}>
           {activeSection === 'atlas' ? (
             <WorldMap />
+          ) : activeSection === 'armoury' ? (
+            <Armoury />
           ) : activeSection === 'moodboard' ? (
             /* Mood Board */
             <div style={{ animation: 'fadeIn .5s ease' }}>
