@@ -27,6 +27,9 @@ originSessionId: bd123ac3-fbc3-4c54-95f1-aaaaed19c370
 - **Yuè'àn Bible entry**: PARTIAL — Q1-Q2 woven in, Q3-Q8 still pending
 - **Lìyǐn Bible entry**: COMPLETE — written 2026-04-16 (~13.4k chars, 11 sections, includes Vesper Lumen)
 - **Xuěhuā Bible entry**: COMPLETE — written 2026-04-16 (~12.2k chars, 11 sections, includes ninth-tail saga bind)
+- **Gēnmù Bible entry**: COMPLETE — written 2026-04-16 (~11.3k chars, 11 sections, includes koi fish + Yuè'àn arc)
+- **Temgar Bible entry**: COMPLETE — written 2026-04-16 (~12.2k chars, 11 sections, includes Davaa + tavern incident)
+- **Fellowship inspiration folders**: Created 2026-04-16 at `public/images/characters/fellowship/inspiration/` — six folders (aria, yuean, xuehua, liyin, genmu, temgar). Aria + Yuè'àn portraits done; other four need portraits designed.
 - Shi Sect Inner Circle: Five fragment-carriers with descriptions, disciplines, stations
 
 ### Partially Built (Needs More):

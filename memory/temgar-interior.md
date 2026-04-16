@@ -365,4 +365,6 @@ Temgar's interior deep-dive is complete. Q1 five-strand seeker alloy / Q2 bitter
 
 **ALL SIX FELLOWSHIP MEMBERS NOW HAVE COMPLETE INTERIOR DEEP-DIVES.**
 
-**Next steps:** Bible entry rewrites for Gēnmù and Temgar when ready. Yuè'àn Q3-Q8 weaving into existing Bible entry still pending.
+**Bible entry WRITTEN 2026-04-16.** Full 12,156-char entry with 11 ═══ sections in initial-entries.js. Includes the tavern incident.
+
+**Next steps:** Yuè'àn Q3-Q8 weaving into existing Bible entry still pending. Character inspiration folders created for portrait design.

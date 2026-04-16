@@ -622,6 +622,90 @@ export const CHARACTERS = {
     },
   ],
 
+  "fellowship-xuehua": [
+    {
+      name: "Xuěhuā",
+      title: "The Snow Flower — Human Form",
+      image: "/images/characters/fellowship/XueHua.png",
+      searchName: "XUĚHUĀ",
+      stats: {
+        hair: "Black ombré to pink to white tips",
+        eyes: "Golden amber",
+        height: "Slender, graceful",
+      },
+      quote: "",
+    },
+    {
+      name: "Xuěhuā",
+      title: "The Snow Flower — Half-Fox Form",
+      image: "/images/characters/fellowship/Xue with tails out and ears.png",
+      searchName: "XUĚHUĀ",
+      stats: {
+        hair: "Black ombré to pink, fox ears",
+        eyes: "Golden amber",
+        height: "Four pink-tipped tails",
+      },
+      quote: "",
+    },
+    {
+      name: "Xuěhuā",
+      title: "The Snow Flower — Fox Form",
+      image: "/images/characters/fellowship/Xue fox form.png",
+      searchName: "XUĚHUĀ",
+      stats: {
+        hair: "Pure white fur",
+        eyes: "Golden amber",
+        height: "Four pink-tipped tails",
+      },
+      quote: "",
+    },
+  ],
+
+  "fellowship-liyin": [
+    {
+      name: "Lìyǐn Aurelian",
+      title: "The Golden Shadow",
+      image: "/images/characters/fellowship/Li Yin.png",
+      searchName: "LÌYǏN",
+      stats: {
+        hair: "Dark, gold chains and pieces",
+        eyes: "Flash gold in certain light",
+        height: "Average, carries himself tall",
+      },
+      quote: "",
+    },
+  ],
+
+  "fellowship-genmu": [
+    {
+      name: "Gēnmù",
+      title: "The Heart",
+      image: "/images/characters/fellowship/Genmu.png",
+      searchName: "GĒNMÙ",
+      stats: {
+        hair: "Dark, simple topknot",
+        eyes: "Big, dark brown",
+        height: "Small, still growing",
+      },
+      quote: "",
+    },
+  ],
+
+  "fellowship-temgar": [
+    {
+      name: "Temgar",
+      title: "The Iron Spear",
+      image: "/images/characters/fellowship/Temgar.png",
+      searchName: "TEMGAR",
+      stats: {
+        hair: "Dark braids, bone and metal beads",
+        eyes: "Ice-blue (Meila's signature)",
+        height: "Tall, burly, fills a room",
+      },
+      quote: "",
+    },
+  ],
+
 }
 
 // Extract a character's text section from the entry by finding the ═══ header

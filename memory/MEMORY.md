@@ -43,7 +43,8 @@ This directory contains extracted context from Serina's world-building sessions 
 | [liyin-interior.md](liyin-interior.md) | project | Deep Q&A interior work on Lìyǐn Aurelian — ALL 8 Qs COMPLETE, Vesper Lumen, Bible entry written 2026-04-16 (13.4k chars) |
 | [xuehua-interior.md](xuehua-interior.md) | project | Deep Q&A interior work on Xuěhuā — ALL 8 Qs COMPLETE, meadow + ninth-tail saga bind, Bible entry written 2026-04-16 (12.2k chars) |
 | [genmu-interior.md](genmu-interior.md) | project | Deep Q&A interior work on Gēnmù — ALL 8 Qs COMPLETE 2026-04-16. Sunshine puppy + koi fish stuffed animal + seven-phase Yuè'àn arc |
-| [temgar-interior.md](temgar-interior.md) | project | Deep Q&A interior work on Temgar — Q1-Q2 answered 2026-04-16. Seeker + four mistakes + Davaa + Xuěhuā love revelation |
+| [temgar-interior.md](temgar-interior.md) | project | Deep Q&A interior work on Temgar — ALL 8 Qs COMPLETE 2026-04-16. Seeker + four mistakes + Davaa + forge + tavern incident |
+| [portrait-prompts.md](portrait-prompts.md) | project | AI portrait prompts for Fellowship characters — Temgar, Xuěhuā, Gēnmù done. Lìyǐn pending refs. |
 | [weapons-rabbit-hole.md](weapons-rabbit-hole.md) | project | Aoli combat + Fellowship personality-fit weapons + living weapons house rule + Armoury MVP + sect card progress |
 
 ### Project Status
