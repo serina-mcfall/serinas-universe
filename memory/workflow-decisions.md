@@ -22,3 +22,11 @@ Serina explicitly defined how she wants to work going forward:
 **Why:** Claude Code can't receive drag-and-drop images the way Claude Chat can. Chat is the studio, Code is the forge.
 
 **How to apply:** When Serina arrives in Claude Code, ask what decisions she's made in chat and update accordingly. Don't ask for images — that's chat territory. Focus on translating her decisions into file updates.
+
+## Memory backup to GitHub (confirmed 2026-04-16)
+
+When Serina says "push everything" or "push," she means: **copy the memory files from `~/.claude/projects/.../memory/` into the repo's `memory/` directory and push to GitHub for backup.** She wants all world-building notes backed up on GitHub the same way code changes are. This is a regular end-of-session habit.
+
+**Why:** The memory files are her world-building bible — months of character interior work, lore, and creative decisions. Losing them would be devastating. GitHub is the safety net.
+
+**How to apply:** At the end of any session where memory files have been created or modified, copy them into the repo's `memory/` folder, commit, and push when asked. Don't ask what she means — when she says "push" she means copy + commit + push now.

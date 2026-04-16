@@ -237,7 +237,7 @@ Lìyǐn's entire public life is about controlling what his body tells people. Se
 
 Lìyǐn Aurelian's interior deep-dive is done. Q1 methodical chess-player calm / Q2 brother-gremlin / Q3 power as necessary evil + the search for his own origin / Q4 the Water Twin as Grandmother + the everyone-is-family house / Q5 Vesper Lumen the rescued silent girl / Q6 the Entheras four-strand emotional braid / Q7 food + smutty romance as private self + Vesper as only witness / Q8 the right-hand finger tap.
 
-**Next step:** Rewrite the Bible stub (~500 chars) into a full entry like Aria's and Yuè'àn's, weaving all 8 questions into character text.
+**Bible entry WRITTEN 2026-04-16.** Full 13,438-char entry with 11 ═══ sections in initial-entries.js. Replaces the old ~500-char stub.
 
 ## Remaining questions
 3. Surface want vs deeper need (asked, pending)

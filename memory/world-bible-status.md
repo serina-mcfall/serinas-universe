@@ -23,6 +23,10 @@ originSessionId: bd123ac3-fbc3-4c54-95f1-aaaaed19c370
 - Isenholt: Six clans, beast bonding, the Choosing, god-touched women, Living Cave, marriage fires, God's Tears, Volugan, veils, clan structure, warbands, warband leaders, warrior hierarchy, Greyhearth council
 - Tyramare: Seven guild districts named, council seat mechanics, Solenthera faith, Entheras, Oranthi, Umbrathi cult, Verenthae resistance, Liyin's spy network
 - The Fellowship: All six members with full backstory, appearance, personality, weapons, relationships
+- **Aria Bible entry**: COMPLETE — full deep-dive in initial-entries.js (~25k chars, 14 sections)
+- **Yuè'àn Bible entry**: PARTIAL — Q1-Q2 woven in, Q3-Q8 still pending
+- **Lìyǐn Bible entry**: COMPLETE — written 2026-04-16 (~13.4k chars, 11 sections, includes Vesper Lumen)
+- **Xuěhuā Bible entry**: COMPLETE — written 2026-04-16 (~12.2k chars, 11 sections, includes ninth-tail saga bind)
 - Shi Sect Inner Circle: Five fragment-carriers with descriptions, disciplines, stations
 
 ### Partially Built (Needs More):

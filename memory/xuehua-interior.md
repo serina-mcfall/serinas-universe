@@ -545,7 +545,7 @@ Like Lìyǐn's finger-tap, **stillness is the deeper tell.** Hair play stops in 
 
 Xuěhuā's interior deep-dive is structurally complete. Q1 three-fox alloy / Q2 the Doubter / Q3 surface nine-tail + A+B+C deeper braid / Q4 five mothers psychological five + Kit / Q5 Fellowship positioning (sister to Gēnmù/Aria, suspicion of Yuè'àn/Lìyǐn, Temgar as handler + Meila rivalry) / Q6 Angles 1-4 done with the saga-binding revelation (ninth tail = Aria's fate-change = Wen-Shi bridge) / Q7 dance in moonlight + meadow = twin private homes + Yuè'àn moonlight reconciliation arc / Q8 hair-play with four versions and the stillness-as-real-tell pattern.
 
-**Next step:** Rewrite the Bible stub into a full entry like Aria's and Yuè'àn's, weaving all 8 questions into character text. Bible rewrite pending.
+**Bible entry WRITTEN 2026-04-16.** Full 12,222-char entry with 11 ═══ sections in initial-entries.js. Replaces the old ~360-char stub. Corrected "cast out" error from old stub — she was lovingly adopted, not cast out.
 
 ## Remaining questions
 5. Relationship to Gēnmù specifically

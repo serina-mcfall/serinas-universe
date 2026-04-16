@@ -40,8 +40,10 @@ This directory contains extracted context from Serina's world-building sessions 
 | [shi-inner-circle.md](shi-inner-circle.md) | project | The five fragment-carriers: Avatar, Smiling Blade, Veiled Advisor, Blind Poisoner, Entheras -- titles, disciplines, stations, visuals |
 | [aria-interior.md](aria-interior.md) | project | Deep Q&A interior work on Aria Tyramare — complete, Bible entry written 2026-04-13 |
 | [yuean-interior.md](yuean-interior.md) | project | Deep Q&A interior work on Yuè'àn, the Shadow Prince — all 8 questions answered, Bible entry at 36k chars with Q3-Q8 still to be woven in |
-| [liyin-interior.md](liyin-interior.md) | project | Deep Q&A interior work on Lìyǐn Aurelian — ALL 8 QUESTIONS COMPLETE 2026-04-16. Vesper Lumen named. Bible rewrite pending. |
-| [xuehua-interior.md](xuehua-interior.md) | project | Deep Q&A interior work on Xuěhuā — Q1 asked 2026-04-16, awaiting answer |
+| [liyin-interior.md](liyin-interior.md) | project | Deep Q&A interior work on Lìyǐn Aurelian — ALL 8 Qs COMPLETE, Vesper Lumen, Bible entry written 2026-04-16 (13.4k chars) |
+| [xuehua-interior.md](xuehua-interior.md) | project | Deep Q&A interior work on Xuěhuā — ALL 8 Qs COMPLETE, meadow + ninth-tail saga bind, Bible entry written 2026-04-16 (12.2k chars) |
+| [genmu-interior.md](genmu-interior.md) | project | Deep Q&A interior work on Gēnmù — ALL 8 Qs COMPLETE 2026-04-16. Sunshine puppy + koi fish stuffed animal + seven-phase Yuè'àn arc |
+| [temgar-interior.md](temgar-interior.md) | project | Deep Q&A interior work on Temgar — Q1-Q2 answered 2026-04-16. Seeker + four mistakes + Davaa + Xuěhuā love revelation |
 | [weapons-rabbit-hole.md](weapons-rabbit-hole.md) | project | Aoli combat + Fellowship personality-fit weapons + living weapons house rule + Armoury MVP + sect card progress |
 
 ### Project Status
