@@ -601,7 +601,7 @@ export const CHARACTERS = {
       stats: {
         hair: "Auburn curly, copper highlights",
         eyes: "Bright green",
-        height: "Petite",
+        height: "5'3\"",
       },
       quote: "",
     },
@@ -616,7 +616,7 @@ export const CHARACTERS = {
       stats: {
         hair: "Long black, silver-streaked",
         eyes: "Dark, old-soul",
-        height: "Tall, slim-strong",
+        height: "6'0\"",
       },
       quote: "",
     },
@@ -631,7 +631,7 @@ export const CHARACTERS = {
       stats: {
         hair: "Black ombré to pink to white tips",
         eyes: "Golden amber",
-        height: "Slender, graceful",
+        height: "5'1\"",
       },
       quote: "",
     },
@@ -643,7 +643,7 @@ export const CHARACTERS = {
       stats: {
         hair: "Black ombré to pink, fox ears",
         eyes: "Golden amber",
-        height: "Four pink-tipped tails",
+        height: "5'1\" — four pink-tipped tails",
       },
       quote: "",
     },
@@ -670,7 +670,7 @@ export const CHARACTERS = {
       stats: {
         hair: "Dark, gold chains and pieces",
         eyes: "Flash gold in certain light",
-        height: "Average, carries himself tall",
+        height: "6'0\"",
       },
       quote: "",
     },
@@ -685,7 +685,7 @@ export const CHARACTERS = {
       stats: {
         hair: "Dark, simple topknot",
         eyes: "Big, dark brown",
-        height: "Small, still growing",
+        height: "5'0\"",
       },
       quote: "",
     },
@@ -700,7 +700,7 @@ export const CHARACTERS = {
       stats: {
         hair: "Dark braids, bone and metal beads",
         eyes: "Ice-blue (Meila's signature)",
-        height: "Tall, burly, fills a room",
+        height: "6'4\"",
       },
       quote: "",
     },

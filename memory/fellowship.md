@@ -2,8 +2,8 @@
 name: The Fellowship
 description: The six companions, their backgrounds, abilities, weapons, and relationships
 type: project
+originSessionId: bd123ac3-fbc3-4c54-95f1-aaaaed19c370
 ---
-
 ## The Fellowship
 
 Six outcasts bound by a waking world and questions nobody else will answer. Like a fellowship (LOTR style) but bound not by a ring but by prophecy and shared searching. Alone they're outcasts; together they're the answer.
@@ -67,6 +67,14 @@ Six outcasts bound by a waking world and questions nobody else will answer. Like
 - **Personality:** Flamboyant, loud, extroverted. Puts on a show. Hides his calculating mind behind spectacle. Tyrion Lannister energy. Knows all the stories, knows all the secrets. Connections to every underground den. Spy network in Tyramare's guild city. Performer.
 - **Name:** Liyin (Beautiful Shadow) + Aurelian (Golden One). Chinese and Roman in one breath -- Solisopia in its entirety.
 - **Key detail:** The Water Twin has quietly guided him. Knows what's happening and where. Has eyes and ears in the guild city via his operative on the Stillhaven seat.
+
+## Fellowship Heights (confirmed 2026-04-16)
+- Aria: 5'3"
+- Yuè'àn: 6'0"
+- Xuěhuā: 5'1"
+- Lìyǐn: 6'0"
+- Gēnmù: 5'0"
+- Temgar: 6'4"
 
 ## Fellowship Dynamics
 
