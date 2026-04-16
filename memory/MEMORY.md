@@ -44,7 +44,8 @@ This directory contains extracted context from Serina's world-building sessions 
 | [xuehua-interior.md](xuehua-interior.md) | project | Deep Q&A interior work on Xuěhuā — ALL 8 Qs COMPLETE, meadow + ninth-tail saga bind, Bible entry written 2026-04-16 (12.2k chars) |
 | [genmu-interior.md](genmu-interior.md) | project | Deep Q&A interior work on Gēnmù — ALL 8 Qs COMPLETE 2026-04-16. Sunshine puppy + koi fish stuffed animal + seven-phase Yuè'àn arc |
 | [temgar-interior.md](temgar-interior.md) | project | Deep Q&A interior work on Temgar — ALL 8 Qs COMPLETE 2026-04-16. Seeker + four mistakes + Davaa + forge + tavern incident |
-| [portrait-prompts.md](portrait-prompts.md) | project | AI portrait prompts for Fellowship characters — Temgar, Xuěhuā, Gēnmù done. Lìyǐn pending refs. |
+| [portrait-prompts.md](portrait-prompts.md) | project | AI portrait prompts for Fellowship characters — all four done, all portraits generated 2026-04-16 |
+| [braedun-research.md](braedun-research.md) | project | Celtic Britain research dossier for Braedun — megalithic builders, druids, Otherworld, Arthurian layer, sacred landscape |
 | [weapons-rabbit-hole.md](weapons-rabbit-hole.md) | project | Aoli combat + Fellowship personality-fit weapons + living weapons house rule + Armoury MVP + sect card progress |
 
 ### Project Status
