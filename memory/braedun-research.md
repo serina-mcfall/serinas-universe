@@ -269,8 +269,65 @@ Soft green landscape. Ancient forests of oak and hawthorn. Standing stones on ev
 
 **Three hearts: one fighting, one gathering, one praying.** Warrior-circle, people-circle, god-circle. Celtic trinity.
 
+### THE CONTINENT'S NAME — AVALÚNE (chosen 2026-04-17)
+
+**Serina's verbatim on what the name sounds like:** "It's soft, beautiful full of hope and love it brings peace"
+
+**Avalúne** (ah-vah-LOO-neh) — "The healing land of the moon." Celtic AND lunar braided together. Four syllables, flowing, unhurried. Echoes Avalon (healing isle) + lune (moon).
+
+**Each culture shortens it differently — none know they are saying the same word:**
+- Braedun druids: **Avalún** (old Celtic word for sacred land)
+- Aoli sects: **Lúne** (ancient word for moonlit realm)
+- Isenholt clans: **Alún** (steppe-word for great earth)
+- Tyramare scholars: **Avalone** (historical term from dead language)
+- Solis people: **Lúna** (simply what the land has always been called)
+**The wind (Wénjī) sings the full name. Nobody remembers how to hear it — except druids in the oldest circles, foxes, and the Earth Twin.**
+
+### THE CONTINENT AS A CHARACTER — deep-dive answers
+
+**Serina's verbatim:** "the land is A, B and C all rolled into one the mother the sleeping giant and the garden"
+
+**What it is:** A mother + a sleeping giant + a garden. All three at once.
+
+**Serina's verbatim:** "its parts have forgotten that it was a connected land and body"
+
+**The regions have FORGOTTEN they are one body.** Each province is a fragment of the whole — the same way each Shi member carries a fragment of Yuèlì. **The continent is shattered the way she is shattered.**
+
+**Serina's verbatim:** "No it was not alway's like this at the dawm when Yueli and Mujin and their children had first manifested the land was one and whole. The corruption those who can feel the land speak to the rivers and trees hear their pain feel their pain. The wind has a song that those who listen can hear."
+
+**The continent mirrors Yuèlì.** When the mother was whole, the land was whole. When she broke, the land broke with her. The Àn Shān darkness is not invasion — it is SYMPTOM. The land expresses the goddess's pain. Those who can feel the land (druids, Gēnmù, Earth Twin) hear the pain directly. Trees and rivers are GRIEVING — they remember what the land used to be.
+
+**The wind's song = Wénjī's voice.** The nine-tailed wind fox, exiled and wandering, sings the old name (Avalúne) into every breeze. Most people hear weather. Those who listen hear a word.
+
+**Saving Yuèlì = healing the continent.** The saga's central quest is not just redeeming a goddess — it is making the land whole again.
+
+### THE GREAT RIVER — naming in progress
+
+**Serina's verbatim:** "something like the milky way, Aurora borealis, river of stars and we can name the off shoot rivers after constellations or stars in the night sky"
+
+**Concept:** The great river = earthly mirror of the celestial river (Milky Way). As above, so below. The gods drew the sky on the ground in water. The entire waterway system of Avalúne is a star map written in water.
+
+**Tributary system:** Each tributary named after a constellation or star. Walking along the river = walking along the sky. Following a tributary = following a constellation to its source-star. The dark water from Àn Shān might be an UNNAMED tributary — a river with no star because the darkness swallowed its name.
+
+**THE GREAT RIVER: LÚNAVÉ — "The Moon's Way" (chosen 2026-04-17)**
+
+*"LOO-nah-vay"* — three syllables, flowing. Contains Lúna from Avalúne — the river IS part of the continent's body. The Moon's Way — the path the moon draws across the land in water.
+
+**Avalúne is the body. Lúnavé is the blood.** Same ancient tongue, same family of words. Together they sound like a prayer.
+
+**Cultural shortenings:**
+- Braedun druids: *the Lúna* or *the Navé*
+- Isenholt riders: *the Vé*
+- Tyramare merchants: *the Lúnavé* (full name, sounds expensive)
+- Solis: *la Lúna* (think it is named after the moon directly)
+- Aoli/Yun Sect: an older name at the source, but they know Lúnavé is the world's name
+
+**Route:** Aoli (source, sleeping gods' mountains) → Isenholt (centre) → Tyramare (western border) → Ardenmere (centre) → Braedun (southern edge) → Maramir/Solis border → southern sea
+
 ### STILL TO BUILD
-- Water (rivers, lakes, sacred springs)
+- River name (pick pending)
+- Tributary star-names and constellation system
+- Sacred springs, lakes in Braedun
 - Mist and weather
 - Settlements (towns, hillforts, farmsteads)
 - The Earth Twin's druid community in the dark forest
