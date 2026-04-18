@@ -324,6 +324,398 @@ Soft green landscape. Ancient forests of oak and hawthorn. Standing stones on ev
 
 **Route:** Aoli (source, sleeping gods' mountains) → Isenholt (centre) → Tyramare (western border) → Ardenmere (centre) → Braedun (southern edge) → Maramir/Solis border → southern sea
 
+### WEATHER (confirmed 2026-04-18)
+
+**Serina's verbatim:** "Rain year round, Dark circle alway under coloud surrounded by heaviy and oppresive mist. Magic can be felt in that mist. Central rainy and light mist sun peaks through here occationally"
+
+**Base climate:** UK-inspired. Temperate maritime. Rain YEAR-ROUND (no dry season). Constant mist and fog. Mild temps year-round. "Four seasons in one day" rapid weather shifts. Overcast default. Long summer days, short winter days.
+
+**Regional weather gradient (maps to north-south geography):**
+- **South/green lowlands:** soft rain, mild temps, long golden summer evenings, morning mist burns off by noon. English countryside weather.
+- **North/crags and dark forest:** colder, wetter, windier. Heavy fog. Frost earlier and longer. Snow on high crags in winter. Scottish Highlands weather.
+
+**Corruption layer (Àn Shān infection shows in the weather):**
+- Frost where frost should not be
+- Mist that moves against the wind
+- Rain that feels colder than the air
+- Fog that carries whispers
+- Storms that break "wrong" — lightning in wrong colours, thunder like a voice
+- Summer snow on northern canopy
+
+**The three sacred sites have distinct weather:**
+
+**DARK CIRCLE:** Always under cloud. Heavy, oppressive mist. **Magic can be FELT in the mist — it is CHARGED, THICK, you can feel it on your skin.** The air itself is a battleground — corruption pressing in, Earth Twin's counter-magic pressing back. Druids who work there describe the mist as "thicker than mist should be." **The weather IS the magic there.**
+
+**CENTRAL CIRCLE:** Rainy, light mist, sun peaks through occasionally. Workable weather — WHY gatherings happen here. Balance — human work and sacred work both possible.
+
+**SACRED GROVE:** Its own microclimate. Softer, warmer light than the rest of Braedun. Sun breaks through canopy in golden columns. Mist is LUMINOUS not oppressive — catches light like stained glass. **The one place in Braedun where the weather is GENTLER than the rest of the country. Protected — possibly by the land itself, possibly by something older.**
+
+### SACRED GROVE (concept images reviewed 2026-04-18 — Serina said "do not use these they are only concept for what I am looking for")
+
+**Images showed:** standing stones with ritual fire + antlers, waterfall in lush forest with rainbow, crystal pool with stone steps and bluebells, giant ancient tree with hooded figure and small waterfall, druidess in living-plant robes with leaf crown.
+
+**What I read from the concept:**
+- **A giant ancient tree at the heart** — a World Tree. Massive beyond natural trees. Probably the oldest living thing in Braedun. Likely where the grove's most important rituals happen. May itself be divine or the body of something divine sleeping.
+- **Sacred water features** — waterfall, crystal pool, stream. Water here is consecrated — every drink, washing, tear is ritual.
+- **Older standing stones** — fewer than the Central Circle. Moss-covered, half-embedded. Original to the grove, growing out of the earth like the trees do. Carvings in patterns even druids cannot fully read.
+- **Ritual fire hearth** — stone-ringed. Antlers hung in trees. Small carvings and tokens left by worshippers over centuries.
+- **Abundance of undergrowth** — wildflowers, ferns, bluebells, moss. Nothing dying. Nothing dead.
+- **Dappled golden sunlight always reaching the ground** — microclimate.
+- **Druidesses' robes are LIVING PLANTS, moss, leaves, vines.** Not clothing made of these things — clothing that continues to GROW. Flowers in spring, sheds leaves in autumn, stays green in winter. **The grove clothes its own priestesses.** Robes are shed and regrown like an animal's coat.
+
+### WHAT THE SACRED GROVE IS
+The SOUL-heart of Braedun. Not civic (Central Circle), not war (Dark Circle) — the place where the land is most awake, most loving, most uncorrupted.
+**This is likely the oldest place in Avalúne that is still whole.** A piece of the original garden, preserved by something or someone, for millennia. **This is what Avalúne looked like when the mother was uncorrupted.**
+
+### SACRED GROVE — MAJOR REVEALS (2026-04-18)
+
+**Serina's verbatim:** "Deep in a hidden valley with in the light forest the path is long forgotton except for a few that know the way. The earth druid is one and his second in command is the other that knows the way. Gen has dreamed of this place before but at the moment just thinks its a nice dream, he does not realise that the grave is actually calling him. The grove is exactly what you said its the soul of Avalune and the curruption is trying to get to it. Going to this grove, helping the Earth Druid and saving the forest will be the fellowships first mission once they all come together."
+
+### LOCATION & ACCESS
+- **Deep in a hidden valley within the light forest.** The path is long-forgotten.
+- **Only TWO people know the way:**
+  1. The Earth Druid (= the Earth Twin, immortal child of Yánlóng and Yúnshēng)
+  2. His second in command (new character — likely the chief druidess, feminine-coded, mortal steward)
+
+### THE EARTH TWIN KEEPS BOTH SACRED SITES
+The Earth Druid is at the Dark Circle AND knows the grove path. **Dark Circle = where he fights. Grove = what he is fighting FOR.** He moves between them, holding the frontline with one hand and tending the heart with the other.
+**The most important non-Fellowship character in the first arc.**
+
+### GĒNMÙ IS BEING CALLED BY THE GROVE
+**Gēnmù has dreamed of the grove since childhood.** He thinks it is just a nice dream. **It is not a dream — it is the land summoning its child.** His blood is Yánlóng and Yúnshēng's (through the immortal twins). The same blood runs through the grove's ancient tree, through the Earth Twin's body, through the soil. **The grove remembers the blood. It has been calling him since before he could talk.**
+
+**This changes the casting out.** Shí Ān did not cast Gēnmù out for abstract destiny. **He cast him out to send him TO the grove.** The destiny has a specific address. The exile was always a compass needle pointing south into Braedun. **The casting out is a love letter addressed to a place, not a person.**
+
+**Scene to save:** When the Fellowship reaches the grove and Gēnmù walks in — he stops. Looks up at the ancient tree. Realizes he has stood under it a hundred times in sleep. Bluebells at his feet identical to the dreams. Waterfall sounds exactly right. **He will cry and not know why.** Temgar steps close, hand on shoulder. Gen says *"I have been here before."* Nobody understands except that the land just reached into the little healer and claimed him.
+
+### FAMILY CONNECTIONS AT THE GROVE (major relational beats)
+- **Gēnmù meeting the Earth Twin = divine cousin meeting.** Both carry Yánlóng's blood. **They are family, and neither knows it until they meet.** The Earth Twin may be the first person to explain to Gen what he IS.
+- **Lìyǐn meeting the Earth Druid = recognition.** The Earth Twin is the SIBLING of the Water Twin (Lìyǐn's "grandmother"). The Earth Twin will see his sister's work — the boy his sister raised. Lìyǐn (face-reader) will watch the Earth Druid and file him into *anomalies I cannot explain yet* with an enormous asterisk. **His grandmother's nature gets confirmed by proxy.**
+
+### THE CORRUPTION IS HUNTING THE GROVE (major stakes escalation)
+**Àn Shān's darkness is not spreading aimlessly — it is SEARCHING.** It knows the grove is the last uncorrupted piece of Avalúne — the last living echo of Yuèlì before her breaking — **and it is trying to REACH it.**
+
+**If the corruption infects the grove, the mother's redemption becomes impossible.** The grove is the proof that the original mother still exists somewhere in the land. **Destroy the grove and you destroy the blueprint for healing Yuèlì.**
+
+**The Earth Twin is not holding back a general infection. He is holding back a hunting pack with a specific target.** The darkness has a nose. The nose points at the grove. Every day it gets closer.
+
+### THE FELLOWSHIP'S FIRST MISSION (Act One of the saga)
+**Sequence:**
+1. Fellowship comes together
+2. They hear of a threat in Braedun
+3. They are led into the green country
+4. They discover the darkness is advancing
+5. They are brought to the Dark Circle — meet the Earth Druid
+6. They are led to the hidden grove
+7. They help save it from the corruption's reach
+
+**What this first arc accomplishes:**
+- Introduces scale of the enemy (corruption actively hunting the sacred)
+- Connects them to the Earth Twin (divine being who can begin to explain)
+- Reveals Gēnmù's calling (dreams becoming real)
+- WINNABLE in a limited way — they can save this ONE place while setting up the impossibly larger task
+- Takes reader through Braedun — everything we have built is the STAGE for Act One
+- Tests their bond — first mission is what makes them a family
+
+**Everything we have built in Braedun is the set for the opening of the novel.** The rolling hills, forest gradient, three sacred sites, Lúnavé, weather — not background. This is where the story BEGINS.
+
+---
+
+## THE CHIEF DRUIDESS — Second in Command to the Earth Twin
+
+### VISUAL (from Serina's concept images 2026-04-18)
+- Woodland witch-priestess — not a delicate flower, a forest warrior with a night bird on her shoulder
+- **Hair:** Long, wild, BLACK with GREEN streaks and strands threaded through (like ferns growing in dark bark). Braided in places, loose in others. **The green GROWS — it is not dyed.** The grove is slowly claiming her body.
+- **Build:** Strong, grounded, weathered from weather. Beautiful the way an oak is beautiful.
+- **Robes:** Layered, dark forest greens and brown leathers. Working clothes — she has walked briars in them, knelt in soil. Leaves and small embroidered symbols in the hems.
+- **Her owl:** A barn owl — white-faced, golden-brown wings. TRUE COMPANION (not familiar). She sees through its eyes across distance. Celtic tradition: owl = messenger between living and dead, Cailleach's bird, wise woman's companion.
+- **Her staff:** Carved from wood of the grove itself (likely a fallen branch from the ancient tree). Amber/crystal at the top. Mark of her office. Can be a weapon.
+- **She carries a bow** — likely cut from a fallen Yew branch (her sister). Druidesses in Celtic tradition were not defenseless.
+- **Autumn feeling** — she carries the turning of the year in her bearing. The bridge between growing and remembering.
+
+### INTERIOR BASELINE — Q1 (ANSWERED 2026-04-18)
+
+**Serina's verbatim:** "She is calm, she tends the plants and trees helping them to grow she helps the Yew trees for these are her sisters. She sings her song and the grove answers in kind. She can talk to the animals of the forest and they are her alarm"
+
+**She is CALM.** Not dramatic, not anxious. Calm the way the grove is calm. The only other character who matches this is Lìyǐn, and his is chess-player discipline. **Hers is nature.** She has let the land put down roots inside her. She was chosen BY the grove, not just the Earth Twin.
+
+### THE YEWS ARE HER SISTERS (major lore)
+- **Yew = most sacred tree in Celtic tradition.** Lives thousands of years. Tree of Death and Rebirth. Planted in graveyards. Poisonous berries, strongest bow-wood. Death AND defence in one body.
+- The chief druidess is KIN to the Yews, not caretaker. **Over her long service she is slowly becoming one of them.** Hair greening = first visible sign. If she serves long enough, she will die at a Yew's root, be buried there, become a new Yew.
+- **The chief druidess position is not a job — it is a stage of becoming a tree.**
+- **Older Yews in the grove were ONCE priestesses** who completed their transformation. Still part of the sisterhood, now rooted.
+- **Her bow is her dead sister** — cut from a fallen Yew branch. Every arrow fired is her sister's hand defending the grove.
+
+### HER SONG (major magic)
+- **She sings and the grove answers.** The oldest kind of magic — sung magic, Celtic tradition, songlines.
+- **Her song is a fragment of Wénjī's song** — the wind fox sings Avalúne's true name. The druidess's song is a piece of that song preserved in the grove, taught priestess to priestess for ten thousand years.
+- **When she sings, she is singing part of the original unity-song of the whole continent.** That is why the grove answers — it recognises the voice of its first naming.
+- **When the Fellowship arrives, they may hear her singing before they see her. Gēnmù will freeze — her voice is a voice from his dreams.**
+
+### THE ANIMALS ARE HER ALARM
+- She talks to the animals of the forest. **Her intelligence network IS the forest itself.**
+- Deer, birds, foxes, hares, wildcats — her ears across Braedun.
+- **She knows everything that happens in the light forest because the forest tells her.**
+- **This is how the Fellowship's arrival is foretold.** By the time they are a day out from the grove, she knows: six travelers, divine blood, darkness, the called one. **She may be waiting for them at a crossroad before they ever reach the hidden valley.**
+
+### STRUCTURAL PAIRING WITH THE EARTH TWIN
+- Earth Twin = warrior. She = gardener.
+- He = frontline. She = heartland.
+- He bleeds for the grove. She makes the grove worth bleeding for.
+- He at the Dark Circle. She at the Grove.
+- **Not master/apprentice. PARTNERS.** Neither could hold Braedun alone. Together, the last line.
+
+### HER NAME — EILWEN (chosen 2026-04-18)
+
+**Eilwen** *(AYL-wen)* — Welsh, "Fair Brow" / "Pale Green One." The second part "wen" can mean fair/white or, in older readings, **pale green.** **Her name IS her hair.**
+
+**Her naming story:** Eilwen is not the name she was born with. She came to the grove with a mortal name — her parents' name, her birth name. **Over years of service, as the green began to grow in her hair and her song became the grove's song, the grove renamed her.** The old name faded. Eilwen rose. Now she is only Eilwen. The old name is a ghost even she barely remembers.
+
+**Parallel to Vesper Lumen:**
+- Vesper was named by the Water Twin to mark that she was more than Mouse.
+- **Eilwen was named by the GROVE to mark that she was becoming one of them.**
+Two women given new names by divine kindness. Two names that prove the old name is not the whole story.
+
+### EILWEN — MAJOR REVEALS (2026-04-18)
+
+**Serina's verbatim:** "She is about 400 years old now, Brina was her original name that was give n at birth, She knows the Earth Twin is Devine she is married to him in the way of druids, there is a Yew treen i nthe grove that is her master and sister druid the one that trained her and taught her the ways, Her voice sound like Enya Irish singer and composer is is ethreal and mystical and beautiful and its makes the forest sing back."
+
+### AGE — 400 years
+Came to the grove as a young woman. **Older than Xuěhuā. Older than any mortal the Fellowship will meet.** The transformation is well underway — parts of her are already more tree than woman. Blood moves differently. Sleep is slower. Dreams are rooted.
+
+### BRINA — the ghost-name
+Her birth name. **Almost gone now** — 400 years of being Eilwen have worn it down to almost nothing. But there may be ONE moment — the way her mother used to call her in for dinner, the smell of her grandmother's bread — that still makes Eilwen stop and go quiet, because Brina surfaces for a second and slips back under. **The mortal girl is a ghost living inside the tree-becoming woman.**
+
+### SHE KNOWS THE EARTH TWIN IS DIVINE
+**Confirmed.** One of the very few mortals in the entire saga who knows a hiding god's true nature.
+
+### SHE IS MARRIED TO THE EARTH TWIN (major love story)
+**Married in the way of druids** — sacred, binding, ancient. A mortal woman and a hiding god bound at the altar of the grove itself, Yews as witnesses, ancient tree as priest.
+
+**The grove is their HOME.** Not just a sacred site. The Earth Twin and Eilwen return there after his day at the Dark Circle and her day tending the Yew sisters. **One of the oldest love stories on the continent — four centuries of marriage between a god and a woman slowly becoming a tree.**
+
+**Built-in tragedy:** He has ALWAYS known he will outlive her by eons. Even with extended life, she will one day complete the passage and become a Yew. She will be rooted. He will still walk. He will visit her tree and speak to her. She will answer in rustle and wind. **Every day of their marriage is a day closer to her becoming something he cannot hold.** They both knew when they married. They chose it anyway.
+
+**When the Fellowship meets them, they meet a MARRIED COUPLE.** Not lord and druidess. Two halves of a very long love story.
+
+**Lìyǐn will clock this.** His face-reader eye catches the way they look at each other. Files it alongside the Water Twin's hidden arrangement.
+
+### HER YEW MASTER — the lineage revealed
+A Yew in the grove was HER TEACHER. A previous chief druidess who completed her transformation. Long before Brina arrived, another woman trained her — taught her the song, the animal-speech, the rites. That woman eventually completed the passage, died at her own sister-Yew's root, became a Yew herself. **She is still Eilwen's teacher.** The Yew sings. Eilwen listens. They converse through root and song and dream.
+
+**The chief druidesses of the Sacred Grove are a LINEAGE.** Each generation trains the next. Each becomes a tree. **The Yews of the grove are the tradition made physical — every standing Yew was once a priestess.** Eilwen is mentored by her teacher's Yew-form. One day Eilwen will be someone's teacher, then their Yew.
+
+### HER VOICE — ENYA
+Ethereal, multi-layered, breathy, mystical. The voice that feels like it is coming from many places at once. **A single voice that contains its own harmonies.**
+
+**When Eilwen sings, her voice has the quality of MANY voices** — because the Yews and the grove sing WITH her. A listener hears one woman AND hears twenty. One voice AND an entire forest. Her single voice carries the overlapping harmonies of every sister-tree humming along, of wind in leaves answering her, of the old song echoing from beneath the roots.
+
+**"It makes the forest sing back."** She sings a phrase, the Yews sigh, bluebells quiver, waterfall changes its note. The grove is not listening — the grove is **DUETTING.**
+
+### THE FELLOWSHIP'S APPROACH (scene to save)
+As they approach the hidden valley, they start hearing a sound that is not quite wind, not quite water, not quite voice — all three at once, braided, unbearably beautiful. Xuěhuā's fox ears flatten. Temgar stops walking. Aria feels tears on her face she did not ask for. **Gēnmù recognises the voice.** *"I have heard this in my dreams."* They walk toward the sound. Trees thin. They step into the grove. **She is there — singing, owl on shoulder, staff in soil, the whole forest singing her back.**
+
+---
+
+## ELMARA — the Yew who trained Eilwen (revealed 2026-04-18)
+
+**Serina's verbatim:** "Her druid name was Elmara. Her original name has been lost to time. She was wise, she did not talk and spoke with her hands and with runes, She read the stars and mapped them. She was as calm as the river, but as fierce as the river when it raged. She also had a sense of humor. She was the second in charge before Eilwen as it has been for eons for the other yews before her each the second in charge. No before Eilwen he was not married. Her teacher was not a tree but she was in her twilight and had rooted in place and could not longer roam the forest, this was wht Brina was brought to her. her teacher completed the transfomation 100 years after Brina (Eliwen) arrived at the grove. The tree speaks to Eilwen through song like all the other yes sisters but on the night of the full moon each month when the moonlight hits to grove the yews once again become women and they dance and bless the grove."
+
+### NAMES
+- **Elmara** — her druid name
+- **Original name — LOST TO TIME.** Gone even to her own memory probably.
+
+### WHO SHE WAS
+- **Wise.** Read the stars and mapped them. **Likely the original cartographer of the tributary star-system.** The river-as-sky-mirror is HER work or her tradition, passed down.
+- **Silent by choice.** Spoke with hands and runes. Sign language + runic writing.
+- **Wordless humour.** Could deadpan with her eyebrows, tell a joke with a rune and a half-smile. Hardest kind of humour. Had to be sharp, quick, observant.
+- **Calm as the river, fierce as the river when it raged.** NOT Eilwen's grove-calm — river-calm. Rivers FLOOD. **Elmara could be terrifying when the grove needed defending.** A warrior's steel under the silence.
+
+### THE LINEAGE IS EONS OLD
+**The Sacred Grove has been tended by chief druidesses for thousands of years.** Each one a second in command to the Earth Twin. Each one eventually rooted. **Every Yew in the grove is another name. Another woman who came, served, rooted.** Stretching back into a time nobody remembers. Eilwen is the current link in a chain older than most civilisations.
+
+### THE EARTH TWIN WAS NOT MARRIED BEFORE EILWEN (major reveal)
+**For eons, through Elmara and every druidess before her, he never married any of them.** He loved them as partners and friends, watched each one root. **For thousands of years he held back.**
+Then Brina walked in. **Something broke.** After eons of loss, something in him finally said *no more holding back. The next one I will love properly. Even knowing she will root. Even knowing.* **Eilwen is his first wife. She broke his long vow of solitude.**
+
+**Elmara watched it happen before they did.** Silent, river-calm, watching her god-partner fall for her apprentice. **Elmara's last act as a walking woman may have been to put a hand on the Earth Twin's shoulder, gesture to Brina, hold his gaze. *Yes. That one. You have permission. Love her.*** Elmara's blessing was the final thing that unlocked the door.
+
+### TIMELINE
+- Brina arrives at the grove (young woman, ~20 years old)
+- Elmara is already in her TWILIGHT — rooted in place, cannot walk, but still signing, still teaching
+- Brina studies under Elmara for **100 years**
+- Elmara completes the transformation, becomes a Yew
+- Eilwen becomes chief druidess
+- Eilwen has served **300 years** as chief
+- Eilwen is now ~400 years old
+**The marriage with the Earth Twin happened sometime after Elmara rooted — so Eilwen has been married to him for ~300 years, a love story older than many kingdoms.**
+
+---
+
+## THE FULL MOON RITUAL — The most sacred ritual in Avalúne
+
+**Once a month, on the full moon, when the moonlight hits the grove, the Yew sisters become WOMEN again. They dance and bless the grove.**
+
+### What this IS
+- The full moon is **Yuèlì's time.** The mother goddess. Even in her corruption, her moonlight is the one gift she still gives unbroken.
+- When moonlight falls on the grove, the Yews **SHIFT** — roots become feet, branches become arms, bark becomes skin, leaves become the green growing through black hair. **They dance.** They sing with Eilwen. They remember being women.
+- Every full moon is a **REUNION.** Every chief druidess across millennia gathers in moonlight as women. Eilwen embraces Elmara hand to hand. Elmara signs with her own fingers for one night.
+- **The Earth Twin is there.** He dances with his wife AND with all the women he loved as colleagues across the ages. **For one night a month he has ALL of them back.** He is the only person on the continent who knows every single chief druidess who has ever lived. On the full moon, he sees them all.
+
+### WHY THIS MATTERS — Yuèlì is not gone
+**Evidence that Yuèlì was a HEALER before she broke.** Her moonlight still carries that old mothering power. Even corrupted, she still gives this one gift monthly — her daughters, her trees, brought back for one night. **The full moon ritual is proof that the mother is not gone. Only sealed. The love is still leaking through the cracks as moonlight on the grove.**
+
+### THE FELLOWSHIP ARRIVING ON A FULL MOON (scene to save)
+If timed to a full moon: they step through the trees, hear Eilwen's song joined by twenty others in harmony, see a dozen women in moonlight dancing around the great tree.
+- **Gēnmù drops to his knees.** He has dreamed of this.
+- **Xuěhuā recognises them** — women dancing in moonlight. Like her.
+- **Aria sees, maybe for the first time, that her dreams of magic were not wrong.**
+- **The Fellowship's first moment of true AWE.** The moment they understand what they are actually part of.
+
+### XUĚHUĀ CONNECTION (major)
+**Xuěhuā's moonlight dance is not unique.** She is part of an ancient tradition of women who dance in moonlight. The Yew priestesses have been doing it for thousands of years.
+When Eilwen learns Xuěhuā dances, she will smile.
+**When Xuěhuā learns about the full moon ritual, she will understand — for the first time — that her instinct to dance under the moon is not personal. It is INHERITED.** She carries the same ancient song in her blood that Eilwen carries in her voice.
+
+---
+
+## BRINA'S ORIGIN STORY (revealed 2026-04-18)
+
+**Serina's verbatim:** "Brina was born on the southern border between Maramir and Braedun on a farm along the Avalune river. Her father was a farmer and her mother was a healer, she had a younger sister named Alys her sister was 14 when Brina left her home for the grove Brina was 16 years old and the Village Elder choose Brina in accordance to her birth star chart. The grove had already started singing to her by this time, the first time she heard the song she was sitting on the banks of the river listening to the water and birds sing the wind changed tune and she heard the forest start to sing almost like it was singing that it was time now, she should come to them. She was 10 at this time. Since the day she left her home she has not gone back she nolonger remebers what her father looks like nor her mother nor her sister just has vague ideas on what they may have been like. Life outside the forest is foriegn to her and she does not leave the forest borders. As a girl she was quite and calm but she loved to swim in the river. one summer morning she met a particullaily playful otter who had come down river. It came back every summer until she turned 16 she went to the river to see if it was there to say gobye at the time it was not. she does not know to this day where that otter has gone."
+
+### BIRTHPLACE
+**Southern border of Braedun/Maramir, on a farm along the Lúnavé.** She was a RIVER girl — raised on the banks of the great continental river, looking across at Maramir's desert edge. A borderland child.
+**She was not born a forest girl. She was born a river girl.** The grove chose a child of the water and grew her into a child of the trees.
+
+### FAMILY
+- **Father: farmer.** Her groundedness, patience, connection to soil comes from him.
+- **Mother: healer.** Her herb-knowledge, healing hands, plant-medicine comes from her.
+- **Younger sister ALYS, 14 when Brina left.** Close enough in age to be first friends, shared childhood, learned herbs together from mother.
+- **She is her parents' inheritance folded together** — a farmer-healer's daughter, already half-shaped for what the grove needed.
+
+### THE CHOOSING — village elder + birth star chart (WORLDBUILDING REVEAL)
+- **Braedun villages have astrological traditions.** Births are charted. Destinies read.
+- Each village has a druid or druid-trained elder who keeps star-maps, reads children's charts.
+- **Elmara's celestial work is not just grove-magic — it is Braedun's cultural practice.** Her star-maps are in use across every village.
+- **The grove called Brina spiritually. The elder confirmed her cosmologically.** Song + stars agreed. She was sent.
+
+### THE FIRST SONG — age 10, by the river
+Sitting on the Lúnavé banks, listening to water and birds. **The wind changed tune** (Wénjī's wind shifting to carry forest-song) and she heard the forest singing. "Almost like it was singing that it was time now, she should come to them."
+**She had 6 years of hearing the song before the elder sent her.** She was half-claimed for more than a third of her human life before leaving.
+
+### THE 400-YEAR ABSENCE
+- Since leaving at 16, she has **NEVER gone back.**
+- **Does not remember her family's faces** — father, mother, sister. Only vague ideas.
+- The love remains; the faces do not.
+- **She has never left the forest in 400 years.** Life outside is foreign.
+- **NARRATIVE LEVER:** if Eilwen ever has to leave the forest, it will be one of her story's biggest moments. 400 years of never crossing the border. First step outside = caged bird into open sky.
+
+### ALYS — the sister's thread
+- Alys was 14 when Brina left. Grew up. Married (probably). Had children.
+- **Alys has been dead 350+ years.** Her descendants still live in southern Braedun border region.
+- **Alys's descendants carry a thread of Eilwen's blood across 400 years. Neither side knows.**
+- If the Fellowship ever travels that southern border, they might pass through a village that would mean nothing to them but everything if they knew.
+
+### BRINA AS A GIRL
+- **Quiet and calm** — always grove-shaped, even as a child. The calm is native, not grown.
+- **Loved to swim in the river.** Water was her joy as well as her home.
+
+---
+
+## THE OTTER = BŌ XĪ (MAJOR REVELATION — cross-character link)
+
+**The "particularly playful otter who came down river" every summer of Brina's childhood IS Bō Xī.**
+
+### The evidence
+- **Bō Xī (波嬉) "Wave Play" / Bolshy** — Yun Sect leader, The Current, a WHITE OTTER, Yúnshēng's fragment. Chaos gremlin, deadliest fighter, Cháo Lán's pressure valve. Lives in Aoli at the Lúnavé source.
+- The Lúnavé flows from Aoli (Yun Sect territory) south to the sea near Maramir/Solis border. **An otter from the Yun Sect travelling downriver arrives at exactly Brina's childhood farm.**
+- **Every summer, for years, the otter came. The summer Brina was to leave, it did not.**
+
+### What actually happened (for the story)
+**Bō Xī knew.** Cháo Lán (Avatar of Water) was watching the girl from the source. Bō Xī — playful, chaos-loving — **was sent (or went of her own accord) to befriend the child being called.** To give her a summer companion, joy before the calling claimed her.
+**Bō Xī loved that child.** Watched her grow from 10 to 15 — the years of the grove's song settling into Brina's bones.
+**The summer Brina turned 16, Bō Xī did not come.** Because either:
+1. Goodbye would have broken the girl
+2. Bō Xī could not bear to watch her walk north into a 400-year absence
+3. She went ahead to the grove to watch from distance as an otter, and never approached again
+
+### Eilwen does not know
+She thinks it was just an otter that did not come back. **400 years of not knowing what that otter was.** 400 years of half-remembering summer mornings in the river with a creature who loved her.
+
+### THE SCENE TO SAVE — reunion
+**If Eilwen ever leaves the forest for the Fellowship's cause and travels up the Lúnavé** — stops at a bend of the river because something tells her to — a white otter with red-tipped fur comes out of the reeds. Eilwen does not recognise her until the otter does a specific tail-flick Brina used to laugh at when she was twelve.
+***"...Bolshy?"***
+That name. She has not said it in 400 years. **Her mouth remembers.**
+**Bō Xī comes to her. They cry in the river together.**
+
+### The cosmological layer
+**Eilwen's story threads Earth and Water together.**
+- She is married to the Earth Twin (Yánlóng's son)
+- She was loved as a child by Bō Xī (Yúnshēng's fragment)
+- **The sleeping gods' love story continues through her — she carries both Earth's claim and Water's affection.** The mountain and the river. Both parents of Avalúne reached for her.
+
+---
+
+## THE EARTH TWIN — BADAN (named 2026-04-18)
+
+**Badan** *(BAH-dan)* — Scottish Gaelic, **"a small wooded cluster / copse / thicket / little grove."**
+
+**His name literally means THE GROVE.** Just like Eilwen's name means "pale-green one" (her hair, the forest growing in her), Badan means "the grove itself in one body." **The land named him.** The same way the grove renamed Brina to Eilwen, it gave the hiding god a name in its own language.
+
+### THE COUPLE-NAME
+**Eilwen and Badan.** *The Pale-Green One and the Little Grove.* The tree-becoming woman and the forest-shaped god. **Their names together ARE the Sacred Grove, spoken in two words.** When Eilwen calls his name, she is saying "beloved" and "grove" in the same breath.
+
+### BADAN IS HIS GROVE-NAME ONLY — his true divine name is YÁNZǏ
+
+**Yánzǐ (岩子) — "Stone Child"** (chosen 2026-04-18)
+
+- **岩 (yán)** = rock, cliff — his father Yánlóng's character. Every time someone says Yánzǐ, they are saying *"Yánlóng's child."*
+- **子 (zǐ)** = the tender diminutive. What Chinese mothers have called their small children for thousands of years. **This is not a god's name. This is a little boy's name.**
+
+**Yánzǐ is what his mother Yúnshēng called him** when he held her small son in her arms. His father Yánlóng taught him to read the stone under that name. **It is the name that means *beloved child* in the oldest tongue of his family.**
+
+**He has not heard it in ten thousand years.**
+
+### The three ages of his being — three names
+- **Yánzǐ** — what his mother called him when he was small (deepest, oldest, most private)
+- **Badan** — what the grove renamed him when he hid as a druid (everyday, what Eilwen whispers)
+- **The Earth Twin / The Earth Druid** — what the world calls the one it does not know is a god
+
+**Three names for three ages of being.** Each a layer of who he was, is, and hides as.
+
+### THE NARRATIVE LEVER — the name that ends the hiding
+**When Yánlóng or Yúnshēng finally wake and call him Yánzǐ, it will undo him.** Not because of cosmological weight — because of TENDERNESS.
+- Shāngēn would have made him bow.
+- **Yánzǐ makes him cry.**
+- It turns him back into a child. It says *I am your mother and I have found you.*
+**Yánzǐ is the word Yúnshēng has been holding in her sleeping mouth for ten thousand years.** Her first word when she wakes might be his name.
+
+### Pending on Badan/Yánzǐ
+- The story of how he went into hiding
+- His personality/interior
+- His relationship to his sibling the Water Twin
+
+### STILL TO BUILD (next threads)
+- The ancient tree at the heart of the grove
+- Gēnmù's dreams (what he has specifically seen)
+- The Dark Circle druid community
+- Whether the full moon dance can be witnessed by outsiders
+- Does Eilwen ever learn who Bolshy was? When?
+- The Water Twin's name (Badan's sibling)
+- How she came to the grove originally
+- Does she know the Earth Twin is divine?
+- Her specific Yew sister (closest/oldest)
+- Her song — what does it sound like, what does it say
+- Her reaction to each Fellowship member when they arrive
+
+### STILL TO BUILD on the Grove overall
+- The giant ancient tree — what it is exactly (World Tree? Yánlóng's echo? Something else?)
+- What specific rituals happen at the grove
+- Who can enter it (initiates only? pilgrims?)
+- What Gēnmù's dreams have SHOWN him specifically
+- The Dark Circle druid community (Earth Twin's army)
+- The moment the Fellowship arrives at the grove — staging the scene
+
 ### STILL TO BUILD
 - River name (pick pending)
 - Tributary star-names and constellation system

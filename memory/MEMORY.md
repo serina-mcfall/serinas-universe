@@ -46,6 +46,7 @@ This directory contains extracted context from Serina's world-building sessions 
 | [temgar-interior.md](temgar-interior.md) | project | Deep Q&A interior work on Temgar — ALL 8 Qs COMPLETE 2026-04-16. Seeker + four mistakes + Davaa + forge + tavern incident |
 | [portrait-prompts.md](portrait-prompts.md) | project | AI portrait prompts for Fellowship characters — all four done, all portraits generated 2026-04-16 |
 | [braedun-research.md](braedun-research.md) | project | Celtic Britain research dossier for Braedun — megalithic builders, druids, Otherworld, Arthurian layer, sacred landscape |
+| [deep-research-prompt.md](deep-research-prompt.md) | reference | Master Deep Research prompt for all 8 cultural bases of Avalúne — 20 categories per culture |
 | [weapons-rabbit-hole.md](weapons-rabbit-hole.md) | project | Aoli combat + Fellowship personality-fit weapons + living weapons house rule + Armoury MVP + sect card progress |
 
 ### Project Status

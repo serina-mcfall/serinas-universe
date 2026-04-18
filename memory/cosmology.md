@@ -2,8 +2,8 @@
 name: Cosmology - The Primordials and the Gods
 description: Creation myth, primordial beings, young gods, and the central cosmic conflict
 type: project
+originSessionId: bd123ac3-fbc3-4c54-95f1-aaaaed19c370
 ---
-
 ## The Primordials (The Oldest Forces)
 
 Two forces born at the beginning of time, yin and yang:
@@ -47,3 +47,114 @@ Yanlong and Yunsheng had twin children before they went to sleep. Divine childre
 ## The Central Theme
 
 Every fantasy story says defeat the evil. This one says: SAVE HER. Find the mother underneath the darkness. Heal what humanity broke. The journey is to redeem Yueli, not destroy her.
+
+---
+
+## YÍNHÉ — THE ETERNAL CHILD (added 2026-04-18)
+
+### The cosmology EXPANDED — she is the eldest
+**Yuèlì and Mùjīn's FIRST child.** Born when her parents were young and new, before the corruption. **Her birth coincided with the planting of the first sacred tree in Aoli.** Older than her five younger siblings (Yánlóng, Yúnshēng, Wénjī, Fèngzhé, Mínhuì) by eons.
+
+### The Eight Sacred Trees — per-country pillars
+Each country of Avalúne has one Ancient Sacred Tree — a pillar of the world, gift from Mùjīn. **The first was planted in Aoli when Yínhé was born** — the eight trees are her birth-gift, her father's celebration of his firstborn. **The corruption attacking the trees is attacking the pillars raised for his daughter's arrival.**
+
+### NAME: Yínhé (银河) — "Silver River"
+Also the Chinese name for the Milky Way. She IS the galaxy-river — literal bridge between sky (Mùjīn's domain) and water (her own domain). **The tributary-star system mirrors HER.**
+
+**Nicknames (Serina's verbatim):** "Yinhe I think - Yin for short this is what her siblings called her or Sprite sometime brat depending on what mistchief she got into"
+- **Yín** — neutral, affectionate family name. What siblings call her on ordinary days.
+- **Sprite** — endearment. Likely Mùjīn's name for her. Also Mínhuì's (the gentlest sibling).
+- **Brat** — exasperated love. Yánlóng's name when she's pulled something.
+
+### APPEARANCE & NATURE
+- **Looks 12 years old forever.** Stopped aging at that age. Pre-adolescent, open, childlike face.
+- **Eons old.** Watched her parents at their height, watched her mother corrupted, watched her siblings born and go dormant.
+- **Silver-coded** (Silver River). Possibly silver hair, silvery-blue eyes, water in her hair.
+- **Voice** sounds 12 in casual speech, carries ancient echo in important moments.
+
+### DOMAIN: YOUTH + INGENUITY + FLOW
+- Rivers, seas, weather, rain, flow, connection
+- **Ingenuity** = finding new ways when old ways have broken. Rivers cut new channels.
+- **Her domain is figuring out how to heal the world.**
+- **She is the BALANCE** — child of Order (father) and Chaos (mother). When her parents argued in the old days, she was the third voice.
+
+### HER WEIGHT — mischief masks grief
+She has watched her mother be corrupted. Her siblings go dormant or into exile. She has been alone for eons.
+**Her mischief is how she copes.**
+**She is the reason Mùjīn did not collapse into silence when Yuèlì broke. She makes him laugh. She has been making him laugh for ten thousand years.**
+
+### MISCHIEF IN PRACTICE
+Weaponises inverted age every day. Older than Yánlóng, looks younger. Calls him "little brother" to his face. He calls her Brat.
+- Hides siblings' sacred objects
+- Stirs up mortal affairs to watch them figure it out
+- Appears at pivotal moments as a random child to nudge history
+- Teases sleeping siblings with tiny dreams
+- Leaves gifts that seem useless until decades later
+- Speaks in riddles that sound like nonsense and turn out to be prophecy
+
+### ARIA CONNECTION — she was Aria's imaginary friend
+**Yín likely visited Aria at the orphanage when Aria was ~6.** A twelve-year-old girl who played quietly with the lonely magic-child, came back for a few weeks, then vanished. Aria half-remembers her as an imaginary friend. **Probably stole something small on her way out.**
+**When Aria reunites with her divine family, the first person she remembers is the BRAT.** Not parents. Not grown gods. **The mischievous little girl who came to play.** Yín will hand back the spoon she stole fifteen years ago with a smirk.
+
+### STRUCTURAL IMPLICATIONS
+**Five younger gods + Eldest child (Yín) + Parents (Mùjīn + Yuèlì)** = a FAMILY, not just a cosmology.
+**The Fellowship's mission:** bring the family back together. Save the mother. Wake the sleeping children. **Reunite them with the eldest sister who has been alone for so long.**
+**Yín is the eldest loss AND the eldest hope.**
+
+### THE STOLEN SPOOL OF FATE STRING (major cosmology mechanism — 2026-04-18)
+
+**Serina's verbatim:** "omg you just gave me the best idea ever with the sting bit. She steals a spool of fate string from her father and goes on a spree tieing fate love lines to couples that should not be together and causes chaos"
+
+### THE MECHANISM
+**Mùjīn is Fate. He has PHYSICAL fate-strings** — golden threads, manifestations of love-bonds. Like the Chinese Red String of Fate, but gold (his colour). He ties strings between predestined couples at birth so they find each other across all obstacles.
+
+**Yín stole the spool.** The entire spool. Mùjīn's primary instrument of cosmic love-work. Then went on a SPREE — tying fate-strings between couples who should NOT be together. Opposing cultures, enemies, age gaps, doomed pairings. **All because it was fun to watch the chaos unfold.**
+
+### YÍN IS THE MECHANISM OF THE PROPHECY (structural reveal)
+She is the daughter of Fate AND Chaos. When she ties a string, she is doing fate-work AND chaos-work at the same time. **Her strings are cosmic reconciliation in a 12-year-old's hands — the closest thing Avalúne has to Mùjīn and Yuèlì being together again.**
+
+### THE FELLOWSHIP ROMANCES ARE ALL HER DOING
+- **Aria + Yuè'àn** — the prophecy romance. Light and dark. Yuèlì's daughter-line and son. **Yín's most brazen string.** She thought it would be the wildest pairing imaginable. **It turns out to be what SAVES THE WORLD.** The prophecy's central love is Yín's mischief. **Yín is the mechanism of the prophecy and she does not know it yet.**
+- **Temgar + Xuěhuā** — Mongolian-Norse warrior and 300-year-old fox. An outrageous pairing. **A Yín string.**
+- **Badan + Eilwen** — Badan is Yín's UNCLE. She watched him grieve for eons. **She tied Brina to him as a kindness.** The Earth Twin's long vow of solitude wasn't broken by Brina — **it was broken by his niece playing matchmaker.** He doesn't know. Eilwen doesn't know. Only Yín and the string know.
+- **Lìyǐn + Vesper Lumen** — NOT a romantic string. A PROTECTOR bond. Yín ties SAVE-HER lines too. **Vesper survived because Yín tied a string that pulled Lìyǐn into a specific slum on a specific day.**
+
+### ARIA'S "IMAGINARY FRIEND" — explained
+**Yín visited Aria at the orphanage to CHECK ON THE STRING.** She wanted to see how her work was growing. Played with the six-year-old prophecy child for a few weeks, saw the girl was strong enough to carry the love she had been fated into, stole a spoon, left satisfied.
+**Yín confirmed Aria's romance decades before Aria ever met Yuè'àn.**
+
+### MÙJĪN'S REACTION
+**He KNOWS she stole the spool.** Noticed immediately — he is Fate. Nothing gets past him.
+**He hasn't taken it back.** Because:
+1. He adores her. She is his firstborn.
+2. Her strings are WORKING — some cause chaos, some create love stories that save the world.
+3. **She has inherited BOTH parents' powers.** Fate-sense from him, chaos-sense from her mother. **Her strings are the closest thing Avalúne has to Mùjīn and Yuèlì being together again.**
+He pretends not to know where the spool is. **Watches her on her spree and feels hope for the first time in ten thousand years.**
+
+### THE STRINGS — visual
+**Gold. Thin as hair. Unbreakable.** Invisible to mortals. Visible to gods and to rare mortals with divine sight. **Druids can sometimes glimpse them in certain lights.** Eilwen may have seen one flash between two strangers and wondered.
+Strings tie wrist-to-wrist or heart-to-heart. When two tied people are far apart, string is stretched thin. When near, it coils loose.
+
+### GĒNMÙ CAN PROBABLY SEE THEM
+Divine blood, earth-sense. He may start seeing gold threads flashing between Fellowship members. **Aria-Yuè'àn. Xuěhuā-Temgar. Lìyǐn-Vesper (humming across the continent).** He would not understand until much later.
+
+### THE INEVITABLE REVEAL
+**Aria: "You stole my spoon."**
+**Yín: "I stole much more than that from you, actually. Let me tell you about the golden thread around your heart."**
+**The moment the Fellowship realises the whole saga has been set up by a twelve-year-old brat with stolen thread.**
+
+### NOT ALL STRINGS ARE ROMANTIC
+Yín ties:
+- Romantic strings
+- Protector-to-protected strings (kin bonds, save-her lines)
+- Rival strings (enemies fated to meet)
+- Mentor-student strings (maybe how Elmara found Brina)
+- Friendship strings
+
+### Pending on Yínhé
+- Where she is now (Aurum? wandering? near the first tree in Aoli?)
+- Her specific visual design
+- Her particular relationship with each younger sibling
+- Her memory of Yuèlì BEFORE the corruption
+- Is there a string she has NOT yet tied? Is there one she REGRETS tying?
+- Can strings be cut? By whom?
