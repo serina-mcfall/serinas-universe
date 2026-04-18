@@ -1,0 +1,11 @@
+# WORKLOG v2
+
+@ACTIVE
+# sid|registered|last_active|scope
+98c93ed5|2026-04-13T11:40+1200|2026-04-13T11:40+1200|unset
+6077320a|2026-04-13T11:40+1200|2026-04-13T11:40+1200|unset
+
+@LOG
+# timestamp|sid|op|detail
+2026-04-13T11:40+1200|6077320a|REG|started
+2026-04-13T11:40+1200|98c93ed5|REG|started

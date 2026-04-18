@@ -1,0 +1,5 @@
+wing: serinas_universe
+rooms:
+- name: general
+  description: All project files
+  keywords: []
