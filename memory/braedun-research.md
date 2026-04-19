@@ -728,6 +728,417 @@ That name. She has not said it in 400 years. **Her mouth remembers.**
 - Braedun's people, tribal structure, leadership
 - The "feeling" of standing on a Braedun hill
 
+---
+
+## BRAEDUN'S POLITICAL STRUCTURE — The Sacred Marriage of Crown (2026-04-19)
+
+### ONE PEOPLE, ONE CROWN
+**Serina's verbatim:** "one people with a high King and Queen"
+
+Braedun is UNIFIED under a single monarchy — NOT a tribal confederation. One people. One kingdom. One sacred leadership pair. More like early medieval Welsh/Irish than pre-Roman tribal Britain.
+
+### THE SACRED MARRIAGE — political structure (Serina's verbatim 2026-04-19)
+**"Politically Married - Each a ruler in their own right - She is a high Druid - He is of Warrior Class - They are elected - Then Married - there is a council they have the deciding vote."**
+
+**The High Druid Queen** — from the druidic order. Represents LAND, OLD KNOWLEDGE, SPIRITUAL conscience. When she speaks, the earth listens.
+
+**The High Warrior King** — from the warrior class. Represents PEOPLE, DEFENCE, bodily strength. When he draws steel, armies rise.
+
+**They marry AFTER election — not before.** The marriage is the CONSUMMATION of the political union. Two strangers elected separately (one by druids, one by warriors?) who then bind together as the living embodiment of Braedun's sacred pairing: **spirit + body, wisdom + strength, land + defender.**
+
+### THE COUNCIL
+A deliberative body with REAL power. Can deliberate, propose, oppose. **When the council deadlocks, the royal pair has the tie-breaking vote.** Checks and balances with a sacred capstone. Not absolute monarchy — constitutional-sacred-monarchy.
+
+### WHY THIS IS STRUCTURALLY BEAUTIFUL
+
+**The Celtic sacred pairing made political.** Ancient Celtic tradition: queen embodied sovereignty of the land, king was her champion. Braedun made this LITERAL and STRUCTURAL. Druid-queen IS the land's voice. Warrior-king IS the people's arm. Their marriage is the ongoing bond between land and people.
+
+**Dramatic tension built in:** Two strangers elected by different orders, forced to marry for the kingdom.
+- If they love each other, Braedun flourishes
+- If they tolerate each other, the kingdom functions
+- If they hate each other, everyone feels it — crops wilt, council fights, land moody
+**Their personal relationship is a barometer of the nation.**
+
+### THE MIRROR TO BADAN & EILWEN (major parallel)
+Badan (hiding god, keeper of the grove) married Eilwen (druidess becoming a tree).
+**Their marriage is the SACRED PRIVATE VERSION of what Braedun made into PUBLIC POLITICAL STRUCTURE.**
+The druid-married-to-defender pairing exists at both levels:
+- **Publicly:** High Druid Queen + High Warrior King, elected and married as crown
+- **Secretly:** Badan + Eilwen, a god and his chief druidess, married at the Sacred Grove
+**Braedun's political tradition is the mortal echo of a divine marriage in the Grove.** The nation learned the shape from the grove without knowing.
+**When the Fellowship sees Eilwen and Badan together, they will understand the pairing is older than the politics. Braedun's monarchy is an imitation, centuries removed, of a marriage that has been going on for three hundred years.**
+
+### THE CURRENT HIGH DRUID QUEEN (2026-04-19)
+
+**Serina's verbatim:** "She looks like she is in her late 20s however she is about 50, She reads the stars, She is aware of Eilwen but not close as she is still quite young for a High Druid. She can use Druid Voice which allows for a certain bit of controlling another weather beast or person. She is aware to some degree of Badan's Divinity and protects what she knows. Within the Druid Hierarchy she is 3rd. In each of the outlining villages each will have a Druid and a warrior that share chieftdom of the village."
+
+**Appearance:** Late 20s looks. **Actual age: 50.** Druidic longevity slows aging. Sharp-looking young woman who will serve Braedun for decades yet.
+
+**Druidic specialty: STAR-READING.** Ties her DIRECTLY to Elmara's lineage — Elmara was the original star-cartographer of Avalúne (300+ years ago, now a Yew in the Grove). **The Queen's tradition traces back through centuries of druids to the silent priestess who mapped the constellations.** When the Queen looks at the night sky, she uses Elmara's mapping system. She does not yet know her tradition's source is a tree.
+
+**DRUID VOICE** — tone of command that can influence weather, beasts, OR people. Celtic *glám dícenn* softened. She can calm a rearing horse, push a storm one valley over, make a hostile diplomat feel an unreasonable urge to agree. **Political weapon as much as druidic one.** She uses it sparingly.
+
+**Relationship with Eilwen:** AWARE but NOT CLOSE. "Still quite young for a High Druid." Has met Eilwen a few times. Has not been invited to the Grove. **Eilwen considers her too young.** Maybe in another 50 years, when the Queen is 100, Eilwen may lead her along the forgotten path to the Mother Yew.
+
+**Awareness of Badan:** "Aware to some degree of his Divinity and protects what she knows."
+- Figured out at least partially that Badan is more than a druid
+- Does NOT know the full truth (Earth Twin, Yánzǐ, hiding god)
+- Has NOT told the King, council, or anyone
+- **She is one of Badan's quiet guardians without knowing exactly who she is guarding.**
+- She and Eilwen keep the same secret — Eilwen knows the whole truth, Queen knows only partial
+- **When the Fellowship arrives and needs royal support, the Queen will offer it without asking too many questions.**
+
+### THE DRUIDIC HIERARCHY (clarified 2026-04-19)
+1. **Badan** (Earth Druid, secretly the Earth Twin Yánzǐ) — divine apex, officially "senior druid at the Dark Circle"
+2. **Eilwen** (Chief Druidess, Grove keeper) — 400 years old, Badan's second in command
+3. **The High Druid Queen** — political head of public druidic order, 50 years old, star-reader
+4. **... other druids below**
+
+The Queen is at the **political top of the public druidic structure**, but the **sacred apex (the Grove) is above her**. She respects this.
+
+### THE VILLAGE STRUCTURE — SACRED PAIRING AS FRACTAL (major reveal)
+
+**Serina's verbatim:** "In each of the outlining villages each will have a Druid and a warrior that share chieftdom of the village."
+
+**The sacred marriage of crown is REPLICATED at the VILLAGE LEVEL.** Every village has a druid-warrior pair sharing leadership. **The governing unit of Braedun is the sacred pairing, from the throne down to the smallest farmhold.**
+
+**The pattern is FRACTAL:**
+- **Divine level:** Badan + Eilwen (god-druid + chief druidess) at the Sacred Grove
+- **National level:** High King + High Queen (warrior + druid) on the throne
+- **Village level:** village warrior-chief + village druid at every crossroads
+
+**Every village in Braedun is a miniature of the crown. Every village is an echo of the grove.**
+
+**Implications:**
+- Village disputes handled by druid-warrior pair jointly
+- When crown calls for council, villages send BOTH their druid and their warrior chief
+- **The council is probably a gathering of these village pairings** — a sea of sacred pairs reporting to the highest pair
+- A village loses half = weakened until restored
+- **The kingdom's health = the health of all these pairings at every level**
+
+### WHY THE CORRUPTION TARGETS BRAEDUN SPECIFICALLY
+**The corruption is an ATTACK on sacred pairing.** Àn Shān's darkness is Yuèlì's broken heart — what happens when divine partnership shatters.
+**Braedun's governance is the OPPOSITE of what the corruption represents.** The whole country is built on functioning sacred marriages.
+**Braedun is, structurally, the country the corruption most wants to destroy — because Braedun is the living proof that sacred pairings can work.**
+
+### THE QUEEN'S NAMES — ONORA / BREYLE (named 2026-04-19)
+
+**Serina's verbatim:** "Onora is her original name Druid name is Breyle"
+
+- **Onora (o-NOR-a)** — her BIRTH name, Celtic/Welsh-rooted (likely from *Honora* — honor). The girl she was before the druidic order claimed her.
+- **Breyle (BRAY-el / BRAYL)** — her DRUID name. Shorter, carved-stone. Formal name given when she took her vows and entered full druidic status.
+
+**Pattern parallel to Eilwen (Brina → Eilwen):**
+- **Eilwen's rename** = slow, organic, given by the GROVE over centuries as the green grew in her hair
+- **Breyle's rename** = formal ceremony, given when she ascended in the druidic order. Onora chose it (or it was chosen for her at initiation).
+
+**Who still calls her Onora:** probably only her mother (if alive), a sister, old childhood friends. Maybe nobody at all anymore. Another name slowly being forgotten.
+**The King knows her only as Breyle.** So does the council.
+
+---
+
+## THE HIGH KING — CADFAEL (named 2026-04-19)
+
+### NAME
+**Cadfael (KAD-vyle)** — Welsh, "Battle Prince." Perfect for a warrior elected to the crown young.
+**Braedun's spine of language:** Eilwen, Breyle, Badan, Cadfael — all old Celtic tongue.
+
+### AGE
+Early 30s. Young for a High King. Elected by the warrior assembly for extraordinary battlefield prowess + leadership. Some older warriors think he did not deserve the seat yet. He earned it through one specific campaign that convinced the assembly.
+
+### CHARACTER BLEND (Serina's verbatim 2026-04-19)
+"He is a mix of Brodick Buchanan from Julie Garwood's novel Ransom and Aragorn from Lord of the Rings"
+
+**Brodick's half:** fierce Highland warrior. Few words, each lands hard. Gruff exterior, deep tenderness. Absolute loyalty once given. Slow to trust. Physically dominant — tall, broad, scarred. Protective to the marrow, especially of women. FORTRESS in human form. Love for his clan (= his kingdom) is his religion.
+
+**Aragorn's half:** the WEIGHT of the crown. Did not ASK for this. Carries it with steady melancholy. Diplomatic when he must be. Patient with fools. Deeply connected to the land. Tracker, healer, survivor. Has walked every border of Braedun on foot. RELUCTANT KING.
+
+### THE COMPOSITE
+- Imposing Highland warrior build, dark hair (possibly longer, braided on one side), trimmed short beard, weathered face, scars on hands + cheekbone + brow
+- Storm-coloured eyes
+- Says little — council mistakes his silence for stupidity until he opens his mouth and the room goes quiet
+- Private tenderness with those he loves (probably 1-2 brothers-in-arms, maybe a sister, a horse, a hound)
+- **Public self = the fortress. Private self = the hearth inside the fortress.**
+- Has walked every mile of his kingdom
+- Carries an ancient inherited named sword
+
+### RELATIONSHIP WITH BREYLE — slow-burn (Serina's verbatim 2026-04-19: "A")
+
+**Option A confirmed:** They were elected by different orders. Politically married. Still figuring each other out. Year or two into the arrangement.
+- He finds her mystical druidic work slightly baffling
+- She finds his warrior-bluntness slightly appalling
+- They RESPECT each other. They are NOT yet in love.
+- **On the edge of it.**
+- The coming crisis (Fellowship + corruption + tree) will either FUSE them or BREAK them.
+
+### THE TATTOOS — Woad markings (Serina's verbatim 2026-04-19: "I like A... also he has a tattoo something that is similar to what Woad warriors would have tattooed on them... maybe something on his forehead shaped like a crown or something on the right side of his face")
+
+Woad = the blue-black plant dye used by pre-Roman Britons and Picts. Celtic warrior tradition. Blue-black markings that look both beautiful and terrifying.
+
+**THREE PIECES across his body:**
+
+**1. The great back piece** (option A)
+- Central motif: a **great STAG** with antlers spreading across his shoulder blades (Celtic kingship symbol, protector-animal)
+- Around it: **Celtic knotwork** flowing down his arms like vines
+- Running down his spine: **ogham markings** (the tree-alphabet), naming something sacred — the oath he swore at coronation OR the names of warriors lost in the campaign that earned him the crown
+- Blue-black ink, distinct against weathered skin
+
+**2. The warrior mark on his right cheekbone** (older — pre-crown)
+- Asymmetric, flowing. Curls from temple down toward jaw.
+- **Earned in his warrior days before the crown.** He drew nothing — a druid drew it during a battle-rite.
+- Probably a stylised raven's wing or a bold knot pattern.
+- **The Brodick mark. Who he was.**
+- Often partially hidden by his hair or beard profile.
+
+**3. The crown mark on his forehead** (newer — at coronation)
+- Small, delicate, centred above his brow.
+- **Placed by Breyle herself at his coronation.** Her first duty as High Druid Queen. She drew it in woad ink and blessed it.
+- Thin elegant circlet shape OR stag antlers rising from his temples, OR a triskele marking the three sacred sites.
+- **The Aragorn mark. Who he is now.**
+- Every person who looks at his face sees the oath he cannot break.
+
+### THE SLOW-BURN TRIGGER — the warrior-mark story (scene to save)
+**One day, in a quiet moment, Breyle will trace the warrior-mark on his cheek and ask what it means.**
+- She drew the crown on his forehead at his coronation. She has never asked about the older mark.
+- He has never told anyone the story.
+- **The day he tells HER first is the day the slow-burn starts tipping toward love.**
+- Her hearing the story is the beginning of them becoming real to each other.
+
+### How the Fellowship will encounter him
+A broad-shouldered warrior-king in dark leather and fur-trimmed cloak, longsword at his hip. Crown-mark on his brow. Warrior-mark on his cheek. Stag rising from his back when he removes his tunic. **He is READABLE to anyone who knows Braedun — his body tells his story in woad.** Lìyǐn will clock it in minutes. Breyle has been slowly reading him for two years.
+
+---
+
+## VILLAGE PAIRINGS — VARY BY VILLAGE (confirmed 2026-04-19)
+
+**Serina's verbatim:** "Shape C it will vary by village - I think"
+
+The sacred pairing is UNIVERSAL in structure (every village has a druid + warrior sharing leadership) but PERSONAL in form (how the two are related varies by local custom).
+
+**Possible pair-shapes across villages:**
+- Married couples (coastal villages maybe)
+- Siblings (brother-sister pairs in mountain villages)
+- Cousins / other kin (aunt-nephew, etc.)
+- Unrelated co-leaders (best friends, both with other families)
+- Generational pairs (parent-child, rare)
+- Same-sex partnerships (two women or two men holding the two roles)
+
+**Local custom decides.** The crown does not dictate HOW a village's druid and warrior are related — only that every village MUST have both. The pairing is the important part.
+
+**The royal marriage is SPECIAL** precisely because the crown is the one pairing that is ALWAYS married. The full archetype lives only at the throne. Villages hold the structure; the crown holds the complete sacred marriage.
+
+**Narrative gifts:**
+- Every village the Fellowship passes through can feel different
+- Regional cultural variation built in
+- Disputes between villages can include cultural misunderstandings
+- Local colour everywhere
+- Braedun is diverse within unity
+
+---
+
+## THE ELECTION CEREMONIES — signs from the land (2026-04-19)
+
+### THE QUEEN'S CEREMONY — Eilwen's owl delivers the name
+
+**Serina's verbatim:** "Eilwen has not left the forest in 400 years so she would not take the sign she would instead trust her owl to take the branch to the Druid Council with a rune on the branch that signifies the choosens name and give that choosen their druid name. I agree that she can reject the candidate if the sign is unclear."
+
+**Full ceremony:**
+1. Druidic order deliberates, narrows to candidate(s)
+2. Chosen candidate's name reaches Eilwen (via druid messenger OR her owl's earlier scouting)
+3. Eilwen meditates in the grove. Consults her Yew sisters.
+4. **The right Yew drops a single branch** — often the Yew of the tradition the candidate inherits. For Breyle (star-reader): Elmara's own Yew dropped the branch.
+5. Eilwen carves a RUNE into the branch = the new druid name the candidate will take
+6. Hands the branch to her OWL
+7. **The owl flies out of the hidden valley, across the light forest, to the druid council. Drops the branch before them.**
+8. Council reads the rune. Candidate is crowned. **They take the carved name as their new identity.**
+
+**ONORA received an owl-delivered branch with the rune BREYLE carved into it. In that instant, Onora became Breyle.** She did not CHOOSE her new name. **Eilwen gave it to her, through the grove, through the Yew, through the owl.**
+
+**The tradition traced backward:**
+- Brina → Eilwen (named slowly over centuries by the grove itself)
+- Onora → Breyle (named formally by Eilwen, carved on a branch)
+- **Every High Druid Queen of Braedun has been named by the Sacred Grove's Chief Druidess through the owl.** For 400 years, every queen was named by Eilwen. Before her, Elmara named the queens of her era. Before her, the Chief Druidess of the time.
+- **Every queen of Braedun's long history carries a name carved into a Yew branch by a woman becoming a tree.**
+
+**Eilwen can REJECT a candidate** whose sign is unclear. Her rejection ends the candidacy. No branch is sent. Queen-elections sometimes fail.
+
+### THE KING'S CEREMONY — the king-stag waltzes
+
+**Serina's verbatim:** "For the king I agree with you thoughts and think it should be the king stag. It waltzes into the stone circle and kneels to the chosen candidate."
+
+**Full ceremony:**
+1. Warrior assembly deliberates, narrows to candidate(s) based on deeds + acclamation
+2. Candidate stands at the Central Circle
+3. **The king-stag waltzes into the circle** — dignified, stately, purposeful. Not terrified. Not aggressive. As if he has business and knows who it is.
+4. If he KNEELS to the candidate → they are crowned
+5. If he does not come → rejection
+6. If he comes but does not kneel → unclear sign
+
+**The king-stag** is a specific being:
+- THE king-stag. The reigning deer-king of Braedun's wild places.
+- Every generation has one. When the current dies, a new stag rises from the wild.
+- **CONFIRMED (Serina 2026-04-19): Option B — divinely-touched wild creature, a mortal stag touched by the land's spirit.**
+- **WHEN FULLY TOUCHED BY THE DIVINE, HE TURNS WHITE.** Same creature, transformation. Coat changes from brown to snow-white. Eyes become luminous. Antlers take silver. Unmistakable, unearthly, visible at a mile's distance.
+- **He does NOT speak.** Silence is part of his sacredness. His presence IS the message. His movement IS the instruction. Primal, older than language.
+- **Only those who have faced or experienced death can touch him.** His coat rejects the untouched-by-death. The death-marked may lay hands on him; the unmarked cannot.
+
+### CADFAEL'S BACK TATTOO — now connected
+**The great stag across Cadfael's back IS the king-stag who knelt to him.** His tattoo commemorates the sign that made him High King.
+**His whole back is a LIVING MEMORIAL of his election** — stag + knotwork + ogham down his spine = the full story of how he became king, written in woad.
+
+### THE WHITE STAG WILL APPEAR WHEN GĒNMÙ ENTERS THE FOREST (Serina's verbatim 2026-04-19)
+"The current King Stag will turn white. Only those that have faced or experienced death at some point can touch the stag. No it does not speak. Yes it will (it has not happened yet it will be when Gen enters the forest for the first time)."
+
+**THE TRANSFORMATION MOMENT:**
+**When Gēnmù crosses into Braedun's forest for the first time, the king-stag TURNS WHITE.**
+**Why Gen specifically:** he carries Yánlóng + Yúnshēng's blood (through the immortal twins line). Yánlóng is curled around the root-heart UNDER the soil. **Gen's blood walking onto his sleeping ancestor's body for the first time = the land recognises its own child.** Brown coat → snow-white. Eyes luminous. Antlers silver.
+**The land is announcing: *the boy I have been dreaming of is here.***
+
+**Everyone in Braedun who can feel it feels it:**
+- **Eilwen sees it through her owl's eyes instantly.** Sets down her tea, goes to stand under Elmara's Yew.
+- **Breyle sees it in the stars that night** — a star shifts on her chart. She will read it alone.
+- **Cadfael feels it through his back tattoo** — stag inked on his skin tingles. He puts a hand to his back, does not know why.
+- **Every druid in Braedun feels the land shift** — a wave of recognition through their bones.
+- **Badan at the Dark Circle stops mid-gesture.** His nephew's blood has touched Braedun.
+
+**Braedun becomes aware the prophecy has arrived BEFORE Gen has even met anyone.**
+
+### THE ARIA COMPLICATION — she cannot touch the stag (yet)
+All other Fellowship members qualify for the stag's touch through various death-marks:
+- Temgar — Davaa, 5 years alone
+- Yuè'àn — carries death as Yuèlì's fragment
+- Lìyǐn — ordered deaths, Vesper-rescue
+- Xuěhuā — 300 years, known deaths
+- Gēnmù — the casting-out as symbolic death
+- **Aria — has never faced death specifically. She is 16, an orphan, has never been close to death in a direct way.**
+
+**The stag will NOT let Aria touch him at first.** He will step aside when she reaches out.
+**She will know.** She will not cry. She will understand — *not yet.*
+**Somewhere on her journey she will face death up close — her own or someone else's.** Then she can return to the stag, and he will let her rest a hand on his neck.
+**This is a narrative gift.** Her prophecy requires her to have KNOWN death. She is not there yet.
+
+### THE SCENE — the Fellowship meeting the white stag
+Fellowship crosses into Braedun. Misty morning. Clearing. Gen is in front (pulled forward by dream-memory).
+**A white stag at the far edge of the clearing.** Coat snow. Eyes silver. Antlers sunlit.
+Gen drops to his knees. Silence.
+**The stag walks toward him. Touches his palm with his nose.** Gen's casting-out is enough death. **The land acknowledges him.**
+Stag turns, walks, glances back.
+Gen stands, wipes tears, follows.
+**The Fellowship follows Gen. The stag leads them to the Sacred Grove.**
+Temgar, Yuè'àn, Lìyǐn, Xuěhuā can touch the stag as they walk.
+**Aria reaches — the stag steps aside.** She understands.
+**No words the entire walk. No sound but hooves on moss and the Fellowship's breathing.** One of the saga's most powerful scenes.
+
+### THE CENTRAL CIRCLE HUM (my proposal — pending confirmation)
+When the King and Queen marry at the Central Circle, the stones HUM if the pair is right.
+- True sacred pair = audible low hum
+- Wrong pair = silence
+- **Cadfael + Breyle's marriage:** my proposal — the stones hummed QUIETLY. Not loud. Not silent. The slow-burn version. *"This will become something. Give it time."* Eilwen (via owl-report?) heard the hum was right but quiet, and nodded.
+
+---
+
+## TERM LENGTH + PERSONAL RULES (confirmed 2026-04-19)
+
+**Serina's verbatim:** "your lean on all of these are accurate and with regards to children they have one a daughter she is 14, Think Merida from Brave and you'll get the picture of her."
+
+### TERM LENGTH — Option B confirmed
+**They rule until the LAND SIGNALS THE END.** The stag turns his head away. A Yew withers. Grove rejects them. A sign comes that their time is done and they step down.
+**Narrative implication:** if Cadfael or Breyle's signs fail (corrupted by Àn Shān? rejected by grove under stress?), their legitimacy crumbles.
+
+### PERSONAL RULES OF THE ROYAL MARRIAGE
+
+**Shared bed?** SEPARATE CHAMBERS with formal visits. Each has their own wing of the royal residence. They meet at council, at meals, at formal events. They have NOT yet crossed the sexual/intimate threshold — Cadfael and Breyle are slow-burn, barely know each other. When the slow-burn tips and one stays the night, it becomes HUGE.
+
+**Other lovers?** Discreetly allowed socially — everyone knows the marriage was political. But neither takes advantage:
+- Cadfael is Brodick-coded (one-woman man even when that woman is barely his wife)
+- Breyle is druid-disciplined (not the type for casual lovers)
+**Both sleep alone. Part of why the slow-burn is happening — they are both quietly, reluctantly noticing they are NOT with anyone else.**
+
+**Children?** Not expected from the marriage itself (crown is elected, not inherited). But a royal child WOULD be politically charged — raised in both warrior and druidic traditions, potentially a strong candidate for either seat when they come of age.
+
+**Public vs private behaviour:** Seamless unity in public — both are good at their roles, committed to Braedun, council sees them aligned more often than not. Private: careful politeness, very little intimacy, tentative warmth beginning.
+
+---
+
+## THE ROYAL DAUGHTER — a 14-year-old Merida (2026-04-19)
+
+**She is CADFAEL's biological child from a previous relationship.** Not Cadfael + Breyle's child together.
+
+### BACKSTORY
+- Cadfael at ~17-18 had a child with a fellow Highlander/warrior-class woman
+- The woman DIED (battle, childbirth, or illness — shape pending) when the baby was very young
+- **Cadfael raised the daughter alone** through his warrior years — war-camps, saddles, bows
+- When Cadfael was elected High King (1-2 years ago), he brought her to the royal house
+- When he married Breyle, Breyle became her STEPMOTHER (only a year or two into the role)
+- **She is 14 now.**
+
+### MERIDA-CODED
+- Wild, untamed
+- Skilled archer (the bow is her weapon)
+- Refuses traditional female decorum
+- Free-spirited, fierce, rebellious
+- Loves the wild, the hunt, riding
+- Tomboyish, hates formal dresses
+- Complicated relationship with her stepmother Breyle
+- Adores her warrior-father Cadfael
+- Brave, stubborn
+
+### RELATIONSHIP DYNAMICS
+
+**With Cadfael (biological father):**
+- ADORATION. She is his one uncomplicated love. The woman he lost lives in this girl's face.
+- He takes her hunting. Lets her ride anywhere. Has taught her sword, bow, tracking.
+- **She is the thing in his life that is NOT duty.** Kingdom is duty. Marriage is duty. Daughter is joy.
+- He cannot discipline her to save his life. Soft with her in a way nobody else sees.
+
+**With Breyle (stepmother):**
+- IMPOSSIBLE. Breyle's training says *"a princess of Braedun must be dignified, sacred."* The daughter says *"watch me climb this tree and shoot a pheasant off a branch."*
+- Breyle has earned her grudging tolerance but NOT her love.
+- **Daughter remembers her real mother only dimly but enough to resent ANY woman in her place.** Breyle is a usurper in her eyes, though Breyle is not trying to replace.
+- Clashes constantly. Daughter calls her *"Lady Breyle"* in public, something snarkier in private.
+- **BUT — Breyle genuinely loves this girl.** Did not sign up to be a stepmother. Is here now. Sees something in the wild child that nobody else does. Wants to protect it.
+
+**With the crown:**
+- No interest in being future queen. Wants to be a warrior like her father.
+- Druidic order watches her with curiosity — could she be elected later?
+- **14 — old enough to be formidable. Young enough to still be in Breyle's shadow in ways she refuses to acknowledge.**
+
+### THE FELLOWSHIP WILL MEET HER
+- **Aria** (16) — strange kinship. Both are girls with divine complications born into destinies they did not choose. Possibly friendship.
+- **Temgar** (18-19) — recognises her as a born warrior. Trains with her. She will love him on sight. He will be patient.
+- **Xuěhuā** — charms her like a big sister.
+- **Gēnmù** (14) — age peer. A 14-year-old boy and girl, both divine-adjacent, both called to something bigger than themselves.
+
+### HER NAME — RHONWEN (chosen 2026-04-19)
+
+**Serina's verbatim:** "Rhonwen is my pick"
+
+**Rhonwen (RON-wen)** — Welsh, **"White Spear" / "Fair Lance."** Her name literally means WEAPON. Associated with Rhonwen, daughter of Hengist in medieval Welsh legend — a woman tied to warriors and kings.
+
+**The -wen family pattern** is now complete through the royal family:
+- Eilwen (the Grove priestess becoming a Yew)
+- Breyle (rune-named by Eilwen's owl)
+- Badan (grove-named)
+- Cadfael (warrior king)
+- Rhonwen (the wild daughter)
+
+**Every time Cadfael calls her name across a practice yard — *"Rhonwen!"* — he is literally shouting "white spear!" at his archer-princess daughter.** Her name IS her father's love for her wildness. The woman he lost (Rhonwen's mother) probably chose or named her, and Cadfael has honored that naming ever since.
+
+### Pending on Rhonwen
+- Her biological mother's name and how she died
+- Rhonwen's appearance (hair colour — red like Merida? dark like her father?)
+- Her tattoos — has she earned her first warrior mark at 14, or is she pre-ceremony?
+- Her specific hobby/quirk (the thing that makes her SPECIFICALLY her)
+
+### Still pending
+- The current High King (name, age, warrior reputation, origin, relationship to the Queen personally)
+- Whether village druid-warrior pairs are ALSO politically married, or just co-leaders
+- Who elects each (druidic order internally? Warrior assembly?)
+- Term length
+- Deposition procedures
+- Personal rules of the royal marriage
+- Council composition detail
+
 ## SOURCES
 
 - [Ancient Celtic Society — World History Encyclopedia](https://www.worldhistory.org/article/1720/ancient-celtic-society/)

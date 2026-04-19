@@ -14,6 +14,7 @@ This directory contains extracted context from Serina's world-building sessions 
 |------|------|-------------|
 | [working-with-serina.md](working-with-serina.md) | feedback | How Serina likes to work with AI, common patterns, corrections she gives |
 | [workflow-decisions.md](workflow-decisions.md) | feedback | Chat = images/aesthetics/brainstorming. Code = file updates/push. Decided 2026-04-11 |
+| [subagent-chunked-writes.md](subagent-chunked-writes.md) | feedback | Sub-agents producing long files (≥10k words) must chunk writes — skeleton+placeholders, then Edit per section. Single-write stalls the watchdog. |
 
 ## Project -- World Building
 
@@ -47,6 +48,7 @@ This directory contains extracted context from Serina's world-building sessions 
 | [portrait-prompts.md](portrait-prompts.md) | project | AI portrait prompts for Fellowship characters — all four done, all portraits generated 2026-04-16 |
 | [braedun-research.md](braedun-research.md) | project | Celtic Britain research dossier for Braedun — megalithic builders, druids, Otherworld, Arthurian layer, sacred landscape |
 | [deep-research-prompt.md](deep-research-prompt.md) | reference | Master Deep Research prompt for all 8 cultural bases of Avalúne — 20 categories per culture |
+| [cultural-research-workflow.md](cultural-research-workflow.md) | project | Sub-agent workflow for the 7 remaining research dossiers. Aoli pilot next. Design at docs/superpowers/specs/2026-04-19-cultural-research-dossiers-design.md |
 | [weapons-rabbit-hole.md](weapons-rabbit-hole.md) | project | Aoli combat + Fellowship personality-fit weapons + living weapons house rule + Armoury MVP + sect card progress |
 
 ### Project Status
