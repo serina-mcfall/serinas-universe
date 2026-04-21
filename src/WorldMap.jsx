@@ -16,6 +16,7 @@ const REGIONS = [
     path: 'M 120 80 L 1080 80 L 1080 320 L 980 350 L 820 340 L 680 360 L 520 340 L 380 360 L 220 340 L 120 320 Z',
     labelX: 600,
     labelY: 180,
+    detailedMap: '/images/locations/aoli/Fantasy map of the Land of Aoli.png',
   },
   {
     id: 'braedun',
@@ -29,6 +30,7 @@ const REGIONS = [
     path: 'M 120 420 L 320 420 L 360 480 L 340 560 L 280 610 L 180 610 L 120 570 Z',
     labelX: 240,
     labelY: 510,
+    detailedMap: '/images/locations/caerndrath/braedun/Braedun Map.png',
   },
   {
     id: 'isenholt',
@@ -199,6 +201,7 @@ export default function WorldMap() {
   const [selected, setSelected] = useState(null)
   const [viewBox, setViewBox] = useState({ x: 0, y: 0, w: 1200, h: 980 })
   const [isPanning, setIsPanning] = useState(false)
+  const [mapModalSrc, setMapModalSrc] = useState(null)
   const panStart = useRef({ x: 0, y: 0, vbX: 0, vbY: 0 })
   const svgRef = useRef(null)
 
@@ -240,6 +243,16 @@ export default function WorldMap() {
     svg.addEventListener('wheel', handleWheel, { passive: false })
     return () => svg.removeEventListener('wheel', handleWheel)
   }, [viewBox])
+
+  // ═══ ESC closes map modal ═══
+  useEffect(() => {
+    if (!mapModalSrc) return
+    const handler = (e) => {
+      if (e.key === 'Escape') setMapModalSrc(null)
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [mapModalSrc])
 
   const resetView = () => setViewBox({ x: 0, y: 0, w: 1200, h: 980 })
 
@@ -747,6 +760,38 @@ export default function WorldMap() {
               >
                 {activeRegion.description}
               </p>
+              {activeRegion.detailedMap && (
+                <button
+                  onClick={() => setMapModalSrc(activeRegion.detailedMap)}
+                  style={{
+                    marginTop: '18px',
+                    padding: '9px 16px',
+                    border: '1px solid rgba(150, 110, 70, 0.35)',
+                    borderRadius: '6px',
+                    background: 'rgba(255, 250, 238, 0.75)',
+                    color: '#6a4a28',
+                    cursor: 'pointer',
+                    fontFamily: "'Cormorant Garamond', Georgia, serif",
+                    fontSize: '0.95rem',
+                    fontStyle: 'italic',
+                    letterSpacing: '0.04em',
+                    transition: 'all 0.2s ease',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = 'rgba(250, 240, 218, 0.95)'
+                    e.currentTarget.style.borderColor = 'rgba(150, 110, 70, 0.6)'
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = 'rgba(255, 250, 238, 0.75)'
+                    e.currentTarget.style.borderColor = 'rgba(150, 110, 70, 0.35)'
+                  }}
+                >
+                  🗺 View detailed map
+                </button>
+              )}
             </div>
           ) : (
             <div style={{ color: 'rgba(100, 85, 70, 0.45)' }}>
@@ -798,6 +843,77 @@ export default function WorldMap() {
           )}
         </aside>
       </div>
+
+      {/* Detailed Map Modal */}
+      {mapModalSrc && (
+        <div
+          role="dialog"
+          aria-label="Detailed map"
+          onClick={() => setMapModalSrc(null)}
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'rgba(30, 22, 16, 0.88)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 1000,
+            padding: '28px',
+            animation: 'fadeIn 0.25s ease',
+            cursor: 'zoom-out',
+          }}
+        >
+          <button
+            onClick={(e) => {
+              e.stopPropagation()
+              setMapModalSrc(null)
+            }}
+            aria-label="Close map"
+            style={{
+              position: 'absolute',
+              top: '20px',
+              right: '24px',
+              width: '40px',
+              height: '40px',
+              border: '1px solid rgba(255, 248, 230, 0.35)',
+              borderRadius: '50%',
+              background: 'rgba(30, 22, 16, 0.55)',
+              color: 'rgba(255, 248, 230, 0.85)',
+              cursor: 'pointer',
+              fontSize: '1.2rem',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              transition: 'all 0.2s ease',
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = 'rgba(60, 40, 28, 0.9)'
+              e.currentTarget.style.borderColor = 'rgba(255, 248, 230, 0.7)'
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = 'rgba(30, 22, 16, 0.55)'
+              e.currentTarget.style.borderColor = 'rgba(255, 248, 230, 0.35)'
+            }}
+          >
+            ✕
+          </button>
+          <img
+            src={mapModalSrc}
+            alt="Detailed regional map"
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              maxWidth: '95vw',
+              maxHeight: '92vh',
+              boxShadow: '0 24px 80px rgba(0, 0, 0, 0.6)',
+              borderRadius: '4px',
+              cursor: 'default',
+            }}
+          />
+        </div>
+      )}
 
       <style>{`
         @keyframes fadeIn {
