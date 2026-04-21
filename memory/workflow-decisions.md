@@ -30,3 +30,16 @@ When Serina says "push everything" or "push," she means: **copy the memory files
 **Why:** The memory files are her world-building bible — months of character interior work, lore, and creative decisions. Losing them would be devastating. GitHub is the safety net.
 
 **How to apply:** At the end of any session where memory files have been created or modified, copy them into the repo's `memory/` folder, commit, and push when asked. Don't ask what she means — when she says "push" she means copy + commit + push now.
+
+## Port from research dossier to world bible (clarified 2026-04-21)
+
+Creative work happens in TWO places and they serve different roles:
+
+1. **Research dossiers** (`~/.claude/projects/.../memory/*-research.md`) — the brainstorming workspace. Verbatim Q&A with Serina, pending decisions, threads-in-progress, proposed names awaiting confirmation. Mirrored to repo `memory/` for backup, but this is NOT the finished work.
+2. **The World Bible** (`src/data/initial-entries.js`) — the finished, publishable world. Clean prose entries per section prompt. All-caps headers, mythic tone, no "pending/proposed" language. This is what renders on the website.
+
+Decided creative work must be PORTED from the dossier into the world bible. Verbatim quotes in the dossier get re-written in bible voice. Proposed names held for confirmation stay in the dossier until Serina blesses them.
+
+**Why:** Serina said "push so all work is saved" on 2026-04-21, then clarified "port first" when I explained the Braedun split. She wants the decided work in the repo, not just in the memory system.
+
+**How to apply:** When Serina says "save work to GitHub" after a creative session, check BOTH: (a) are there memory files to mirror to repo `memory/`, AND (b) are there decided creative beats still only in the research dossier that need porting into `src/data/initial-entries.js`? Do not port proposed/pending items — hold them until Serina confirms.

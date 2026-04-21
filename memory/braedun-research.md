@@ -1124,11 +1124,339 @@ When the King and Queen marry at the Central Circle, the stones HUM if the pair 
 
 **Every time Cadfael calls her name across a practice yard — *"Rhonwen!"* — he is literally shouting "white spear!" at his archer-princess daughter.** Her name IS her father's love for her wildness. The woman he lost (Rhonwen's mother) probably chose or named her, and Cadfael has honored that naming ever since.
 
-### Pending on Rhonwen
-- Her biological mother's name and how she died
-- Rhonwen's appearance (hair colour — red like Merida? dark like her father?)
-- Her tattoos — has she earned her first warrior mark at 14, or is she pre-ceremony?
-- Her specific hobby/quirk (the thing that makes her SPECIFICALLY her)
+### MORAG — Rhonwen's mother, Cadfael's lost first love (revealed 2026-04-20)
+
+**Serina's verbatim:** "Her mothers name was Morag, She died from Illness when Rhonwen was 5 years old (wasting sickness)... She was from Ardenmere a runaway slave, She was beautiful, small and delicate. When Cadfael found her she had just crossed the border and looked to have been beaten very severely, she was unconscious at that time and when she did awaken she was found to have lost her memory, Cadfael took her to his village and his parents she lived there with them while he was away, she never recovered her memory and his parents granted her the name Morag. Cadfael fell in love with her, They were granted permission to handfast but not a sanctified marriage Rhonwen was born a year after their handfasting."
+
+### WHO MORAG WAS
+- **Runaway slave from ARDENMERE** — beaten severely by her owners before escape
+- **Crossed Braedun's border unconscious.** Cadfael found her at age ~17 (early warrior days).
+- **Memory completely lost from the trauma** — never recovered. Died not knowing her birth name, her family, or her original self.
+- **Beautiful, small, delicate.** Stone underneath the fragile-seeming exterior — survived what most could not.
+- **Cadfael's parents took her in, raised her while he was away on campaigns.**
+- **She died of WASTING SICKNESS when Rhonwen was 5** — slow, drawn-out illness (TB-like). Cadfael held her through months of coughing, watched her body thin. *She died still not knowing her own name.* **That haunts him.**
+
+### THE NAME "MORAG" — the tender gift
+**Cadfael's parents named her Morag — Scottish Gaelic for "PRINCESS"** (from *mór* "great" + *-ag* diminutive).
+**An old couple took in a beaten runaway slave and gave her a name that said *you are of worth, you are royal in our eyes.***
+**Morag's daughter later became actual royalty when Cadfael was elected High King.** The runaway slave's given-name turned out to be true.
+
+### HANDFAST, NOT SANCTIFIED
+They could not have a druidic-sanctified marriage — Morag had no verifiable identity (no family line, no record, no formal Braedun status). **They handfasted instead** — accepted by the village, loved each other fully, but not a full political-druidic bond.
+**BREYLE IS CADFAEL'S FIRST SANCTIFIED MARRIAGE.** Morag was the love. Breyle is the first sanctified bond. Different categories — both real. The hearth-love belongs to the dead woman.
+
+### COSMIC IMPLICATIONS
+
+**1. Cadfael has a PERSONAL STAKE in Ardenmere.**
+His first love was beaten nearly to death by Ardenmere slavery. His daughter is the child of an Ardenmere victim. **When the Fellowship reaches Ardenmere and revolution stirs, Cadfael will not be neutral.** He may quietly support an Ardenmere uprising. Rhonwen's mother was a slave. That fact is the High King's private compass.
+
+**2. RHONWEN IS HALF-ARDENMERE BY BLOOD.**
+The High King's daughter is a slave's daughter. **Politically explosive if widely known.** To Ardenmere nobility: scandalous. To Ardenmere slaves: transformative — the HIGH KING'S DAUGHTER shares their ancestry. **Rhonwen could become a symbol.** She does not yet know. When she learns, it will change her.
+
+**3. RHONWEN HAS GHOST-MEMORIES OF HER MOTHER.**
+She was 5. She has fragments:
+- A voice humming a song
+- Hands braiding her hair
+- A specific smell
+- **A lullaby her mother hummed** — somehow surviving despite Morag's amnesia (the oldest memory, deeper than trauma could reach). **This lullaby is the only thing of Morag's original identity that survived.**
+**Rhonwen hums this lullaby without knowing where it came from.** It is from Ardenmere.
+**Scene to save:** One day the Fellowship passes through Ardenmere. Someone hears Rhonwen humming and recognises the melody — a specific regional song. **The humming child is a ghost of that region.**
+
+**4. CADFAEL LIKELY HAS A TATTOO FOR MORAG.**
+Somewhere private — over his heart, inner wrist, or upper arm under his sleeve. Small woad mark. Her name in ogham, or a symbol she loved.
+**Breyle has not yet seen it.** They haven't been intimate.
+**When she does see it** — in some quiet slow-burn moment — **she will understand she is the second love, not the first.** She will respect Morag's mark. She may reverently touch it. **Another slow-burn moment in the making.**
+
+### RHONWEN FULL PROFILE (2026-04-20)
+
+**Serina's verbatim:** "She is small for her age but she packs a punch in personality, She is opinionated and argumentative, She loves climbing trees, swimming in the river, hunting and is learning swords. She has a slingshot she carries with her always it is a gift given to her from her father on behalf of her mother who made it for her. She hates dresses really really hates dresses. She and Breyle have a love hate relationship at the moment with it being a little on the hate side currently, She finds Breyle hard to deal with and finds ways that will piss her off. For Cadfael and Breyle Rhonwen is a contention point they argue about how she should behave a lot. She does not have a warrior tattoo yet but should receive it upon her 16th birthday. Her quirk is she believes in fairies and pixies and swears up and down that they are real and she has seen them, her fav past time is hunting for them."
+
+### BUILD & TEMPERAMENT
+- **Small for her age** — inherited Morag's delicate frame. Not Cadfael's Highland build.
+- **Packs a punch in personality.** Tiny body, huge spirit.
+- **Opinionated and argumentative** — classic Merida.
+- Loves climbing trees, swimming in the river, hunting
+- **Learning swords** (Cadfael's teaching her). Father-daughter training is part of their bond.
+- **Hates dresses. REALLY really hates them.**
+
+### THE SLINGSHOT — her most precious thing
+**Morag MADE it for Rhonwen before she died.** A dying woman, body failing, her hands crafting a weapon for a 5-year-old. **A tool AND a toy.** Morag somehow knew a small wild child would need to defend herself.
+Cadfael held onto it for years. Gave it to Rhonwen **"on behalf of her mother."** Did not take credit. *Your mother made this for you.*
+Rhonwen carries it ALWAYS. Probably sleeps with it under her pillow. The only tangible thing her mother's hands ever gave her.
+**It is made in ARDENMERE STYLE.** Morag's craft-memory ran deeper than her amnesia — her hands knew how to make what her mind could not recall. **Anyone from Ardenmere will recognise the slingshot on sight.**
+**Scene to save:** one day in Ardenmere, someone glances at the slingshot in Rhonwen's belt and asks *"where did you get that?"* **That is how she will learn who her mother was.**
+
+### THE CADFAEL-BREYLE ARGUMENT — Rhonwen is the real strain
+**The real tension in the royal marriage is NOT politics. It is Rhonwen.**
+- **Cadfael defends her wildness** — he sees Morag's fire in her. Cannot bear to tame it.
+- **Breyle wants her refined** — not because she is cruel, because the High Druid Queen cannot have a stepdaughter shooting pigeons off the palace roof. Court whispers. Council eyebrows. Breyle is doing her job.
+- **They fight in private. Perform unity in public.**
+- **Rhonwen is the thorn keeping them from getting closer.**
+- **Rhonwen does not know SHE is the thing keeping her father and stepmother apart.** Thinks Breyle just doesn't like her. Doesn't yet understand every argument is love trying to find its shape.
+
+### RHONWEN'S TARGETED REBELLION
+She does not just rebel — **she finds ways that will piss Breyle off specifically.** Stage-1 teenage stepdaughter. Active antagonism. She is PICKING fights with Breyle because Breyle tries to parent her and she will not be parented by the woman who replaced her mother.
+
+### TATTOO COUNTDOWN — age 16
+**First warrior tattoo earned at 16. Two years away.**
+- **Breyle DREADS it.** The warrior mark locks her into the warrior class. Closes off druidic possibility. Breyle has been quietly hoping Rhonwen might choose the druidic path. The tattoo shuts that door.
+- **Cadfael is quietly preparing.** He will be proud. He will also grieve — the warrior mark is the formal end of her childhood.
+
+### HER QUIRK — she hunts fairies (and may actually see them)
+**She believes in fairies and pixies. Swears they are real and she has seen them. Her favourite pastime is hunting them with her slingshot.**
+
+**IN AVALÚNE, THEY MAY BE REAL.** This is a world of Otherworld-bleeding, trees becoming women, gods hidden as mortals, Wénjī's song scattered across the continent.
+**Rhonwen may have child-eyes still open wide enough to see through the veil.** Most people lose the sight as they age. She has not.
+
+**What the fairies might be** (pending):
+- **Wénjī's echoes** — fragments of the wind fox's exiled song, manifesting as tiny beings. **Rhonwen hunting fairies = hunting pieces of a divine song.**
+- **Yínhé's playmates** — the Eternal Child's small creations.
+- **Nature spirits** of Braedun — Celtic fair folk made real.
+- **Child-spirits** of those who died young, tied to the land.
+
+**Breyle, as a High Druid, has almost certainly encountered fey beings.** She dismisses Rhonwen's versions because the girl treats it like a game, not sacred work. **One day Breyle may realise — possibly with shame — that Rhonwen has been right this whole time.** Turning point in their relationship.
+
+**Rhonwen hunts with the slingshot for STEALTH, not harm** — she's trying to SEE them up close, not hurt them. She probably has a little notebook with sketches and descriptions. The hunt is a child's adventure, not predation.
+
+### APPEARANCE LOCKED IN (2026-04-20)
+
+**Serina's verbatim:** "Rhonwen has wild pitch black curly hair that she likes to wear in a braid down her back she hates having her hair done fancy as she puts it and you can almost always pull twigs and leaves out of her hair. She has eyes the colour of the forest in morning light, and freckles across the bridge of her nose. She is slightly developed but not hugely. Morag is the spitting image of her daughter. When Rhonwen is an adult she will be extremely beautiful and this can already be seen shining through the mud, twigs and leaves."
+
+**RHONWEN:**
+- Wild pitch-black curly hair, always braided down her back
+- Hates fancy hairstyles ("as she puts it")
+- Almost always has twigs and leaves in her hair
+- Eyes the colour of the forest in morning light (warm green-gold, dappled, living green)
+- Freckles across bridge of nose
+- Slightly developed — girl-becoming-woman, chrysalis phase
+- **Future-adult beauty already shining through the mud, twigs and leaves**
+
+**MORAG = spitting image of her daughter.** Same wild pitch-black curly hair. Same forest-morning-light eyes. Same freckles. Same delicate small frame. Same striking beauty.
+
+### WHAT THIS DOES TO CADFAEL
+**He sees his dead love every day when he looks at his daughter.** Every laugh Rhonwen makes is a Morag-laugh. Every argument she picks is Morag's spirit. Every climb of a tree is Morag's wildness.
+**This is why Cadfael cannot discipline her.** He cannot be hard with a face that is also Morag's face. **Rhonwen is his greatest love and his greatest grief in one walking 14-year-old body.** He is quietly soft with her because she is also a ghost he is trying not to lose again.
+**Breyle understands this, partly.** She cannot fully understand — but she sees enough to hold her peace about Cadfael's indulgence. She knows why.
+
+### ARDENMERE IDENTIFICATION — double layer
+**The slingshot PLUS the face = double identification.** When the Fellowship reaches Ardenmere, someone may first see the slingshot and then LOOK at Rhonwen's face.
+**Pitch-black curly hair + forest-green eyes + freckles + small frame = DISTINCTIVE.** In Anglo-French medieval culture, unforgettable.
+**If anyone who knew Morag in her original identity still lives — cousin, aunt, childhood friend — they will recognise the child.** Someone in Ardenmere may look at Rhonwen and say **a name neither Morag nor Cadfael nor Rhonwen ever knew.**
+
+**Scene to save:** a woman in a marketplace, or a man at a tavern, or an old nobleman at a gate — whoever lived Morag's early years — will see Rhonwen walk past and GO STILL. Their mouth will open. A name will come out. **That name is Morag's true name.** It will be the first time it has been spoken in fifteen years.
+
+---
+
+## BRAEDUN'S WATER — NYRA LAKE + THE SILVER ROAD (2026-04-20)
+
+**Serina's verbatim:** "there is a river I think it would make sense for it to flow south through Braedun coming from a lake that is on the border between Aoli and Braedun the lake would find its source in the An Shan Mountains and that would most likely come from the original source in Hun sect. I think this lake would be sacred but as it is north and nearest the An Shan Mts it would have become or is close to becoming a corrupted body of water. It's near the circle in the North and Badan has been trying to save and preserve this as it feeds a lot of the people and animals and trees in Braedun. ... The grove has a sacred spring it is fed from the Lúnavé the central circle has a spring not far from it and it too is fed by the Lúnavé each body of water is tended by a Druid."
+
+### NYRA LAKE (sacred, corrupting)
+- **Location:** Border between Aoli and Braedun, nestled near Àn Shān mountains
+- **Source:** Waters flow down from Àn Shān, originating in HUN SECT territory
+- **Named for a constellation** called Nyra in Braedun's sky
+- **Originally sacred** — the thin-veil lake where souls cross between worlds. Aoli's Hun Sect came here for soul-work. Braedun's druids tended the southern shore.
+- **NOW CORRUPTING** — because the veil is thinnest here, the corruption can bleed through most easily. The exact quality that makes it sacred makes it vulnerable.
+- **Near the Dark Circle** — Badan's frontline is partly about defending this lake.
+- **BADAN HAS BEEN TRYING TO SAVE IT** for centuries. It feeds much of Braedun's people, animals, trees. If it falls, famine + spiritual loss at once.
+
+### THE SILVER ROAD (the river)
+- Flows SOUTH from Nyra Lake through Braedun
+- Through the dark forest first (corruption filters partially through the healthy trees further south)
+- Then through the light forest and the lowlands
+- Eventually joins the Lúnavé
+- **Milky Way-coded** — named for the Silver Road constellation, part of the continental tributary-star-system Elmara mapped
+- **The river's health = a barometer of corruption's advance.** Druids read the Silver Road's water for signs.
+
+### THE LÚNAVÉ'S HIDDEN WATERSHED (major cosmology)
+**The Sacred Grove's spring is fed from the Lúnavé. The Central Circle's spring is fed from the Lúnavé.**
+**The Lúnavé visibly flows along Braedun's SOUTHERN edge. But invisibly — underground — it threads through the whole country.**
+- **Every sacred spring in Braedun is a place where the Lúnavé's hidden watershed surfaces.**
+- The Moon's Way flows beneath Braedun's soil.
+- Every sip of sacred spring water = a trace of the sleeping gods' dreaming waters (the Lúnavé is born from Aoli where Yánlóng and Yúnshēng sleep).
+- **Gēnmù walking to the Sacred Grove's spring is closer to his sleeping ancestor than he knows.**
+- Every druid tending a sacred spring is tending a VISIBLE point of divine contact.
+
+### NAMING CONTRAST (narrative shape)
+- **Nyra** is short, soft, mysterious → a lake that is HIDDEN and holds a secret
+- **The Silver Road** is long, evocative, visible → a river that TRAVELS, can be walked alongside, measurable in how clear its water runs
+- **Nyra = the quiet secret. The Silver Road = the public consequence.**
+- **Druids watching the Silver Road darken are seeing Nyra's sickness made visible across hundreds of miles.**
+
+### DRUIDIC WATER-TENDING
+**Each body of water is tended by a Druid.** The Lake, the River, the Grove spring, the Central Circle spring — each has its own dedicated druid-keeper. Part of their training to commune with the water. They report to the High Druid Queen (Breyle) through the druidic council.
+
+---
+
+---
+
+## SETTLEMENTS — TREE-DWELLING (2026-04-20)
+
+**Serina's verbatim:** "it will be a hill fort I'm thinking like a circular in design. Central I think and close to the central circle where community festivals and such are held. I think a combination of stone, wood and forest make up the hill fort. I also had a particularly daring thought what if all the villages, Hill forts, trade posts and farmsteads the actual homes were located in ancient giant trees I think like Lothlórien from Lord of the Rings and Rivendell this sort of feel"
+
+### THE CORE CONCEPT
+**Every home in Braedun is built in or around an ANCIENT GIANT TREE.**
+- Lothlórien + Rivendell aesthetic
+- Celtic-druidic rendering (grounded, sacred, earth-rooted)
+- Architecture = stone + wood + LIVING TREE as one combined medium
+
+### WHY IT FITS BRAEDUN
+1. **Cosmology:** Druids listen to the land. Trees are sacred. People LIVE IN sacred beings.
+2. **Sacred pairing fractal extends:** Divine (Badan+Eilwen) → Royal (Cadfael+Breyle) → Village (druid+warrior) → **Family+Tree** (every home a human-tree pairing).
+3. **Defense:** Cannot easily burn or invade a living tree-city. Braedun's architecture IS its armour.
+4. **Rhonwen-coded:** She is a native of the vertical world. Braedun children climb before they walk. Twigs and leaves in her hair = normal.
+5. **Visual gift:** Fellowship's first view of Braedun is unforgettable — trees with lanterns in their trunks, smoke from woven chimneys, bridges between giants.
+
+### THE ROYAL SEAT (circular hillfort + tree-city hybrid)
+- On a hilltop in Braedun's green lowlands
+- **Stone base:** circular Celtic-style hillfort walls of fitted grey stone
+- **Ring of ancient giant trees** growing within the walls — each one a building
+- **Royal Hall in the CENTRAL TREE** (biggest) — Cadfael's throne in a hollow carved into the living trunk
+- **Breyle's tower** high in the branches
+- **Rhonwen's chambers** between them (perfect for a climbing princess)
+- **Bridges and galleries** connect the trees at multiple heights — whole court walkable without touching ground
+- **Spiral stairs up the outer trunks** — druids have shaped the bark to grow this way over centuries
+- **Stone flooring lower levels, wood higher, woven branches at the top**
+- **The Central Circle is a short walk down the hill** — gatherings, marriages, festivals
+
+### THE TREES — CYNEFIN TREES (my proposed name — needs Serina's confirmation)
+**Cynefin (KUN-ev-in)** — Welsh for "the place you belong / the habitat that shaped you / deep familiarity."
+**Every Braedun person has their own cynefin — the specific tree they grew up in.** The name itself says what the tree IS to its people: not property, but the living home that made them who they are.
+
+### TREE SPECIES (pending Serina's call)
+Proposed: a UNIQUE species to Avalúne — **heartwood trees cultivated by druids over millennia, fed by sacred spring water** (which we now know carries the Lúnavé's divine water from the sleeping gods' mountains). **The trees drink divinity. That is why they grow so large.**
+
+### SCALE (pending)
+- My lean: between realistic-giant (California redwood) and Lothlórien-mallorn
+- Royal seat's central tree: redwood-scale (100+ metres)
+- Villages: medium-giant trees (30-50 metres)
+- Farmsteads: single large tree, one family
+
+### VILLAGE SHAPE
+- 3-10 Cynefin Trees grouped around a common ground
+- Each tree = one family's home
+- Druid lives in largest tree on one side, warrior-chief in largest tree on other side
+- Stone-and-wood central hall at ground level for communal gatherings
+- Paths + bridges connect trees above
+
+### FARMSTEAD SHAPE
+- Single great Cynefin Tree with one family's home
+- Surrounded by farmland
+- Isolated but not lonely — nearest village day's walk
+
+### WHEN A CYNEFIN TREE DIES (proposed)
+- **Trees pass with ceremony.** Mourned like elders. Wood used for sacred purposes (altars, staves, grove-offerings).
+- New tree chosen for the family. Ritual move. Druids bless the continuity.
+- Emotional/cultural texture — losing your cynefin is a true grief.
+
+### SETTLEMENTS — DECIDED (2026-04-21)
+
+**"Cynefin" REJECTED.** Serina chose not to use an invented species/personal tree-name. Trees are native to Avalúne — OAK and YEW — cultivated to enormous size by druids over centuries, drinking Lúnavé waters.
+
+**TREE SPECIES BY SETTLEMENT (Serina's verbatim 2026-04-21):**
+> "I think that the roayl seat should be giant oaks, The village close to the sacred grove should be a yew and the other settlements will be oak and yew combined"
+- Royal seat (Lúnewood) = GIANT OAKS (Celtic kingship tree)
+- Grove village = YEW (cousins of Eilwen's yew-sisters)
+- All other settlements = OAK + YEW combined
+
+**SETTLEMENT STRUCTURE — Serina's verbatim 2026-04-21:**
+> "I think we will have 2 hillfort types these will be strategically placed to be like defensive towers in trees at points where they meet borders so looking at the map one should be north between Aloi and Braedun situated in the dark forest this could be where the druids stationed there live and keep watch. another could be between Ardenmere and Braedun in the light forest. The royal seat would be central and the community stone circle close to it, we would then have a trading post tree fort between Breadun, Maramir and Ardenmere right at the bottom kind of bordering all three this would be located close to the mouth of the river closest to the sea, then there would be a fishing village tree along the river and then further in dotted through out the provence stand alone farm tree steads these would be indavidule and not really connect to each other."
+
+**THE SIX NAMED SETTLEMENTS + SCATTERED FARMSTEADS:**
+
+Each settlement has an evocative subtitle / tagline (surfaced by the map-generator 2026-04-21, loved by Serina, now canon):
+
+1. **LÚNEWOOD** *— Royal Seat* (LOON-wood) — ROYAL SEAT. Central Braedun, in the green lowlands. A copse of GIANT OAKS drinking the Lúnavé's sacred spring waters. The Central Circle (stone circle, civic heart) is a short walk away. The crown's residence. Meaning: "Moon-fed Wood" (Lúne = from Lúnavé, the Moon's Way).
+
+2. **MISTWOOD** *— Fog-Shrouded Tree Tower* — NORTHERN HILLFORT. Tree-tower fortress in the DARK FOREST at the Aoli/Braedun border near Nyra Lake. Druids stationed here keep watch on the corruption. Under perpetual cloud and oppressive charged mist from the Dark Circle. Badan's frontline neighbours. Meaning: the mist that cloaks the place.
+
+3. **WARDWOOD** *— Southern Watch Tower* — SOUTHERN HILLFORT. Tree-tower fortress in the LIGHT FOREST at the Ardenmere/Braedun border. Wardens watch for runaways, caravans, incursion. *Morag once crossed near here, broken and unnamed.* Meaning: the warden's wood.
+
+4. **HAVENWOOD** *— Harbor of the Steppes* — TRADING POST. Tri-border tree-fort (Braedun/Maramir/Ardenmere) at the Silver Road's mouth near the sea, where the land thins into the Southern Steppes. Three kingdoms meet, merchants and sailors come, rumour is currency. Meaning: harbour, shelter, the haven where the world reaches Braedun.
+
+5. **REEDWOOD** *— Tree of the Reeds* — FISHING VILLAGE. A single giant tree-dwelling along the Silver Road. Reed-banks and soft river-music. Boats tied at the roots, nets drying in branches. Meaning: the reed-banks of the river.
+
+6. **ELDERWOOD** *— Grove Village* — ~1 hour's walk from the Sacred Grove, on the outskirts of the light forest. Built in YEW trees. Pilgrims come here; druid-apprentices wait their summons to Eilwen. Meaning: yews are elder-trees (living thousands of years); druidic elders teach here; the place stands on its own gravity. (Chosen 2026-04-21 over Waywood, which felt too relational/passage-word.)
+
+**OTHER LANDSCAPE TAGLINES (canon, from map 2026-04-21):**
+- **Nyra Lake** — *Mirror of Shadows* (sacred + corrupting; black as pitch)
+- **The Dark Circle** — *Ancient Standing Stones*
+- **The Central Circle** — *Ancient Stone Circle*
+- **The Silver Road** — *Flowing South*
+- **The Sacred Grove** — *Elders of Light*
+
+**SCATTERED TREE-FARMSTEADS** — individual single-tree homes, one family each, dotted across the green lowlands. Unnamed as a class. Each family names their own tree. Day's walk to the nearest neighbour. Isolated but not lonely.
+
+**NAMING CONVENTION FAMILY:** All settlements end in -wood. Each prefix says what the place IS, not what it's near. Simple English + descriptive root (with Lúnewood the one cosmological outlier, rooted in the continent's own name).
+
+### DAILY LIFE — DECIDED (2026-04-21)
+
+**TREE SCALE — Serina's verbatim 2026-04-21:**
+> "The trees are huge at teh base you would need over 100 to 300 people locked hands to span the base think the giant seqoia trees and redwood trees in America they are huge think like ten times their size these trees are massive and they would grow in a natural coupse almost like nature new that homes would be built in the canopy of these trees."
+
+MYTHIC SCALE. 10× redwood. ~100m base diameter, ~800m tall. Grew naturally in copses. "Almost like nature knew homes would be built in the canopy" — the land itself conscious and preparing.
+
+**THREE-TIER TEMPLATE — Serina's verbatim 2026-04-21:**
+> "the Farm Trees - would be three levels, ground, middle and tree top with in the canopy, bridges would span the trees going from one tree to the other. winding stairs would go up the trunk. Livestock and farm land would be at ground level as well as workshops and the like. Middle part would be communal living spaces kitchen, living room, for some a study or library. Top would be indavidual bedrooms each room would have its own bathroom this would be plumbed from the ground and an underground water source and they would have a well."
+
+- GROUND LEVEL = livestock, fields, workshops, forges (only tier with open fire)
+- MIDDLE LEVEL = communal heart (kitchen, living room, study, library)
+- CANOPY LEVEL = private bedrooms, each with its own bathroom (druidic plumbing from wells + underground watershed = the Lúnavé's hidden veins)
+- Winding stairs up trunks
+- Bridges canopy-to-canopy where trees cluster; single trees (most farmsteads) have stairs only
+
+**TEMPLATE APPLIES TO ALL SETTLEMENTS — Serina's verbatim 2026-04-21:**
+> "yes however depending on the settlement will mean larger coupse of trees, with the Royal settlement being the largest as this will also be home to nobles and the like"
+
+Size of settlement = size of copse:
+- **Lúnewood** — largest copse (10-12 great oaks + stone curtain wall at ground level, royal family + nobles)
+- **Elderwood** — 4-6 yews (apprentices/pilgrims/elders)
+- **Mistwood, Wardwood, Havenwood, Reedwood** — single great tree each, three-tier template with function-specific middle/canopy
+- **Farmsteads** — lone tree, one family, three-tier template, surrounded by fields rather than other trees
+
+**INFERENCES BAKED INTO THE DAILY-LIFE ENTRY (2026-04-21, my additions from the template + Celtic-Arthurian foundation):**
+- Open flame only at ground level (stone-lined hearths). Middle-level kitchens use stone ovens with druid-grown flues carrying smoke down through the hollow trunk to ground-level chimneys — a long-cultivated ability.
+- Food: Celtic country fare (oats, barley, cattle-for-wealth, sheep, pigs, apples, honey kept in upper-branch hives, river fish from Silver Road, sacred game with druidic blessing, forage).
+- Clothing: wool/linen/leather, greens/browns/russets/mist-greys. RED for festivals. BLUE restricted to druidic woad (cannot be used in cloth). Druids in undyed or soft grey; Eilwen's robes slowly blackening as she becomes a yew.
+- Craftsmanship: all at ground level in workshops ringing the trunk. Smith is considered half-druid; swords blessed at forging; no guilds (master-to-apprentice family tradition).
+- Druidic plumbing: taps and spouts at each level, waste channels to deep-earth pit-cesses beneath roots. "We asked, and the tree listened."
+- Outsiders: welcomed with curiosity, hospitality sacred. Havenwood has dedicated visitor quarters. Lúnewood keeps a guest-oak. First week at ground level is normal ("you will climb when you are ready").
+- Corruption-death ritual = **THE BREAKING**: druids + warriors fell the corrupted tree cleanly before it collapses; wood burned in cleansing pyre, never used; earth left fallow for a generation.
+- Children: climb before walk, run bridges from age 4, learn climbing knots by 6, tend goats by 8, read stars by 10, choose path by 12, warrior-mark at 16.
+
+These inferences are in `braedun-dailylife` (commit `94ca6c1`). If Serina wants any of them redrawn, they're isolated paragraphs in the entry.
+
+### STILL TO BUILD on settlements
+- Nothing structural — Braedun's daily life is complete. Any future work is refinement.
+
+### VISUAL REFERENCE LIBRARY (2026-04-21)
+
+Serina briefly placed 18 aesthetic reference images in `public/images/locations/caerndrath/braedun/` for me to study, then removed them (they were Pinterest-style references, not repo-worthy artwork). My reading of each image is preserved below so the aesthetic intent is captured regardless of the source images' fate. The images themselves are no longer in the repo as of 2026-04-21.
+
+- Everyday clothing (women): forest-green/olive layered dresses over cream chemises, laced leather bodices, earthy russet underskirts, long wavy hair with soft crown/side braids
+- Rhonwen: auburn tunic-bodice-cloak-boots; cascading braids with twigs/leaves (not jewels)
+- Breyle: very long dark braid with celtic metalwork and **crescent-moon charm at the tail** (star-reader signature). Three distinct wardrobes — everyday druidic (green + ivy), ceremonial (emerald velvet with hooded cloak), royal (cream-and-green medieval-princess when at Cadfael's side)
+- Eilwen: green robe with vine/root patterns climbing up from hem, gold leaf-crown, amber arm-bands — the "becoming a tree" aesthetic made literal
+- Druids — two sub-styles by region:
+  - **Northern druids** (Mistwood/Dark Circle): dark cloaks, face-scarves against charged mist, leather, battle-practical
+  - **Southern druids** (light forest/Elderwood/villages): teal-green hoods, bow and quiver, ranger-woodsman
+- Druidic hair: straight long hair with **many thin braids woven throughout** (distinctive druidic mark); ceremonial version uses silver-star/galaxy ornaments cascading down (perfect for star-readers like Breyle)
+- Ceremonial druid robes (all): cream/ivory with gold celtic embroidery, bell-sleeves, hooded
+- Male warriors: substantial plaited beards with beads, man-bun + long braid-tail down the back, beads and metal rings woven in — full Celtic-Viking
+
+**ALL RESOLVED 2026-04-21 — Serina's verbatim "yes make canon don't change how Cadfael looks he had to change his look a little when he became a king":**
+
+1. ✅ **North/South druid sub-styles** — Northern druids (Mistwood, Dark Circle) wear dark/charcoal, face-scarves against charged mist, small iron tools against corruption. Southern druids (Elderwood, Lúnewood, light forest) wear teal/moss green with bow and quiver, ranger-woodsman. Written into `braedun-culture` 2026-04-21.
+2. ✅ **Druidic hair signature** — Women druids wear long straight hair with many thin braids woven throughout (recognizable at 50 paces). Ceremonial: silver ornaments — crescents, stars, celestial beads — cascade down like night sky. Men: hair loose or one braid with similar ceremonial silver. Star-readers like Breyle wear the heaviest. Written into `braedun-culture` 2026-04-21.
+3. ✅ **Ceremonial druid robes** — cream and gold, hooded, bell-sleeves with celtic-knot gold embroidery, triskele at throat. White = moon's colour; gold = land's harvest. Written into `braedun-culture` 2026-04-21.
+4. ✅ **Breyle's three wardrobes** — everyday druidic (forest green + ivy + leather bodice), ceremonial (emerald velvet + hood + vine), royal (cream bodice + long sleeves + deep green overdress + silver torc). She code-switches visibly between grove and throne. Written into `braedun-politics` 2026-04-21.
+5. ✅ **Breyle's braid + crescent-moon charm** — single dark braid past waist, threaded with celtic silverwork, crescent-moon charm at the tail as star-reader's mark. Written into `braedun-politics` 2026-04-21.
+6. ✅ **Cadfael's trimmed beard = THE KING'S TRIM** — NOT a correction. Serina confirmed: "he had to change his look a little when he became a king." Common warriors wear the long plaited beard with beads; Cadfael trimmed his when he took the crown so he would look like more than one of them. Clarified inline in `braedun-politics` 2026-04-21.
+
+---
+
+## RHONWEN — COMPLETE (2026-04-20)
+Name, age, parents, lineage, temperament, physical activities, signature object (slingshot), clothing preferences, stepmother conflict, parental-tension focus, tattoo countdown, fairy-hunting quirk, appearance, mother's appearance, and the narrative levers (Ardenmere identification, fairy sight possibly real, future slow-burn bridge role) all established.
 
 ### Still pending
 - The current High King (name, age, warrior reputation, origin, relationship to the Queen personally)
