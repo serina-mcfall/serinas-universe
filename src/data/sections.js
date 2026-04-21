@@ -22,6 +22,7 @@ export const SECTIONS = [
     description: "Xianxia/cultivation. The land is alive. Six sects, divine connections severed and sleeping, and the Shi Sect's dark secret.",
     prompts: [
       { id: "overview", label: "The Realm", placeholder: "The breathing land — how Aoli lives, feels, and responds to those who walk it..." },
+      { id: "imperial", label: "The Imperial Court", placeholder: "The Chén Dynasty, the sacred court at Zǐchén, the imperial family, nobles and ministers..." },
       { id: "sects", label: "The Six Sects — Overview", placeholder: "Yan, Yun, Wen, Fen, Hun, Shi — the six sects at a glance..." },
       { id: "yansect", label: "Yan Sect (山石 — Earth)", placeholder: "Mountain stone. Yánlóng's sect. Carved into the Dragon's Spine..." },
       { id: "yunsect", label: "Yun Sect (水静 — Water)", placeholder: "Water stillness. Yúnshēng's sect. Perpetual spring, cherry blossoms..." },
