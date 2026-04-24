@@ -23,6 +23,8 @@ export const SECTIONS = [
     prompts: [
       { id: "overview", label: "The Realm", placeholder: "The breathing land — how Aoli lives, feels, and responds to those who walk it..." },
       { id: "imperial", label: "The Imperial Court", placeholder: "The Chén Dynasty, the sacred court at Zǐchén, the imperial family, nobles and ministers..." },
+      { id: "emperor", label: "The Emperor — Chén Yuán", placeholder: "Son of Heaven. The Cold Palace child who became granite. A cruel father, a dead brother, a quiet doubt of his mother. A monogamous emperor in a culture that does not require it. A gardener of orchids in private..." },
+      { id: "empress", label: "The Empress — Lí Wǎn", placeholder: "Empress of Aoli. Three secrets. A dead first betrothed. A fallen sister. A son behind a veil of mist. A vow that none of her children will die on her watch..." },
       { id: "sects", label: "The Six Sects — Overview", placeholder: "Yan, Yun, Wen, Fen, Hun, Shi — the six sects at a glance..." },
       { id: "yansect", label: "Yan Sect (山石 — Earth)", placeholder: "Mountain stone. Yánlóng's sect. Carved into the Dragon's Spine..." },
       { id: "yunsect", label: "Yun Sect (水静 — Water)", placeholder: "Water stillness. Yúnshēng's sect. Perpetual spring, cherry blossoms..." },
