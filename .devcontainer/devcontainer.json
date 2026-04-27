@@ -1,50 +1,36 @@
 {
-  "name": "Serina's Dev Environment",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-
-  "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {}
-  },
-
-  "postCreateCommand": "npm install -g @anthropic-ai/claude-code typescript ts-node && sudo apt-get update && sudo apt-get install -y sqlite3",
-
+  "name": "Serinas Universe",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
   "customizations": {
     "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vsliveshare.vsliveshare",
+        "andrejunges.handlebars",
+        "vscode-icons-team.vscode-icons",
+        "yzhang.markdown-all-in-one",
+        "ritwickdey.liveserver",
+        "github.copilot-chat"
+      ],
       "settings": {
-        "terminal.integrated.defaultProfile.linux": "zsh",
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2,
-        "files.autoSave": "afterDelay",
-        "files.autoSaveDelay": 1000
-      },
-      "extensions": [
-        "Anthropic.claude-code",
-        "dbaeumer.vscode-eslint",
-        "eamodio.gitlens",
-        "ms-vsliveshare.vsliveshare",
-        "yzhang.markdown-all-in-one",
-        "esbenp.prettier-vscode",
-        "pdconsec.vscode-print",
-        "vscode-icons-team.vscode-icons",
-        "google.geminicodeassist",
-        "bradlc.vscode-tailwindcss",
-        "formulahendry.auto-rename-tag",
-        "ritwickdey.LiveServer",
-        "christian-kohler.path-intellisense",
-        "prisma.prisma",
-        "ms-vscode.vscode-typescript-next"
-      ]
+        "eslint.validate": ["javascript", "javascriptreact"],
+        "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[html]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[css]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+      }
     }
   },
-
-  "forwardPorts": [3000, 5173, 8080],
-  "portsAttributes": {
-    "3000": { "label": "App / Next.js",  "onAutoForward": "notify" },
-    "5173": { "label": "Vite Dev Server", "onAutoForward": "notify" },
-    "8080": { "label": "Alt Dev Server",  "onAutoForward": "notify" }
-  },
-
-  "remoteUser": "node"
+  "postCreateCommand": "npm install && npm install -g @anthropic-ai/claude-code",
+  "dotfiles.repository": "serina-mcfall/dotfiles",
+  "dotfiles.installCommand": "install.sh"
 }
