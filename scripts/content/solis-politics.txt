@@ -1,0 +1,116 @@
+SOLIS — POWER AND GOVERNANCE
+
+═══ THE ONE-LINE TRUTH ═══
+
+Solis is governed on paper by a Doge/Basileus elected for life and a Council of Seven Guilds whose chairs sit ringed beneath the bronze-verdigris dome — and governed in practice by a parallel system of silk-letters sealed with wisteria, sent at Lady Pearl's discretion from an island that is not on any map, which decide more business in a season than the Council settles in a year.
+
+═══ THE TWO LAWS ═══
+
+Solis runs on **two simultaneous legal systems.** Citizens know both, navigate both, obey both, and — when they conflict — choose carefully which to honour first.
+
+**The Luminous Code (Lex Luminosa).** Solis's formal law. The realm's answer to the Codex Justinianus and the Tang Code, written in two scripts on parchment and stone, codifying every offence, every contract form, every guild regulation. It is read aloud on holy days from the steps of the Domed Basilica on the Founding Island. Its judges are the **Eparchs** — magistrates appointed by the Doge from the examination-trained civil service. Its courts are public. Its punishments are recorded.
+
+**The Silk Code.** No parchment. No stone. A network of **silk-letters** dispatched by Lady Pearl from the eighth island, sealed with a small pressed wisteria-blossom in wax, addressed in elegant hand to the recipient by name. The letters arrive without messenger — slipped under a door, found in a coat pocket, placed beside a teacup that was not there a moment ago. Each one carries an instruction, a request, an offer, a warning, or — rarely, devastatingly — a sentence. The letters are not signed. *Wisteria is the signature.*
+
+The two codes touch at every important point. The Luminous Code says a debt must be paid by the autumn assize; the Silk Code says a particular debt is to be forgiven, and the next assize is quietly missing one case. The Luminous Code says a foreign ambassador may not be received without three weeks' notice to the Council; the Silk Code says this ambassador will be received tonight on the eighth island, and the Council never hears of the meeting.
+
+**The Doge knows the Silk Code exists.** Every Doge of Solis has known. The first wisteria-sealed letter arrives within a week of his election, addressed by name. It does not introduce itself. It asks for a small favour and offers, in return, information he badly needs. By the end of his first year he is corresponding with a sender he has never met, on matters the Council never sees, and the realm functions because of it. **Each Doge thinks he is the first to have inherited this strange courtesy. None of them are.**
+
+═══ THE DOGE / BASILEUS ═══
+
+The realm's monarch carries two titles. **Doge** is the western title — used in the Luminous Code, on coinage, in foreign treaties. *Doge* means *the elected one* — selected for life, but selectable, not hereditary, first among equals in theory. **Basileus** is the Aoli-influenced courtly title — used in court ceremony, in poetry, in the great basilica's inscriptions. **Same man. Two registers.** Solis again, in two languages.
+
+His regalia: the **purple-and-gold dalmatica** layered over Aoli-cut imperial robes; the **bronze-verdigris circlet** in everyday court (echoing the Founding Island's domes); the **great pearl-and-gold crown** for high ceremony; the **purple boots** restricted to him alone. Tyrian purple is the imperial monopoly, enforced by the Eparch of the City.
+
+**He is elected for life.** The election is conducted by the Council of Seven, the College of Senior Houses, and the two religious heads as witnesses. Smoke from the burning ballots — green for *no decision yet,* gold for *we have a Doge* — rises from the Council Hall chimney, and the city watches.
+
+**He can be deposed.** A Doge who has lost confidence may be subjected to a **Vote of Eclipse** — joint session of the Guild Chairs and Senior Houses, two-thirds majority, throne vacated. Three Doges in recorded history have been Eclipsed. Two went into monastic retirement. One was found in a canal.
+
+**The Doge's heir is not his son.** No hereditary succession. **Examination-aristocracy meets Venetian republicanism meets Tang elective imperial practice.** Solis cannot be ruled by birth alone.
+
+═══ THE COUNCIL OF SEVEN — THE GUILDS ═══
+
+The realm's working government is the **Council of Seven** — the seven great guilds, each holding one seat, each holding one of the seven guild-islands ringing the Founding. The Council meets in the **Bronze Hall**, a circular chamber under a verdigris-domed ceiling, seven chairs ringed around a central well.
+
+| Seat | Guild | Domain |
+|---|---|---|
+| 1 | Silk | Looms, dyers, silk markets, pattern-archives. Old wealth; senior chair by tradition. |
+| 2 | Spice | Saffron, pepper, perfumeries, spice warehouses. Caravan-money; loud and well-travelled. |
+| 3 | Finance | Money-changers, letters of credit, banking houses. Quiet, analytical, holds the balance. |
+| 4 | Glass | Glassworks, mosaic, mirror-makers, optical lenses. Often votes with Silk. |
+| 5 | Iron | Forges, smiths, the chain-foundry. The Watch and Navy lean on Iron. |
+| 6 | Salt | Salt-pans, fish-curers, harbour preserve-houses. Often votes with Spice. |
+| 7 | Pleasure | The Yúlán Strait, courtesan houses, theatres. *The structural scandal.* |
+
+**Each Chair is elected internally** by the senior masters of that guild, for a term of seven years, renewable once. The Council is not a feudal house of lords; it is a working assembly of professional representatives, each with constituents, each replaceable. The Council holds authority over trade regulation, the realm's tax structure, public works, the Watch and Navy budget, foreign trade treaties, market law, and — by joint vote with the College of Senior Houses — succession to the Doge.
+
+**The Pleasure Guild seat is the structural scandal of Solis.** In the Tang and Byzantine empires both, the courtesan quarter sat at the moral edge of the city. In Solis, the courtesan quarter is a Council Seat. The pleasure-houses regulate themselves through their own guildhall, send a representative to the Council, vote on city policy, raise taxes, pay tribute, and sit equal in formal precedence with Silk and Spice. The Pleasure Chair is by tradition a senior madam.
+
+**On paper, the senior madams elect their Chair.** In practice — for centuries — the Pleasure Chair has *always* been a candidate Lady Pearl quietly approves of in advance. The senior madams know they are not voting freely; they have learned not to mind. The Chair is, structurally, **Lady Pearl's voice in the formal government** — though she has never personally attended a session, never held the Chair, never been listed in any record. (See `solis-watertwin`.)
+
+═══ THE COLLEGE OF SENIOR HOUSES ═══
+
+A smaller, quieter body. The **College of Senior Houses** consists of the heads of the realm's most ancient noble lineages — old land-owning families whose ancestry reaches back to the realm's founding.
+
+The College has no formal legislative power. **It exists to confirm the Doge.** Once a Doge is elected by the Council, the College must ratify — which they almost always do. Once a generation, they refuse; once a generation, the Council and the College deadlock; once a generation, the city fights about it for weeks. **This is the system working as designed** — the College's role is to make sure the Council does not impose a Doge the senior houses cannot work with. They also provide standing-witnesses at coronations and host the great seasonal festivals. A Doge who loses the College loses his throne soon after.
+
+═══ THE EPARCH AND THE CIVIL SERVICE ═══
+
+Beneath Doge and Council runs the day-to-day apparatus: the **civil service**, examination-recruited, a Tang practice grafted onto Byzantine offices.
+
+The **Eparch of the City** is the chief of the bureaucracy — Solis's prefect. He runs the markets, the Watch, the gates, the customs houses, and enforcement of the Luminous Code. Beneath him sit the **Logothetes** — Dromos (foreign affairs), Sakellion (treasury), Watch, Harbour, Mese — each commanding a department of clerks, scribes, eunuch-administrators (a Byzantine retention), and field officers.
+
+The **examinations** are held twice yearly on the Founding Island in a great walled compound modelled on the Tang Imperial Academy. Candidates write essays in **both scripts** — Byzantine legal and rhetorical topics in the western alphabet; Confucian classics and tonal-regulated poetry in Aoli characters. **A candidate who masters only one tradition cannot pass.** The civil service is bilingual and bicultural by structural necessity.
+
+The civil service is larger than the armed force of the realm. **Solis has chosen, for centuries, to be administered rather than soldiered.** It does not want to fight. It wants to count, regulate, tax, and litigate.
+
+═══ THE TITLE HIERARCHY ═══
+
+Solis's formal title hierarchy braids Byzantine office-rank with Aoli courtly status and the Doge's elective tradition.
+
+| Tier | Title | Carried by |
+|---|---|---|
+| 1 | **Doge / Basileus** | The realm's monarch. Elected for life. |
+| 2 | **Patriarch / Abbot** | Heads of the Domed Basilica and the Five-Tier Pagoda. |
+| 3 | **Council Chair / Eparch of the City** | Seven Guild Chairs, equal in precedence; plus the Eparch. |
+| 4 | **Senior House Head** | The College of Senior Houses. |
+| 5 | **Logothete** | Department heads in the civil service. |
+| 6 | **Strategos / Naval Commander** | Heads of the standing army and harbour navy. |
+| 7 | **Eparch of a Quarter** | Local prefects (Maramir, harbour, etc.). |
+| 8 | **Senior Examiner / Academic Master** | Heads of the Imperial Academy. |
+| 9 | **Master Craftsman / Senior Madam** | Senior figures within their guilds. |
+| 10 | **Examination Graduate (1st rank)** | The *jinshi*-equivalent civil service entrants. |
+| 11 | **Junior Civil Servant / Working Master** | The everyday administrative class. |
+| 12 | **Citizen / Free commoner** | The realm's voters in any informal sense. |
+| 13 | **Resident Foreigner / Registered Courtesan** | Free, not a citizen of Solis. |
+| 14 | **Slave / Bound Servant** | Restricted category. May buy freedom. May rise. |
+
+**Robes of office** are colour-coded in a fusion of Byzantine purple-bordering and Tang colour-rank. **Imperial purple** is restricted to the Doge alone. **Crimson** for the Patriarch and Abbot. **Black-and-gold dalmatica** for Council Chairs. **Deep teal** for Logothetes. **Verdigris-bronze** for the Eparch of the City. *A glance at a robe tells the realm exactly who you are.*
+
+═══ HOW DECISIONS ACTUALLY GET MADE ═══
+
+**Routine matters** — market regulation, taxes, public works, civil suits — settle cleanly through the Council. **This is most of governance.**
+
+**Significant matters** — treaties, succession crises, major policy — settle by Council with extensive private negotiation in advance. By the time the vote is taken, the outcome is known. The session is theatre.
+
+**Critical matters** — anything touching the realm's hidden infrastructure (the Mulberry pillar tree, foreign-intelligence deployment, the Doge's private informants) — settle outside the formal system entirely. **A wisteria-sealed silk-letter reaches the Doge, the Eparch, the relevant Guild Chair.** The Council, days later, ratifies what has already been decided.
+
+**Catastrophic matters** — a Watch captain selling secrets, an assassination attempt — may bypass the formal system entirely. **One wisteria-sealed silk-letter. The matter ends.** The Council never hears.
+
+The two systems do not fight. The formal system handles **everything ordinary**; the silk-letter system handles **everything that touches the realm's deep architecture.** Lady Pearl has spent ten thousand years calibrating the relationship.
+
+═══ ARMED FORCE, FOREIGN AFFAIRS, AND RELIGION ═══
+
+Solis maintains a **small professional standing army** and a **navy of Silk-Road galleys**, neither designed for major land wars. The army's elite is the **Argent Guard** — recruited from Isenholt warriors and Aoli cultivators with formal exit permissions, oath-bound to the Doge alone. The navy carries **fire-siphons** modelled on Greek fire. The realm's actual military strategy is **diplomatic, financial, and informational** — gold, secrets, assassins, and disinformation, all provided through the Pleasure Quarter and Lady Pearl's network.
+
+The **Logothete of the Dromos** runs foreign affairs. Solis's policy in one phrase: **be useful to everyone, indispensable to no one.** The realm sells silk and spice and credit to every court, registers every foreign religion, marries with no one. **Solis is commercial, not dynastic.**
+
+The religious establishment is **dual-headed.** The **Patriarch of the Domed Basilica** leads the Orthodox-coded practice. The **Abbot of the Five-Tier Pagoda** leads the Buddhist-coded practice. **Both crown the Doge at his coronation** — the Patriarch places the stephana ribbon-crown, the Abbot anoints with seven-incense oil. He is *crowned twice* in the same ceremony, which is exactly how Solis prefers it. The realm has, by deliberate ancient policy, **no state religion.**
+
+═══ THE SAGA'S STAKE ═══
+
+Solis's politics are the structural stage on which the saga's Solis act will play out. **The formal system creates the public theatre** — the Doge in his audience hall, the Council of Seven in the Bronze Hall, the Logothetes and Eparchs handling daily business in lantern-light. **The silk-letter system creates the deep structure** — the wisteria-sealed correspondence by which Lady Pearl has decided the realm's most important questions for ten thousand years, never holding office, never appearing in any record, running the apparatus from a courtyard the cartographers have never drawn.
+
+When the Fellowship arrives, they will see the formal system first — received by an Eparch's deputy at the harbour, invited (perhaps) to a Council banquet, meeting a Logothete or two over wine. **This will give them the surface.** They will, in the same week, be invited (without invitation) to the eighth island. **There they will meet the real government.**
+
+Aria walks through the Council in the morning and through Lady Pearl's courtyard in the evening. The two systems will, perhaps for the first time in centuries, converge on a single conversation. **Whether the balance survives the prophecy is one of the saga's open questions.**

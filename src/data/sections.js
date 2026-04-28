@@ -135,6 +135,7 @@ export const SECTIONS = [
     description: "Roman/Byzantine province. Jeweled rot. The Water Twin's pleasure house. Lìyǐn's home.",
     prompts: [
       { id: "overview", label: "The Province", placeholder: "Roman/Byzantine. Excess..." },
+      { id: "yulanstrait", label: "The Yúlán Strait — Pleasure District", placeholder: "Tang + Mediterranean fusion. Seduction on a knife's edge. The Smiling Blade rules the public face. Lady Pearl's hidden island camouflaged as 'the most exclusive house'..." },
       { id: "watertwin", label: "The Water Twin", placeholder: "The madam of the pleasure house..." },
       { id: "liyinlife", label: "Lìyǐn's World", placeholder: "Raised in the pleasure house..." },
       { id: "culture", label: "Culture & Excess", placeholder: "How excess defines this place..." },

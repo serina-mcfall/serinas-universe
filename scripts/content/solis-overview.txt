@@ -1,0 +1,83 @@
+SOLIS — THE BRIDGE BETWEEN WORLDS
+
+═══ THE ONE-LINE TRUTH ═══
+
+Solis is an archipelago city where the eastern Silk Road meets the western sea-lanes — Byzantine Constantinople fused with Tang Chang'an, scaled to a bigger Venice in Mediterranean light — seven guild-islands ringing a founding island, with a hidden eighth island that is not on any map and holds up the world.
+
+═══ THE BRIDGE ═══
+
+Solis's true name across the realms is **The Bridge.** It is the place where east and west finally lay down their goods, their gods, their grammars, and their grudges — and braid them. Caravans cross the continent for two years to reach its eastern gate; sea-galleys sail half a year to dock at its western harbour; both arrive at the same lantern-hung canals. The realm is not a country in the ordinary sense. It is a *crossroads with walls.*
+
+The fusion is older than memory. Its administrative tongue carries the syntax of the western empires; its courtly poetic tongue carries the cadence of Aoli classical verse; its market-tongue is a pidgin of both that nobody quite owns. Its silks are pattern-woven on Aoli looms and finished on western jacquard harnesses. **Nothing in Solis is pure. That is the point.**
+
+The realm's subtitle in its own merchants' mouths is *"the jeweled rot."* Outsiders read this as boast. It is confession. Solis is breathtakingly beautiful and quietly dying — a city that has been the centre of the world too long, that lives on pass-through trade and leveraged debt, whose gilding hides cracked wood beneath. Beauty in the daylight, just a little too much beauty, is the realm's signature. After a week most travellers begin to feel the unease beneath the radiance. After a month they cannot leave.
+
+═══ THE ARCHIPELAGO — A BIGGER VENICE IN MEDITERRANEAN LIGHT ═══
+
+Solis is **an archipelago city.** Not a single landmass cut by canals but a true scatter of islands across a bright shallow sea, joined by stone arched bridges and crossed by gondola-style boats that ferry people between districts the way other cities use streets. Imagine Venice expanded to the scale of Constantinople, dropped into Greek-Mediterranean light, then layered with the upturned eaves and lantern-strung balconies of Tang Chang'an. The water is bright turquoise where it shallows and deep cobalt where it drops away. The marble is sun-bleached white. Bougainvillea spills purple over stone walls. Cypresses needle the skyline alongside pagoda finials.
+
+The aesthetic signature is **bigger Venice + Mediterranean Greek**, with Tang and Byzantine fusion layered through the architecture. The sound of Solis is **lapping water, market voices in many tongues, bell-fountains, and temple bells from a dozen faiths sounding never quite together.**
+
+The plant signature is **olive, cypress, lemon, bougainvillea, and wisteria above all.** Wisteria climbs every wall and balcony in Solis — the city's signature flower. (For the spy-craft hidden in how wisteria is *trained* on Lady Pearl's properties, see `solis-watertwin`.)
+
+═══ THE SEVEN-AND-ONE STRUCTURE — ISLANDS BY POWER ═══
+
+Solis's island system is not random. It is a **structural cosmos** — a centre, a ring of seven, and a hidden eighth.
+
+🏛️ **The Founding Island** — the city's heart. The oldest island, where Solis began. The Royal House and the most ancient noble families hold here. The signature mark of the Founding Island is its **bronze-verdigris domes** — the originals, weathered to a soft sea-green. The teal-glazed domes that tile the rest of the city are imitations of these. To see the Founding Island from a distance is to see the rest of Solis announcing what it descends from.
+
+🏪 **Seven Great Guild Islands** — ringing the Founding. One island per Council seat. The seven guilds that share the Council of Seven each hold an island as their seat of power, their workshops, their warehouses, and their guildhall.
+
+| Guild | Island | What it controls |
+|---|---|---|
+| Silk | Brocade Island | Looms, dyers, the silk markets, the pattern-archives |
+| Spice | Saffron Island | The spice warehouses, the saffron and pepper markets, the perfumeries |
+| Finance | Solidus Island | The money-changers, letters of credit, the great banking houses |
+| Glass | Mirror Island | The glassworks, mosaic ateliers, optical lenses, mirror-makers |
+| Iron | Anvil Island | The forges, weapon-smiths, locks-and-keys, the great chain-foundry |
+| Salt | Tide Island | The salt-pans, fish-curers, the harbour preserve-houses |
+| Pleasure | The Yúlán Strait island | The Pleasure Quarter, the courtesan houses, the theatres |
+
+The seventh seat — **Pleasure** — is the structural scandal of Solis. In the western and eastern empires both, the courtesan quarter sits at the moral edge of the city. In Solis, the courtesan quarter is a Council Seat. The pleasure-houses regulate themselves through their own guildhall and their own representative on the Council. (See `solis-yulanstrait` for the Strait itself; `solis-politics` for what this means at Council.)
+
+🌹 **A Hidden Eighth Island.** Off any official map. Lady Pearl's island. The Mulberry pillar tree of Solis — one of the eight Sacred Trees of Avalúne — grows in her courtyard there. **The eighth island echoes the world's eight pillar trees.** No cartographer has ever drawn the eighth island and lived as a cartographer afterward. (See `solis-watertwin`.)
+
+🪷 **Many smaller islands** scatter around the central seven-and-one. Residential islands. Monastery islands. Garden islands kept by old houses for retreat. Ferry-stop islands. Smuggler-cove islands the harbourmaster pretends not to know about. And the cultural-quarter islands held by foreign realms with formal embassy presence in Solis. **Maramir Quarter** is confirmed — the desert realm holds a small island of its own, all date-palm courtyards and white-stone archways, the call to its temples sounding at sunset. **Ardenmere, Tyramare, and Isenholt status: pending.** No Aurum quarter — the sky-folk keep separate. No Aoli quarter — the closed empire keeps to itself.
+
+═══ THE FOUR DISTRICTS THAT MATTER ═══
+
+Beyond the guild-island structure, four districts shape daily life:
+
+🎴 **The Pleasure Quarter (Yúlán Strait / The Lotus Strait)** — Tang-dominant, on the seventh guild island. Public face: the Smiling Blade. Public phrase: *"Seduction on a knife's edge."* (See `solis-yulanstrait`.)
+
+⚓ **The Harbour District** — separate, neutral commercial ground, sprawling across the western edge of the archipelago. Polyglot, rough, the most class-mixed place in the city. Customs houses, warehouse rows, sailors' taverns where every god is sworn at.
+
+🏰 **The Government Quarter** — the seat of the Doge/Basileus and the Council of Seven, on the Founding Island, around the bronze-verdigris-domed civic complex. (See `solis-politics`.)
+
+🐎 **The Cultural Quarters** — Maramir (confirmed), and others pending. Each foreign realm with formal embassy presence is granted a small island as its quarter. **No Aurum quarter. No Aoli quarter.**
+
+═══ THE SHADOW THREAD — SHI SECT ═══
+
+🐍 The Shi Sect has **no public district.** It is invisible, threaded through the city with no guildhall to raid. Its primary public face in Solis is the **Smiling Blade** — the duelling-master who runs the public face of the Pleasure Quarter. Per cosmology canon, every Shi Sect fragment-carrier holds *both* Yuèlì AND the Third intertwined. The Smiling Blade carries this dual fragment. Two voices, two hungers, knit into one beautiful man with a smile that does not reach his eyes.
+
+**The cosmic tension at the Yúlán Strait is enormous.** Lady Pearl — the Water Twin, Yúnzhū, a Gen-3 god — lives next door to the Smiling Blade across the strait. She has watched him for centuries and has likely felt, all that time, that something is *wrong* inside him in a way she cannot quite name. Two voices instead of one. (See `solis-watertwin`.)
+
+═══ THE FEELING OF THE PLACE ═══
+
+A traveller cresting the ridge at sunrise sees Solis laid out across the bright water — domes and pagoda eaves catching the sun like fish-scale. The first thing that strikes is **light**: too much beauty in the daylight, the city scattering the sun in every direction. Then **sound**: bells, market voices in twelve tongues, a pipa drifting from a balcony, a lyre answering from the next island. Then **smell**: saffron and salt water, sandalwood and horse-sweat, frankincense and grilled mutton, rose water and wine — and on the breeze the faint sharp note of mulberry leaves and silkworm floss that drifts, sometimes, from nowhere anyone can place.
+
+Then **faces.** Every colour of skin. Every fold of eye. The traveller has walked into the only realm in Avalúne where everyone is somebody's foreigner.
+
+The city feels **alive** in a way few places manage — *anything is possible here, everything is for sale.* But beneath this, unignorable once you hear it, a lower note: **the city is tired.** The Pleasure Quarter's lanterns glow more brightly than any temple's candles, and everyone knows it.
+
+This is the jeweled rot. Beautiful, beautiful, beautiful. Hollowing.
+
+═══ THE SAGA'S STAKE ═══
+
+Solis is the saga's crossroads — the realm where Lìyǐn was raised, where Lady Pearl has held her vigil for ten thousand years, where the Mulberry pillar tree of Avalúne is hidden in plain sight inside a brothel's courtyard, where the Smiling Blade walks the Strait carrying a dual Shi Sect fragment, and where the Fellowship will eventually arrive carrying the prophecy through the lantern-light.
+
+Its narrative function is double. **Above the surface,** Solis is the Silk Road crossroads — every trade route, every diplomatic mission, every piece of intelligence in Avalúne flows through it. **Beneath the surface,** Solis is the realm where the Water Twin runs a financial empire, a continental spy network, a women's sanctuary, and a military training school, all disguised as the most exclusive pleasure house in the city, all built around the world-pillar tree she has been guarding alone for eons.
+
+When the Fellowship reaches Solis they will feel, first, **enchantment.** Then, deeper, **unease.** Then, when an invitation arrives that does not appear on any cartographer's record and they step onto a small black-lacquer boat that crosses to an island that is not on any map, they will find themselves in a wisteria-draped courtyard where a goddess pours tea, and the tree above them — impossibly large — will already have been waiting for them.
+
+Solis is The Bridge. The jeweled rot. The courtesan who is a goddess. The brothel that is a fortress. The pillar tree in a city that sold its gods.
