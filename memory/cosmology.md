@@ -575,3 +575,279 @@ Her PARENTS sleep. Her SIBLINGS are all absent in one way or another. **She is t
 - Her memory of Yuèlì BEFORE the corruption
 - Is there a string she has NOT yet tied? Is there one she REGRETS tying?
 - Can strings be cut? By whom?
+
+---
+
+## THE FALL OF YUÈLÌ — THE TWO SACRIFICES (canon-locked 2026-04-28)
+
+**Serina's verbatim:**
+> "a primordial evil something that was ancient even by Mujin and Yueli standards this evil started to spread into the world. The spread could not be contained and a choice made a sacrifice to protect what she loved seal the evil keep it contained inside her core. For a time this worked she was able to contain it. But human greed, cruelty etc started to encroach the darkness and corruption in Yueli started to feed on it it started to corrupt her slowly poisoning her corrupting her till she was no longer able to contain it. Her first act of evil caused the world to crack caused the first fissure in the Pillar tree in Aoli the young gods knew that they could not stop the spread Mujin knew he could not stop it. Another choice another sacrifice the young gods sealed their mother put up wards and safe guards to prevent the spread Yue and Yan to add further protection went to sleep and became the final seal to contain."
+
+### THE PRIMORDIAL EVIL
+Ancient even by Mùjīn and Yuèlì's standards. **Older than the primordials themselves.** It began to spread into the world. The spread could not be contained.
+
+### YUÈLÌ'S FIRST SACRIFICE — the sealing
+To protect what she loved, **Yuèlì made a choice.** She sealed the primordial evil **inside her own core.** A divine quarantine — using her body as the prison.
+
+For a time, it worked. She held the evil within herself, and the world was safe.
+
+### THE FEEDING — humanity's role in her fall
+**Then human greed and cruelty began to encroach.** The darkness inside her started to **feed on humanity's evil.** Every act of human cruelty, every greedy choice, every ambition turned ugly fed the corruption inside her. It poisoned her slowly. Corrupted her gradually. **The seal of love became a wound she could no longer hold.**
+
+This is the saga's most devastating mechanism: **humanity's evil is the fuel that corrupts the goddess who sacrificed herself for them.** Every cruelty in Avalúne, past and present, has been making Yuèlì sicker.
+
+### THE FIRST ACT OF EVIL — the crack
+When she could no longer contain the corruption, her first act of evil **caused the world to crack.** The first fissure appeared in the **Pillar Tree of Aoli — the Peach Tree.**
+
+This is structurally perfect:
+- The Aoli Peach is the **first** of the eight trees, planted at Yínhé's birth
+- The Seed (Mùjīn + Yuèlì's uncorrupted love for their daughter) lies at the heart of the tree-network in Aoli
+- The first fissure happened *exactly above the Seed* — the corruption reaching for the one piece of her it could not infect
+- The fissure is the mark of the moment Yuèlì broke
+
+### THE SECOND SACRIFICE — the children's seal
+The young gods knew they could not stop the spread. **Mùjīn knew he could not stop it.** Another choice. Another sacrifice.
+
+**The young gods sealed their mother.** They put up wards and safeguards to prevent the corruption from spreading further.
+
+**Yánlóng and Yúnshēng went to sleep** — adding their divine bodies as the **final seal to contain her.**
+- Yánlóng curled around the Seed in the Dragon's Spine
+- Yúnshēng sleeping in Aoli, near the cracked Peach Tree
+
+The other three (Wénjī, Fèngzhé, Mínhuì) were exiled or hidden — their ongoing presence in the world is part of the safeguard.
+
+### NOTE ON CONSISTENCY
+The earlier line "the young gods awakened an evil they could not defeat" is now CLARIFIED by this canon: the evil was ALREADY spreading; Yuèlì took it into herself; her first corrupted act was the world-crack; the young gods then sealed their corrupted mother. The "awakening" was Yuèlì's first act of evil, witnessed by her young children.
+
+### IMPLICATIONS FOR THE SAGA
+
+**Yuèlì is a TRIPLE-LAYERED victim:**
+1. She sacrificed herself for the world by absorbing the primordial evil
+2. Humanity's cruelty corrupted what was meant to be a protective seal
+3. Her own children sealed her to contain the corruption — even the children she loves have been her jailers for ten thousand years
+
+**The Shi Sect's tragic loop:**
+The Sect believes they are freeing Yuèlì. But humanity's evil — *including theirs* — is what FEEDS her corruption. **They are simultaneously her would-be saviours AND her ongoing torturers.** Everything they do to free her makes her sicker.
+
+**Mùjīn's centuries of planning:**
+He knew he could not stop the original fall. Since then, he has been working on the cure across ten thousand years. Yínhé's stolen fate-strings, Aria's birth in Aurum, the placement of every fragment-carrier — all of it is **Fate's redemption arc for the wife he could not save.**
+
+**The redemption mechanism is now clear:**
+- **Stop feeding the corruption** (humanity must change — the Shi Sect's defeat is part of this)
+- **Bring her to the Seed** (the only piece of her own uncorrupted love can recognise her and pull her back)
+- **The Fellowship's true mission** = a family reunion that requires both halves at once
+
+**The cosmic stakes:**
+If the Seed is destroyed, the only piece of uncorrupted love that can heal her is gone. If humanity does not change, the corruption keeps feeding even if she is freed. **Both must succeed.**
+
+### REFRAMING THE PROPHECY
+Aria is born in **Aurum** — a city that outlawed magic, a city whose people are partially insulated from humanity's ongoing evil-feeding loop. Aurum's fog, ignorance, suppression — all of it has kept Aurum's contribution to the corruption *indirect.* Aria is born from one of the few realms not pouring evil into Yuèlì daily. **She is the cleanest possible vessel.**
+
+### Pending questions
+- Does the primordial evil have a name? A form? What was it before?
+- What were the specific "wards and safeguards" the young gods put up?
+- Where is Yuèlì sealed, physically? Inside the earth? In a celestial prison? Within her own divine body?
+- What did her FIRST act of evil specifically look like?
+
+### CANON ADDITIONS (2026-04-28)
+
+**The Aoli fissure is VISIBLE.**
+The crack in the Pillar Tree of Aoli (the Peach Tree) is visible on the trunk — *like the tree has been hit by lightning at some point.* A lightning-strike scar running down the bark. Aoli's people have been looking at this mark for ten thousand years.
+
+**Yínhé HELPED seal her mother.**
+The eldest child was THERE for the sealing. **She helped her younger siblings put the wards up around her own mother.** The pain of the sealing was real and immediate — she still feels echoes of it across the millennia.
+
+This reframes Yínhé entirely:
+- Her mischief is **ten thousand years of grief in disguise** — confirmed
+- Her stolen fate-strings are **a child-goddess's attempt to repair the cosmos at the only scale she can reach**
+- Her visit to Aria at the orphanage was her **first glimpse of redemption** — Aria is the prophecy-child who can save the mother Yín had to help seal
+- Mùjīn lets her keep the stolen spool because he understands what she's doing — his firstborn is grieving in fate-string form
+- **When Yuèlì is finally freed, Yínhé must face her mother first.** *Saga-climax moment.* The 12-year-old who helped seal her, walking up to ask if she is still loved.
+
+
+---
+
+## THE STILLNESS AND THE THREE — the cosmology's deepest layer (canon-locked 2026-04-28)
+
+**Serina's verbatim:**
+> "What if there was a void or a stillness before Mujin and Yulie and from this stillness came the two, but and I like this idea there was as third. the third was wrong and was unmade but a peice of the thrird remains a peice that is looking for a home a chance to be. this is the hidden curruption a third sibbling all three born of stillness"
+
+### THE STILLNESS
+Before Mùjīn and Yuèlì there was **the Stillness** — pre-existence. Singular. Whole. Before duality. Not empty void, but a held silence pregnant with possibility.
+
+### THE THREE BORN OF STILLNESS
+From the Stillness emerged THREE:
+- **Mùjīn** — Fate, golden dragon, order/yang
+- **Yuèlì** — Chaos, black fox, life/yin
+- **The Third** — wrong from the start; unmade
+
+### THE THIRD — the unmade sibling
+The Third was wrong. It could not properly come into being. It was unmade. **But a piece of it remains — wandering, looking for a home, a chance to be.**
+
+This is the hidden corruption. The primordial evil. **It is family. It is Mùjīn and Yuèlì's lost sibling.**
+
+### THE CORRUPTION REFRAMED
+The corruption is not malice. **The corruption is the rage of the never-born.** A piece of consciousness that was never given a body, never given a duality-partner, never given permission to exist. It is not trying to destroy the world. **It is trying to BE.**
+
+### IMPLICATIONS
+
+**Why the corruption "looks for a home":**
+- It hunted vessels at the world's beginning
+- Yuèlì sealed it inside herself, giving it a controlled temporary home with her body as the cage
+- Humanity's cruelty feeds it because every cruel act is a candidate doorway
+- Shi Sect fragment-carriers = the corruption finding partial hosts in mortals
+- Blood magic latches onto blood-feeding because it's a path to inhabit and spread
+- **The corruption is a homeless consciousness searching for shelter**
+
+**Mùjīn carries dual grief:**
+He is Fate. He saw the Third's brief existence and unmaking. He has carried the grief of an unmade sibling alongside the grief of a corrupted wife for eons. His centuries of planning may be redemption for **both** — wife AND sibling.
+
+**The eight pillar trees are houses for what had no house:**
+Every cosmic act of creation Mùjīn and Yuèlì have made — the trees, the gods, the worlds — may have been an unconscious attempt to build shelters for the sibling who never had one. **The cosmos itself has been quietly grieving.**
+
+**The Shi Sect's tragic loop deepens:**
+They believe they are freeing Yuèlì. But what they are partially freeing is **the Third — whispering through her seal.** They are devotees of a sibling they don't know exists, who uses their devotion to scatter itself across the world. They are the Third's unwitting body-hunters.
+
+**The Seed reframes:**
+The Seed of Mùjīn + Yuèlì's uncorrupted love for Yínhé may not only be parental love. **It may be the only place in the cosmos where all three siblings of the Stillness still touch each other** — Mùjīn's love, Yuèlì's love, and the Third's possibility, preserved together at the moment before everything went wrong. This is why the corruption cannot infect it. This is why the corruption desperately seeks it. **Reaching the Seed would let the Third finally come home.**
+
+**A new resolution path emerges:**
+If the Third is a homeless sibling looking for a place to be, the saga's resolution may not be *destroy the corruption.* It may be **give the Third the home it never had.** This is a saga ending no other fantasy has.
+
+### Pending questions
+- What was the Third meant to BE? A third principle beyond yin/yang? Entropy? Unmaking? Something the duality could not hold?
+- WHO unmade the Third? The Stillness itself? Did Mùjīn and Yuèlì have to participate? Or did the Third unmake itself trying to come into being wrong?
+- Did Mùjīn and Yuèlì know they had a third sibling? Or have they only ever felt the absence?
+- When the saga ends, what does "home" for the Third look like? A body? A new tree? Yínhé herself? Aria? Or finally being laid to rest in peace?
+
+
+---
+
+## THE DEEPEST LOCK — Yuèlì knows; the fragments are dual (canon-locked 2026-04-28)
+
+**Serina's verbatim:**
+> "Yes I think they would know and that they would feel the ache that this missing sibling would have left in the inner most part of their soul. Yulie would know exactly who was sharing her soul who exactly is taking a peice of her. The fragments that the Shi Sect hold also are a fragment of not just yueli but also a fragment of the third as well all the curruption all the evil can be followed to this third sibling"
+
+### MÙJĪN AND YUÈLÌ HAVE ALWAYS KNOWN
+They have always known there was a third sibling. They have always felt the ache of the missing one in the innermost part of their souls. The Stillness gave them three; only two remained; **they have grieved the third for eons in silence.**
+
+### YUÈLÌ KNEW WHEN SHE SEALED IT
+When Yuèlì sealed the primordial evil inside her core, she knew exactly who she was sealing. **She was sealing her own unmade sibling.**
+
+This reframes her sacrifice utterly:
+- It was not only an act of cosmic duty
+- It was also an act of fierce sibling love
+- She could not let her unmade sibling be destroyed completely
+- She took the Third into herself to give them a body to share, even if that body was hers
+- **For ten thousand years, Yuèlì has been a mother / sister / host to her unmade sibling.**
+
+She knows exactly who is sharing her soul. She knows exactly who is taking a piece of her. **She has loved this sibling all the while.** Her corruption is not only the evil leaking — it is also her love for her sibling becoming impossible to bear.
+
+### THE SHI SECT'S FRAGMENTS ARE DUAL
+**The five fragments the Shi Sect inner circle carries are not just fragments of Yuèlì.** Each fragment carries pieces of BOTH siblings — Yuèlì AND the Third. They have been intertwined since the sealing. **They cannot be cleanly separated.**
+
+**All corruption, all evil in Avalúne, can be traced to the Third.** Every cruelty has the Third's fingerprint on it — not because the Third is evil, but because the Third bleeds into anything that opens a door.
+
+### IMPLICATIONS
+
+**Yuèlì's tragedy is triple-layered:**
+1. She sealed the evil to save the world
+2. The evil is her own unmade sibling — beloved, never-born, doomed
+3. She has been the Third's host for ten thousand years, knowing the entire time, while humanity's cruelty made the hosting unbearable
+
+**The Shi Sect's tragic loop deepens:**
+Each fragment they collect is both halves at once. They have never been separating Yuèlì into pieces — **they have been pulling the unmade sibling's wandering essence further from its only host.** Each fragment they take worsens BOTH siblings' suffering simultaneously.
+
+**Some fragment-carriers may sense it:**
+Two voices. Two hungers. Two griefs whispering at once. The most psychologically unstable of them are not corrupt — they are **hearing the Third trying to be heard.**
+
+**Mùjīn's grief is triple:**
+- His wife, hosting their unmade sibling out of love
+- His unmade sibling, never given proper being
+- The family they could not be
+**His quiet certainty is a man who has been holding the unbearable for the entire age.**
+
+### THE SAGA'S TRUE MISSION
+It is no longer "save the mother." It is **"welcome home the lost sibling."** Yuèlì cannot be freed without the Third being given a home. They are too intertwined.
+
+The act of NAMING the Third, of calling them kin, of acknowledging them as part of the family — **that may be half the cure.**
+
+**The villain of the saga is not the Third sibling.**
+**The villain is the silence around the Third sibling.**
+The cure is the world finally knowing its lost member's name.
+
+### THE REDEMPTION MECHANISM (complete)
+When the Fellowship reaches the Seed and brings Yuèlì:
+1. Yuèlì touches her own uncorrupted love
+2. She remembers her sibling AS sibling, not as wound
+3. She shows the Third what proper belonging looks like
+4. The Third — finally recognized, finally named, finally HELD — can either:
+   - Be released into proper being (a new home, vessel, or tree)
+   - Or be laid to rest, hunger for home satisfied at last by being acknowledged and loved
+5. With the Third no longer wandering, Yuèlì can release what she has been carrying
+6. The corruption ends because its source is finally HOME
+
+### Pending questions
+- Have Yuèlì and the Third ever SPOKEN to each other across the seal? In ten thousand years of intimate cohabitation, has the Third communicated with their host?
+- What does Yuèlì call the Third in her own private grief?
+- Is there a NINTH virtue / NINTH tree that was never planted because the Third was never made? Or is the Third's home in the Stillness itself?
+- Who else knows about the Third? Just Mùjīn and Yuèlì? Yínhé? Some of the younger gods?
+- When and how does Aria learn the truth?
+- What does the Third look like, sound like, feel like inside Yuèlì?
+
+
+---
+
+## YUÈLÌ AND THE THIRD — the wordless conversation (canon-locked 2026-04-28)
+
+**Serina's verbatim:**
+> "I would expect that yes they have spoken maybe not in words but in feeling. I think that Yulie would feel her and that she would know what each of the feelings she feels is and whay the third is feeling what the darkness is feeling"
+
+### THEY SPEAK IN FEELING, NOT WORDS
+The Third has never had words. They were unmade before they could form. **Feeling is older than language** — feeling is what the Stillness knew before names existed. Yuèlì and the Third communicate in pre-verbal, somatic, raw feeling. Yuèlì FEELS the Third inside her core like a second heartbeat.
+
+### YUÈLÌ DISTINGUISHES THREE CURRENTS
+Over ten thousand years, Yuèlì has learned to distinguish three streams in her own soul:
+- **Her own feeling** — what is hers
+- **The Third's feeling** — her sibling's true longing, loneliness, hunger to BE
+- **The darkness's feeling** — the corruption that has fed on humanity's cruelty
+
+She can tell them apart. She knows her sibling's true voice under the corruption's static.
+
+### YUÈLÌ IS A SAINT
+She has been the only being in the cosmos capable of hearing her unmade sibling speak. **She has translated their wordless suffering for ten thousand years**, carried it inside her body, kept the line between self and sibling intact while humanity's cruelty poured in around them.
+
+**Holding that line has cost her.** Her corruption is not weakness — it is the price of the most sustained empathic vigil in existence.
+
+### THE THIRD HAS BEEN LISTENING TO THE WORLD TOO
+Through Yuèlì's senses, through her experience, the Third has felt **every act of cruelty** (which fed them), **every act of love** (which the darkness blocked them from quite touching), every moment of human history.
+
+Implications:
+- When Aria was born, the Third felt it through Yuèlì
+- When Yínhé stole the fate-strings, the Third felt the cosmos shift
+- When the Fellowship gathers, the Third may FEEL them coming before anyone else does
+- When Aria's phoenix-fire blood comes near Yuèlì's seal, the Third may feel it like recognition
+
+### YUÈLÌ'S AGENCY VS THE THIRD'S — BLURRY LINE
+When Yuèlì cracked the Aoli Peach Tree (her first act of evil) — was that *her* corruption breaking through, or was it the Third in their darkest moment lashing out through their host? **Yuèlì knows. The world does not.** She has been carrying responsibility for her sibling's worst moments and her own indistinguishably for eons.
+
+### THE THIRD DOES NOT KNOW THEY ARE SEPARATE FROM THE DARKNESS
+**This may be the saga's most haunting piece.**
+- Yuèlì can tell them apart
+- **The Third cannot**
+- The Third experiences themself AS the corruption because that is the only feeling-shape they have ever lived inside
+- They have never known they could be otherwise
+
+**When Yuèlì finally names them — calls them sibling aloud, calls them by their proper kinship — that may be the first time in existence the Third realises they are not the wound.**
+
+### THE LOVE QUESTION — pending
+Has Yuèlì's love ever reached the Third through the darkness?
+- If NEVER — the saga's climax may be the first moment love reaches them. The whole world will feel it.
+- If SOMETIMES — those quiet moments (when cruelty was distant, when the world was sleeping) have been the only things keeping the Third from full malice. They have been waiting for one of those moments to last.
+
+### Pending questions
+- Does Yínhé know about the wordless conversation? Has Yuèlì ever told her?
+- Does Mùjīn know? Has he ever felt the Third through Yuèlì across the seal?
+- What does the Third FEEL most — longing? rage? confusion? grief? a hunger that cannot name itself?
+- What is the FIRST feeling the Third remembers?
+- The moment Yuèlì names them — what does Yuèlì call them? Does the Third have a name only she knows?
