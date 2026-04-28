@@ -936,3 +936,109 @@ When the Fellowship arrives in Solis — which they will — they will feel, fir
 - **Dumbarton Oaks** (Washington DC) — premier Byzantine studies collection
 - **Pergamonmuseum** (Berlin) — Silk Road art from Turfan expeditions
 - **Hermitage** (St Petersburg) — Central Asian and Sogdian collections
+
+
+---
+
+## SOLIS CANON LOCKED — 2026-04-28
+
+### Visual & Geography
+- **Aesthetic identity:** *Bigger Venice + Mediterranean Greek* (Serina's lock).
+- Archipelago city — many islands connected by stone arched bridges, canals as streets, gondola-style boats ferrying people between districts.
+- Mediterranean light: bright, sun-drenched, gold-hour magic. The "jeweled rot" reads as *too much beauty in the daylight.*
+- Plant signature: olive, cypress, lemon, bougainvillea — **and wisteria above all** (see below).
+- Sound: lapping water, market voices in many tongues, bell-fountains, temple bells.
+
+### THE ISLAND STRUCTURE
+- 🏛️ **One Central Founding Island** — the city's heart. Royal House and oldest families. **Bronze-verdigris domes** (the originals; the teal-glazed domes elsewhere are imitations of these). Visually distinguishes this district from the rest.
+- 🏪 **Seven Great Guild Islands** ringing the Founding — one per Council seat (Silk, Spice, Finance, Glass, Iron, Salt, Pleasure).
+- 🌹 **A Hidden Eighth Island** — Lady Pearl's. Off any official map. **The Mulberry pillar tree grows here.** The eighth echoes the world's eight pillar trees. *Saga-grade structural beauty.*
+- 🪷 Many smaller islands scattered around — residential, monasteries, gardens, ferry stops, smuggler coves, and the foreign cultural quarters.
+
+### DISTRICTS ON THE RING
+- 🎴 **Pleasure Quarter (Yúlán Strait / The Lotus Strait)** — Tang-dominant, on the seventh guild island. Smiling Blade rules the public face. (See dedicated section below.)
+- ⚓ **Harbour District** — separate, neutral commercial ground, the door to the sea.
+- 🏰 **Government Quarter** — Doge/Basileus + Council of Seven (specific design parked for later).
+- 🐎 **Maramir Quarter confirmed**. Ardenmere / Tyramare / Isenholt status TBD.
+- ❌ **No Aurum quarter** — sky-folk keep separate.
+- ❌ **No Aoli quarter** — closed empire keeps to itself.
+
+### THE SHADOW THREAD
+- 🐍 **Shi Sect** — invisible, no public district. Threaded through the city, primarily via the **Smiling Blade** in the Pleasure Quarter. Per cosmology canon (2026-04-28), every Shi Sect fragment-carrier holds *both* Yuèlì AND the Third intertwined — meaning the Smiling Blade carries the dual fragment too.
+- **Cosmic tension at the Yúlán Strait:** Lady Pearl (Water Twin, Gen 3 god) lives next door to the Smiling Blade across the water. She likely senses something is wrong inside him — two voices, two hungers — without being able to name the Third. Centuries of watching across the strait.
+
+---
+
+## YÚLÁN STRAIT / THE LOTUS STRAIT — the Pleasure District
+
+### Names
+**Yúlán Strait (yoo-LAHN)** — formal name. Yúlán 玉兰 = "jade orchid / magnolia." The Strait is the water around the Pleasure island.
+**The Lotus Strait** — the street name, what locals say.
+
+**Both names used interchangeably.** Outsiders fresh off a trade ship say "the Yúlán Strait" because that's what's printed on the merchant maps. Locals say "the Lotus Strait" because they walk it. People who live in Solis a long time drift between both depending on the company. *The use itself becomes character* — an imperial visitor saying Yúlán versus an old Solite madam saying Lotus tells you something about each.
+
+### Aesthetic
+**Tang + Mediterranean fusion.** Pagoda silhouettes against white-stone Greek architecture. Koi ponds beside marble fountains. Lotus blossoms next to bougainvillea. Greek arched bridges over stone canals; Tang upper-floor balconies in Chinese woodwork above Mediterranean foundations. **Both registers in the same building, often.**
+
+### Vibe
+Decadent, expensive, rowdy, knife's-edge sensual. Businessmen and women who have *seen it all,* looking for the next thing that might still surprise them. **Signature phrase:** *"Seduction on a knife's edge."* The whole district lives in the second before the cut. Beauty that could turn at any moment.
+
+### Visual references gathered 2026-04-28
+- Bustling Tang district at dusk with paper lanterns and crowds in cherry blossom (the Strait at peak hour)
+- Mediterranean canal cities with arches and bougainvillea
+- Greek statues hung with wisteria
+- Pagoda silhouettes lit with paper lanterns at night
+- Stepped terraced cliff-cities cascading flowers down to the canals
+- A domed palace at night with cherry-blossom trees and water terraces
+- Stone canals with red maple/cherry-pink trees overhead
+
+---
+
+## LADY PEARL'S HIDDEN ISLAND (the eighth)
+
+### The elegant camouflage
+**The world thinks Lady Pearl's house is "the most exclusive house in the Pleasure District."** Word travels through every salon and merchant ship: *invite only, hard to get into, must know somebody, costs a fortune.* People assume the exclusivity is **social gatekeeping.**
+
+What they don't know: **the house isn't IN the district.** It's on a separate island that doesn't appear on any official map. **The hiddenness IS the exclusivity.** People talk about it for centuries without realising they're describing a place that is literally off the cartographic record.
+
+*This is exactly how a goddess hides a pillar tree of the world.*
+
+### Aesthetic — Asian-dominant
+**Lady Pearl wears the Solis fusion when she steps into the city, but on her own island, she lets the Tang come through unblended.**
+- Quiet pavilions with upturned tile-roof eaves
+- Lotus ponds, tea-rooms with lattice screens
+- Wisteria draping over every walkway
+- Koi pools throughout (see below)
+- Wooden hallways with carved seats overlooking gardens
+- Miniature pagoda complexes — multiple buildings around courtyards
+- Almost everything reflects *who she is at her core.*
+
+### Koi — the Water Twin's lineage symbol
+Per cosmology: *Yánlóng's guardian gift to Yúnshēng was the Koi Fish.* **Koi are the Water Twin's mother's symbol.** The koi in Lady Pearl's ponds aren't decoration — they are *living guardians,* descendants of the original Koi her uncle Yánlóng gave her mother. **Lady Pearl raises her mother's husband's gift in her own waters.** Saga-grade emotional weight in a fish.
+
+### Wisteria — Lady Pearl's signature flower
+**Wisteria visually marks every property Lady Pearl owns or controls quietly across Solis (and beyond).** The flower belongs to BOTH registers (grows beautifully in Asian and Mediterranean climates), just like she does.
+
+**Spy-craft hidden in plain sight:**
+- Different ways wisteria is *trained* on a building (over a doorway, around a window, climbing a balcony) likely mean different things to operatives
+- A safe house wears it one way; a drop point another
+- **Wuxia spy-flora.**
+
+**Seasonal pulse:**
+- When wisteria blooms in spring, every property she controls visibly *announces itself* to anyone who knows
+- Off-season, the dried trellis still marks the place more quietly
+- **Solis in wisteria season is the most spy-active city in Avalúne and almost nobody knows.**
+
+**Liyin's Tyramare network extension almost certainly uses the same code.** Wherever wisteria is trained on a Tyramare guild-house balcony, that's one of his. **The network is continental and visible — if you know what you're looking at.**
+
+### Two plants, two jobs
+- **Mulberry** (her pillar tree) — feeds silkworms = commercial cover
+- **Wisteria** (her sigil) — marks territory = covert signal
+**Both beautiful. Both hide their truth in beauty.**
+
+### Pending for the Strait + Lady Pearl's island
+- Sensory dusk — sights, sounds, smells (Liyin chapter prep)
+- Hierarchy of houses on the Strait (cheap to expensive, themed houses, theatre-houses, etc.)
+- The Smiling Blade's specific territory / house / power-base
+- How invitations to Lady Pearl's actually arrive (token? letter? someone fetched?)
+- Day-vs-night rhythm of the Strait
