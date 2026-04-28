@@ -7,7 +7,53 @@
 
 **Mùjīn** (暮金, "Sunset Gold") — Father. **Fate.** A golden dragon. The quiet certainty under everything. Sees all, knows all. Plans across centuries.
 
-**Yuèlì** (月丽, "Moon Beauty") — Mother. **Chaos.** A black nine-tailed fox. Born as life and beauty incarnate. **Slowly corrupted** by time, separation, and humanity's greed and ambition. *Not inherently evil.* The saga's central truth: she is a corrupted mother who needs **SAVING**, not destroying.
+**Yuèlì** (月丽, "Moon Beauty") — Mother. **Chaos.** A black nine-tailed fox. Born as life and beauty incarnate. **Slowly corrupted** through a chain of events explained below. *Not inherently evil.* The saga's central truth: she is a corrupted mother who needs **SAVING**, not destroying.
+
+---
+
+## THE FALL — How Yuèlì Was Corrupted
+
+### Before the gods, there was the Stillness
+**Pre-existence. Singular. Whole. Before duality.** Not empty void — a held silence pregnant with possibility.
+
+### Three were born of the Stillness — not two
+- **Mùjīn** — Fate, golden dragon, order/yang
+- **Yuèlì** — Chaos, black fox, life/yin
+- **The Third** — wrong from the start; **unmade**
+
+The Third could not properly come into being and was unmade. **But a piece of them remained — wandering, searching for a home, a chance to BE.** That piece is the primordial evil. **It is family.** It is Mùjīn and Yuèlì's lost sibling. The corruption is not malice — it is **the rage of the never-born.** It bleeds into anything that opens a door, and every act of cruelty is a candidate vessel.
+
+### Yuèlì's first sacrifice — the sealing
+The piece of the Third began to spread into the world, looking for a host. The spread could not be contained. **Yuèlì made a choice.** She sealed the corruption inside her own core — a divine quarantine, her body the prison.
+
+It was not only cosmic duty. **It was fierce sibling love.** She could not let her unmade sibling be destroyed completely. She has known exactly who she was sealing the entire time. **For ten thousand years, Yuèlì has been a mother / sister / host to her unmade sibling.**
+
+### Humanity's role — the second poison
+For a time, the seal worked. **Then human greed and cruelty began to encroach.** The corruption inside her started to feed on humanity's evil. Every act of human cruelty fed the wound. Slowly, the seal of love became a wound she could no longer hold.
+
+**Humanity's evil is the fuel that corrupts the goddess who sacrificed herself for them.** Every cruelty in Avalúne, past and present, has been making Yuèlì sicker.
+
+### The wordless conversation
+Yuèlì and the Third communicate in **feeling, not words** — the Third never had words; they were unmade before they could form. Yuèlì can distinguish three currents in her own soul: *her own feeling, the Third's true feeling, the darkness's feeling.* She is the only being in the cosmos who can hear her unmade sibling speak. **The Third does not know they are separate from the darkness** — they have lived inside that corruption-shape since the moment of their unmaking.
+
+### Yuèlì's first act of evil — the world-crack
+When the corruption finally overwhelmed her containment, **her first act of evil cracked the world.** The first fissure appeared in the **Aoli Peach Tree** — the first of the eight pillar trees, planted at Yínhé's birth. The crack runs down the trunk like a lightning strike, **visible to this day.**
+
+### The children's second sacrifice — the seal
+The young gods knew they could not stop the spread. **They sealed their own mother.** Wards and safeguards were placed. **Yánlóng and Yúnshēng went to sleep, adding their divine bodies as the final seal.** Yánlóng curled around the Seed in the Dragon's Spine. Yúnshēng sleeping in Aoli, near the cracked Peach Tree.
+
+**Yínhé — the eldest, eternally 12 — was there. She helped seal her own mother.** She has carried that for ten thousand years. Her mischief is grief in disguise. Her stolen fate-strings are a child-goddess's attempt to repair the cosmos at the only scale she can reach.
+
+### The Shi Sect's tragic loop
+The five fragments the Shi Sect inner circle carries are **dual** — not just fragments of Yuèlì but pieces of BOTH siblings, intertwined since the sealing and inseparable. Every fragment they collect worsens BOTH siblings' suffering simultaneously. **They are devotees of a sibling they don't know exists.** All corruption, all evil in Avalúne, can be traced back to the homeless Third.
+
+### The saga's true mission
+It is not "save the mother." It is **welcome home the lost sibling.**
+
+Yuèlì cannot be freed without the Third being given a home. They are too intertwined inside her. The Fellowship's task is to bring Yuèlì to the Seed — the only place in the cosmos where the Third has ever been HELD, preserved as possibility, included in love. **The act of NAMING the Third, of calling them kin aloud, may be half the cure.**
+
+The villain of the saga is not the Third sibling.
+**The villain is the silence around the Third sibling.**
 
 ---
 
