@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { JournalProvider } from './state/store'
 import Sidebar from './components/Sidebar'
+import CategoryView from './components/CategoryView'
 import './styles/journal.css'
 
 function getRoute() {
@@ -38,9 +39,15 @@ export default function JournalApp() {
       <div className="journal-shell">
         <Sidebar activeCategory={route.kind === 'home' ? null : route.category} />
         <main className="journal-main">
-          <pre style={{ padding: '1rem' }}>
-            {JSON.stringify(route, null, 2)}
-          </pre>
+          {route.kind === 'home' && (
+            <p className="journal-home-hint">Pick a category to start.</p>
+          )}
+          {route.kind === 'category' && (
+            <CategoryView category={route.category} />
+          )}
+          {route.kind === 'item' && (
+            <pre>Item view lands in Task 12. Route: {JSON.stringify(route, null, 2)}</pre>
+          )}
         </main>
       </div>
     </JournalProvider>
