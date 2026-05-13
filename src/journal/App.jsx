@@ -1,4 +1,8 @@
 import { useEffect, useState } from 'react'
+import '@fontsource/opendyslexic/400.css'
+import '@fontsource/opendyslexic/400-italic.css'
+import '@fontsource/opendyslexic/700.css'
+import '@fontsource/opendyslexic/700-italic.css'
 import { JournalProvider } from './state/store'
 import Sidebar from './components/Sidebar'
 import CategoryView from './components/CategoryView'
