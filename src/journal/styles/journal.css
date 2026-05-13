@@ -179,3 +179,59 @@
   outline-offset: 1px;
   border-color: rgba(150, 120, 130, 0.6);
 }
+
+.journal-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.journal-field__label {
+  font-size: 0.85rem;
+  color: rgba(90, 74, 58, 0.85);
+}
+
+.journal-field__input {
+  font: inherit;
+  font-size: 0.95rem;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid rgba(90, 74, 58, 0.15);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.6);
+  color: inherit;
+  max-width: 32rem;
+}
+
+.journal-field__input:focus-visible {
+  outline: 2px solid rgba(150, 120, 130, 0.6);
+  outline-offset: 1px;
+  border-color: rgba(150, 120, 130, 0.6);
+}
+
+.journal-field__chips {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  max-width: 32rem;
+}
+
+.journal-field__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid rgba(90, 74, 58, 0.15);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.journal-field__chip-empty {
+  font-size: 0.85rem;
+  color: rgba(90, 74, 58, 0.55);
+}
