@@ -50,7 +50,7 @@ export default function JournalApp() {
             <CategoryView category={route.category} />
           )}
           {route.kind === 'item' && (
-            <pre>Item view lands in Task 12. Route: {JSON.stringify(route, null, 2)}</pre>
+            <ItemView category={route.category} id={route.id} />
           )}
         </main>
       </div>
