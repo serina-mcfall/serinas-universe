@@ -1,0 +1,6 @@
+.journal-shell {
+  min-height: 100vh;
+  background: linear-gradient(170deg, #f5efe6 0%, #ebe3d7 40%, #f0e8dc 100%);
+  font-family: 'Quicksand', 'Segoe UI', sans-serif;
+  color: #5a4a3a;
+}
