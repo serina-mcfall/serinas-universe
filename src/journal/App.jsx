@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { JournalProvider } from './state/store'
+import Sidebar from './components/Sidebar'
 import './styles/journal.css'
 
 function getRoute() {
@@ -35,9 +36,12 @@ export default function JournalApp() {
   return (
     <JournalProvider>
       <div className="journal-shell">
-        <pre style={{ padding: '1rem' }}>
-          Route: {JSON.stringify(route, null, 2)}
-        </pre>
+        <Sidebar activeCategory={route.kind === 'home' ? null : route.category} />
+        <main className="journal-main">
+          <pre style={{ padding: '1rem' }}>
+            {JSON.stringify(route, null, 2)}
+          </pre>
+        </main>
       </div>
     </JournalProvider>
   )
