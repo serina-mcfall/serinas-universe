@@ -1,3 +1,21 @@
+/* Respect OS-level reduce-motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible focus baseline for keyboard navigation */
+:where(button, a, input, select, textarea):focus-visible {
+  outline: 2px solid rgba(150, 120, 130, 0.6);
+  outline-offset: 2px;
+}
+
 .journal-shell {
   min-height: 100vh;
   background: linear-gradient(170deg, #f5efe6 0%, #ebe3d7 40%, #f0e8dc 100%);
