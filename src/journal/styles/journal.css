@@ -331,3 +331,14 @@
   max-width: 32rem;
   margin-bottom: 1.5rem;
 }
+
+.journal-status {
+  min-height: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.journal-saved {
+  font-size: 0.78rem;
+  color: rgba(90, 74, 58, 0.55);
+  font-style: italic;
+}

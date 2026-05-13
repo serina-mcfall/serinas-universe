@@ -6,6 +6,8 @@ import '@fontsource/opendyslexic/700-italic.css'
 import { JournalProvider } from './state/store'
 import Sidebar from './components/Sidebar'
 import CategoryView from './components/CategoryView'
+import ItemView from './components/ItemView'
+import SavedIndicator from './components/SavedIndicator'
 import './styles/journal.css'
 
 function getRoute() {
@@ -43,6 +45,9 @@ export default function JournalApp() {
       <div className="journal-shell">
         <Sidebar activeCategory={route.kind === 'home' ? null : route.category} />
         <main className="journal-main">
+          <div className="journal-status">
+            <SavedIndicator />
+          </div>
           {route.kind === 'home' && (
             <p className="journal-home-hint">Pick a category to start.</p>
           )}

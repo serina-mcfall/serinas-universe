@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useReducer } from 'react'
+import { createContext, useContext, useEffect, useReducer, useState } from 'react'
 import { slugify, uniqueSlug } from '../utils/slug'
 
 export const STORAGE_KEY = 'world-bible-v2'
@@ -122,14 +122,18 @@ function reducer(state, action) {
 
 export function JournalProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, undefined, loadFromStorage)
+  const [lastSavedAt, setLastSavedAt] = useState(null)
 
   useEffect(() => {
-    const t = setTimeout(() => saveToStorage(state), 500)
+    const t = setTimeout(() => {
+      saveToStorage(state)
+      setLastSavedAt(Date.now())
+    }, 500)
     return () => clearTimeout(t)
   }, [state])
 
   return (
-    <JournalContext.Provider value={{ state, dispatch }}>
+    <JournalContext.Provider value={{ state, dispatch, lastSavedAt }}>
       {children}
     </JournalContext.Provider>
   )
